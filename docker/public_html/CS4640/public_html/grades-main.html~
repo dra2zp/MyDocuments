@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Grade Calculator</title> <!-- Name of the tab -->
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+	<style type="text/css">
+	  #green {
+	  background-color: rgb(102,255,102);
+	  }
+	  #blue {
+	  background-color: rgb(102,204,255);
+	  }
+	  #yellow {
+	  background-color: rgb(255,255,102);
+	  }
+	  #orange {
+	  background-color: rgb(255,204,0);
+	  }
+	  #red {
+	  background-color: rgb(255,102,0);
+	  }
+	</style>
+  </head>
+  <body>
+    <div class="container">
+      <h1><strong>Grade Calculator</strong></h1>
+
+      <form>
+	<div class="form-group">
+	  <label class="control-label" for="assignment-name">Assignment Name</label>
+	  <input type="text" id="assignment-name" class="form-control"/>
+	</div>
+	<div class="form-group">
+	  <label class="control-label" for="points-earned">Points Earned</label>
+	  <input type="number" id="points-earned" class="form-control"/>
+	</div>
+	<div class="form-group">
+	  <label class="control-label" for="points-possible">Points Possible</label>
+	  <input type="number" id="points-possible" class="form-control"/>
+	</div>
+	<button class="btn bton-submit" id="add">Add Assignment</button>
+      </form>
+
+      <p>&nbsp</p>
+      <div id="grades" style="border: 2px solid black">
+	<table class="table" id="grades-table">
+	  <thead>
+	    <tr><th>Assignment Name</th><th>Points Earned</th><th>Points Possible</th><th>Percentage</th><th>Grade</th><th>&nbsp</th></tr>
+	  </thead>
+	  <tbody id="grades-body">
+	    
+	  </tbody>
+	</table>
+	<p>&nbsp</p>
+	<table class="table" id="final-grade-table">
+	  <thead>
+	    <tr><th>Final Grade</th><th>&nbsp</th></tr>
+	  </thead>
+	  <div style="border: 1px solid black">
+	    <tbody id="final-grade-body">
+	    </tbody>
+	  </div>
+      </div>
+    </div>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="grades-main.js"></script>
+  </body>
+</html>

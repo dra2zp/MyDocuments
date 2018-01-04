@@ -1,0 +1,115 @@
+DIGEST 1b22bfc4b78b0c300e45a0b210487c5a
+FCoq.setoid_ring.Integral_domain
+R15:19 Coq.setoid_ring.Cring <> <> lib
+rec 107:121 <> Integral_domain
+proj 154:176 <> integral_domain_product
+proj 227:250 <> integral_domain_one_zero
+R139:143 Coq.setoid_ring.Cring <> Cring class
+R145:145 Coq.setoid_ring.Integral_domain <> R var
+R204:207 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R214:217 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R209:212 Coq.setoid_ring.Algebra_syntax <> ::x_'=='_x not
+R208:208 Coq.setoid_ring.Integral_domain <> x var
+R219:222 Coq.setoid_ring.Algebra_syntax <> ::x_'=='_x not
+R218:218 Coq.setoid_ring.Integral_domain <> y var
+R199:202 Coq.setoid_ring.Algebra_syntax <> ::x_'=='_x not
+R195:197 Coq.setoid_ring.Algebra_syntax <> ::x_'*'_x not
+R194:194 Coq.setoid_ring.Integral_domain <> x var
+R198:198 Coq.setoid_ring.Integral_domain <> y var
+R253:255 Coq.Init.Logic <> not def
+R259:262 Coq.setoid_ring.Algebra_syntax <> ::x_'=='_x not
+sec 277:291 <> integral_domain
+R317:331 Coq.setoid_ring.Integral_domain <> Integral_domain class
+R333:333 Coq.setoid_ring.Integral_domain <> R var
+prf 344:373 <> integral_domain_minus_one_zero
+R376:377 Coq.Init.Logic <> :type_scope:'~'_x not
+R385:388 Coq.setoid_ring.Algebra_syntax <> ::x_'=='_x not
+R378:380 Coq.setoid_ring.Algebra_syntax <> ::'-'_x not
+R384:384 Coq.setoid_ring.Algebra_syntax <> ::'-'_x not
+R383:383 Coq.setoid_ring.Integral_domain <> integral_domain.R var
+R409:432 Coq.setoid_ring.Integral_domain <> integral_domain_one_zero meth
+R409:432 Coq.setoid_ring.Integral_domain <> integral_domain_one_zero meth
+R445:448 Coq.setoid_ring.Algebra_syntax <> ::x_'=='_x not
+R449:451 Coq.setoid_ring.Algebra_syntax <> ::'-'_x not
+R455:455 Coq.setoid_ring.Algebra_syntax <> ::'-'_x not
+R454:454 Coq.setoid_ring.Integral_domain <> integral_domain.R var
+R445:448 Coq.setoid_ring.Algebra_syntax <> ::x_'=='_x not
+R449:451 Coq.setoid_ring.Algebra_syntax <> ::'-'_x not
+R455:455 Coq.setoid_ring.Algebra_syntax <> ::'-'_x not
+R454:454 Coq.setoid_ring.Integral_domain <> integral_domain.R var
+def 517:519 <> pow
+R526:526 Coq.setoid_ring.Integral_domain <> integral_domain.R var
+R534:536 Coq.Init.Datatypes <> nat ind
+R542:558 Coq.setoid_ring.Ring_theory <> pow_N def
+R569:576 Coq.NArith.BinNat N of_nat def
+R578:578 Coq.setoid_ring.Integral_domain <> n var
+R566:566 Coq.setoid_ring.Integral_domain <> r var
+R562:564 Coq.setoid_ring.Integral_domain <> integral_domain.mul var
+prf 589:600 <> pow_not_zero
+R627:630 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R632:635 Coq.setoid_ring.Algebra_syntax <> ::x_'=='_x not
+R631:631 Coq.setoid_ring.Integral_domain <> p var
+R622:625 Coq.setoid_ring.Algebra_syntax <> ::x_'=='_x not
+R615:617 Coq.setoid_ring.Integral_domain <> pow def
+R621:621 Coq.setoid_ring.Integral_domain <> n var
+R619:619 Coq.setoid_ring.Integral_domain <> p var
+R659:661 Coq.setoid_ring.Integral_domain <> pow def
+R688:691 Coq.setoid_ring.Algebra_syntax <> ::x_'=='_x not
+R688:691 Coq.setoid_ring.Algebra_syntax <> ::x_'=='_x not
+R710:733 Coq.setoid_ring.Integral_domain <> integral_domain_one_zero meth
+R710:733 Coq.setoid_ring.Integral_domain <> integral_domain_one_zero meth
+R762:764 Coq.setoid_ring.Integral_domain <> pow def
+R769:769 Coq.Init.Datatypes <> S constr
+R782:785 Coq.setoid_ring.Algebra_syntax <> ::x_'*'_x not
+R793:793 Coq.setoid_ring.Algebra_syntax <> ::x_'*'_x not
+R786:788 Coq.setoid_ring.Integral_domain <> pow def
+R762:764 Coq.setoid_ring.Integral_domain <> pow def
+R769:769 Coq.Init.Datatypes <> S constr
+R782:785 Coq.setoid_ring.Algebra_syntax <> ::x_'*'_x not
+R793:793 Coq.setoid_ring.Algebra_syntax <> ::x_'*'_x not
+R786:788 Coq.setoid_ring.Integral_domain <> pow def
+R812:834 Coq.setoid_ring.Integral_domain <> integral_domain_product meth
+R839:841 Coq.setoid_ring.Integral_domain <> pow def
+R812:834 Coq.setoid_ring.Integral_domain <> integral_domain_product meth
+R839:841 Coq.setoid_ring.Integral_domain <> pow def
+R878:880 Coq.setoid_ring.Integral_domain <> pow def
+R943:966 Coq.setoid_ring.Ring_theory <> pow_pos_succ thm
+R943:966 Coq.setoid_ring.Ring_theory <> pow_pos_succ thm
+R943:966 Coq.setoid_ring.Ring_theory <> pow_pos_succ thm
+R943:966 Coq.setoid_ring.Ring_theory <> pow_pos_succ thm
+R943:966 Coq.setoid_ring.Ring_theory <> pow_pos_succ thm
+R943:966 Coq.setoid_ring.Ring_theory <> pow_pos_succ thm
+R982:992 Coq.setoid_ring.Ncring <> ring_setoid meth
+R982:992 Coq.setoid_ring.Ncring <> ring_setoid meth
+R1001:1014 Coq.setoid_ring.Ncring <> ring_mult_comp meth
+R1001:1014 Coq.setoid_ring.Ncring <> ring_mult_comp meth
+R1023:1036 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+R1023:1036 Coq.setoid_ring.Ncring <> ring_mul_assoc meth
+prf 1051:1070 <> Rintegral_domain_pow
+R1096:1099 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1122:1125 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1127:1130 Coq.setoid_ring.Algebra_syntax <> ::x_'=='_x not
+R1126:1126 Coq.setoid_ring.Integral_domain <> p var
+R1131:1135 Coq.setoid_ring.Integral_domain <> integral_domain.ring0 var
+R1113:1116 Coq.setoid_ring.Algebra_syntax <> ::x_'=='_x not
+R1101:1104 Coq.setoid_ring.Algebra_syntax <> ::x_'*'_x not
+R1112:1112 Coq.setoid_ring.Algebra_syntax <> ::x_'*'_x not
+R1100:1100 Coq.setoid_ring.Integral_domain <> c var
+R1105:1107 Coq.setoid_ring.Integral_domain <> pow def
+R1111:1111 Coq.setoid_ring.Integral_domain <> r var
+R1109:1109 Coq.setoid_ring.Integral_domain <> p var
+R1117:1121 Coq.setoid_ring.Integral_domain <> integral_domain.ring0 var
+R1089:1089 Coq.Init.Logic <> :type_scope:'~'_x not
+R1091:1094 Coq.setoid_ring.Algebra_syntax <> ::x_'=='_x not
+R1090:1090 Coq.setoid_ring.Integral_domain <> c var
+R1152:1174 Coq.setoid_ring.Integral_domain <> integral_domain_product meth
+R1179:1181 Coq.setoid_ring.Integral_domain <> pow def
+R1152:1174 Coq.setoid_ring.Integral_domain <> integral_domain_product meth
+R1179:1181 Coq.setoid_ring.Integral_domain <> pow def
+R1210:1213 Coq.setoid_ring.Algebra_syntax <> ::x_'=='_x not
+R1214:1218 Coq.setoid_ring.Integral_domain <> integral_domain.ring0 var
+R1210:1213 Coq.setoid_ring.Algebra_syntax <> ::x_'=='_x not
+R1214:1218 Coq.setoid_ring.Integral_domain <> integral_domain.ring0 var
+R1243:1254 Coq.setoid_ring.Integral_domain <> pow_not_zero thm
+R1243:1254 Coq.setoid_ring.Integral_domain <> pow_not_zero thm
+R1286:1300 Coq.setoid_ring.Integral_domain integral_domain <> sec

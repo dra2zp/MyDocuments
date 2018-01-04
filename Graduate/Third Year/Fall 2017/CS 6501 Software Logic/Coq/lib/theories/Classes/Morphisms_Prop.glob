@@ -1,0 +1,160 @@
+DIGEST 52468950686f92e7947b79a2cf2d6dd5
+FCoq.Classes.Morphisms_Prop
+R687:707 Coq.Classes.Morphisms <> <> lib
+R725:742 Coq.Program.Basics <> <> lib
+R760:778 Coq.Program.Tactics <> <> lib
+inst 955:971 <> not_impl_morphism
+R977:982 Coq.Classes.Morphisms <> Proper class
+R1000:1002 Coq.Init.Logic <> not def
+R989:993 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'-->'_x not
+R985:988 Coq.Program.Basics <> impl def
+R994:997 Coq.Program.Basics <> impl def
+inst 1027:1042 <> not_iff_morphism
+R1048:1053 Coq.Classes.Morphisms <> Proper class
+R1069:1071 Coq.Init.Logic <> not def
+R1059:1063 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'++>'_x not
+R1056:1058 Coq.Init.Logic <> iff def
+R1064:1066 Coq.Init.Logic <> iff def
+inst 1121:1137 <> and_impl_morphism
+R1143:1148 Coq.Classes.Morphisms <> Proper class
+R1175:1177 Coq.Init.Logic <> and ind
+R1155:1159 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1151:1154 Coq.Program.Basics <> impl def
+R1164:1168 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1160:1163 Coq.Program.Basics <> impl def
+R1169:1172 Coq.Program.Basics <> impl def
+inst 1202:1217 <> and_iff_morphism
+R1223:1228 Coq.Classes.Morphisms <> Proper class
+R1252:1254 Coq.Init.Logic <> and ind
+R1234:1238 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1231:1233 Coq.Init.Logic <> iff def
+R1242:1246 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1239:1241 Coq.Init.Logic <> iff def
+R1247:1249 Coq.Init.Logic <> iff def
+inst 1304:1319 <> or_impl_morphism
+R1325:1330 Coq.Classes.Morphisms <> Proper class
+R1357:1358 Coq.Init.Logic <> or ind
+R1337:1341 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1333:1336 Coq.Program.Basics <> impl def
+R1346:1350 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1342:1345 Coq.Program.Basics <> impl def
+R1351:1354 Coq.Program.Basics <> impl def
+inst 1383:1397 <> or_iff_morphism
+R1403:1408 Coq.Classes.Morphisms <> Proper class
+R1432:1433 Coq.Init.Logic <> or ind
+R1414:1418 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1411:1413 Coq.Init.Logic <> iff def
+R1422:1426 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1419:1421 Coq.Init.Logic <> iff def
+R1427:1429 Coq.Init.Logic <> iff def
+inst 1528:1552 <> iff_iff_iff_impl_morphism
+R1556:1561 Coq.Classes.Morphisms <> Proper class
+R1585:1588 Coq.Program.Basics <> impl def
+R1567:1571 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1564:1566 Coq.Init.Logic <> iff def
+R1575:1579 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1572:1574 Coq.Init.Logic <> iff def
+R1580:1582 Coq.Init.Logic <> iff def
+inst 1643:1657 <> ex_iff_morphism
+R1672:1677 Coq.Classes.Morphisms <> Proper class
+R1716:1717 Coq.Init.Logic <> ex ind
+R1719:1719 Coq.Classes.Morphisms_Prop <> A var
+R1704:1708 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1680:1697 Coq.Classes.Morphisms <> pointwise_relation def
+R1701:1703 Coq.Init.Logic <> iff def
+R1699:1699 Coq.Classes.Morphisms_Prop <> A var
+R1709:1711 Coq.Init.Logic <> iff def
+inst 1741:1756 <> ex_impl_morphism
+R1773:1778 Coq.Classes.Morphisms <> Proper class
+R1819:1820 Coq.Init.Logic <> ex ind
+R1822:1822 Coq.Classes.Morphisms_Prop <> A var
+R1806:1810 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1781:1798 Coq.Classes.Morphisms <> pointwise_relation def
+R1802:1805 Coq.Program.Basics <> impl def
+R1800:1800 Coq.Classes.Morphisms_Prop <> A var
+R1811:1814 Coq.Program.Basics <> impl def
+inst 1848:1868 <> ex_flip_impl_morphism
+R1885:1890 Coq.Classes.Morphisms <> Proper class
+R1943:1944 Coq.Init.Logic <> ex ind
+R1946:1946 Coq.Classes.Morphisms_Prop <> A var
+R1925:1929 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1893:1910 Coq.Classes.Morphisms <> pointwise_relation def
+R1915:1918 Coq.Program.Basics <> flip def
+R1920:1923 Coq.Program.Basics <> impl def
+R1912:1912 Coq.Classes.Morphisms_Prop <> A var
+R1930:1933 Coq.Program.Basics <> flip def
+R1935:1938 Coq.Program.Basics <> impl def
+inst 1972:1987 <> all_iff_morphism
+R2004:2009 Coq.Classes.Morphisms <> Proper class
+R2048:2050 Coq.Init.Logic <> all def
+R2052:2052 Coq.Classes.Morphisms_Prop <> A var
+R2036:2040 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2012:2029 Coq.Classes.Morphisms <> pointwise_relation def
+R2033:2035 Coq.Init.Logic <> iff def
+R2031:2031 Coq.Classes.Morphisms_Prop <> A var
+R2041:2043 Coq.Init.Logic <> iff def
+inst 2074:2090 <> all_impl_morphism
+R2107:2112 Coq.Classes.Morphisms <> Proper class
+R2153:2155 Coq.Init.Logic <> all def
+R2157:2157 Coq.Classes.Morphisms_Prop <> A var
+R2140:2144 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2115:2132 Coq.Classes.Morphisms <> pointwise_relation def
+R2136:2139 Coq.Program.Basics <> impl def
+R2134:2134 Coq.Classes.Morphisms_Prop <> A var
+R2145:2148 Coq.Program.Basics <> impl def
+inst 2183:2204 <> all_flip_impl_morphism
+R2221:2226 Coq.Classes.Morphisms <> Proper class
+R2279:2281 Coq.Init.Logic <> all def
+R2283:2283 Coq.Classes.Morphisms_Prop <> A var
+R2261:2265 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2229:2246 Coq.Classes.Morphisms <> pointwise_relation def
+R2251:2254 Coq.Program.Basics <> flip def
+R2256:2259 Coq.Program.Basics <> impl def
+R2248:2248 Coq.Classes.Morphisms_Prop <> A var
+R2266:2269 Coq.Program.Basics <> flip def
+R2271:2274 Coq.Program.Basics <> impl def
+inst 2364:2378 <> Acc_pt_morphism
+R2396:2397 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2399:2400 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2398:2398 Coq.Classes.Morphisms_Prop <> A var
+R2395:2395 Coq.Classes.Morphisms_Prop <> A var
+R2410:2420 Coq.Classes.RelationClasses <> Equivalence class
+R2424:2424 Coq.Classes.Morphisms_Prop <> E var
+R2429:2434 Coq.Classes.Morphisms <> Proper class
+R2452:2452 Coq.Classes.Morphisms_Prop <> R var
+R2440:2442 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2439:2439 Coq.Classes.Morphisms_Prop <> E var
+R2444:2446 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2443:2443 Coq.Classes.Morphisms_Prop <> E var
+R2447:2449 Coq.Init.Logic <> iff def
+R2458:2463 Coq.Classes.Morphisms <> Proper class
+R2476:2478 Coq.Init.Wf <> Acc ind
+R2480:2480 Coq.Classes.Morphisms_Prop <> R var
+R2467:2469 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2466:2466 Coq.Classes.Morphisms_Prop <> E var
+R2470:2472 Coq.Init.Logic <> iff def
+R2498:2516 Coq.Classes.Morphisms <> proper_sym_impl_iff thm
+R2498:2516 Coq.Classes.Morphisms <> proper_sym_impl_iff thm
+R2557:2565 Coq.Init.Wf <> Acc_intro constr
+R2557:2565 Coq.Init.Wf <> Acc_intro constr
+R2612:2618 Coq.Init.Wf <> Acc_inv thm
+R2612:2618 Coq.Init.Wf <> Acc_inv thm
+inst 2704:2719 <> Acc_rel_morphism
+R2733:2738 Coq.Classes.Morphisms <> Proper class
+R2786:2788 Coq.Init.Wf <> Acc ind
+R2790:2790 Coq.Classes.Morphisms_Prop <> A var
+R2761:2765 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2741:2760 Coq.Classes.RelationClasses <> relation_equivalence def
+R2774:2778 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2766:2773 Coq.Init.Logic <> eq ind
+R2779:2781 Coq.Init.Logic <> iff def
+R2808:2828 Coq.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+R2808:2828 Coq.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+inst 3065:3085 <> well_founded_morphism
+R3101:3106 Coq.Classes.Morphisms <> Proper class
+R3141:3152 Coq.Init.Wf <> well_founded def
+R3154:3154 Coq.Classes.Morphisms_Prop <> A var
+R3129:3133 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R3109:3128 Coq.Classes.RelationClasses <> relation_equivalence def
+R3134:3136 Coq.Init.Logic <> iff def
+R3173:3184 Coq.Init.Wf <> well_founded def

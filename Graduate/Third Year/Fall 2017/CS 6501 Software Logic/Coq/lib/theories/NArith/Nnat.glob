@@ -1,0 +1,526 @@
+DIGEST 444d8cbd17a8c1e07faa77b9aee9b2fe
+FCoq.NArith.Nnat
+R541:546 Coq.PArith.BinPos <> <> lib
+R548:553 Coq.NArith.BinNat <> <> lib
+R555:562 Coq.Arith.PeanoNat <> <> lib
+R564:567 Coq.PArith.Pnat <> <> lib
+mod 618:622 <> N2Nat
+prf 774:775 N2Nat id
+R802:804 Coq.Init.Logic <> :type_scope:x_'='_x not
+R781:788 Coq.NArith.BinNat N of_nat def
+R791:798 Coq.NArith.BinNat N to_nat def
+R800:800 Coq.NArith.Nnat <> a var
+R805:805 Coq.NArith.Nnat <> a var
+R864:878 Coq.PArith.Pnat Pos2Nat is_succ thm
+R864:878 Coq.PArith.Pnat Pos2Nat is_succ thm
+R927:937 Coq.PArith.Pnat Pos2Nat inj thm
+R927:937 Coq.PArith.Pnat Pos2Nat inj thm
+R957:975 Coq.PArith.Pnat SuccNat2Pos id_succ thm
+R957:975 Coq.PArith.Pnat SuccNat2Pos id_succ thm
+prf 1028:1030 N2Nat inj
+R1063:1066 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1068:1070 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1067:1067 Coq.NArith.Nnat <> a var
+R1071:1072 Coq.NArith.Nnat <> a' var
+R1049:1051 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1039:1046 Coq.NArith.BinNat N to_nat def
+R1048:1048 Coq.NArith.Nnat <> a var
+R1052:1059 Coq.NArith.BinNat N to_nat def
+R1061:1062 Coq.NArith.Nnat <> a' var
+R1104:1105 Coq.NArith.Nnat N2Nat id thm
+R1115:1116 Coq.NArith.Nnat N2Nat id thm
+R1104:1105 Coq.NArith.Nnat N2Nat id thm
+R1104:1105 Coq.NArith.Nnat N2Nat id thm
+R1115:1116 Coq.NArith.Nnat N2Nat id thm
+R1115:1116 Coq.NArith.Nnat N2Nat id thm
+prf 1148:1154 N2Nat inj_iff
+R1187:1191 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R1173:1175 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1163:1170 Coq.NArith.BinNat N to_nat def
+R1172:1172 Coq.NArith.Nnat <> a var
+R1176:1183 Coq.NArith.BinNat N to_nat def
+R1185:1186 Coq.NArith.Nnat <> a' var
+R1193:1195 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1192:1192 Coq.NArith.Nnat <> a var
+R1196:1197 Coq.NArith.Nnat <> a' var
+R1221:1223 Coq.NArith.Nnat N2Nat inj thm
+R1221:1223 Coq.NArith.Nnat N2Nat inj thm
+prf 1319:1328 N2Nat inj_double
+R1355:1357 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1334:1341 Coq.NArith.BinNat N to_nat def
+R1344:1351 Coq.NArith.BinNat N double def
+R1353:1353 Coq.NArith.Nnat <> a var
+R1359:1360 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R1371:1371 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R1361:1368 Coq.NArith.BinNat N to_nat def
+R1370:1370 Coq.NArith.Nnat <> a var
+R1425:1438 Coq.PArith.Pnat Pos2Nat inj_xO thm
+R1425:1438 Coq.PArith.Pnat Pos2Nat inj_xO thm
+prf 1453:1467 N2Nat inj_succ_double
+R1499:1501 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1473:1480 Coq.NArith.BinNat N to_nat def
+R1483:1495 Coq.NArith.BinNat N succ_double def
+R1497:1497 Coq.NArith.Nnat <> a var
+R1502:1502 Coq.Init.Datatypes <> S constr
+R1506:1507 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R1518:1518 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R1508:1515 Coq.NArith.BinNat N to_nat def
+R1517:1517 Coq.NArith.Nnat <> a var
+R1573:1586 Coq.PArith.Pnat Pos2Nat inj_xI thm
+R1573:1586 Coq.PArith.Pnat Pos2Nat inj_xI thm
+prf 1601:1608 N2Nat inj_succ
+R1633:1635 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1614:1621 Coq.NArith.BinNat N to_nat def
+R1624:1629 Coq.NArith.BinNat N succ def
+R1631:1631 Coq.NArith.Nnat <> a var
+R1636:1636 Coq.Init.Datatypes <> S constr
+R1639:1646 Coq.NArith.BinNat N to_nat def
+R1648:1648 Coq.NArith.Nnat <> a var
+R1694:1709 Coq.PArith.Pnat Pos2Nat inj_succ thm
+R1694:1709 Coq.PArith.Pnat Pos2Nat inj_succ thm
+prf 1724:1730 N2Nat inj_add
+R1758:1760 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1741:1748 Coq.NArith.BinNat N to_nat def
+R1752:1754 Coq.NArith.BinNat <> :N_scope:x_'+'_x not
+R1751:1751 Coq.NArith.Nnat <> a var
+R1755:1756 Coq.NArith.Nnat <> a' var
+R1771:1773 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1761:1768 Coq.NArith.BinNat N to_nat def
+R1770:1770 Coq.NArith.Nnat <> a var
+R1774:1781 Coq.NArith.BinNat N to_nat def
+R1783:1784 Coq.NArith.Nnat <> a' var
+R1833:1847 Coq.PArith.Pnat Pos2Nat inj_add thm
+R1833:1847 Coq.PArith.Pnat Pos2Nat inj_add thm
+prf 1862:1868 N2Nat inj_mul
+R1896:1898 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1879:1886 Coq.NArith.BinNat N to_nat def
+R1890:1892 Coq.NArith.BinNat <> :N_scope:x_'*'_x not
+R1889:1889 Coq.NArith.Nnat <> a var
+R1893:1894 Coq.NArith.Nnat <> a' var
+R1909:1911 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R1899:1906 Coq.NArith.BinNat N to_nat def
+R1908:1908 Coq.NArith.Nnat <> a var
+R1912:1919 Coq.NArith.BinNat N to_nat def
+R1921:1922 Coq.NArith.Nnat <> a' var
+R1971:1985 Coq.PArith.Pnat Pos2Nat inj_mul thm
+R1971:1985 Coq.PArith.Pnat Pos2Nat inj_mul thm
+prf 2000:2006 N2Nat inj_sub
+R2034:2036 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2017:2024 Coq.NArith.BinNat N to_nat def
+R2028:2030 Coq.NArith.BinNat <> :N_scope:x_'-'_x not
+R2027:2027 Coq.NArith.Nnat <> a var
+R2031:2032 Coq.NArith.Nnat <> a' var
+R2047:2049 Coq.Init.Peano <> :nat_scope:x_'-'_x not
+R2037:2044 Coq.NArith.BinNat N to_nat def
+R2046:2046 Coq.NArith.Nnat <> a var
+R2050:2057 Coq.NArith.BinNat N to_nat def
+R2059:2060 Coq.NArith.Nnat <> a' var
+R2120:2130 Coq.Arith.PeanoNat Nat sub_0_r thm
+R2120:2130 Coq.Arith.PeanoNat Nat sub_0_r thm
+R2120:2130 Coq.Arith.PeanoNat Nat sub_0_r thm
+R2120:2130 Coq.Arith.PeanoNat Nat sub_0_r thm
+R2120:2130 Coq.Arith.PeanoNat Nat sub_0_r thm
+R2120:2130 Coq.Arith.PeanoNat Nat sub_0_r thm
+R2120:2130 Coq.Arith.PeanoNat Nat sub_0_r thm
+R2120:2130 Coq.Arith.PeanoNat Nat sub_0_r thm
+R2120:2130 Coq.Arith.PeanoNat Nat sub_0_r thm
+R2120:2130 Coq.Arith.PeanoNat Nat sub_0_r thm
+R2153:2168 Coq.PArith.BinPos Pos compare_spec thm
+R2153:2168 Coq.PArith.BinPos Pos compare_spec thm
+R2199:2215 Coq.PArith.BinPos Pos sub_mask_diag thm
+R2218:2229 Coq.Arith.PeanoNat Nat sub_diag thm
+R2199:2215 Coq.PArith.BinPos Pos sub_mask_diag thm
+R2199:2215 Coq.PArith.BinPos Pos sub_mask_diag thm
+R2218:2229 Coq.Arith.PeanoNat Nat sub_diag thm
+R2218:2229 Coq.Arith.PeanoNat Nat sub_diag thm
+R2243:2258 Coq.PArith.BinPos Pos sub_mask_neg thm
+R2243:2258 Coq.PArith.BinPos Pos sub_mask_neg thm
+R2243:2258 Coq.PArith.BinPos Pos sub_mask_neg thm
+R2243:2258 Coq.PArith.BinPos Pos sub_mask_neg thm
+R2276:2289 Coq.PArith.Pnat Pos2Nat inj_lt thm
+R2276:2289 Coq.PArith.Pnat Pos2Nat inj_lt thm
+R2323:2334 Coq.Arith.PeanoNat Nat sub_0_le thm
+R2323:2334 Coq.Arith.PeanoNat Nat sub_0_le thm
+R2347:2360 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R2347:2360 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R2376:2392 Coq.PArith.BinPos Pos sub_mask_pos' thm
+R2376:2392 Coq.PArith.BinPos Pos sub_mask_pos' thm
+R2445:2460 Coq.Arith.PeanoNat Nat add_sub_eq_l thm
+R2445:2460 Coq.Arith.PeanoNat Nat add_sub_eq_l thm
+R2482:2496 Coq.PArith.Pnat Pos2Nat inj_add thm
+R2482:2496 Coq.PArith.Pnat Pos2Nat inj_add thm
+R2482:2496 Coq.PArith.Pnat Pos2Nat inj_add thm
+prf 2511:2518 N2Nat inj_pred
+R2543:2545 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2524:2531 Coq.NArith.BinNat N to_nat def
+R2534:2539 Coq.NArith.BinNat N pred def
+R2541:2541 Coq.NArith.Nnat <> a var
+R2546:2553 Coq.Arith.PeanoNat Nat pred def
+R2556:2563 Coq.NArith.BinNat N to_nat def
+R2565:2565 Coq.NArith.Nnat <> a var
+R2588:2598 Coq.Arith.PeanoNat Nat sub_1_r thm
+R2601:2610 Coq.NArith.BinNat N pred_sub thm
+R2588:2598 Coq.Arith.PeanoNat Nat sub_1_r thm
+R2588:2598 Coq.Arith.PeanoNat Nat sub_1_r thm
+R2601:2610 Coq.NArith.BinNat N pred_sub thm
+R2601:2610 Coq.NArith.BinNat N pred_sub thm
+R2619:2625 Coq.NArith.Nnat N2Nat inj_sub thm
+R2619:2625 Coq.NArith.Nnat N2Nat inj_sub thm
+prf 2640:2647 N2Nat inj_div2
+R2672:2674 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2653:2660 Coq.NArith.BinNat N to_nat def
+R2663:2668 Coq.NArith.BinNat N div2 def
+R2670:2670 Coq.NArith.Nnat <> a var
+R2675:2682 Coq.Arith.PeanoNat Nat div2 def
+R2685:2692 Coq.NArith.BinNat N to_nat def
+R2694:2694 Coq.NArith.Nnat <> a var
+R2751:2756 Coq.NArith.BinNat N div2 def
+R2759:2766 Coq.NArith.BinNat N to_nat def
+R2781:2794 Coq.PArith.Pnat Pos2Nat inj_xI thm
+R2797:2816 Coq.Arith.PeanoNat Nat div2_succ_double thm
+R2781:2794 Coq.PArith.Pnat Pos2Nat inj_xI thm
+R2781:2794 Coq.PArith.Pnat Pos2Nat inj_xI thm
+R2797:2816 Coq.Arith.PeanoNat Nat div2_succ_double thm
+R2797:2816 Coq.Arith.PeanoNat Nat div2_succ_double thm
+R2829:2834 Coq.NArith.BinNat N div2 def
+R2837:2844 Coq.NArith.BinNat N to_nat def
+R2859:2872 Coq.PArith.Pnat Pos2Nat inj_xO thm
+R2875:2889 Coq.Arith.PeanoNat Nat div2_double thm
+R2859:2872 Coq.PArith.Pnat Pos2Nat inj_xO thm
+R2859:2872 Coq.PArith.Pnat Pos2Nat inj_xO thm
+R2875:2889 Coq.Arith.PeanoNat Nat div2_double thm
+R2875:2889 Coq.Arith.PeanoNat Nat div2_double thm
+prf 2904:2914 N2Nat inj_compare
+R2935:2938 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2964:2964 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2926:2929 Coq.NArith.BinNat <> :N_scope:x_'?='_x not
+R2925:2925 Coq.NArith.Nnat <> a var
+R2930:2931 Coq.NArith.Nnat <> a' var
+R2949:2952 Coq.Arith.PeanoNat <> :nat_scope:x_'?='_x not
+R2939:2946 Coq.NArith.BinNat N to_nat def
+R2948:2948 Coq.NArith.Nnat <> a var
+R2953:2960 Coq.NArith.BinNat N to_nat def
+R2962:2963 Coq.NArith.Nnat <> a' var
+R3024:3038 Coq.PArith.Pnat Pos2Nat is_succ thm
+R3024:3038 Coq.PArith.Pnat Pos2Nat is_succ thm
+R3071:3085 Coq.PArith.Pnat Pos2Nat is_succ thm
+R3071:3085 Coq.PArith.Pnat Pos2Nat is_succ thm
+R3110:3128 Coq.PArith.Pnat Pos2Nat inj_compare thm
+R3110:3128 Coq.PArith.Pnat Pos2Nat inj_compare thm
+prf 3143:3149 N2Nat inj_max
+R3181:3183 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3160:3167 Coq.NArith.BinNat N to_nat def
+R3170:3174 Coq.NArith.BinNat N max def
+R3178:3179 Coq.NArith.Nnat <> a' var
+R3176:3176 Coq.NArith.Nnat <> a var
+R3184:3190 Coq.Arith.PeanoNat Nat max def
+R3206:3213 Coq.NArith.BinNat N to_nat def
+R3215:3216 Coq.NArith.Nnat <> a' var
+R3193:3200 Coq.NArith.BinNat N to_nat def
+R3202:3202 Coq.NArith.Nnat <> a var
+R3235:3239 Coq.NArith.BinNat N max def
+R3250:3260 Coq.NArith.Nnat N2Nat inj_compare thm
+R3250:3260 Coq.NArith.Nnat N2Nat inj_compare thm
+R3250:3260 Coq.NArith.Nnat N2Nat inj_compare thm
+R3279:3294 Coq.Arith.PeanoNat Nat compare_spec thm
+R3279:3294 Coq.Arith.PeanoNat Nat compare_spec thm
+R3318:3326 Coq.Arith.PeanoNat Nat max_r thm
+R3329:3342 Coq.Arith.PeanoNat Nat eq_le_incl thm
+R3318:3326 Coq.Arith.PeanoNat Nat max_r thm
+R3329:3342 Coq.Arith.PeanoNat Nat eq_le_incl thm
+R3358:3366 Coq.Arith.PeanoNat Nat max_r thm
+R3369:3382 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R3358:3366 Coq.Arith.PeanoNat Nat max_r thm
+R3369:3382 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R3398:3406 Coq.Arith.PeanoNat Nat max_l thm
+R3409:3422 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R3398:3406 Coq.Arith.PeanoNat Nat max_l thm
+R3409:3422 Coq.Arith.PeanoNat Nat lt_le_incl thm
+prf 3437:3443 N2Nat inj_min
+R3475:3477 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3454:3461 Coq.NArith.BinNat N to_nat def
+R3464:3468 Coq.NArith.BinNat N min def
+R3472:3473 Coq.NArith.Nnat <> a' var
+R3470:3470 Coq.NArith.Nnat <> a var
+R3478:3484 Coq.Arith.PeanoNat Nat min def
+R3500:3507 Coq.NArith.BinNat N to_nat def
+R3509:3510 Coq.NArith.Nnat <> a' var
+R3487:3494 Coq.NArith.BinNat N to_nat def
+R3496:3496 Coq.NArith.Nnat <> a var
+R3530:3534 Coq.NArith.BinNat N min def
+R3545:3555 Coq.NArith.Nnat N2Nat inj_compare thm
+R3545:3555 Coq.NArith.Nnat N2Nat inj_compare thm
+R3545:3555 Coq.NArith.Nnat N2Nat inj_compare thm
+R3575:3590 Coq.Arith.PeanoNat Nat compare_spec thm
+R3575:3590 Coq.Arith.PeanoNat Nat compare_spec thm
+R3614:3622 Coq.Arith.PeanoNat Nat min_l thm
+R3625:3638 Coq.Arith.PeanoNat Nat eq_le_incl thm
+R3614:3622 Coq.Arith.PeanoNat Nat min_l thm
+R3625:3638 Coq.Arith.PeanoNat Nat eq_le_incl thm
+R3654:3662 Coq.Arith.PeanoNat Nat min_l thm
+R3665:3678 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R3654:3662 Coq.Arith.PeanoNat Nat min_l thm
+R3665:3678 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R3694:3702 Coq.Arith.PeanoNat Nat min_r thm
+R3705:3718 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R3694:3702 Coq.Arith.PeanoNat Nat min_r thm
+R3705:3718 Coq.Arith.PeanoNat Nat lt_le_incl thm
+prf 3733:3740 N2Nat inj_iter
+R3752:3753 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3754:3754 Coq.NArith.Nnat <> A var
+R3751:3751 Coq.NArith.Nnat <> A var
+R3760:3760 Coq.NArith.Nnat <> A var
+R3779:3781 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3767:3772 Coq.NArith.BinNat N iter def
+R3778:3778 Coq.NArith.Nnat <> x var
+R3776:3776 Coq.NArith.Nnat <> f var
+R3774:3774 Coq.NArith.Nnat <> a var
+R3782:3789 Coq.Arith.PeanoNat Nat iter def
+R3806:3806 Coq.NArith.Nnat <> x var
+R3804:3804 Coq.NArith.Nnat <> f var
+R3792:3799 Coq.NArith.BinNat N to_nat def
+R3801:3801 Coq.NArith.Nnat <> a var
+R3852:3867 Coq.PArith.Pnat Pos2Nat inj_iter thm
+R3852:3867 Coq.PArith.Pnat Pos2Nat inj_iter thm
+R3880:3884 Coq.NArith.Nnat N2Nat <> mod
+R3901:3916 Coq.NArith.Nnat <> inj_double thm
+R3918:3938 Coq.NArith.Nnat <> inj_succ_double thm
+R3941:3954 Coq.NArith.Nnat <> inj_succ thm
+R3956:3968 Coq.NArith.Nnat <> inj_add thm
+R3970:3982 Coq.NArith.Nnat <> inj_mul thm
+R3984:3996 Coq.NArith.Nnat <> inj_sub thm
+R3999:4012 Coq.NArith.Nnat <> inj_pred thm
+R4014:4027 Coq.NArith.Nnat <> inj_div2 thm
+R4029:4041 Coq.NArith.Nnat <> inj_max thm
+R4043:4055 Coq.NArith.Nnat <> inj_min thm
+R4058:4065 Coq.NArith.Nnat <> id thm
+mod 4125:4129 <> Nat2N
+prf 4282:4283 Nat2N id
+R4310:4312 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4289:4296 Coq.NArith.BinNat N to_nat def
+R4299:4306 Coq.NArith.BinNat N of_nat def
+R4308:4308 Coq.NArith.Nnat <> n var
+R4313:4313 Coq.NArith.Nnat <> n var
+R4359:4377 Coq.PArith.Pnat SuccNat2Pos id_succ thm
+R4359:4377 Coq.PArith.Pnat SuccNat2Pos id_succ thm
+R4399:4400 Coq.NArith.Nnat Nat2N id thm
+R4430:4438 Coq.NArith.Nnat N2Nat inj thm
+prf 4513:4515 Nat2N inj
+R4548:4551 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4553:4555 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4552:4552 Coq.NArith.Nnat <> n var
+R4556:4557 Coq.NArith.Nnat <> n' var
+R4534:4536 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4524:4531 Coq.NArith.BinNat N of_nat def
+R4533:4533 Coq.NArith.Nnat <> n var
+R4537:4544 Coq.NArith.BinNat N of_nat def
+R4546:4547 Coq.NArith.Nnat <> n' var
+R4590:4591 Coq.NArith.Nnat Nat2N id thm
+R4601:4602 Coq.NArith.Nnat Nat2N id thm
+R4590:4591 Coq.NArith.Nnat Nat2N id thm
+R4590:4591 Coq.NArith.Nnat Nat2N id thm
+R4601:4602 Coq.NArith.Nnat Nat2N id thm
+R4601:4602 Coq.NArith.Nnat Nat2N id thm
+prf 4634:4640 Nat2N inj_iff
+R4673:4677 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R4659:4661 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4649:4656 Coq.NArith.BinNat N of_nat def
+R4658:4658 Coq.NArith.Nnat <> n var
+R4662:4669 Coq.NArith.BinNat N of_nat def
+R4671:4672 Coq.NArith.Nnat <> n' var
+R4679:4681 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4678:4678 Coq.NArith.Nnat <> n var
+R4682:4683 Coq.NArith.Nnat <> n' var
+R4707:4709 Coq.NArith.Nnat Nat2N inj thm
+R4707:4709 Coq.NArith.Nnat Nat2N inj thm
+prf 4805:4814 Nat2N inj_double
+R4834:4836 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4820:4827 Coq.NArith.BinNat N of_nat def
+R4831:4831 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R4832:4832 Coq.NArith.Nnat <> n var
+R4837:4844 Coq.NArith.BinNat N double def
+R4847:4854 Coq.NArith.BinNat N of_nat def
+R4856:4856 Coq.NArith.Nnat <> n var
+prf 4886:4900 Nat2N inj_succ_double
+R4924:4926 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4906:4913 Coq.NArith.BinNat N of_nat def
+R4916:4916 Coq.Init.Datatypes <> S constr
+R4920:4920 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R4921:4921 Coq.NArith.Nnat <> n var
+R4927:4939 Coq.NArith.BinNat N succ_double def
+R4942:4949 Coq.NArith.BinNat N of_nat def
+R4951:4951 Coq.NArith.Nnat <> n var
+prf 4981:4988 Nat2N inj_succ
+R5008:5010 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4994:5001 Coq.NArith.BinNat N of_nat def
+R5004:5004 Coq.Init.Datatypes <> S constr
+R5006:5006 Coq.NArith.Nnat <> n var
+R5011:5016 Coq.NArith.BinNat N succ def
+R5019:5026 Coq.NArith.BinNat N of_nat def
+R5028:5028 Coq.NArith.Nnat <> n var
+prf 5058:5065 Nat2N inj_pred
+R5092:5094 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5071:5078 Coq.NArith.BinNat N of_nat def
+R5081:5088 Coq.Arith.PeanoNat Nat pred def
+R5090:5090 Coq.NArith.Nnat <> n var
+R5095:5100 Coq.NArith.BinNat N pred def
+R5103:5110 Coq.NArith.BinNat N of_nat def
+R5112:5112 Coq.NArith.Nnat <> n var
+prf 5142:5148 Nat2N inj_add
+R5172:5174 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5157:5164 Coq.NArith.BinNat N of_nat def
+R5168:5168 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R5167:5167 Coq.NArith.Nnat <> n var
+R5169:5170 Coq.NArith.Nnat <> n' var
+R5186:5188 Coq.NArith.BinNat <> :N_scope:x_'+'_x not
+R5176:5183 Coq.NArith.BinNat N of_nat def
+R5185:5185 Coq.NArith.Nnat <> n var
+R5189:5196 Coq.NArith.BinNat N of_nat def
+R5198:5199 Coq.NArith.Nnat <> n' var
+prf 5231:5237 Nat2N inj_sub
+R5261:5263 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5246:5253 Coq.NArith.BinNat N of_nat def
+R5257:5257 Coq.Init.Peano <> :nat_scope:x_'-'_x not
+R5256:5256 Coq.NArith.Nnat <> n var
+R5258:5259 Coq.NArith.Nnat <> n' var
+R5275:5277 Coq.NArith.BinNat <> :N_scope:x_'-'_x not
+R5265:5272 Coq.NArith.BinNat N of_nat def
+R5274:5274 Coq.NArith.Nnat <> n var
+R5278:5285 Coq.NArith.BinNat N of_nat def
+R5287:5288 Coq.NArith.Nnat <> n' var
+prf 5320:5326 Nat2N inj_mul
+R5350:5352 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5335:5342 Coq.NArith.BinNat N of_nat def
+R5346:5346 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R5345:5345 Coq.NArith.Nnat <> n var
+R5347:5348 Coq.NArith.Nnat <> n' var
+R5364:5366 Coq.NArith.BinNat <> :N_scope:x_'*'_x not
+R5354:5361 Coq.NArith.BinNat N of_nat def
+R5363:5363 Coq.NArith.Nnat <> n var
+R5367:5374 Coq.NArith.BinNat N of_nat def
+R5376:5377 Coq.NArith.Nnat <> n' var
+prf 5409:5416 Nat2N inj_div2
+R5443:5445 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5422:5429 Coq.NArith.BinNat N of_nat def
+R5432:5439 Coq.Arith.PeanoNat Nat div2 def
+R5441:5441 Coq.NArith.Nnat <> n var
+R5446:5451 Coq.NArith.BinNat N div2 def
+R5454:5461 Coq.NArith.BinNat N of_nat def
+R5463:5463 Coq.NArith.Nnat <> n var
+prf 5493:5503 Nat2N inj_compare
+R5514:5514 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5522:5525 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5516:5519 Coq.Arith.PeanoNat <> :nat_scope:x_'?='_x not
+R5515:5515 Coq.NArith.Nnat <> n var
+R5520:5521 Coq.NArith.Nnat <> n' var
+R5537:5540 Coq.NArith.BinNat <> :N_scope:x_'?='_x not
+R5527:5534 Coq.NArith.BinNat N of_nat def
+R5536:5536 Coq.NArith.Nnat <> n var
+R5541:5548 Coq.NArith.BinNat N of_nat def
+R5550:5551 Coq.NArith.Nnat <> n' var
+R5576:5592 Coq.NArith.Nnat N2Nat inj_compare thm
+R5596:5597 Coq.NArith.Nnat Nat2N id thm
+R5576:5592 Coq.NArith.Nnat N2Nat inj_compare thm
+R5576:5592 Coq.NArith.Nnat N2Nat inj_compare thm
+R5596:5597 Coq.NArith.Nnat Nat2N id thm
+R5596:5597 Coq.NArith.Nnat Nat2N id thm
+R5596:5597 Coq.NArith.Nnat Nat2N id thm
+R5596:5597 Coq.NArith.Nnat Nat2N id thm
+prf 5612:5618 Nat2N inj_min
+R5652:5654 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5629:5636 Coq.NArith.BinNat N of_nat def
+R5639:5645 Coq.Arith.PeanoNat Nat min def
+R5649:5650 Coq.NArith.Nnat <> n' var
+R5647:5647 Coq.NArith.Nnat <> n var
+R5655:5659 Coq.NArith.BinNat N min def
+R5675:5682 Coq.NArith.BinNat N of_nat def
+R5684:5685 Coq.NArith.Nnat <> n' var
+R5662:5669 Coq.NArith.BinNat N of_nat def
+R5671:5671 Coq.NArith.Nnat <> n var
+prf 5715:5721 Nat2N inj_max
+R5755:5757 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5732:5739 Coq.NArith.BinNat N of_nat def
+R5742:5748 Coq.Arith.PeanoNat Nat max def
+R5752:5753 Coq.NArith.Nnat <> n' var
+R5750:5750 Coq.NArith.Nnat <> n var
+R5758:5762 Coq.NArith.BinNat N max def
+R5778:5785 Coq.NArith.BinNat N of_nat def
+R5787:5788 Coq.NArith.Nnat <> n' var
+R5765:5772 Coq.NArith.BinNat N of_nat def
+R5774:5774 Coq.NArith.Nnat <> n var
+prf 5818:5825 Nat2N inj_iter
+R5837:5838 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5839:5839 Coq.NArith.Nnat <> A var
+R5836:5836 Coq.NArith.Nnat <> A var
+R5845:5845 Coq.NArith.Nnat <> A var
+R5866:5868 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5852:5859 Coq.Arith.PeanoNat Nat iter def
+R5865:5865 Coq.NArith.Nnat <> x var
+R5863:5863 Coq.NArith.Nnat <> f var
+R5861:5861 Coq.NArith.Nnat <> n var
+R5869:5874 Coq.NArith.BinNat N iter def
+R5891:5891 Coq.NArith.Nnat <> x var
+R5889:5889 Coq.NArith.Nnat <> f var
+R5877:5884 Coq.NArith.BinNat N of_nat def
+R5886:5886 Coq.NArith.Nnat <> n var
+R5913:5926 Coq.NArith.Nnat N2Nat inj_iter thm
+R5930:5931 Coq.NArith.Nnat Nat2N id thm
+R5913:5926 Coq.NArith.Nnat N2Nat inj_iter thm
+R5913:5926 Coq.NArith.Nnat N2Nat inj_iter thm
+R5930:5931 Coq.NArith.Nnat Nat2N id thm
+R5930:5931 Coq.NArith.Nnat Nat2N id thm
+R5930:5931 Coq.NArith.Nnat Nat2N id thm
+R5944:5948 Coq.NArith.Nnat Nat2N <> mod
+R5965:5972 Coq.NArith.Nnat <> id thm
+syndef 6024:6035 <> nat_of_N_inj
+R6040:6048 Coq.NArith.Nnat <> inj thm
+syndef 6075:6087 <> N_of_nat_of_N
+R6092:6099 Coq.NArith.Nnat <> id thm
+syndef 6126:6139 <> nat_of_Ndouble
+R6144:6159 Coq.NArith.Nnat <> inj_double thm
+syndef 6186:6208 <> nat_of_Ndouble_plus_one
+R6213:6233 Coq.NArith.Nnat <> inj_succ_double thm
+syndef 6260:6271 <> nat_of_Nsucc
+R6276:6289 Coq.NArith.Nnat <> inj_succ thm
+syndef 6316:6327 <> nat_of_Nplus
+R6332:6344 Coq.NArith.Nnat <> inj_add thm
+syndef 6371:6382 <> nat_of_Nmult
+R6387:6399 Coq.NArith.Nnat <> inj_mul thm
+syndef 6426:6438 <> nat_of_Nminus
+R6443:6455 Coq.NArith.Nnat <> inj_sub thm
+syndef 6482:6493 <> nat_of_Npred
+R6498:6511 Coq.NArith.Nnat <> inj_pred thm
+syndef 6538:6549 <> nat_of_Ndiv2
+R6554:6567 Coq.NArith.Nnat <> inj_div2 thm
+syndef 6594:6608 <> nat_of_Ncompare
+R6613:6629 Coq.NArith.Nnat <> inj_compare thm
+syndef 6656:6666 <> nat_of_Nmax
+R6671:6683 Coq.NArith.Nnat <> inj_max thm
+syndef 6710:6720 <> nat_of_Nmin
+R6725:6737 Coq.NArith.Nnat <> inj_min thm
+syndef 6765:6779 <> nat_of_N_of_nat
+R6784:6791 Coq.NArith.Nnat <> id thm
+syndef 6818:6829 <> N_of_nat_inj
+R6834:6842 Coq.NArith.Nnat <> inj thm
+syndef 6869:6879 <> N_of_double
+R6884:6899 Coq.NArith.Nnat <> inj_double thm
+syndef 6926:6945 <> N_of_double_plus_one
+R6950:6970 Coq.NArith.Nnat <> inj_succ_double thm
+syndef 6997:7002 <> N_of_S
+R7007:7020 Coq.NArith.Nnat <> inj_succ thm
+syndef 7047:7055 <> N_of_pred
+R7060:7073 Coq.NArith.Nnat <> inj_pred thm
+syndef 7100:7108 <> N_of_plus
+R7113:7125 Coq.NArith.Nnat <> inj_add thm
+syndef 7152:7161 <> N_of_minus
+R7166:7178 Coq.NArith.Nnat <> inj_sub thm
+syndef 7205:7213 <> N_of_mult
+R7218:7230 Coq.NArith.Nnat <> inj_mul thm
+syndef 7257:7265 <> N_of_div2
+R7270:7283 Coq.NArith.Nnat <> inj_div2 thm
+syndef 7310:7325 <> N_of_nat_compare
+R7330:7346 Coq.NArith.Nnat <> inj_compare thm
+syndef 7373:7380 <> N_of_min
+R7385:7397 Coq.NArith.Nnat <> inj_min thm
+syndef 7424:7431 <> N_of_max
+R7436:7448 Coq.NArith.Nnat <> inj_max thm

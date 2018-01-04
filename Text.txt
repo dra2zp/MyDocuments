@@ -1,0 +1,64 @@
+*********************************** Text.txt ***********************************
+
+********************************* SPRING 2018: *********************************
+
+**************************** UNIVERSITY OF VIRGINIA ****************************
+
+Professors:
+	__ Lynn Sanders (COLA 1500 (Regulating Reproduction), Advisor)
+	__ Kevin Sullivan (CS 1113, CS 6501 (Software Logic))
+	__ Sarah Milov (HIUS 1501 (Am Disasters: Cholera-Katrina))
+	__ Andrei Rapinchuk (MATH 2315)
+	__ Abdelmalek Abdesselam (MATH 3250)
+	__ David Edwards (CS 2102, CS 2110)
+	__ Luis Nunez-Betancourt (MATH 3000)
+	__ Bulent Tosun (MATH 3351)
+	__ Ross Cameron (PHIL 2420)
+	__ Benjamin Webster (Advisor (Mathematics))
+	__ Mary Smith (CS 3205, Supervisor (CS 3205))
+	__ Zoran Grujic (MATH 3100)
+	__ Aaron Bloomfield (CS 2150)
+	__ Luther Tychnoievich (CS 2910)
+	__ Gabriel Robins (CS 3102, Advisor (Computer Science))
+	__ Nicholas Kuhn (MATH 3310)
+	__ Brian Parshall (MATH 3354, MATH 4651)
+	__ William Sherman (SARC 5500 (AI Design Challenge))
+	__ Ravindra Khare (ANTH 3240)
+	__ Samira Khan (CS 3330)
+	__ Kong-Cheng Wong (CS 4102)
+	__ Charles Reiss (CS 4630, Supervisor (CS 3330))
+	__ Daniel Willingham (PSYC 2150)
+	__ Kevin Angstadt (CS 4640)
+	__ Monika Abramenko (MATH 1140)
+	__ Connelly Barnes (Advisor (Computer Science))
+	__ Kevin Skadron (CS 6190)
+	__ Nada Basit (CS 6316)
+	__ Brad Campbell (CS 6501 (IoT Sensors and Systems))
+	__ Upsorn Praphamontripong (CS 6501 (Software Testing))
+	__ Worthy Martin (Supervisor (CS 3205))
+
+**************************** INTERNATIONAL FRIENDS *****************************
+
+India: Tanya Frank
+France: Chiara Sauvage
+Iraq: Mohamed Ihsan
+Brazil: Bruno Juncklaus Martins
+Bolivia: Juan Carlos Velasco Barboza
+Russia: Ilya Mulhollandreev, Victoria Kovalchuk
+Bangladesh: Tamanna Hamid
+Taiwan: Meiya Chang, Meng-Jiuan Su
+Ghana: Freda Assuah
+Uruguay: Martin Keuchkerian
+South Africa: Noelle Schoeman
+Germany: Carolin Sousa, Philipp Raanz
+Bosnia and Herzegovina: Amar Bukvic
+Iran: Parima Sahbai
+Nepal: Subhan Poudel
+China: Chris Li
+Costa Rica: Fernando Mata Cordero
+Thailand: Phoenix Jitpaisarnsook
+South Korea: Henry Lee
+Philippines: Rolph Recto
+El Salvador: Ronny Diaz
+Cambodia: Neary Casebolt
+Pakistan: Attiya Zafar, Hamza Ilyas

@@ -1,0 +1,120 @@
+// This code will allow us to enter the number of boxes to display horizontally and vertically
+// Given the number of rows and columns, the code will randomly generate colors to display to the viewport
+
+// wait until the DOM is fully-loaded
+
+// same as
+// $(document).ready(handler)
+
+// global variables for temperature, address, and zip code
+var temp = 0;
+var address = "";
+var z = 0;
+
+$(function() {
+    // this function will be called when the DOM is finally rendered.
+    $("#get-weather").click(function(evt) {
+	// this is what will happen when the "Test Colors" button is clicked
+	evt.preventDefault();
+	// remove all of the children nodes under the div element with id "weather-info" in order to reset the data
+	var parent_node = document.getElementById("weather-info");
+	while (parent_node.firstChild) {
+	    parent_node.removeChild(parent_node.firstChild);
+	}
+	// Validation of form input
+	z = $("#zip-code").val();
+	if (z === "" || z < 10000 || z > 99999 || Math.floor(z) != z || Math.ceil(z) != z) {
+	    alert("Please enter a valid zip code.");
+	    return;
+	}
+	// add spacing between the "Search!" button and the color grid
+	$("#weather-info").append(
+	    '<p>&nbsp</p>'
+	);
+	// uses Google's API to get the address from the zip code
+	$.getJSON("http://maps.googleapis.com/maps/api/geocode/json?address=" + z)
+	    .success(function(result) {
+		address = result.results[0].formatted_address;
+	    });
+	// uses our temp_service.php file to find out the temperature
+	// if the temperature is < 60 degrees, the text will be blue
+	// if the temperature is >= 60 degrees and < 80 degrees, the text will be green
+	// if the temperature is > 80 degrees, the text will be red
+	// if the zip code is invalid, the error message will show in red
+	$.ajax({
+	    url: "temp_service.php?zip=" + z,
+	    success: function(result) {
+		temp = result;
+		if (parseFloat(temp) < 60) {
+		    $("#weather-info").html(
+			'<h1 style="font-family: Palatino; color: blue;"><strong>The current temperature for ' +
+			    address + ' is <u>' + temp + '</u> degrees Fahrenheit</strong></h1>'
+		    );
+		}
+		else if (parseFloat(temp) < 80) {
+		    $("#weather-info").html(
+			'<h1 style="font-family: Palatino; color: green;"><strong>The current temperature for ' +
+			    address + ' is <u>' + temp + '</u> degrees Fahrenheit</strong></h1>'
+		    );
+		}
+		else {
+		    $("#weather-info").html(
+			'<h1 style="font-family: Palatino; color: red;"><strong>The current temperature for ' +
+			    address + ' is <u>' + temp + '</u> degrees Fahrenheit</strong></h1>'
+		    );
+		}
+	    }
+	});
+	// reset the form value to the empty string to prepare for the next input
+	$("#zip-code").val("");
+    });
+    
+    setInterval(function() {
+	// this gets called every minute
+	// check the temperature at the zip code that was previously entered
+	var change = 0;
+	$.ajax({
+	    url: "temp_service.php?zip=" + z,
+	    success: function(result) {
+		change = result;
+	    }
+	});
+	// if the temperature has changed, reset all the data and output the new values
+	if (temp != change) {
+	    // set the new temperature equal to the updated value
+	    temp = change;
+	    var parent_node = document.getElementById("weather-info");
+	    while (parent_node.firstChild) {
+		parent_node.removeChild(parent_node.firstChild);
+	    }
+	    $("#weather-info").append(
+		'<p>&nbsp</p>'
+	    );
+	    $.ajax({
+		url: "temp_service.php?zip=" + z,
+		success: function(result) {
+		    temp = result;
+		    if (parseFloat(temp) < 60) {
+			$("#weather-info").html(
+			    '<h1 style="font-family: Palatino; color: blue;"><strong>The current temperature for ' +
+				address + ' is <u>' + temp + '</u> degrees Fahrenheit</strong></h1>'
+			);
+		    }
+		    else if (parseFloat(temp) < 80) {
+			$("#weather-info").html(
+			    '<h1 style="font-family: Palatino; color: green;"><strong>The current temperature for ' +
+				address + ' is <u>' + temp + '</u> degrees Fahrenheit</strong></h1>'
+			);
+		    }
+		    else {
+			$("#weather-info").html(
+			    '<h1 style="font-family: Palatino; color: red;"><strong>The current temperature for ' +
+				address + ' is <u>' + temp + '</u> degrees Fahrenheit</strong></h1>'
+			);
+		    }
+		}
+	    });	    
+	}	
+    }, 65000);
+    
+});

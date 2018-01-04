@@ -1,0 +1,35 @@
+DIGEST 7c3c56a87aa3466d9fbcf70f83a6bea9
+FCoq.Relations.Relations
+R541:560 Coq.Relations.Relation_Definitions <> <> lib
+R578:595 Coq.Relations.Relation_Operators <> <> lib
+R613:632 Coq.Relations.Operators_Properties <> <> lib
+prf 642:669 <> inverse_image_of_equivalence
+R697:700 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R701:701 Coq.Relations.Relations <> B var
+R696:696 Coq.Relations.Relations <> A var
+R707:714 Coq.Relations.Relation_Definitions <> relation def
+R716:716 Coq.Relations.Relations <> B var
+R739:742 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R743:753 Coq.Relations.Relation_Definitions <> equivalence rec
+R766:766 Coq.Relations.Relations <> A var
+R771:771 Coq.Relations.Relations <> r var
+R780:780 Coq.Relations.Relations <> f var
+R782:782 Coq.Relations.Relations <> y var
+R774:774 Coq.Relations.Relations <> f var
+R776:776 Coq.Relations.Relations <> x var
+R755:755 Coq.Relations.Relations <> A var
+R724:734 Coq.Relations.Relation_Definitions <> equivalence rec
+R738:738 Coq.Relations.Relations <> r var
+R736:736 Coq.Relations.Relations <> B var
+prf 922:940 <> inverse_image_of_eq
+R968:971 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R972:972 Coq.Relations.Relations <> B var
+R967:967 Coq.Relations.Relations <> A var
+R976:986 Coq.Relations.Relation_Definitions <> equivalence rec
+R999:999 Coq.Relations.Relations <> A var
+R1007:1009 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1004:1004 Coq.Relations.Relations <> f var
+R1006:1006 Coq.Relations.Relations <> x var
+R1010:1010 Coq.Relations.Relations <> f var
+R1012:1012 Coq.Relations.Relations <> y var
+R988:988 Coq.Relations.Relations <> A var

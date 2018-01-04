@@ -1,0 +1,21 @@
+DIGEST 9b360de29ae3652d6985788d7c9cd6ec
+FCoq.Unicode.Utf8_core
+not 576:576 <> :type_scope:'∀'_x_'..'_x_','_x
+R732:738 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R740:741 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R746:752 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R754:755 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+not 710:710 <> :type_scope:'∃'_x_'..'_x_','_x
+R860:863 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+not 845:845 <> :type_scope:x_'∨'_x
+R940:943 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+not 925:925 <> :type_scope:x_'∧'_x
+R1020:1023 Coq.Init.Logic <> :type_scope:x_'->'_x not
+not 1005:1005 <> :type_scope:x_'→'_x
+R1118:1122 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+not 1103:1103 <> :type_scope:x_'↔'_x
+R1191:1191 Coq.Init.Logic <> :type_scope:'~'_x not
+not 1180:1180 <> :type_scope:'¬'_x
+R1268:1271 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+not 1253:1253 <> :type_scope:x_'≠'_x
+not 1331:1331 <> ::'λ'_x_'..'_x_','_x

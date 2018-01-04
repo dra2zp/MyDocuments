@@ -1,0 +1,68 @@
+DIGEST 5ada6c017ed29722c337f89d5ed5e91c
+FCoq.Arith.Peano_dec
+R541:549 Coq.Logic.Decidable <> <> lib
+R551:558 Coq.Arith.PeanoNat <> <> lib
+R569:577 Coq.Logic.Eqdep_dec <> <> lib
+R634:636 Coq.Init.Datatypes <> nat ind
+prf 648:653 <> O_or_S
+R678:681 Coq.Init.Specif <> :type_scope:x_'+'_'{'_x_'}' not
+R687:687 Coq.Init.Specif <> :type_scope:x_'+'_'{'_x_'}' not
+R659:659 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R661:663 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R667:669 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R677:677 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R664:666 Coq.Init.Datatypes <> nat ind
+R673:675 Coq.Init.Logic <> :type_scope:x_'='_x not
+R670:670 Coq.Init.Datatypes <> S constr
+R676:676 Coq.Arith.Peano_dec <> n var
+R683:685 Coq.Init.Logic <> :type_scope:x_'='_x not
+R686:686 Coq.Arith.Peano_dec <> n var
+syndef 772:781 <> eq_nat_dec
+R786:795 Coq.Arith.PeanoNat Nat eq_dec thm
+prf 862:871 <> dec_eq_nat
+R879:887 Coq.Logic.Decidable <> decidable def
+R891:893 Coq.Init.Logic <> :type_scope:x_'='_x not
+R890:890 Coq.Arith.Peano_dec <> n var
+R894:894 Coq.Arith.Peano_dec <> m var
+R913:922 Coq.Arith.PeanoNat Nat eq_dec thm
+R913:922 Coq.Arith.PeanoNat Nat eq_dec thm
+def 974:980 <> UIP_nat
+R984:1000 Coq.Logic.Eqdep_dec <> UIP_dec thm
+R1002:1011 Coq.Arith.PeanoNat Nat eq_dec thm
+prf 1042:1050 <> le_unique
+R1082:1085 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R1081:1081 Coq.Arith.Peano_dec <> m var
+R1086:1086 Coq.Arith.Peano_dec <> n var
+R1096:1098 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1090:1095 Coq.Arith.Peano_dec <> le_mn1 var
+R1099:1104 Coq.Arith.Peano_dec <> le_mn2 var
+R1138:1144 Coq.Init.Logic <> eq_refl constr
+R1147:1147 Coq.Init.Datatypes <> S constr
+R1138:1144 Coq.Init.Logic <> eq_refl constr
+R1147:1147 Coq.Init.Datatypes <> S constr
+R1185:1185 Coq.Init.Datatypes <> S constr
+R1185:1185 Coq.Init.Datatypes <> S constr
+R1279:1285 Coq.Init.Logic <> eq_refl constr
+R1306:1311 Coq.Init.Logic <> eq_ind scheme
+R1279:1285 Coq.Init.Logic <> eq_refl constr
+R1306:1311 Coq.Init.Logic <> eq_ind scheme
+R1517:1523 Coq.Arith.Peano_dec <> UIP_nat def
+R1536:1542 Coq.Init.Logic <> eq_refl constr
+R1517:1523 Coq.Arith.Peano_dec <> UIP_nat def
+R1536:1542 Coq.Init.Logic <> eq_refl constr
+R1517:1523 Coq.Arith.Peano_dec <> UIP_nat def
+R1536:1542 Coq.Init.Logic <> eq_refl constr
+R1631:1649 Coq.Arith.PeanoNat Nat nle_succ_diag_l thm
+R1631:1649 Coq.Arith.PeanoNat Nat nle_succ_diag_l thm
+R1745:1763 Coq.Arith.PeanoNat Nat nle_succ_diag_l thm
+R1745:1763 Coq.Arith.PeanoNat Nat nle_succ_diag_l thm
+R1828:1834 Coq.Arith.Peano_dec <> UIP_nat def
+R1847:1853 Coq.Init.Logic <> eq_refl constr
+R1828:1834 Coq.Arith.Peano_dec <> UIP_nat def
+R1847:1853 Coq.Init.Logic <> eq_refl constr
+R1828:1834 Coq.Arith.Peano_dec <> UIP_nat def
+R1847:1853 Coq.Init.Logic <> eq_refl constr
+R1884:1886 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1884:1886 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1977:1978 Coq.Arith.Le <> <> lib
+R1980:1981 Coq.Arith.Lt <> <> lib

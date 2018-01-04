@@ -1,0 +1,25 @@
+DIGEST adda4e005c360768aa37dce74eec07f3
+FCoq.Logic.Eqdep
+R1107:1116 Coq.Logic.EqdepFacts <> <> lib
+mod 1127:1136 <> Eq_rect_eq
+ax 1146:1155 Eq_rect_eq eq_rect_eq
+R1180:1180 Coq.Logic.Eqdep <> U var
+R1187:1190 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1186:1186 Coq.Logic.Eqdep <> U var
+R1200:1200 Coq.Logic.Eqdep <> Q var
+R1202:1202 Coq.Logic.Eqdep <> p var
+R1209:1211 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1208:1208 Coq.Logic.Eqdep <> p var
+R1212:1212 Coq.Logic.Eqdep <> p var
+R1217:1219 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1216:1216 Coq.Logic.Eqdep <> x var
+R1220:1226 Coq.Init.Logic <> eq_rect scheme
+R1236:1236 Coq.Logic.Eqdep <> h var
+R1234:1234 Coq.Logic.Eqdep <> p var
+R1232:1232 Coq.Logic.Eqdep <> x var
+R1230:1230 Coq.Logic.Eqdep <> Q var
+R1228:1228 Coq.Logic.Eqdep <> p var
+R1244:1253 Coq.Logic.Eqdep Eq_rect_eq <> mod
+R1279:1289 Coq.Logic.EqdepFacts EqdepTheory <> modtype
+R1291:1300 Coq.Logic.Eqdep Eq_rect_eq <> modtype
+mod 1264:1274 <> EqdepTheory

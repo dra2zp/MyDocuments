@@ -1,0 +1,87 @@
+DIGEST 55cd6fde2a556aa9ff3619acfeecc264
+FCoq.Classes.Morphisms_Relations
+R671:690 Coq.Relations.Relation_Definitions <> <> lib
+R708:728 Coq.Classes.Morphisms <> <> lib
+R746:764 Coq.Program.Program <> <> lib
+inst 839:867 <> relation_conjunction_morphism
+R871:876 Coq.Classes.Morphisms <> Proper class
+R960:979 Coq.Classes.RelationClasses <> relation_conjunction def
+R906:912 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R879:898 Coq.Classes.RelationClasses <> relation_equivalence def
+R933:937 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R913:932 Coq.Classes.RelationClasses <> relation_equivalence def
+R938:957 Coq.Classes.RelationClasses <> relation_equivalence def
+inst 1018:1046 <> relation_disjunction_morphism
+R1050:1055 Coq.Classes.Morphisms <> Proper class
+R1139:1158 Coq.Classes.RelationClasses <> relation_disjunction def
+R1085:1091 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1058:1077 Coq.Classes.RelationClasses <> relation_equivalence def
+R1112:1116 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1092:1111 Coq.Classes.RelationClasses <> relation_equivalence def
+R1117:1136 Coq.Classes.RelationClasses <> relation_equivalence def
+prf 1278:1308 <> predicate_equivalence_pointwise
+R1315:1319 Coq.Classes.RelationClasses <> Tlist ind
+R1326:1331 Coq.Classes.Morphisms <> Proper class
+R1388:1389 Coq.Init.Datatypes <> id def
+R1358:1362 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1335:1355 Coq.Classes.RelationClasses <> predicate_equivalence def
+R1357:1357 Coq.Classes.Morphisms_Relations <> l var
+R1363:1379 Coq.Classes.RelationClasses <> pointwise_lifting def
+R1385:1385 Coq.Classes.Morphisms_Relations <> l var
+R1381:1383 Coq.Init.Logic <> iff def
+R1416:1436 Coq.Classes.RelationClasses <> predicate_equivalence def
+prf 1457:1487 <> predicate_implication_pointwise
+R1494:1498 Coq.Classes.RelationClasses <> Tlist ind
+R1505:1510 Coq.Classes.Morphisms <> Proper class
+R1568:1569 Coq.Init.Datatypes <> id def
+R1537:1541 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1514:1534 Coq.Classes.RelationClasses <> predicate_implication def
+R1536:1536 Coq.Classes.Morphisms_Relations <> l var
+R1542:1558 Coq.Classes.RelationClasses <> pointwise_lifting def
+R1565:1565 Coq.Classes.Morphisms_Relations <> l var
+R1560:1563 Coq.Program.Basics <> impl def
+R1596:1616 Coq.Classes.RelationClasses <> predicate_implication def
+inst 1795:1824 <> relation_equivalence_pointwise
+R1830:1835 Coq.Classes.Morphisms <> Proper class
+R1912:1913 Coq.Init.Datatypes <> id def
+R1858:1862 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1838:1857 Coq.Classes.RelationClasses <> relation_equivalence def
+R1863:1880 Coq.Classes.Morphisms <> pointwise_relation def
+R1885:1902 Coq.Classes.Morphisms <> pointwise_relation def
+R1906:1908 Coq.Init.Logic <> iff def
+R1937:1967 Coq.Classes.Morphisms_Relations <> predicate_equivalence_pointwise thm
+R1970:1974 Coq.Classes.RelationClasses <> Tcons constr
+R1979:1983 Coq.Classes.RelationClasses <> Tcons constr
+R1987:1990 Coq.Classes.RelationClasses <> Tnil constr
+R1937:1967 Coq.Classes.Morphisms_Relations <> predicate_equivalence_pointwise thm
+R1970:1974 Coq.Classes.RelationClasses <> Tcons constr
+R1979:1983 Coq.Classes.RelationClasses <> Tcons constr
+R1987:1990 Coq.Classes.RelationClasses <> Tnil constr
+inst 2011:2031 <> subrelation_pointwise
+R2037:2042 Coq.Classes.Morphisms <> Proper class
+R2111:2112 Coq.Init.Datatypes <> id def
+R2056:2060 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2045:2055 Coq.Classes.RelationClasses <> subrelation class
+R2061:2078 Coq.Classes.Morphisms <> pointwise_relation def
+R2083:2100 Coq.Classes.Morphisms <> pointwise_relation def
+R2104:2107 Coq.Program.Basics <> impl def
+R2136:2166 Coq.Classes.Morphisms_Relations <> predicate_implication_pointwise thm
+R2169:2173 Coq.Classes.RelationClasses <> Tcons constr
+R2178:2182 Coq.Classes.RelationClasses <> Tcons constr
+R2186:2189 Coq.Classes.RelationClasses <> Tnil constr
+R2136:2166 Coq.Classes.Morphisms_Relations <> predicate_implication_pointwise thm
+R2169:2173 Coq.Classes.RelationClasses <> Tcons constr
+R2178:2182 Coq.Classes.RelationClasses <> Tcons constr
+R2186:2189 Coq.Classes.RelationClasses <> Tnil constr
+prf 2208:2230 <> flip_pointwise_relation
+R2239:2246 Coq.Relations.Relation_Definitions <> relation def
+R2248:2248 Coq.Classes.Morphisms_Relations <> A var
+R2255:2274 Coq.Classes.RelationClasses <> relation_equivalence def
+R2309:2312 Coq.Program.Basics <> flip def
+R2315:2332 Coq.Classes.Morphisms <> pointwise_relation def
+R2336:2336 Coq.Classes.Morphisms_Relations <> R var
+R2334:2334 Coq.Classes.Morphisms_Relations <> A var
+R2277:2294 Coq.Classes.Morphisms <> pointwise_relation def
+R2299:2302 Coq.Program.Basics <> flip def
+R2304:2304 Coq.Classes.Morphisms_Relations <> R var
+R2296:2296 Coq.Classes.Morphisms_Relations <> A var

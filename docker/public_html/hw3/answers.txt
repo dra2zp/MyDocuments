@@ -1,0 +1,55 @@
+D.J. Anderson
+dra2zp
+05/30/2017
+CS 4640
+Homework 3
+
+(1) Crockford's problem with POST, PUT, and PATCH is that they are three almost identical commands for moving
+    information between machines. Some people say that which one you use matters a lot, but Crockford says that in a
+    well-designed system, it shouldn't be confusing or ambiguous as to which one is used, so he calls it "clutter,"
+    and suggests that we get rid of the the extra things we don't need and just have one standard that everyone uses.
+(2) Crockford says that it makes sense to remove single quotes rather than double quotes because single quotes already
+    serve a purpose because they are used as an apostrophe. He also says that it could be a source of mistakes because
+    if someone were to create a string with single quotes that had a contraction, it would mess up the program because
+    everything after the apostrophe would no longer be considered part of the string.
+(3) ASCII characters increased from 6-bits to 7-bits because when messages were transmitted, there would be a lot of
+    noise, and some bits could get damaged. If the shift character got damaged, the rest of the message would be weird,
+    so they decided to add another bit to ASCII to give both uppercase and lowercase letters their own node.
+(4) JavaScript's "let" provides block scoping.
+(5) A "bottom" value is a type like "null" or "undefined" that is given to a variable whose data has no value, and so
+    it wouldn't make sense to call it any other data type.
+(6) Tony Hoare introduced the idea of "null." He considers it a "billion dollar mistake" because it is the estimated
+    total cost of all the null pointer mistakes that it has caused.
+(7) A pure function maps values from one thing to another. Using pure functions doesn't allow for side effects since a
+    given input will always produce exactly the same output. It improves testability because there's nothing else that
+    can cause the function to behave incorrectly. It improves composability because you can more easily combine
+    functions. It also improves parallelism because pure functions never read, write, or modify memory, so you don't
+    have to watch for conflicts in the code that do this.
+(8) JavaScript can be transformed into a pure functional language by removing impurities like Date, Math.random,
+    delete, Object.assign, Array.splice, Array.sort, RegExp.exec, =, var, let, for (and other loops), user interaction,
+    and the network. Making JavaScript pure does not make sense because it wouldn't be useful in the real world since
+    the real world is changing all the time.
+(9) FORTRAN uses parentheses to separate the condition from the "if" and the "consequence" because it doesn't look at
+    whitespace, so the parser wouldn't know when the if ends and the consequence begins without parentheses.
+(10) There is a problem with having optional curly braces around the "consequence" of an if-statement because without
+     the curly braces, the program only considers the first command to be included under the scope of the if-statement.
+     When modifying code, if someone wanted to add additional commands under the if-statement, it could cause errors if
+     they added them without putting curly braces around all the consequences.
+(11) The correct type for an addition of two int32 values is int33.
+(12) The purpose of a type system is to catch errors. By specifying the type of each variable, we are better able to
+     see where a program goes wrong if its type changes to something other than what we were expecting.
+(13) The DEC64 number format is an alternative to binary floating point. DEC64 takes up 64 bits, where the first 56
+     bits are used for the coefficient, and the last 8 bits are used for the exponent. So the number would be
+     represented by: number = coefficient * 10 ^ (exponent). One good thing about this is that adding any two numbers
+     with the same exponent executes in just one cycle.
+(14) An advantage to having only a single number type is that you can't create a bug in the system by choosing the
+     wrong number type.
+(15) Languages have reserved words because it made it easier for compiler writers when memory space was limited.
+     Compilers didn't have to determine if words like "if" were used as variable names or as statements. This is a
+     hazard for programmers because you have to be aware of all the reserved words in a language even if you don't plan
+     on using those words for their intended purpose because those words are not able to be used as variable names. It
+     also makes it difficult for language maintainers because if they want to add a word, they want to use something
+     that no one has used as a variable name so that it doesn't cause working programs to crash and fail.
+(16) Programming by contract is having a list of things that must be true (requirements) before a function begins as
+     well as a list of things that must be true when the function ends. This is good because it lists out all of the
+     assumptions that we have about the function, and it can help check for errors in the code.

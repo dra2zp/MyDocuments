@@ -1,0 +1,8 @@
+DIGEST d4262197a546bb9bdb07778da4b3613f
+FCoq.Reals.Reals
+R1263:1267 Coq.Reals.Rbase <> <> lib
+R1285:1294 Coq.Reals.Rfunctions <> <> lib
+R1312:1320 Coq.Reals.SeqSeries <> <> lib
+R1338:1343 Coq.Reals.Rtrigo <> <> lib
+R1361:1369 Coq.Reals.Ranalysis <> <> lib
+R1387:1397 Coq.Reals.Integration <> <> lib

@@ -1,0 +1,11 @@
+DIGEST 869fec425e3b3be1acf0dda5983811f5
+FCoq.Reals.SplitAbsolu
+R541:550 Coq.Reals.Rbasic_fun <> <> lib
+R616:624 Coq.Reals.Rbasic_fun <> Rcase_abs thm
+R616:624 Coq.Reals.Rbasic_fun <> Rcase_abs thm
+R651:659 Coq.Reals.Rbasic_fun <> Rcase_abs thm
+R766:769 Coq.Reals.Rbasic_fun <> Rabs def
+R766:769 Coq.Reals.Rbasic_fun <> Rabs def
+R843:846 Coq.Reals.Rbasic_fun <> Rabs def
+R843:846 Coq.Reals.Rbasic_fun <> Rabs def
+R870:873 Coq.Reals.Rbasic_fun <> Rabs def

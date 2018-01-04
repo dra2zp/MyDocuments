@@ -1,0 +1,79 @@
+<?php
+// temperature_scraper.php
+
+class temperature_scraper {
+      // member data
+      
+      private $zip; // 5 digit zip
+      private $error; // error messages
+
+      private $file; // weather page
+
+      // regular expression
+      // PCRE: Perl Compatible Regular Expression
+      const ZIP_PATT = '/^\d{5}$/';
+      const CITY_PATT = '<h1 class="city-nav-header">';
+      const BASE_URL = 'https://www.wunderground.com/weather-forecast/';
+
+      public function __construct($zip) {
+      	     // make sure the zip code is set
+	     if (!isset($zip)) {
+	     	$this->error = "Zipcode not set";
+		return;
+	     }
+
+	     // make sure the zip code is 5 digits
+	     $this->zip = trim($zip);
+	     if (preg_match(self::ZIP_PATT, $this->zip) == 0) {
+	     	$this->error = "Zipcode must be 5 digits";
+		return;
+	     }
+
+	     // open the weather underground web page for this zip
+	     $this->file = fopen(self::BASE_URL . $this->zip, "r");
+	     if(!$this->file) {
+	     	$this->error = "FATAL ERROR: Could not open URL.";
+		return;
+	     }
+      }
+
+     public function scrapeTemp() {
+     	    // read through the webpage until we get to the temperature
+	    // we'll do this with regular expressions
+	    $matches = array();
+	    while (!feof($this->file)) {
+	    	  // we have more lines to read
+		  $line = fgets($this->file);
+		  if (strpos($line, 'data-variable="temperature"')) {
+		     // we found the line with the data-variable
+		     // we need to read the next line to get the temperature
+		     $line = fgets($this->file);
+		     preg_match('/-?\d{1,3}\.\d/', $line, $matches);
+		     break;
+		  }
+	    }
+
+	    // check that we have an entry of matches
+	    if (count($matches) > 0) {
+	       return $matches[0]; // result of the preg_match is stored
+
+	       $this->error = "Zipcode $this->zip not found.";
+            }
+
+     }
+
+     public function successful() {
+     	    return !isset($this->error);
+     }
+
+     public function getError() {
+     	    if(isset($this->error)) {
+	    	return $this->error;
+     	    }
+
+     }
+}
+
+
+
+?>

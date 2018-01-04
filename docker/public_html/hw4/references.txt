@@ -1,0 +1,79 @@
+D.J. Anderson
+dra2zp
+HW 4
+references.txt
+
+https://www.w3schools.com/colors/colors_picker.asp
+HTML Color Picker
+I used this to choose some of the colors
+
+https://stackoverflow.com/questions/2992018/how-can-i-display-tooltip-or-item-information-on-mouse-over
+How to display tooltip or item information on mouse over
+I used this to give more information to the tabs
+
+https://www.w3schools.com/php/php_mysql_insert.asp
+How to insert data into MySQL using PHP
+
+http://www.echoecho.com/htmllinks01.htm
+How to add hyperlinks in HTML using the <a> tag
+
+https://www.w3schools.com/php/php_mysql_connect.asp
+How to connect to MySQL using PHP
+
+https://stackoverflow.com/questions/11943479/create-html-table-from-sql-table
+How to create a table in HTML from a SQL table
+
+https://www.w3schools.com/php/php_arrays.asp
+Arrays in PHP
+I used this to figure out how to manipulate the associate array in PHP
+
+https://www.w3schools.com/php/func_array_push.asp
+How to append to the end of an array in PHP
+
+https://stackoverflow.com/questions/12475850/how-can-an-sql-query-return-data-from-multiple-tables
+JOIN command in SQL
+
+http://www.dofactory.com/sql/join
+Different types of JOIN commands in SQL - INNER JOIN, FULL JOIN, LEFT JOIN, RIGHT JOIN
+
+https://www.w3schools.com/sql/sql_groupby.asp
+How to use the GROUP BY command in SQL
+
+http://php.net/manual/en/mysqli.quickstart.multiple-statement.php
+How to write multiple SQL commands in PHP
+
+https://www.w3schools.com/php/func_mysqli_query.asp
+How to connect to database in PHP using mysqli
+
+http://www.encodedna.com/javascript/populate-json-data-to-html-table-using-javascript.htm
+How to create an HTML table using JSON data
+
+https://www.w3schools.com/php/php_ajax_database.asp
+How to execute an AJAX request in PHP to retrieve JSON data from PHP
+
+https://www.w3schools.com/xml/ajax_xmlhttprequest_send.asp
+How to make a GET request in JavaScript using AJAX
+
+http://php.net/manual/en/language.operators.comparison.php
+Comparison Operators in PHP
+
+https://www.w3schools.com/js/js_json_parse.asp
+How to parse JSON data
+
+https://stackoverflow.com/questions/8265699/ajax-php-jquery-echo-ing-back-data
+How to retrieve data by echoing it in PHP
+
+https://stackoverflow.com/questions/3955229/remove-all-child-elements-of-a-dom-node-in-javascript
+How to remove all the child elements of a DOM node in JavaScript
+I used this to delete the previous table when the user clicks on a new tab
+
+https://www.w3schools.com/html/html_tables.asp
+How to create a table in HTML
+
+https://stackoverflow.com/questions/19170338/how-to-test-if-json-object-is-empty-in-java
+How to test if JSON object is empty in JavaScript
+I used this to figure out the size of the JSON array so that the for loop knows how many rows to create
+
+https://www.w3schools.com/howto/howto_js_sort_table.asp
+How to sort a table in JavaScript by clicking on the headers
+I used their function to sort the rows

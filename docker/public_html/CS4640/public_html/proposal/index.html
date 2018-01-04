@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<!-- D.J. Anderson -->
+<!-- dra2zp -->
+<!-- Proposal -->
+<!-- index.html -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Proposal</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+	<style>
+	  @import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+	  header {
+	  font-family: "Oleo Script";
+	  text-align: center;
+	  background-color: rgb(0,0,153);
+	  color: rgb(255,153,0);
+	  padding: 25px;
+	  border-radius: 10px;
+	  box-shadow: rgb(0,0,0) 4px 2px 6px;
+	  overflow: hidden;
+	  margin-bottom: 40px;
+	  width: 1300px;
+	  }
+	  footer {
+	  text-align: center;
+	  background-color: rgb(0,0,153);
+	  color: rgb(255,153,0);
+	  padding: 25px;
+	  border-radius: 10px;
+	  box-shadow: rgb(0,0,0) 4px 2px 6px;
+	  overflow: hidden;
+	  width: 1300px;
+	  }
+	  footer h5 {
+	  font-size: 75px;
+	  }
+	  footer h6 {
+	  font-size: 30px;
+	  }
+	  header h1 {
+	  font-size: 100px;
+	  }
+	  footer {
+	  font-family: "Oleo Script";
+	  }
+	  body h1, body h2, body h3, body h4, body p, body ol, body ul {
+	  margin-left: 50px;
+	  width: 1200px;
+	  }
+	  body h1 {
+	  font-size: 65px;
+	  }
+	  body h2 {
+	  font-size: 50px;
+	  }
+	  body h3 {
+	  font-size: 35px;
+	  }
+	  body p, body ol, body ul {
+	  font-size: 20px;
+	  }
+	  body {
+	  text-align: justify;
+	  font-family: "Garamond";
+	  background-color: #e6e6e6;
+	  }
+	</style>
+  </head>
+  <header>
+    <h1><strong>Project Proposal</strong></h1>
+	</header>
+  <body>
+	<h1>Grade Calculator</h1>
+	<h2>By: D.J. Anderson</h2>
+	<h3>Problem Definition</h3>
+	<p>The purpose of the Grade Calculator web application is to provide students with a tool they can use to keep track of their grades. Many classes,
+	especially in college, have professors that never post any of their grades online which means that students are never able to see their average score
+	in the class. Professors tend to keep their own records, and the letter grade that appears in SIS after a long and difficult semester seems to be
+	hidden by the professor's calculations performed behind-the-scenes. Once they see their final grades, students are unaware if the professor has done
+	any curving to the class or if the grade is truly accurate. With this web application, students will be able to maintain records of their own grades
+	throughout the course of the semester.</p>
+	<h3>Overview of User Base</h3>
+	<p>The user base of this web application is geared toward UVa students. However, middle-schoolers through graduate students from any school would
+	enjoy the features of this app. It is not meant for teachers or professors to keep track of their students' grades at this point, although a slightly
+	different layout and possibly two separate accounts (a student account and a teacher account) could accommodate for this feature in the future. For
+	right now, we will stick to just the student account.</p>
+	<h3>Usability Goals and Requirements</h3>
+	<p>Below is a list containing a majority of the usability goals for this web application.</p>
+	<ol>
+		<li>Users should be able to create an account on the login page if they have never created an account before. Otherwise, they should be able to
+		login using their previously-created username and password.</li>
+		<li>Upon successful login, users should be faced with a welcome page. This welcome page will be the main page of the application that allows users
+		to navigate across the various features of the app. The top of the page should be personalized to the user (i.e. it would say "Welcome, [first
+		name] [last name]!" instead of a generic "Hello, Student!"). On this page, the user should be able to view all the features and begin interacting
+		with the app.</li>
+		<li>Users will be able to "create a class." This will prompt the user to indicate the class title, the number of credits the class is worth, the
+		grading scale of the class, and whether the class is based on points or weighted grades. If points, the class gets created and now appears to the
+		user. If weighted grades, the user must enter each of the categories and the percentage of the final grade that corresponds to that category.</li>
+		<li>Inside a class that the user has created, users should be faced with a grade calculator page where the user can enter all their grades for
+		a particular class and instantly see their overall grade in the class.</li>
+		<li>Users will be able to remove grades they have entered inside a class.</li>
+		<li>Users will be able to find out what minimum grade they can receive on a particular assignment in order to stay above a certain percentage in
+		the class. This functionality will be provided in the form of a button that asks the user to input such information as the point value (for points
+		system), the category (for weighted system), and their goal grade for the class. Then, a value will be returned to them indicating this minimum
+		grade they can receive on the assignment.</li>
+		<li>When the user logs out and logs back in at a later time, the application should be able to retrieve all the classes that a user has previously
+		created as well as the grades table that corresponds to each class.</li>
+		<li>At the end of a semester, users should be able to override their grades with the grades they actually received from the professor.</li>
+		<li>Users will be able to see their GPA on the main welcome page of the application that considers all the classes and grades they have in the
+		system.</li>
+		<li>Users should be able to easily figure out how to perform actions on the webpage. All of the buttons' functions and capabilities should be
+		intuitive, and the user should not become frustrated when trying to interact with the application.</li>
+	</ol>
+	<h3>Database Storage and Design</h3>
+	<p>The database should contain three tables: a users table, a classes table, and a grades table.</p>
+	<ul>
+		<li>The users table would contain the user's first name, last name, username (email), password, registration date, and school. The primary key for
+		the users table would be username.</li>
+		<li>The classes table would contain the user's username, class title, number of credits, grading scale, points/weighted system, categories
+		(maximum of 10), and weights for each of those categories. The foreign keys for the classes table would be username which would reference the
+		username field of the users table. The primary keys for the classes table would be username and class title.</li>
+		<li>Finally, the grades table would contain the user's username, class title, category (if applicable), weight (if applicable), assignment name,
+		points earned, and points possible. The foreign keys for the grades table would be username which would reference the username field of the users
+		table and the class title which would reference the class title field of the classes table. The primary keys for the grades table would be
+		username, class title, and assignment name.</li>
+	</ul>
+	<h3>Milestone</h3>
+	<p>For the milestone presentation on Wednesday, June 7, 2017, I plan on having the design for all of the HTML pages laid out. I also plan on having
+	the model, view, and controller PHP pages finished. Sample data will be stored inside the database to ensure that the SQL commands are correct and
+	that view PHP page displays the correct JSON object for all the functions. Generating the SQL commands and creating all the functions for each feature
+	of my grade calculator web application will likely be the most difficult part of this project. Later, the JSON objects generated by the PHP will be
+	linked to the HTML through JavaScript, which will format the JSON data nicely into tables. Then, the website will undergo testing to ensure that the
+	website is usable, and it should be ready to present on Friday, June 9, 2017.</p>
+	
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+  </body>
+  <footer>
+    <h5>University of Virginia</h5>
+    <h6>D.J. Anderson</h6>
+  </footer>
+  </html>

@@ -1,0 +1,48 @@
+D.J. Anderson
+dra2zp
+CS 4640
+Homework 1
+
+https://www.w3schools.com/tags/
+List of available HTML tags
+
+https://www.w3schools.com/tags/att_font_size.asp
+How to set the size of the font (font-size) in CSS
+
+http://stackoverflow.com/questions/2787310/how-to-reduce-the-space-between-p-tags
+How to reduce the space between paragraph (<p>) tags
+
+https://www.w3schools.com/tags/att_p_align.asp
+How to align paragraph (<p>) elements
+
+https://www.w3schools.com/css/css_border.asp
+How to create a border in CSS
+
+https://www.w3schools.com/css/css_boxmodel.asp
+Information about the "Box Model" and how to set height, width, padding, margin, and border
+
+https://www.w3schools.com/tags/tag_hr.asp
+How to use the <hr> tag
+I used the <hr> tag to create a border under all the headings in the resume
+
+http://stackoverflow.com/questions/14676613/how-to-import-google-web-font-in-css-file
+How to import Google fonts
+
+https://www.w3schools.com/colors/colors_picker.asp
+RGB HTML color selector
+I used this website to find the rgb values of colors I wanted to use
+
+http://getbootstrap.com/components/
+List of all the Bootstrap components
+
+https://www.w3schools.com/html/html_links.asp
+How to use HTML links
+
+https://www.thesitewizard.com/html-tutorial/open-links-in-new-window-or-tab.shtml
+How to make a link open up in a new tab
+
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto
+How to link to an email address
+
+https://css-tricks.com/quick-tip-making-a-print-this-page-button/
+How to link to a PDF for viewing and/or printing

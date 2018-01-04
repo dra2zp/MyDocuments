@@ -1,0 +1,109 @@
+DIGEST 349d185f2dd015a5fb16ebe10861af6d
+FCoq.Sets.Relations_1
+sec 1681:1691 <> Relations_1
+var 1706:1706 Relations_1 U
+def 1731:1738 <> Relation
+R1744:1747 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1749:1752 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1748:1748 Coq.Sets.Relations_1 <> Relations_1.U var
+R1743:1743 Coq.Sets.Relations_1 <> Relations_1.U var
+var 1771:1771 Relations_1 R
+R1775:1782 Coq.Sets.Relations_1 <> Relation def
+def 1800:1808 <> Reflexive
+R1829:1829 Coq.Sets.Relations_1 <> Relations_1.U var
+R1832:1832 Coq.Sets.Relations_1 <> Relations_1.R var
+R1836:1836 Coq.Sets.Relations_1 <> x var
+R1834:1834 Coq.Sets.Relations_1 <> x var
+def 1854:1863 <> Transitive
+R1888:1888 Coq.Sets.Relations_1 <> Relations_1.U var
+R1896:1899 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1905:1908 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1909:1909 Coq.Sets.Relations_1 <> Relations_1.R var
+R1913:1913 Coq.Sets.Relations_1 <> z var
+R1911:1911 Coq.Sets.Relations_1 <> x var
+R1900:1900 Coq.Sets.Relations_1 <> Relations_1.R var
+R1904:1904 Coq.Sets.Relations_1 <> z var
+R1902:1902 Coq.Sets.Relations_1 <> y var
+R1891:1891 Coq.Sets.Relations_1 <> Relations_1.R var
+R1895:1895 Coq.Sets.Relations_1 <> y var
+R1893:1893 Coq.Sets.Relations_1 <> x var
+def 1931:1939 <> Symmetric
+R1962:1962 Coq.Sets.Relations_1 <> Relations_1.U var
+R1970:1973 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1974:1974 Coq.Sets.Relations_1 <> Relations_1.R var
+R1978:1978 Coq.Sets.Relations_1 <> x var
+R1976:1976 Coq.Sets.Relations_1 <> y var
+R1965:1965 Coq.Sets.Relations_1 <> Relations_1.R var
+R1969:1969 Coq.Sets.Relations_1 <> y var
+R1967:1967 Coq.Sets.Relations_1 <> x var
+def 1996:2008 <> Antisymmetric
+R2031:2031 Coq.Sets.Relations_1 <> Relations_1.U var
+R2039:2042 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2048:2051 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2053:2055 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2052:2052 Coq.Sets.Relations_1 <> x var
+R2056:2056 Coq.Sets.Relations_1 <> y var
+R2043:2043 Coq.Sets.Relations_1 <> Relations_1.R var
+R2047:2047 Coq.Sets.Relations_1 <> x var
+R2045:2045 Coq.Sets.Relations_1 <> y var
+R2034:2034 Coq.Sets.Relations_1 <> Relations_1.R var
+R2038:2038 Coq.Sets.Relations_1 <> y var
+R2036:2036 Coq.Sets.Relations_1 <> x var
+def 2074:2081 <> contains
+R2089:2096 Coq.Sets.Relations_1 <> Relation def
+R2125:2125 Coq.Sets.Relations_1 <> Relations_1.U var
+R2134:2137 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2138:2138 Coq.Sets.Relations_1 <> R var
+R2142:2142 Coq.Sets.Relations_1 <> y var
+R2140:2140 Coq.Sets.Relations_1 <> x var
+R2128:2129 Coq.Sets.Relations_1 <> R' var
+R2133:2133 Coq.Sets.Relations_1 <> y var
+R2131:2131 Coq.Sets.Relations_1 <> x var
+def 2160:2172 <> same_relation
+R2180:2187 Coq.Sets.Relations_1 <> Relation def
+R2218:2221 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2205:2212 Coq.Sets.Relations_1 <> contains def
+R2216:2217 Coq.Sets.Relations_1 <> R' var
+R2214:2214 Coq.Sets.Relations_1 <> R var
+R2222:2229 Coq.Sets.Relations_1 <> contains def
+R2234:2234 Coq.Sets.Relations_1 <> R var
+R2231:2232 Coq.Sets.Relations_1 <> R' var
+ind 2251:2258 <> Preorder
+constr 2277:2298 <> Definition_of_preorder
+R2311:2314 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2325:2328 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2329:2336 Coq.Sets.Relations_1 <> Preorder ind
+R2315:2324 Coq.Sets.Relations_1 <> Transitive def
+R2302:2310 Coq.Sets.Relations_1 <> Reflexive def
+ind 2353:2357 <> Order
+constr 2376:2394 <> Definition_of_order
+R2416:2419 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2430:2433 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2447:2450 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2451:2455 Coq.Sets.Relations_1 <> Order ind
+R2434:2446 Coq.Sets.Relations_1 <> Antisymmetric def
+R2420:2429 Coq.Sets.Relations_1 <> Transitive def
+R2407:2415 Coq.Sets.Relations_1 <> Reflexive def
+ind 2472:2482 <> Equivalence
+constr 2501:2525 <> Definition_of_equivalence
+R2547:2550 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2561:2564 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2574:2577 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2578:2588 Coq.Sets.Relations_1 <> Equivalence ind
+R2565:2573 Coq.Sets.Relations_1 <> Symmetric def
+R2551:2560 Coq.Sets.Relations_1 <> Transitive def
+R2538:2546 Coq.Sets.Relations_1 <> Reflexive def
+ind 2605:2607 <> PER
+constr 2626:2642 <> Definition_of_PER
+R2655:2658 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2669:2672 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2673:2675 Coq.Sets.Relations_1 <> PER ind
+R2659:2668 Coq.Sets.Relations_1 <> Transitive def
+R2646:2654 Coq.Sets.Relations_1 <> Symmetric def
+R2683:2693 Coq.Sets.Relations_1 Relations_1 <> sec
+R2708:2716 Coq.Sets.Relations_1 <> Reflexive def
+R2718:2727 Coq.Sets.Relations_1 <> Transitive def
+R2729:2741 Coq.Sets.Relations_1 <> Antisymmetric def
+R2743:2751 Coq.Sets.Relations_1 <> Symmetric def
+R2753:2760 Coq.Sets.Relations_1 <> contains def
+R2764:2776 Coq.Sets.Relations_1 <> same_relation def

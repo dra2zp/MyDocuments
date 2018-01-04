@@ -1,0 +1,4 @@
+DIGEST 8db95ce5c2a0c22bd94e1330ac228bfe
+FCoq.extraction.ExtrHaskellZNum
+R306:311 Coq.ZArith.ZArith <> <> lib
+R329:333 Coq.Arith.EqNat <> <> lib

@@ -1,0 +1,41 @@
+DIGEST a87114ad1562a4d9ecc232bfc60e6ea5
+FCoq.ZArith.Zpow_def
+R541:546 Coq.ZArith.BinInt <> <> lib
+R548:558 Coq.setoid_ring.Ring_theory <> <> lib
+syndef 773:782 <> Zpower_pos
+R787:795 Coq.ZArith.BinInt Z pow_pos def
+syndef 822:827 <> Zpower
+R832:836 Coq.ZArith.BinInt Z pow def
+syndef 863:872 <> Zpower_0_r
+R877:885 Coq.ZArith.BinInt Z pow_0_r thm
+syndef 912:924 <> Zpower_succ_r
+R929:940 Coq.ZArith.BinInt Z pow_succ_r thm
+syndef 967:978 <> Zpower_neg_r
+R983:993 Coq.ZArith.BinInt Z pow_neg_r thm
+syndef 1020:1030 <> Zpower_Ppow
+R1035:1047 Coq.ZArith.BinInt Pos2Z inj_pow thm
+prf 1072:1084 <> Zpower_theory
+R1088:1099 Coq.setoid_ring.Ring_theory <> power_theory rec
+R1124:1128 Coq.ZArith.BinInt Z pow def
+R1117:1122 Coq.ZArith.BinInt Z of_N def
+R1111:1112 Coq.Init.Logic <> eq ind
+R1114:1114 Coq.Numbers.BinNums <> Z ind
+R1103:1107 Coq.ZArith.BinInt Z mul def
+R1195:1203 Coq.ZArith.BinInt Z pow_pos def
+R1219:1227 Coq.ZArith.BinInt Z mul_1_r thm
+R1230:1236 Coq.setoid_ring.Ring_theory <> pow_pos def
+R1219:1227 Coq.ZArith.BinInt Z mul_1_r thm
+R1230:1236 Coq.setoid_ring.Ring_theory <> pow_pos def
+R1219:1227 Coq.ZArith.BinInt Z mul_1_r thm
+R1230:1236 Coq.setoid_ring.Ring_theory <> pow_pos def
+R1305:1315 Coq.ZArith.BinInt Z mul_assoc thm
+R1305:1315 Coq.ZArith.BinInt Z mul_assoc thm
+R1305:1315 Coq.ZArith.BinInt Z mul_assoc thm
+R1305:1315 Coq.ZArith.BinInt Z mul_assoc thm
+R1305:1315 Coq.ZArith.BinInt Z mul_assoc thm
+R1305:1315 Coq.ZArith.BinInt Z mul_assoc thm
+R1305:1315 Coq.ZArith.BinInt Z mul_assoc thm
+R1305:1315 Coq.ZArith.BinInt Z mul_assoc thm
+R1305:1315 Coq.ZArith.BinInt Z mul_assoc thm
+R1305:1315 Coq.ZArith.BinInt Z mul_assoc thm
+R1305:1315 Coq.ZArith.BinInt Z mul_assoc thm

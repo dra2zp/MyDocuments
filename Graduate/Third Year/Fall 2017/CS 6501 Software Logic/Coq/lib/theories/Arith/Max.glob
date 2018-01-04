@@ -1,0 +1,48 @@
+DIGEST 7fd39b317b5061bad64d76baf19e7c38
+FCoq.Arith.Max
+R602:609 Coq.Arith.PeanoNat <> <> lib
+R664:666 Coq.Init.Datatypes <> nat ind
+syndef 679:681 <> max
+R686:692 Coq.Arith.PeanoNat Nat max def
+def 722:728 <> max_0_l
+R733:743 Coq.Arith.PeanoNat Nat max_0_l thm
+def 757:763 <> max_0_r
+R768:778 Coq.Arith.PeanoNat Nat max_0_r thm
+def 792:805 <> succ_max_distr
+R810:827 Coq.Arith.PeanoNat Nat succ_max_distr thm
+def 841:856 <> plus_max_distr_l
+R861:879 Coq.Arith.PeanoNat Nat add_max_distr_l thm
+def 893:908 <> plus_max_distr_r
+R913:931 Coq.Arith.PeanoNat Nat add_max_distr_r thm
+def 945:959 <> max_case_strong
+R964:982 Coq.Arith.PeanoNat Nat max_case_strong thm
+def 996:1003 <> max_spec
+R1008:1019 Coq.Arith.PeanoNat Nat max_spec thm
+def 1033:1039 <> max_dec
+R1044:1054 Coq.Arith.PeanoNat Nat max_dec thm
+def 1068:1075 <> max_case
+R1080:1091 Coq.Arith.PeanoNat Nat max_case thm
+def 1105:1118 <> max_idempotent
+R1123:1132 Coq.Arith.PeanoNat Nat max_id thm
+def 1146:1154 <> max_assoc
+R1159:1171 Coq.Arith.PeanoNat Nat max_assoc thm
+def 1185:1192 <> max_comm
+R1197:1208 Coq.Arith.PeanoNat Nat max_comm thm
+def 1222:1226 <> max_l
+R1231:1239 Coq.Arith.PeanoNat Nat max_l thm
+def 1253:1257 <> max_r
+R1262:1270 Coq.Arith.PeanoNat Nat max_r thm
+def 1284:1291 <> le_max_l
+R1296:1307 Coq.Arith.PeanoNat Nat le_max_l thm
+def 1321:1328 <> le_max_r
+R1333:1344 Coq.Arith.PeanoNat Nat le_max_r thm
+def 1358:1366 <> max_lub_l
+R1371:1383 Coq.Arith.PeanoNat Nat max_lub_l thm
+def 1397:1405 <> max_lub_r
+R1410:1422 Coq.Arith.PeanoNat Nat max_lub_r thm
+def 1436:1442 <> max_lub
+R1447:1457 Coq.Arith.PeanoNat Nat max_lub thm
+syndef 1507:1515 <> max_case2
+R1520:1527 Coq.Arith.Max <> max_case def
+syndef 1554:1559 <> max_SS
+R1564:1581 Coq.Arith.PeanoNat Nat succ_max_distr thm

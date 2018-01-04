@@ -1,0 +1,4 @@
+DIGEST 3ebfdcb3b8379068bb36e5a0ab804598
+FCoq.setoid_ring.Field
+R541:552 Coq.setoid_ring.Field_theory <> <> lib
+R570:578 Coq.setoid_ring.Field_tac <> <> lib

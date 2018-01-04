@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<style>
+			#pong {
+				border: solid 1px;
+				cursor: none;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="pong" height="400px" width="400px"></canvas>
+		<!-- Add in jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript">
+			// our code for the pong game will go
+			var Ball = function(x, y, dx, dy) {
+				this.x = x;
+				this.y = y;
+				this.dx = dx;
+				this.dy = dy;
+				this.r = 10; // the radius of the ball
+			};
+			Ball.prototype.move = function() {
+				this.x += this.dx;
+				this.y += this.dy;
+			};
+			// Reverses the direction of the ball on bounce and returns true
+			// Returns false if we have lost
+			Ball.prototype.bounce = function(w, h, paddle) {
+				// left side wall
+				if(this.x - this.r < 0) {
+					// we bounced off the left side
+					this.dx = -this.dx;
+				}
+				// right side wall
+				if (this.x + this.r > w) {
+					// we bounced off the right side
+					this.dx = -this.dx;
+				}
+				// top wall
+				if (this.y - this.r < 0) {
+					this.dy = -this.dy;
+				}
+				// paddle
+				if (this.y + this.r > paddle.y) && // vertical position
+					(this.x > paddle.x && this.x < paddle.x + paddle.w)) { // horizontal position
+					this.dy = -this.dy;
+				}
+				// hit the bottom ... lose
+				if (this.y + this.r > h) {
+					return false;
+				}
+				else {
+					// did not hit the bottom
+					return true;
+				}
+			};
+			Ball.prototype.draw = function(ctx) {
+				// draw a circle that is black
+				ctx.beginPath();
+				ctx.fillStyle = "black";
+				ctx.arc(this.x, this.y, this.r, 0, 2 * Math.PI);
+				ctx.closePath();
+				ctx.fill();
+			};
+			// w, h are the width and height of the canvas
+			var Paddle = function(w, h) {
+				this.w = 50;
+				this.h = 10;
+				this.x = (w / 2) - (this.w / 2);
+				this.y = h - (2 * this.h);
+			};
+			Paddle.prototype.draw = function(ctx) {
+				ctx.beginPath();
+				ctx.fillStyle = "blue";
+				ctx.rect(this.x, this.y, this.w, this.h);
+				ctx.closePath();
+				ctx.fill();
+			};
+			var Game = function() {
+				var canvas = $("#pong")[0];
+				var ctx = canvas.getContext("2d");
+				var w = parseInt(canvas.width);
+				var h = parseInt(canvas.height);
+				var ball = new Ball(w / 2, h / 2, 2, -1);
+				var paddle = new Paddle(w, h);
+				var intervalId = setInterval(
+					function() {
+						ctx.clearRect(0, 0, w, h);
+						// move ball
+						ball.move();
+						if (!ball.bounce(w, h, paddle)) {
+							// we lost
+							clearInterval(intervalId);
+							alert("You lost!");
+						}
+						// draw elements
+						ball.draw(ctx);
+						paddle.draw(ctx);
+					},
+					0
+				); // set Interval
+				$(canvas).mousemove(function(evt) {
+					paddle.x = evt.pageX - (paddle.w / 2);
+				});
+			};
+			// once the page has loaded, create a new game
+			$(function() {
+				new Game();
+			});
+		</script>
+	</body>
+</html>

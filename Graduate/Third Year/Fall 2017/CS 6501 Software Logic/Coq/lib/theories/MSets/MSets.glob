@@ -1,0 +1,15 @@
+DIGEST 9b506ac7892aba6962d60b60d5142a25
+FCoq.MSets.MSets
+R534:539 Coq.Structures.Orders <> <> lib
+R557:564 Coq.Structures.OrdersEx <> <> lib
+R582:590 Coq.Structures.OrdersAlt <> <> lib
+R608:617 Coq.Structures.Equalities <> <> lib
+R635:647 Coq.MSets.MSetInterface <> <> lib
+R665:673 Coq.MSets.MSetFacts <> <> lib
+R691:700 Coq.MSets.MSetDecide <> <> lib
+R718:731 Coq.MSets.MSetProperties <> <> lib
+R749:764 Coq.MSets.MSetEqProperties <> <> lib
+R782:793 Coq.MSets.MSetWeakList <> <> lib
+R811:818 Coq.MSets.MSetList <> <> lib
+R836:847 Coq.MSets.MSetPositive <> <> lib
+R865:871 Coq.MSets.MSetAVL <> <> lib

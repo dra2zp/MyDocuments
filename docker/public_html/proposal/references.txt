@@ -1,0 +1,12 @@
+D.J. Anderson
+dra2zp
+Proposal
+references.txt
+
+https://www.w3schools.com/cssref/pr_text_text-align.asp
+HTML text align property
+I used this to justify the paragraphs.
+
+https://www.w3schools.com/colors/colors_picker.asp
+HTML color picker
+I used this to choose colors for the HTML page.

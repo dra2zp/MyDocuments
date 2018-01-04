@@ -1,0 +1,39 @@
+DIGEST c94fdc437bbdceb69d97c685544b800a
+FCoq.Program.Tactics
+R1227:1227 Coq.Init.Datatypes <> S constr
+R1227:1227 Coq.Init.Datatypes <> S constr
+R1507:1510 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1507:1510 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1544:1547 Coq.Init.Datatypes <> prod ind
+R1544:1547 Coq.Init.Datatypes <> prod ind
+R2160:2161 Coq.Init.Logic <> ex ind
+R2160:2161 Coq.Init.Logic <> ex ind
+R2195:2197 Coq.Init.Specif <> sig ind
+R2195:2197 Coq.Init.Specif <> sig ind
+R2233:2236 Coq.Init.Specif <> sigT ind
+R2233:2236 Coq.Init.Specif <> sigT ind
+R2273:2275 Coq.Init.Logic <> ex2 ind
+R2273:2275 Coq.Init.Logic <> ex2 ind
+R2312:2315 Coq.Init.Specif <> sig2 ind
+R2312:2315 Coq.Init.Specif <> sig2 ind
+R2354:2358 Coq.Init.Specif <> sigT2 ind
+R2354:2358 Coq.Init.Specif <> sigT2 ind
+R3068:3071 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R3068:3071 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R4262:4264 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4262:4264 Coq.Init.Logic <> :type_scope:x_'='_x not
+def 6809:6817 <> fix_proto
+R6835:6835 Coq.Program.Tactics <> A var
+R6841:6841 Coq.Program.Tactics <> a var
+R6902:6910 Coq.Program.Tactics <> fix_proto def
+R6902:6910 Coq.Program.Tactics <> fix_proto def
+R7027:7035 Coq.Program.Tactics <> fix_proto def
+R7174:7176 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7174:7176 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7695:7704 Coq.Init.Logic <> False_rect scheme
+R7695:7704 Coq.Init.Logic <> False_rect scheme
+R9470:9481 Coq.Init.Wf <> well_founded def
+R9470:9481 Coq.Init.Wf <> well_founded def
+def 9748:9757 <> obligation
+R9775:9775 Coq.Program.Tactics <> A var
+R9781:9781 Coq.Program.Tactics <> a var

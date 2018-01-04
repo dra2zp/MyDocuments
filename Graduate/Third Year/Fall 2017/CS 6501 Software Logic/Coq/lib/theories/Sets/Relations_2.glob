@@ -1,0 +1,91 @@
+DIGEST 30069e737b8e41f3561994a1a0464cf0
+FCoq.Sets.Relations_2
+R1688:1698 Coq.Sets.Relations_1 <> <> lib
+sec 1710:1720 <> Relations_2
+var 1732:1732 Relations_2 U
+var 1751:1751 Relations_2 R
+R1755:1762 Coq.Sets.Relations_1 <> Relation def
+R1764:1764 Coq.Sets.Relations_2 <> Relations_2.U var
+ind 1778:1782 <> Rstar
+constr 1809:1815 <> Rstar_0
+constr 1833:1839 <> Rstar_n
+R1787:1787 Coq.Sets.Relations_2 <> Relations_2.U var
+R1793:1796 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1792:1792 Coq.Sets.Relations_2 <> Relations_2.U var
+R1819:1823 Coq.Sets.Relations_2 <> Rstar ind
+R1854:1854 Coq.Sets.Relations_2 <> Relations_2.U var
+R1862:1865 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1875:1878 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1879:1883 Coq.Sets.Relations_2 <> Rstar ind
+R1887:1887 Coq.Sets.Relations_2 <> z var
+R1866:1870 Coq.Sets.Relations_2 <> Rstar ind
+R1874:1874 Coq.Sets.Relations_2 <> z var
+R1872:1872 Coq.Sets.Relations_2 <> y var
+R1857:1857 Coq.Sets.Relations_2 <> Relations_2.R var
+R1861:1861 Coq.Sets.Relations_2 <> y var
+ind 1901:1906 <> Rstar1
+constr 1933:1940 <> Rstar1_0
+constr 1959:1966 <> Rstar1_1
+constr 2006:2013 <> Rstar1_n
+R1911:1911 Coq.Sets.Relations_2 <> Relations_2.U var
+R1917:1920 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1916:1916 Coq.Sets.Relations_2 <> Relations_2.U var
+R1944:1949 Coq.Sets.Relations_2 <> Rstar1 ind
+R1979:1979 Coq.Sets.Relations_2 <> Relations_2.U var
+R1987:1990 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1991:1996 Coq.Sets.Relations_2 <> Rstar1 ind
+R2000:2000 Coq.Sets.Relations_2 <> y var
+R1982:1982 Coq.Sets.Relations_2 <> Relations_2.R var
+R1986:1986 Coq.Sets.Relations_2 <> y var
+R2028:2028 Coq.Sets.Relations_2 <> Relations_2.U var
+R2041:2044 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2055:2058 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2059:2064 Coq.Sets.Relations_2 <> Rstar1 ind
+R2068:2068 Coq.Sets.Relations_2 <> z var
+R2045:2050 Coq.Sets.Relations_2 <> Rstar1 ind
+R2054:2054 Coq.Sets.Relations_2 <> z var
+R2052:2052 Coq.Sets.Relations_2 <> y var
+R2031:2036 Coq.Sets.Relations_2 <> Rstar1 ind
+R2040:2040 Coq.Sets.Relations_2 <> y var
+ind 2082:2086 <> Rplus
+constr 2113:2119 <> Rplus_0
+constr 2158:2164 <> Rplus_n
+R2091:2091 Coq.Sets.Relations_2 <> Relations_2.U var
+R2097:2100 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2096:2096 Coq.Sets.Relations_2 <> Relations_2.U var
+R2132:2132 Coq.Sets.Relations_2 <> Relations_2.U var
+R2140:2143 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2144:2148 Coq.Sets.Relations_2 <> Rplus ind
+R2152:2152 Coq.Sets.Relations_2 <> y var
+R2135:2135 Coq.Sets.Relations_2 <> Relations_2.R var
+R2139:2139 Coq.Sets.Relations_2 <> y var
+R2179:2179 Coq.Sets.Relations_2 <> Relations_2.U var
+R2187:2190 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2200:2203 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2204:2208 Coq.Sets.Relations_2 <> Rplus ind
+R2212:2212 Coq.Sets.Relations_2 <> z var
+R2191:2195 Coq.Sets.Relations_2 <> Rplus ind
+R2199:2199 Coq.Sets.Relations_2 <> z var
+R2197:2197 Coq.Sets.Relations_2 <> y var
+R2182:2182 Coq.Sets.Relations_2 <> Relations_2.R var
+R2186:2186 Coq.Sets.Relations_2 <> y var
+def 2227:2244 <> Strongly_confluent
+R2271:2271 Coq.Sets.Relations_2 <> Relations_2.U var
+R2279:2282 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2288:2291 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2292:2293 Coq.Init.Logic <> ex ind
+R2302:2302 Coq.Sets.Relations_2 <> Relations_2.U var
+R2312:2315 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2307:2307 Coq.Sets.Relations_2 <> Relations_2.R var
+R2311:2311 Coq.Sets.Relations_2 <> z var
+R2309:2309 Coq.Sets.Relations_2 <> a var
+R2316:2316 Coq.Sets.Relations_2 <> Relations_2.R var
+R2320:2320 Coq.Sets.Relations_2 <> z var
+R2318:2318 Coq.Sets.Relations_2 <> b var
+R2283:2283 Coq.Sets.Relations_2 <> Relations_2.R var
+R2287:2287 Coq.Sets.Relations_2 <> b var
+R2285:2285 Coq.Sets.Relations_2 <> x var
+R2274:2274 Coq.Sets.Relations_2 <> Relations_2.R var
+R2278:2278 Coq.Sets.Relations_2 <> a var
+R2276:2276 Coq.Sets.Relations_2 <> x var
+R2329:2339 Coq.Sets.Relations_2 Relations_2 <> sec

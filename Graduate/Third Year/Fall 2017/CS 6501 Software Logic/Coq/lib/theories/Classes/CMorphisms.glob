@@ -1,0 +1,767 @@
+DIGEST a88b84277a870bc72358eb27c9c88229
+FCoq.Classes.CMorphisms
+R733:750 Coq.Program.Basics <> <> lib
+R768:786 Coq.Program.Tactics <> <> lib
+R804:831 Coq.Classes.CRelationClasses <> <> lib
+sec 1311:1316 <> Proper
+ind 1350:1355 <> Proper
+constr 1390:1399 <> proper_prf
+rec 1350:1355 <> Proper
+proj 1390:1399 <> proper_prf
+R1362:1370 Coq.Classes.CRelationClasses <> crelation def
+R1372:1372 Coq.Classes.CMorphisms <> Proper.A var
+R1380:1380 Coq.Classes.CMorphisms <> Proper.A var
+R1403:1403 Coq.Classes.CMorphisms <> R var
+R1407:1407 Coq.Classes.CMorphisms <> m var
+R1405:1405 Coq.Classes.CMorphisms <> m var
+ind 1967:1977 <> ProperProxy
+constr 2012:2023 <> proper_proxy
+rec 1967:1977 <> ProperProxy
+proj 2012:2023 <> proper_proxy
+R1984:1992 Coq.Classes.CRelationClasses <> crelation def
+R1994:1994 Coq.Classes.CMorphisms <> Proper.A var
+R2002:2002 Coq.Classes.CMorphisms <> Proper.A var
+R2027:2027 Coq.Classes.CMorphisms <> R var
+R2031:2031 Coq.Classes.CMorphisms <> m var
+R2029:2029 Coq.Classes.CMorphisms <> m var
+prf 2043:2057 <> eq_proper_proxy
+R2064:2064 Coq.Classes.CMorphisms <> Proper.A var
+R2069:2079 Coq.Classes.CMorphisms <> ProperProxy class
+R2089:2089 Coq.Classes.CMorphisms <> x var
+R2083:2084 Coq.Init.Logic <> eq ind
+R2086:2086 Coq.Classes.CMorphisms <> Proper.A var
+prf 2129:2150 <> reflexive_proper_proxy
+R2154:2162 Coq.Classes.CRelationClasses <> Reflexive class
+R2164:2164 Coq.Classes.CMorphisms <> Proper.A var
+R2174:2174 Coq.Classes.CMorphisms <> Proper.A var
+R2179:2189 Coq.Classes.CMorphisms <> ProperProxy class
+R2193:2193 Coq.Classes.CMorphisms <> x var
+R2191:2191 Coq.Classes.CMorphisms <> R var
+prf 2231:2249 <> proper_proper_proxy
+R2255:2260 Coq.Classes.CMorphisms <> Proper class
+R2264:2264 Coq.Classes.CMorphisms <> x var
+R2269:2279 Coq.Classes.CMorphisms <> ProperProxy class
+R2283:2283 Coq.Classes.CMorphisms <> x var
+R2281:2281 Coq.Classes.CMorphisms <> R var
+def 2415:2431 <> respectful_hetero
+R2456:2459 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2455:2455 Coq.Classes.CMorphisms <> A var
+R2472:2475 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2471:2471 Coq.Classes.CMorphisms <> B var
+R2490:2493 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2495:2498 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2494:2494 Coq.Classes.CMorphisms <> B var
+R2489:2489 Coq.Classes.CMorphisms <> A var
+R2525:2525 Coq.Classes.CMorphisms <> A var
+R2533:2533 Coq.Classes.CMorphisms <> B var
+R2540:2543 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2547:2550 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2544:2544 Coq.Classes.CMorphisms <> D var
+R2546:2546 Coq.Classes.CMorphisms <> y var
+R2537:2537 Coq.Classes.CMorphisms <> C var
+R2539:2539 Coq.Classes.CMorphisms <> x var
+R2563:2563 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2581:2585 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2586:2586 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2604:2608 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2598:2598 Coq.Classes.CMorphisms <> B var
+R2601:2601 Coq.Classes.CMorphisms <> D var
+R2603:2603 Coq.Classes.CMorphisms <> x var
+R2575:2575 Coq.Classes.CMorphisms <> A var
+R2578:2578 Coq.Classes.CMorphisms <> C var
+R2580:2580 Coq.Classes.CMorphisms <> x var
+R2649:2652 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2653:2654 Coq.Classes.CMorphisms <> R' var
+R2667:2667 Coq.Classes.CMorphisms <> g var
+R2669:2669 Coq.Classes.CMorphisms <> y var
+R2661:2661 Coq.Classes.CMorphisms <> f var
+R2663:2663 Coq.Classes.CMorphisms <> x var
+R2658:2658 Coq.Classes.CMorphisms <> y var
+R2656:2656 Coq.Classes.CMorphisms <> x var
+R2644:2644 Coq.Classes.CMorphisms <> R var
+R2648:2648 Coq.Classes.CMorphisms <> y var
+R2646:2646 Coq.Classes.CMorphisms <> x var
+def 2770:2779 <> respectful
+R2790:2798 Coq.Classes.CRelationClasses <> crelation def
+R2800:2800 Coq.Classes.CMorphisms <> Proper.A var
+R2809:2817 Coq.Classes.CRelationClasses <> crelation def
+R2819:2819 Coq.Classes.CMorphisms <> B var
+R2824:2832 Coq.Classes.CRelationClasses <> crelation def
+R2836:2839 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2840:2840 Coq.Classes.CMorphisms <> B var
+R2835:2835 Coq.Classes.CMorphisms <> Proper.A var
+R2867:2883 Coq.Classes.CMorphisms <> respectful_hetero def
+R2929:2930 Coq.Classes.CMorphisms <> R' var
+R2915:2915 Coq.Classes.CMorphisms <> R var
+R2912:2912 Coq.Classes.CMorphisms <> B var
+R2899:2899 Coq.Classes.CMorphisms <> B var
+R2887:2887 Coq.Classes.CMorphisms <> Proper.A var
+R2885:2885 Coq.Classes.CMorphisms <> Proper.A var
+R2938:2943 Coq.Classes.CMorphisms Proper <> sec
+R3153:3163 Coq.Classes.CMorphisms <> ProperProxy class
+R3221:3242 Coq.Classes.CMorphisms <> reflexive_proper_proxy thm
+R3189:3203 Coq.Classes.CMorphisms <> eq_proper_proxy thm
+R3283:3293 Coq.Classes.CMorphisms <> ProperProxy class
+R3332:3350 Coq.Classes.CMorphisms <> proper_proper_proxy thm
+mod 3502:3516 <> ProperNotations
+R3549:3558 Coq.Classes.CMorphisms <> respectful def
+not 3531:3531 ProperNotations :signature_scope:x_'++>'_x
+R3682:3691 Coq.Classes.CMorphisms <> respectful def
+not 3664:3664 ProperNotations :signature_scope:x_'==>'_x
+R3815:3824 Coq.Classes.CMorphisms <> respectful def
+R3831:3834 Coq.Classes.CRelationClasses <> flip def
+not 3797:3797 ProperNotations :signature_scope:x_'-->'_x
+R3930:3944 Coq.Classes.CMorphisms ProperNotations <> mod
+R3958:3963 Coq.Classes.CMorphisms <> Proper class
+R3958:3963 Coq.Classes.CMorphisms <> Proper class
+R3958:3963 Coq.Classes.CMorphisms <> Proper class
+R3999:4008 Coq.Classes.CMorphisms <> respectful def
+R3999:4008 Coq.Classes.CMorphisms <> respectful def
+R3999:4008 Coq.Classes.CMorphisms <> respectful def
+R4377:4386 Coq.Classes.CMorphisms <> respectful def
+R4377:4386 Coq.Classes.CMorphisms <> respectful def
+R4549:4554 Coq.Classes.CMorphisms <> Proper class
+R5180:5185 Coq.Classes.CMorphisms <> Proper class
+R4985:4993 Coq.Classes.CRelationClasses <> crelation def
+R5040:5042 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+sec 5270:5278 <> Relations
+def 5390:5399 <> forall_def
+R5407:5410 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5406:5406 Coq.Classes.CMorphisms <> Relations.A var
+R5438:5438 Coq.Classes.CMorphisms <> Relations.A var
+R5441:5441 Coq.Classes.CMorphisms <> P var
+R5443:5443 Coq.Classes.CMorphisms <> x var
+def 5531:5545 <> forall_relation
+R5553:5556 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5552:5552 Coq.Classes.CMorphisms <> Relations.A var
+R5593:5601 Coq.Classes.CRelationClasses <> crelation def
+R5604:5604 Coq.Classes.CMorphisms <> P var
+R5606:5606 Coq.Classes.CMorphisms <> a var
+R5612:5620 Coq.Classes.CRelationClasses <> crelation def
+R5633:5633 Coq.Classes.CMorphisms <> P var
+R5635:5635 Coq.Classes.CMorphisms <> x var
+R5666:5668 Coq.Classes.CMorphisms <> sig var
+R5679:5679 Coq.Classes.CMorphisms <> g var
+R5681:5681 Coq.Classes.CMorphisms <> a var
+R5673:5673 Coq.Classes.CMorphisms <> f var
+R5675:5675 Coq.Classes.CMorphisms <> a var
+R5670:5670 Coq.Classes.CMorphisms <> a var
+def 5740:5757 <> pointwise_relation
+R5768:5776 Coq.Classes.CRelationClasses <> crelation def
+R5778:5778 Coq.Classes.CMorphisms <> B var
+R5783:5791 Coq.Classes.CRelationClasses <> crelation def
+R5795:5798 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5799:5799 Coq.Classes.CMorphisms <> B var
+R5794:5794 Coq.Classes.CMorphisms <> Relations.A var
+R5830:5830 Coq.Classes.CMorphisms <> R var
+R5839:5839 Coq.Classes.CMorphisms <> g var
+R5841:5841 Coq.Classes.CMorphisms <> a var
+R5833:5833 Coq.Classes.CMorphisms <> f var
+R5835:5835 Coq.Classes.CMorphisms <> a var
+prf 5854:5872 <> pointwise_pointwise
+R5883:5891 Coq.Classes.CRelationClasses <> crelation def
+R5893:5893 Coq.Classes.CMorphisms <> B var
+R5902:5921 Coq.Classes.CRelationClasses <> relation_equivalence def
+R5952:5956 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R5948:5949 Coq.Init.Logic <> eq ind
+R5951:5951 Coq.Classes.CMorphisms <> Relations.A var
+R5957:5957 Coq.Classes.CMorphisms <> R var
+R5924:5941 Coq.Classes.CMorphisms <> pointwise_relation def
+R5943:5943 Coq.Classes.CMorphisms <> R var
+inst 6101:6121 <> subrelation_id_proper
+R6125:6135 Coq.Classes.CRelationClasses <> subrelation class
+R6137:6137 Coq.Classes.CMorphisms <> Relations.A var
+R6149:6154 Coq.Classes.CMorphisms <> Proper class
+R6169:6170 Coq.Init.Datatypes <> id def
+R6159:6163 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R6157:6158 Coq.Classes.CMorphisms <> RA var
+R6164:6166 Coq.Classes.CMorphisms <> RA' var
+prf 6277:6298 <> subrelation_respectful
+R6309:6319 Coq.Classes.CRelationClasses <> subrelation class
+R6321:6321 Coq.Classes.CMorphisms <> Relations.A var
+R6338:6348 Coq.Classes.CRelationClasses <> subrelation class
+R6366:6376 Coq.Classes.CRelationClasses <> subrelation class
+R6394:6398 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R6391:6393 Coq.Classes.CMorphisms <> RA' var
+R6399:6401 Coq.Classes.CMorphisms <> RB' var
+R6381:6385 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R6379:6380 Coq.Classes.CMorphisms <> RA var
+R6386:6387 Coq.Classes.CMorphisms <> RB var
+prf 6488:6503 <> subrelation_refl
+R6510:6520 Coq.Classes.CRelationClasses <> subrelation class
+R6526:6526 Coq.Classes.CMorphisms <> R var
+R6524:6524 Coq.Classes.CMorphisms <> R var
+R6522:6522 Coq.Classes.CMorphisms <> Relations.A var
+prf 6696:6713 <> subrelation_proper
+R6723:6728 Coq.Classes.CMorphisms <> Proper class
+R6730:6730 Coq.Classes.CMorphisms <> Relations.A var
+R6755:6767 Coq.Classes.Init <> Unconvertible class
+R6785:6786 Coq.Classes.CMorphisms <> R' var
+R6770:6778 Coq.Classes.CRelationClasses <> crelation def
+R6780:6780 Coq.Classes.CMorphisms <> Relations.A var
+R6805:6815 Coq.Classes.CRelationClasses <> subrelation class
+R6822:6822 Coq.Classes.CMorphisms <> R var
+R6819:6820 Coq.Classes.CMorphisms <> R' var
+R6817:6817 Coq.Classes.CMorphisms <> Relations.A var
+R6827:6832 Coq.Classes.CMorphisms <> Proper class
+R6836:6836 Coq.Classes.CMorphisms <> m var
+R6834:6834 Coq.Classes.CMorphisms <> R var
+inst 6908:6938 <> proper_subrelation_proper_arrow
+R6946:6951 Coq.Classes.CMorphisms <> Proper class
+R6986:6991 Coq.Classes.CMorphisms <> Proper class
+R6993:6993 Coq.Classes.CMorphisms <> Relations.A var
+R6965:6969 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'++>'_x not
+R6954:6964 Coq.Classes.CRelationClasses <> subrelation class
+R6972:6976 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R6970:6971 Coq.Init.Logic <> eq ind
+R6977:6981 Coq.Classes.CRelationClasses <> arrow def
+inst 7057:7077 <> pointwise_subrelation
+R7087:7097 Coq.Classes.CRelationClasses <> subrelation class
+R7113:7123 Coq.Classes.CRelationClasses <> subrelation class
+R7149:7166 Coq.Classes.CMorphisms <> pointwise_relation def
+R7168:7169 Coq.Classes.CMorphisms <> R' var
+R7126:7143 Coq.Classes.CMorphisms <> pointwise_relation def
+R7145:7145 Coq.Classes.CMorphisms <> R var
+R7201:7218 Coq.Classes.CMorphisms <> pointwise_relation def
+prf 7298:7315 <> forall_subrelation
+R7323:7326 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7322:7322 Coq.Classes.CMorphisms <> Relations.A var
+R7351:7351 Coq.Classes.CMorphisms <> Relations.A var
+R7354:7362 Coq.Classes.CRelationClasses <> crelation def
+R7365:7365 Coq.Classes.CMorphisms <> P var
+R7367:7367 Coq.Classes.CMorphisms <> x var
+R7377:7377 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7411:7420 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7421:7431 Coq.Classes.CRelationClasses <> subrelation class
+R7456:7470 Coq.Classes.CMorphisms <> forall_relation def
+R7474:7474 Coq.Classes.CMorphisms <> S var
+R7472:7472 Coq.Classes.CMorphisms <> P var
+R7434:7448 Coq.Classes.CMorphisms <> forall_relation def
+R7452:7452 Coq.Classes.CMorphisms <> R var
+R7450:7450 Coq.Classes.CMorphisms <> P var
+R7388:7398 Coq.Classes.CRelationClasses <> subrelation class
+R7407:7407 Coq.Classes.CMorphisms <> S var
+R7409:7409 Coq.Classes.CMorphisms <> a var
+R7401:7401 Coq.Classes.CMorphisms <> R var
+R7403:7403 Coq.Classes.CMorphisms <> a var
+R7516:7524 Coq.Classes.CMorphisms Relations <> sec
+R7603:7617 Coq.Classes.CMorphisms <> forall_relation def
+R7603:7617 Coq.Classes.CMorphisms <> forall_relation def
+R7603:7617 Coq.Classes.CMorphisms <> forall_relation def
+R7659:7676 Coq.Classes.CMorphisms <> pointwise_relation def
+R7659:7676 Coq.Classes.CMorphisms <> pointwise_relation def
+R7659:7676 Coq.Classes.CMorphisms <> pointwise_relation def
+R7726:7734 Coq.Classes.CRelationClasses <> Reflexive class
+R7756:7764 Coq.Classes.CRelationClasses <> Symmetric class
+R7786:7795 Coq.Classes.CRelationClasses <> Transitive class
+R8071:8086 Coq.Classes.CMorphisms <> subrelation_refl thm
+R8032:8053 Coq.Classes.CMorphisms <> subrelation_respectful thm
+R7994:8009 Coq.Classes.CMorphisms <> subrelation_refl thm
+R8106:8116 Coq.Classes.CRelationClasses <> subrelation class
+ind 8186:8202 <> apply_subrelation
+constr 8214:8227 <> do_subrelation
+R8228:8228 Coq.Classes.CMorphisms <> apply_subrelation ind
+R8286:8302 Coq.Classes.CMorphisms <> apply_subrelation coind
+R8286:8302 Coq.Classes.CMorphisms <> apply_subrelation coind
+R8337:8354 Coq.Classes.CMorphisms <> subrelation_proper thm
+R8380:8385 Coq.Classes.CMorphisms <> Proper class
+inst 8534:8553 <> iff_impl_subrelation
+R8557:8567 Coq.Classes.CRelationClasses <> subrelation class
+R8573:8576 Coq.Program.Basics <> impl def
+R8569:8571 Coq.Init.Logic <> iff def
+inst 8617:8641 <> iff_flip_impl_subrelation
+R8645:8655 Coq.Classes.CRelationClasses <> subrelation class
+R8662:8665 Coq.Classes.CRelationClasses <> flip def
+R8667:8670 Coq.Program.Basics <> impl def
+R8657:8659 Coq.Init.Logic <> iff def
+inst 8776:8797 <> iffT_arrow_subrelation
+R8801:8811 Coq.Classes.CRelationClasses <> subrelation class
+R8818:8822 Coq.Classes.CRelationClasses <> arrow def
+R8813:8816 Coq.Classes.CRelationClasses <> iffT def
+inst 8863:8889 <> iffT_flip_arrow_subrelation
+R8893:8903 Coq.Classes.CRelationClasses <> subrelation class
+R8911:8914 Coq.Classes.CRelationClasses <> flip def
+R8916:8920 Coq.Classes.CRelationClasses <> arrow def
+R8905:8908 Coq.Classes.CRelationClasses <> iffT def
+R9019:9029 Coq.Classes.CRelationClasses <> subrelation class
+R9061:9075 Coq.Classes.CMorphisms <> forall_relation def
+R9033:9047 Coq.Classes.CMorphisms <> forall_relation def
+R9099:9116 Coq.Classes.CMorphisms <> forall_subrelation thm
+sec 9167:9182 <> GenericInstances
+inst 9364:9377 <> respectful_per
+R9381:9383 Coq.Classes.CRelationClasses <> PER class
+R9390:9392 Coq.Classes.CRelationClasses <> PER class
+R9402:9404 Coq.Classes.CRelationClasses <> PER class
+R9408:9412 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R9407:9407 Coq.Classes.CMorphisms <> R var
+R9413:9414 Coq.Classes.CMorphisms <> R' var
+def 9758:9768 <> flip_proper
+R9788:9793 Coq.Classes.CMorphisms <> Proper class
+R9812:9816 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R9819:9823 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R9797:9800 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9802:9805 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9837:9842 Coq.Classes.CMorphisms <> Proper class
+R9864:9867 Coq.Classes.CRelationClasses <> flip def
+R9869:9869 Coq.Classes.CMorphisms <> f var
+R9847:9851 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R9845:9846 Coq.Classes.CMorphisms <> RB var
+R9854:9858 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R9852:9853 Coq.Classes.CMorphisms <> RA var
+R9859:9860 Coq.Classes.CMorphisms <> RC var
+inst 10116:10144 <> trans_contra_co_type_morphism
+R10152:10161 Coq.Classes.CRelationClasses <> Transitive class
+R10170:10175 Coq.Classes.CMorphisms <> Proper class
+R10197:10197 Coq.Classes.CMorphisms <> R var
+R10179:10183 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'-->'_x not
+R10178:10178 Coq.Classes.CMorphisms <> R var
+R10185:10189 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'++>'_x not
+R10184:10184 Coq.Classes.CMorphisms <> R var
+R10190:10194 Coq.Classes.CRelationClasses <> arrow def
+inst 10379:10413 <> trans_contra_inv_impl_type_morphism
+R10419:10428 Coq.Classes.CRelationClasses <> Transitive class
+R10437:10442 Coq.Classes.CMorphisms <> Proper class
+R10464:10464 Coq.Classes.CMorphisms <> R var
+R10446:10450 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'-->'_x not
+R10445:10445 Coq.Classes.CMorphisms <> R var
+R10451:10454 Coq.Classes.CRelationClasses <> flip def
+R10456:10460 Coq.Classes.CRelationClasses <> arrow def
+inst 10572:10598 <> trans_co_impl_type_morphism
+R10606:10615 Coq.Classes.CRelationClasses <> Transitive class
+R10624:10629 Coq.Classes.CMorphisms <> Proper class
+R10646:10646 Coq.Classes.CMorphisms <> R var
+R10633:10637 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'++>'_x not
+R10632:10632 Coq.Classes.CMorphisms <> R var
+R10638:10642 Coq.Classes.CRelationClasses <> arrow def
+inst 10755:10789 <> trans_sym_co_inv_impl_type_morphism
+R10797:10799 Coq.Classes.CRelationClasses <> PER class
+R10808:10813 Coq.Classes.CMorphisms <> Proper class
+R10835:10835 Coq.Classes.CMorphisms <> R var
+R10817:10821 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'++>'_x not
+R10816:10816 Coq.Classes.CMorphisms <> R var
+R10822:10825 Coq.Classes.CRelationClasses <> flip def
+R10827:10831 Coq.Classes.CRelationClasses <> arrow def
+inst 10952:10982 <> trans_sym_contra_arrow_morphism
+R10990:10992 Coq.Classes.CRelationClasses <> PER class
+R11001:11006 Coq.Classes.CMorphisms <> Proper class
+R11023:11023 Coq.Classes.CMorphisms <> R var
+R11010:11014 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'-->'_x not
+R11009:11009 Coq.Classes.CMorphisms <> R var
+R11015:11019 Coq.Classes.CRelationClasses <> arrow def
+inst 11141:11169 <> per_partial_app_type_morphism
+R11175:11177 Coq.Classes.CRelationClasses <> PER class
+R11186:11191 Coq.Classes.CMorphisms <> Proper class
+R11207:11207 Coq.Classes.CMorphisms <> R var
+R11195:11199 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R11194:11194 Coq.Classes.CMorphisms <> R var
+R11200:11203 Coq.Classes.CRelationClasses <> iffT def
+inst 11518:11547 <> trans_co_eq_inv_arrow_morphism
+R11553:11562 Coq.Classes.CRelationClasses <> Transitive class
+R11571:11576 Coq.Classes.CMorphisms <> Proper class
+R11609:11609 Coq.Classes.CMorphisms <> R var
+R11580:11584 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R11579:11579 Coq.Classes.CMorphisms <> R var
+R11585:11585 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R11591:11596 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R11587:11588 Coq.Init.Logic <> eq ind
+R11590:11590 Coq.Classes.CMorphisms <> A var
+R11597:11600 Coq.Classes.CRelationClasses <> flip def
+R11602:11606 Coq.Classes.CRelationClasses <> arrow def
+inst 11804:11820 <> PER_type_morphism
+R11824:11826 Coq.Classes.CRelationClasses <> PER class
+R11835:11840 Coq.Classes.CMorphisms <> Proper class
+R11861:11861 Coq.Classes.CMorphisms <> R var
+R11844:11848 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R11843:11843 Coq.Classes.CMorphisms <> R var
+R11850:11854 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R11849:11849 Coq.Classes.CMorphisms <> R var
+R11855:11858 Coq.Classes.CRelationClasses <> iffT def
+prf 12050:12069 <> symmetric_equiv_flip
+R12073:12081 Coq.Classes.CRelationClasses <> Symmetric class
+R12090:12109 Coq.Classes.CRelationClasses <> relation_equivalence def
+R12114:12117 Coq.Classes.CRelationClasses <> flip def
+R12119:12119 Coq.Classes.CMorphisms <> R var
+R12111:12111 Coq.Classes.CMorphisms <> R var
+inst 12176:12189 <> compose_proper
+R12212:12217 Coq.Classes.CMorphisms <> Proper class
+R12267:12273 Coq.Program.Basics <> compose def
+R12279:12279 Coq.Classes.CMorphisms <> C var
+R12277:12277 Coq.Classes.CMorphisms <> B var
+R12275:12275 Coq.Classes.CMorphisms <> A var
+R12220:12220 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R12230:12235 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R12223:12227 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R12221:12222 Coq.Classes.CMorphisms <> RB var
+R12228:12229 Coq.Classes.CMorphisms <> RC var
+R12236:12236 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R12246:12252 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R12262:12262 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R12239:12243 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R12237:12238 Coq.Classes.CMorphisms <> RA var
+R12244:12245 Coq.Classes.CMorphisms <> RB var
+R12255:12259 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R12253:12254 Coq.Classes.CMorphisms <> RA var
+R12260:12261 Coq.Classes.CMorphisms <> RC var
+R12344:12350 Coq.Program.Basics <> compose def
+inst 12488:12513 <> reflexive_eq_dom_reflexive
+R12517:12525 Coq.Classes.CRelationClasses <> Reflexive class
+R12539:12547 Coq.Classes.CRelationClasses <> Reflexive class
+R12561:12565 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R12551:12558 Coq.Init.Logic <> eq ind
+R12566:12567 Coq.Classes.CMorphisms <> R' var
+inst 12686:12704 <> respectful_morphism
+R12712:12717 Coq.Classes.CMorphisms <> Proper class
+R12806:12815 Coq.Classes.CMorphisms <> respectful def
+R12740:12744 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'++>'_x not
+R12720:12739 Coq.Classes.CRelationClasses <> relation_equivalence def
+R12765:12769 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'++>'_x not
+R12745:12764 Coq.Classes.CRelationClasses <> relation_equivalence def
+R12770:12789 Coq.Classes.CRelationClasses <> relation_equivalence def
+R12885:12894 Coq.Classes.CMorphisms <> respectful def
+R12898:12917 Coq.Classes.CRelationClasses <> relation_equivalence def
+R12978:12980 Coq.Init.Datatypes <> fst def
+R12978:12980 Coq.Init.Datatypes <> fst def
+R13015:13017 Coq.Init.Datatypes <> snd def
+R13015:13017 Coq.Init.Datatypes <> snd def
+R13044:13046 Coq.Init.Datatypes <> snd def
+R13044:13046 Coq.Init.Datatypes <> snd def
+R13081:13083 Coq.Init.Datatypes <> fst def
+R13081:13083 Coq.Init.Datatypes <> fst def
+prf 13180:13209 <> Reflexive_partial_app_morphism
+R13213:13218 Coq.Classes.CMorphisms <> Proper class
+R13231:13235 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R13222:13225 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R13243:13253 Coq.Classes.CMorphisms <> ProperProxy class
+R13257:13257 Coq.Classes.CMorphisms <> R var
+R13255:13255 Coq.Classes.CMorphisms <> A var
+R13268:13273 Coq.Classes.CMorphisms <> Proper class
+R13279:13279 Coq.Classes.CMorphisms <> m var
+R13281:13281 Coq.Classes.CMorphisms <> x var
+R13275:13276 Coq.Classes.CMorphisms <> R' var
+rec 13327:13332 <> Params
+R13344:13344 Coq.Classes.CMorphisms <> A var
+R13356:13358 Coq.Init.Datatypes <> nat ind
+prf 13375:13389 <> flip_respectful
+R13402:13410 Coq.Classes.CRelationClasses <> crelation def
+R13412:13412 Coq.Classes.CMorphisms <> A var
+R13421:13429 Coq.Classes.CRelationClasses <> crelation def
+R13431:13431 Coq.Classes.CMorphisms <> B var
+R13440:13459 Coq.Classes.CRelationClasses <> relation_equivalence def
+R13486:13490 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R13480:13483 Coq.Classes.CRelationClasses <> flip def
+R13485:13485 Coq.Classes.CMorphisms <> R var
+R13491:13494 Coq.Classes.CRelationClasses <> flip def
+R13496:13497 Coq.Classes.CMorphisms <> R' var
+R13462:13465 Coq.Classes.CRelationClasses <> flip def
+R13469:13473 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R13468:13468 Coq.Classes.CMorphisms <> R var
+R13474:13475 Coq.Classes.CMorphisms <> R' var
+R13533:13536 Coq.Classes.CRelationClasses <> flip def
+R13539:13548 Coq.Classes.CMorphisms <> respectful def
+prf 13715:13719 <> flip1
+R13723:13733 Coq.Classes.CRelationClasses <> subrelation class
+R13745:13755 Coq.Classes.CRelationClasses <> subrelation class
+R13774:13774 Coq.Classes.CMorphisms <> R var
+R13758:13761 Coq.Classes.CRelationClasses <> flip def
+R13764:13767 Coq.Classes.CRelationClasses <> flip def
+R13769:13770 Coq.Classes.CMorphisms <> R' var
+prf 13814:13818 <> flip2
+R13822:13832 Coq.Classes.CRelationClasses <> subrelation class
+R13844:13854 Coq.Classes.CRelationClasses <> subrelation class
+R13859:13862 Coq.Classes.CRelationClasses <> flip def
+R13865:13868 Coq.Classes.CRelationClasses <> flip def
+R13870:13871 Coq.Classes.CMorphisms <> R' var
+R13856:13856 Coq.Classes.CMorphisms <> R var
+prf 13947:13960 <> eq_subrelation
+R13964:13972 Coq.Classes.CRelationClasses <> Reflexive class
+R13981:13991 Coq.Classes.CRelationClasses <> subrelation class
+R14001:14001 Coq.Classes.CMorphisms <> R var
+R13995:13996 Coq.Init.Logic <> eq ind
+R13998:13998 Coq.Classes.CMorphisms <> A var
+def 14139:14156 <> proper_flip_proper
+R14166:14171 Coq.Classes.CMorphisms <> Proper class
+R14182:14187 Coq.Classes.CMorphisms <> Proper class
+R14198:14198 Coq.Classes.CMorphisms <> m var
+R14190:14193 Coq.Classes.CRelationClasses <> flip def
+R14195:14195 Coq.Classes.CMorphisms <> R var
+R14203:14205 Coq.Classes.CMorphisms <> mor var
+prf 14340:14355 <> reflexive_proper
+R14359:14367 Coq.Classes.CRelationClasses <> Reflexive class
+R14379:14379 Coq.Classes.CMorphisms <> A var
+R14384:14389 Coq.Classes.CMorphisms <> Proper class
+R14393:14393 Coq.Classes.CMorphisms <> x var
+R14391:14391 Coq.Classes.CMorphisms <> R var
+prf 14433:14441 <> proper_eq
+R14452:14452 Coq.Classes.CMorphisms <> A var
+R14457:14462 Coq.Classes.CMorphisms <> Proper class
+R14472:14472 Coq.Classes.CMorphisms <> x var
+R14466:14467 Coq.Init.Logic <> eq ind
+R14469:14469 Coq.Classes.CMorphisms <> A var
+R14498:14513 Coq.Classes.CMorphisms <> reflexive_proper thm
+R14498:14513 Coq.Classes.CMorphisms <> reflexive_proper thm
+R14528:14543 Coq.Classes.CMorphisms GenericInstances <> sec
+rec 14553:14570 <> PartialApplication
+ind 14586:14603 <> normalization_done
+constr 14615:14631 <> did_normalization
+R14632:14632 Coq.Classes.CMorphisms <> normalization_done ind
+R14757:14786 Coq.Classes.CMorphisms <> Reflexive_partial_app_morphism thm
+R14985:14985 Coq.Init.Datatypes <> S constr
+R14985:14985 Coq.Init.Datatypes <> S constr
+R15180:15182 Coq.Init.Datatypes <> nat ind
+R15273:15278 Coq.Classes.CMorphisms <> Params class
+R15537:15554 Coq.Classes.CMorphisms <> normalization_done coind
+R15537:15554 Coq.Classes.CMorphisms <> normalization_done coind
+R15586:15591 Coq.Classes.CMorphisms <> Params class
+R15586:15591 Coq.Classes.CMorphisms <> Params class
+R15628:15633 Coq.Classes.CMorphisms <> Proper class
+R15628:15633 Coq.Classes.CMorphisms <> Proper class
+R15691:15708 Coq.Classes.CMorphisms <> PartialApplication class
+R15691:15708 Coq.Classes.CMorphisms <> PartialApplication class
+R15848:15877 Coq.Classes.CMorphisms <> Reflexive_partial_app_morphism thm
+R15743:15772 Coq.Classes.CMorphisms <> Reflexive_partial_app_morphism thm
+inst 15929:15941 <> proper_proper
+R15945:15950 Coq.Classes.CMorphisms <> Proper class
+R15993:15998 Coq.Classes.CMorphisms <> Proper class
+R15973:15977 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R15953:15972 Coq.Classes.CRelationClasses <> relation_equivalence def
+R15980:15984 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R15978:15979 Coq.Init.Logic <> eq ind
+R15985:15988 Coq.Classes.CRelationClasses <> iffT def
+R16091:16093 Coq.Init.Datatypes <> fst def
+R16091:16093 Coq.Init.Datatypes <> fst def
+R16122:16124 Coq.Init.Datatypes <> snd def
+R16122:16124 Coq.Init.Datatypes <> snd def
+R16200:16217 Coq.Classes.CMorphisms <> normalization_done coind
+R16200:16217 Coq.Classes.CMorphisms <> normalization_done coind
+R16285:16300 Coq.Classes.CMorphisms <> reflexive_proper thm
+R16326:16336 Coq.Classes.CRelationClasses <> subrelation class
+R16339:16342 Coq.Classes.CRelationClasses <> flip def
+R16366:16370 Coq.Classes.CMorphisms <> flip1 thm
+R16410:16420 Coq.Classes.CRelationClasses <> subrelation class
+R16425:16428 Coq.Classes.CRelationClasses <> flip def
+R16450:16454 Coq.Classes.CMorphisms <> flip2 thm
+R16601:16606 Coq.Classes.CMorphisms <> Proper class
+R16611:16614 Coq.Classes.CRelationClasses <> flip def
+R16630:16640 Coq.Classes.CMorphisms <> flip_proper def
+R16684:16689 Coq.Classes.CMorphisms <> Proper class
+R16694:16697 Coq.Classes.CRelationClasses <> flip def
+R16721:16738 Coq.Classes.CMorphisms <> proper_flip_proper def
+R16782:16787 Coq.Classes.CMorphisms <> Proper class
+R16868:16873 Coq.Classes.CMorphisms <> Proper class
+sec 17014:17022 <> Normalize
+ind 17056:17065 <> Normalizes
+constr 17111:17120 <> normalizes
+rec 17056:17065 <> Normalizes
+proj 17111:17120 <> normalizes
+R17072:17080 Coq.Classes.CRelationClasses <> crelation def
+R17082:17082 Coq.Classes.CMorphisms <> Normalize.A var
+R17091:17099 Coq.Classes.CRelationClasses <> crelation def
+R17101:17101 Coq.Classes.CMorphisms <> Normalize.A var
+R17124:17143 Coq.Classes.CRelationClasses <> relation_equivalence def
+R17147:17148 Coq.Classes.CMorphisms <> m' var
+R17145:17145 Coq.Classes.CMorphisms <> m var
+prf 17258:17281 <> proper_normalizes_proper
+R17285:17294 Coq.Classes.CMorphisms <> Normalizes class
+R17303:17308 Coq.Classes.CMorphisms <> Proper class
+R17312:17313 Coq.Classes.CMorphisms <> R1 var
+R17310:17310 Coq.Classes.CMorphisms <> Normalize.A var
+R17320:17325 Coq.Classes.CMorphisms <> Proper class
+R17330:17330 Coq.Classes.CMorphisms <> m var
+R17327:17328 Coq.Classes.CMorphisms <> R0 var
+R17381:17383 Coq.Init.Datatypes <> snd def
+R17381:17383 Coq.Init.Datatypes <> snd def
+prf 17428:17436 <> flip_atom
+R17442:17451 Coq.Classes.CMorphisms <> Normalizes class
+R17456:17459 Coq.Classes.CRelationClasses <> flip def
+R17462:17465 Coq.Classes.CRelationClasses <> flip def
+R17467:17467 Coq.Classes.CMorphisms <> R var
+R17453:17453 Coq.Classes.CMorphisms <> R var
+R17509:17517 Coq.Classes.CMorphisms Normalize <> sec
+prf 17527:17536 <> flip_arrow
+R17545:17554 Coq.Classes.CMorphisms <> Normalizes class
+R17561:17564 Coq.Classes.CRelationClasses <> flip def
+R17578:17587 Coq.Classes.CMorphisms <> Normalizes class
+R17595:17598 Coq.Classes.CRelationClasses <> flip def
+R17610:17619 Coq.Classes.CMorphisms <> Normalizes class
+R17642:17645 Coq.Classes.CRelationClasses <> flip def
+R17652:17656 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R17648:17651 Coq.Classes.CMorphisms <> R''' var
+R17657:17659 Coq.Classes.CMorphisms <> R'' var
+R17632:17636 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R17631:17631 Coq.Classes.CMorphisms <> R var
+R17637:17638 Coq.Classes.CMorphisms <> R' var
+R17623:17626 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R17627:17627 Coq.Classes.CMorphisms <> B var
+R17622:17622 Coq.Classes.CMorphisms <> A var
+R17691:17700 Coq.Classes.CMorphisms <> Normalizes class
+R17801:17810 Coq.Classes.CMorphisms <> Normalizes class
+R17815:17824 Coq.Classes.CMorphisms <> respectful def
+R17801:17810 Coq.Classes.CMorphisms <> Normalizes class
+R17815:17824 Coq.Classes.CMorphisms <> respectful def
+R17886:17894 Coq.Classes.CMorphisms <> flip_atom thm
+R17851:17860 Coq.Classes.CMorphisms <> flip_arrow thm
+R17963:17980 Coq.Classes.CMorphisms <> normalization_done coind
+R17963:17980 Coq.Classes.CMorphisms <> normalization_done coind
+R18011:18027 Coq.Classes.CMorphisms <> apply_subrelation coind
+R18011:18027 Coq.Classes.CMorphisms <> apply_subrelation coind
+R18033:18038 Coq.Classes.CMorphisms <> Proper class
+R18033:18038 Coq.Classes.CMorphisms <> Proper class
+R18094:18110 Coq.Classes.CMorphisms <> did_normalization constr
+R18128:18151 Coq.Classes.CMorphisms <> proper_normalizes_proper thm
+R18176:18185 Coq.Classes.CMorphisms <> Normalizes class
+R18247:18252 Coq.Classes.CMorphisms <> Proper class
+prf 18447:18461 <> proper_sym_flip
+R18475:18483 Coq.Classes.CRelationClasses <> Symmetric class
+R18492:18497 Coq.Classes.CMorphisms <> Proper class
+R18509:18511 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R18507:18508 Coq.Classes.CMorphisms <> R1 var
+R18501:18502 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R18500:18500 Coq.Classes.CMorphisms <> A var
+R18521:18526 Coq.Classes.CMorphisms <> Proper class
+R18543:18543 Coq.Classes.CMorphisms <> f var
+R18531:18533 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R18529:18530 Coq.Classes.CMorphisms <> R1 var
+R18534:18537 Coq.Classes.CRelationClasses <> flip def
+R18539:18540 Coq.Classes.CMorphisms <> R2 var
+prf 18631:18647 <> proper_sym_flip_2
+R18661:18669 Coq.Classes.CRelationClasses <> Symmetric class
+R18678:18686 Coq.Classes.CRelationClasses <> Symmetric class
+R18695:18700 Coq.Classes.CMorphisms <> Proper class
+R18715:18717 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R18713:18714 Coq.Classes.CMorphisms <> R1 var
+R18720:18722 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R18718:18719 Coq.Classes.CMorphisms <> R2 var
+R18704:18705 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R18707:18708 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R18706:18706 Coq.Classes.CMorphisms <> B var
+R18703:18703 Coq.Classes.CMorphisms <> A var
+R18732:18737 Coq.Classes.CMorphisms <> Proper class
+R18759:18759 Coq.Classes.CMorphisms <> f var
+R18742:18744 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R18740:18741 Coq.Classes.CMorphisms <> R1 var
+R18747:18749 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R18745:18746 Coq.Classes.CMorphisms <> R2 var
+R18750:18753 Coq.Classes.CRelationClasses <> flip def
+R18755:18756 Coq.Classes.CMorphisms <> R3 var
+prf 19030:19048 <> proper_sym_impl_iff
+R19061:19069 Coq.Classes.CRelationClasses <> Symmetric class
+R19077:19082 Coq.Classes.CMorphisms <> Proper class
+R19088:19090 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R19087:19087 Coq.Classes.CMorphisms <> R var
+R19091:19094 Coq.Program.Basics <> impl def
+R19102:19107 Coq.Classes.CMorphisms <> Proper class
+R19119:19119 Coq.Classes.CMorphisms <> f var
+R19111:19113 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R19110:19110 Coq.Classes.CMorphisms <> R var
+R19114:19116 Coq.Init.Logic <> iff def
+prf 19204:19224 <> proper_sym_arrow_iffT
+R19237:19245 Coq.Classes.CRelationClasses <> Symmetric class
+R19253:19258 Coq.Classes.CMorphisms <> Proper class
+R19264:19266 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R19263:19263 Coq.Classes.CMorphisms <> R var
+R19267:19271 Coq.Classes.CRelationClasses <> arrow def
+R19279:19284 Coq.Classes.CMorphisms <> Proper class
+R19297:19297 Coq.Classes.CMorphisms <> f var
+R19288:19290 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R19287:19287 Coq.Classes.CMorphisms <> R var
+R19291:19294 Coq.Classes.CRelationClasses <> iffT def
+prf 19382:19402 <> proper_sym_impl_iff_2
+R19416:19424 Coq.Classes.CRelationClasses <> Symmetric class
+R19432:19440 Coq.Classes.CRelationClasses <> Symmetric class
+R19449:19454 Coq.Classes.CMorphisms <> Proper class
+R19460:19462 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R19459:19459 Coq.Classes.CMorphisms <> R var
+R19465:19467 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R19463:19464 Coq.Classes.CMorphisms <> R' var
+R19468:19471 Coq.Program.Basics <> impl def
+R19479:19484 Coq.Classes.CMorphisms <> Proper class
+R19501:19501 Coq.Classes.CMorphisms <> f var
+R19488:19490 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R19487:19487 Coq.Classes.CMorphisms <> R var
+R19493:19495 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R19491:19492 Coq.Classes.CMorphisms <> R' var
+R19496:19498 Coq.Init.Logic <> iff def
+prf 19606:19628 <> proper_sym_arrow_iffT_2
+R19642:19650 Coq.Classes.CRelationClasses <> Symmetric class
+R19658:19666 Coq.Classes.CRelationClasses <> Symmetric class
+R19675:19680 Coq.Classes.CMorphisms <> Proper class
+R19686:19688 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R19685:19685 Coq.Classes.CMorphisms <> R var
+R19691:19693 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R19689:19690 Coq.Classes.CMorphisms <> R' var
+R19694:19698 Coq.Classes.CRelationClasses <> arrow def
+R19706:19711 Coq.Classes.CMorphisms <> Proper class
+R19729:19729 Coq.Classes.CMorphisms <> f var
+R19715:19717 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R19714:19714 Coq.Classes.CMorphisms <> R var
+R19720:19722 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R19718:19719 Coq.Classes.CMorphisms <> R' var
+R19723:19726 Coq.Classes.CRelationClasses <> iffT def
+R19914:19933 Coq.Relations.Relation_Definitions <> <> lib
+inst 19946:19969 <> PartialOrder_proper_type
+R19973:19984 Coq.Classes.CRelationClasses <> PartialOrder class
+R19999:20004 Coq.Classes.CMorphisms <> Proper class
+R20025:20025 Coq.Classes.CMorphisms <> R var
+R20010:20012 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R20007:20009 Coq.Classes.CMorphisms <> eqA var
+R20016:20018 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R20013:20015 Coq.Classes.CMorphisms <> eqA var
+R20019:20022 Coq.Classes.CRelationClasses <> iffT def
+R20049:20071 Coq.Classes.CMorphisms <> proper_sym_arrow_iffT_2 thm
+R20049:20071 Coq.Classes.CMorphisms <> proper_sym_arrow_iffT_2 thm
+R20142:20166 Coq.Classes.CRelationClasses <> partial_order_equivalence def
+R20142:20166 Coq.Classes.CRelationClasses <> partial_order_equivalence def
+R20229:20253 Coq.Classes.CRelationClasses <> partial_order_equivalence def
+R20229:20253 Coq.Classes.CRelationClasses <> partial_order_equivalence def
+prf 20440:20463 <> PartialOrder_StrictOrder
+R20467:20478 Coq.Classes.CRelationClasses <> PartialOrder class
+R20493:20503 Coq.Classes.CRelationClasses <> StrictOrder class
+R20506:20525 Coq.Classes.CRelationClasses <> relation_conjunction def
+R20530:20539 Coq.Classes.CRelationClasses <> complement def
+R20541:20543 Coq.Classes.CMorphisms <> eqA var
+R20527:20527 Coq.Classes.CMorphisms <> R var
+R20598:20618 Coq.Classes.CRelationClasses <> Equivalence_Reflexive meth
+R20598:20618 Coq.Classes.CRelationClasses <> Equivalence_Reflexive meth
+R20670:20688 Coq.Classes.CRelationClasses <> PreOrder_Transitive meth
+R20670:20688 Coq.Classes.CRelationClasses <> PreOrder_Transitive meth
+R20739:20759 Coq.Classes.CRelationClasses <> partial_order_antisym inst
+R20739:20759 Coq.Classes.CRelationClasses <> partial_order_antisym inst
+prf 20944:20963 <> StrictOrder_PreOrder
+R20968:20978 Coq.Classes.CRelationClasses <> Equivalence class
+R20987:20997 Coq.Classes.CRelationClasses <> StrictOrder class
+R20999:20999 Coq.Classes.CMorphisms <> A var
+R21004:21009 Coq.Classes.CMorphisms <> Proper class
+R21032:21032 Coq.Classes.CMorphisms <> R var
+R21017:21019 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R21014:21016 Coq.Classes.CMorphisms <> eqA var
+R21023:21025 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R21020:21022 Coq.Classes.CMorphisms <> eqA var
+R21026:21029 Coq.Classes.CRelationClasses <> iffT def
+R21038:21045 Coq.Classes.CRelationClasses <> PreOrder class
+R21048:21067 Coq.Classes.CRelationClasses <> relation_disjunction def
+R21071:21073 Coq.Classes.CMorphisms <> eqA var
+R21069:21069 Coq.Classes.CMorphisms <> R var
+R21286:21293 Coq.Classes.CRelationClasses <> PreOrder class
+R21296:21315 Coq.Classes.CRelationClasses <> relation_disjunction def
+prf 21392:21415 <> StrictOrder_PartialOrder
+R21421:21431 Coq.Classes.CRelationClasses <> Equivalence class
+R21440:21450 Coq.Classes.CRelationClasses <> StrictOrder class
+R21452:21452 Coq.Classes.CMorphisms <> A var
+R21457:21462 Coq.Classes.CMorphisms <> Proper class
+R21485:21485 Coq.Classes.CMorphisms <> R var
+R21470:21472 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R21467:21469 Coq.Classes.CMorphisms <> eqA var
+R21476:21478 Coq.Classes.CMorphisms ProperNotations :signature_scope:x_'==>'_x not
+R21473:21475 Coq.Classes.CMorphisms <> eqA var
+R21479:21482 Coq.Classes.CRelationClasses <> iffT def
+R21492:21503 Coq.Classes.CRelationClasses <> PartialOrder class
+R21510:21529 Coq.Classes.CRelationClasses <> relation_disjunction def
+R21533:21535 Coq.Classes.CMorphisms <> eqA var
+R21531:21531 Coq.Classes.CMorphisms <> R var
+R21505:21507 Coq.Classes.CMorphisms <> eqA var
+R21592:21614 Coq.Classes.CRelationClasses <> StrictOrder_Irreflexive meth
+R21592:21614 Coq.Classes.CRelationClasses <> StrictOrder_Irreflexive meth
+R21663:21673 Coq.Classes.CRelationClasses <> StrictOrder class
+R21676:21695 Coq.Classes.CRelationClasses <> relation_conjunction def
+R21785:21796 Coq.Classes.CRelationClasses <> PartialOrder class
+R21801:21820 Coq.Classes.CRelationClasses <> relation_disjunction def

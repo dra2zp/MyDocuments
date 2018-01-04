@@ -1,0 +1,262 @@
+DIGEST 16ca265b1dfbfd8739f61b841e0177f5
+FCoq.Sets.Cpo
+R1688:1696 Coq.Sets.Ensembles <> <> lib
+R1714:1724 Coq.Sets.Relations_1 <> <> lib
+R1742:1754 Coq.Sets.Partial_Order <> <> lib
+sec 1766:1771 <> Bounds
+var 1785:1785 Bounds U
+var 1806:1806 Bounds D
+R1810:1811 Coq.Sets.Partial_Order <> PO rec
+R1813:1813 Coq.Sets.Cpo <> Bounds.U var
+var 1823:1823 Bounds C
+R1829:1838 Coq.Sets.Partial_Order <> Carrier_of proj
+R1842:1842 Coq.Sets.Cpo <> Bounds.D var
+R1840:1840 Coq.Sets.Cpo <> Bounds.U var
+var 1852:1852 Bounds R
+R1858:1863 Coq.Sets.Partial_Order <> Rel_of proj
+R1867:1867 Coq.Sets.Cpo <> Bounds.D var
+R1865:1865 Coq.Sets.Cpo <> Bounds.U var
+ind 1883:1893 <> Upper_Bound
+constr 1930:1951 <> Upper_Bound_definition
+R1898:1905 Coq.Sets.Ensembles <> Ensemble def
+R1907:1907 Coq.Sets.Cpo <> Bounds.U var
+R1913:1913 Coq.Sets.Cpo <> Bounds.U var
+R1967:1970 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1971:1971 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2001:2005 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2006:2016 Coq.Sets.Cpo <> Upper_Bound ind
+R1981:1981 Coq.Sets.Cpo <> Bounds.U var
+R1992:1995 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1996:1996 Coq.Sets.Cpo <> Bounds.R var
+R1998:1998 Coq.Sets.Cpo <> y var
+R1984:1985 Coq.Sets.Ensembles <> In def
+R1991:1991 Coq.Sets.Cpo <> y var
+R1987:1987 Coq.Sets.Cpo <> Bounds.U var
+R1959:1960 Coq.Sets.Ensembles <> In def
+R1964:1964 Coq.Sets.Cpo <> Bounds.C var
+R1962:1962 Coq.Sets.Cpo <> Bounds.U var
+ind 2036:2046 <> Lower_Bound
+constr 2083:2104 <> Lower_Bound_definition
+R2051:2058 Coq.Sets.Ensembles <> Ensemble def
+R2060:2060 Coq.Sets.Cpo <> Bounds.U var
+R2066:2066 Coq.Sets.Cpo <> Bounds.U var
+R2120:2123 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2124:2124 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2154:2158 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2159:2169 Coq.Sets.Cpo <> Lower_Bound ind
+R2134:2134 Coq.Sets.Cpo <> Bounds.U var
+R2145:2148 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2149:2149 Coq.Sets.Cpo <> Bounds.R var
+R2153:2153 Coq.Sets.Cpo <> y var
+R2137:2138 Coq.Sets.Ensembles <> In def
+R2144:2144 Coq.Sets.Cpo <> y var
+R2140:2140 Coq.Sets.Cpo <> Bounds.U var
+R2112:2113 Coq.Sets.Ensembles <> In def
+R2117:2117 Coq.Sets.Cpo <> Bounds.C var
+R2115:2115 Coq.Sets.Cpo <> Bounds.U var
+ind 2189:2191 <> Lub
+constr 2228:2241 <> Lub_definition
+R2196:2203 Coq.Sets.Ensembles <> Ensemble def
+R2205:2205 Coq.Sets.Cpo <> Bounds.U var
+R2211:2211 Coq.Sets.Cpo <> Bounds.U var
+R2264:2267 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2268:2268 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2305:2309 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2310:2312 Coq.Sets.Cpo <> Lub ind
+R2278:2278 Coq.Sets.Cpo <> Bounds.U var
+R2296:2299 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2300:2300 Coq.Sets.Cpo <> Bounds.R var
+R2304:2304 Coq.Sets.Cpo <> y var
+R2281:2291 Coq.Sets.Cpo <> Upper_Bound ind
+R2295:2295 Coq.Sets.Cpo <> y var
+R2249:2259 Coq.Sets.Cpo <> Upper_Bound ind
+ind 2332:2334 <> Glb
+constr 2371:2384 <> Glb_definition
+R2339:2346 Coq.Sets.Ensembles <> Ensemble def
+R2348:2348 Coq.Sets.Cpo <> Bounds.U var
+R2354:2354 Coq.Sets.Cpo <> Bounds.U var
+R2407:2410 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2411:2411 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2448:2452 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2453:2455 Coq.Sets.Cpo <> Glb ind
+R2421:2421 Coq.Sets.Cpo <> Bounds.U var
+R2439:2442 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2443:2443 Coq.Sets.Cpo <> Bounds.R var
+R2445:2445 Coq.Sets.Cpo <> y var
+R2424:2434 Coq.Sets.Cpo <> Lower_Bound ind
+R2438:2438 Coq.Sets.Cpo <> y var
+R2392:2402 Coq.Sets.Cpo <> Lower_Bound ind
+ind 2475:2480 <> Bottom
+constr 2504:2520 <> Bottom_definition
+R2487:2487 Coq.Sets.Cpo <> Bounds.U var
+R2538:2541 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2542:2542 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2574:2578 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2579:2584 Coq.Sets.Cpo <> Bottom ind
+R2552:2552 Coq.Sets.Cpo <> Bounds.U var
+R2563:2566 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2567:2567 Coq.Sets.Cpo <> Bounds.R var
+R2573:2573 Coq.Sets.Cpo <> y var
+R2555:2556 Coq.Sets.Ensembles <> In def
+R2562:2562 Coq.Sets.Cpo <> y var
+R2560:2560 Coq.Sets.Cpo <> Bounds.C var
+R2558:2558 Coq.Sets.Cpo <> Bounds.U var
+R2528:2529 Coq.Sets.Ensembles <> In def
+R2533:2533 Coq.Sets.Cpo <> Bounds.C var
+R2531:2531 Coq.Sets.Cpo <> Bounds.U var
+ind 2604:2618 <> Totally_ordered
+constr 2649:2674 <> Totally_ordered_definition
+R2623:2630 Coq.Sets.Ensembles <> Ensemble def
+R2632:2632 Coq.Sets.Cpo <> Bounds.U var
+R2682:2682 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2766:2774 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2775:2789 Coq.Sets.Cpo <> Totally_ordered ind
+R2697:2706 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2718:2718 Coq.Sets.Cpo <> Bounds.U var
+R2748:2751 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2757:2760 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R2752:2752 Coq.Sets.Cpo <> Bounds.R var
+R2756:2756 Coq.Sets.Cpo <> y var
+R2754:2754 Coq.Sets.Cpo <> x var
+R2761:2761 Coq.Sets.Cpo <> Bounds.R var
+R2765:2765 Coq.Sets.Cpo <> x var
+R2763:2763 Coq.Sets.Cpo <> y var
+R2721:2728 Coq.Sets.Ensembles <> Included def
+R2733:2738 Coq.Sets.Ensembles <> Couple ind
+R2744:2744 Coq.Sets.Cpo <> y var
+R2742:2742 Coq.Sets.Cpo <> x var
+R2740:2740 Coq.Sets.Cpo <> Bounds.U var
+R2730:2730 Coq.Sets.Cpo <> Bounds.U var
+R2683:2690 Coq.Sets.Ensembles <> Included def
+R2696:2696 Coq.Sets.Cpo <> Bounds.C var
+R2692:2692 Coq.Sets.Cpo <> Bounds.U var
+def 2808:2817 <> Compatible
+R2821:2828 Coq.Sets.Relations_1 <> Relation def
+R2830:2830 Coq.Sets.Cpo <> Bounds.U var
+R2847:2847 Coq.Sets.Cpo <> Bounds.U var
+R2866:2875 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2884:2888 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2889:2895 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2901:2902 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2911:2914 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2903:2904 Coq.Sets.Ensembles <> In def
+R2910:2910 Coq.Sets.Cpo <> z var
+R2908:2908 Coq.Sets.Cpo <> Bounds.C var
+R2906:2906 Coq.Sets.Cpo <> Bounds.U var
+R2915:2925 Coq.Sets.Cpo <> Upper_Bound ind
+R2942:2942 Coq.Sets.Cpo <> z var
+R2928:2933 Coq.Sets.Ensembles <> Couple ind
+R2939:2939 Coq.Sets.Cpo <> y var
+R2937:2937 Coq.Sets.Cpo <> x var
+R2935:2935 Coq.Sets.Cpo <> Bounds.U var
+R2876:2877 Coq.Sets.Ensembles <> In def
+R2883:2883 Coq.Sets.Cpo <> y var
+R2881:2881 Coq.Sets.Cpo <> Bounds.C var
+R2879:2879 Coq.Sets.Cpo <> Bounds.U var
+R2858:2859 Coq.Sets.Ensembles <> In def
+R2865:2865 Coq.Sets.Cpo <> x var
+R2863:2863 Coq.Sets.Cpo <> Bounds.C var
+R2861:2861 Coq.Sets.Cpo <> Bounds.U var
+ind 2958:2965 <> Directed
+constr 2996:3017 <> Definition_of_Directed
+R2970:2977 Coq.Sets.Ensembles <> Ensemble def
+R2979:2979 Coq.Sets.Cpo <> Bounds.U var
+R3039:3046 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3060:3067 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3068:3068 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3189:3197 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3198:3205 Coq.Sets.Cpo <> Directed ind
+R3082:3082 Coq.Sets.Cpo <> Bounds.U var
+R3120:3129 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3130:3136 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3143:3144 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3154:3157 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3145:3146 Coq.Sets.Ensembles <> In def
+R3152:3153 Coq.Sets.Cpo <> x3 var
+R3148:3148 Coq.Sets.Cpo <> Bounds.U var
+R3158:3168 Coq.Sets.Cpo <> Upper_Bound ind
+R3187:3188 Coq.Sets.Cpo <> x3 var
+R3171:3176 Coq.Sets.Ensembles <> Couple ind
+R3183:3184 Coq.Sets.Cpo <> x2 var
+R3180:3181 Coq.Sets.Cpo <> x1 var
+R3178:3178 Coq.Sets.Cpo <> Bounds.U var
+R3091:3098 Coq.Sets.Ensembles <> Included def
+R3103:3108 Coq.Sets.Ensembles <> Couple ind
+R3115:3116 Coq.Sets.Cpo <> x2 var
+R3112:3113 Coq.Sets.Cpo <> x1 var
+R3110:3110 Coq.Sets.Cpo <> Bounds.U var
+R3100:3100 Coq.Sets.Cpo <> Bounds.U var
+R3047:3055 Coq.Sets.Ensembles <> Inhabited ind
+R3057:3057 Coq.Sets.Cpo <> Bounds.U var
+R3025:3032 Coq.Sets.Ensembles <> Included def
+R3038:3038 Coq.Sets.Cpo <> Bounds.C var
+R3034:3034 Coq.Sets.Cpo <> Bounds.U var
+ind 3223:3230 <> Complete
+constr 3246:3267 <> Definition_of_Complete
+R3275:3275 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3302:3310 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3311:3311 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3375:3383 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3384:3391 Coq.Sets.Cpo <> Complete ind
+R3321:3328 Coq.Sets.Ensembles <> Ensemble def
+R3330:3330 Coq.Sets.Cpo <> Bounds.U var
+R3343:3347 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3348:3354 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3363:3364 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3365:3367 Coq.Sets.Cpo <> Lub ind
+R3371:3374 Coq.Sets.Cpo <> bsup var
+R3369:3369 Coq.Sets.Cpo <> X var
+R3333:3340 Coq.Sets.Cpo <> Directed ind
+R3342:3342 Coq.Sets.Cpo <> X var
+R3276:3282 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3290:3291 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3292:3297 Coq.Sets.Cpo <> Bottom ind
+R3299:3301 Coq.Sets.Cpo <> bot var
+ind 3407:3428 <> Conditionally_complete
+constr 3444:3479 <> Definition_of_Conditionally_complete
+R3487:3487 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3611:3615 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3616:3637 Coq.Sets.Cpo <> Conditionally_complete ind
+R3497:3504 Coq.Sets.Ensembles <> Ensemble def
+R3506:3506 Coq.Sets.Cpo <> Bounds.U var
+R3529:3538 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3539:3539 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3573:3583 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3584:3590 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3599:3600 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3601:3603 Coq.Sets.Cpo <> Lub ind
+R3607:3610 Coq.Sets.Cpo <> bsup var
+R3605:3605 Coq.Sets.Cpo <> X var
+R3540:3546 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3554:3555 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3556:3566 Coq.Sets.Cpo <> Upper_Bound ind
+R3570:3572 Coq.Sets.Cpo <> maj var
+R3568:3568 Coq.Sets.Cpo <> X var
+R3515:3522 Coq.Sets.Ensembles <> Included def
+R3528:3528 Coq.Sets.Cpo <> Bounds.C var
+R3526:3526 Coq.Sets.Cpo <> X var
+R3524:3524 Coq.Sets.Cpo <> Bounds.U var
+R3644:3649 Coq.Sets.Cpo Bounds <> sec
+sec 3886:3900 <> Specific_orders
+var 3914:3914 Specific_orders U
+constr 3948:3964 <> Definition_of_cpo
+rec 3934:3936 <> Cpo
+proj 3971:3979 <> PO_of_cpo
+proj 3989:3996 <> Cpo_cond
+R3983:3984 Coq.Sets.Partial_Order <> PO rec
+R3986:3986 Coq.Sets.Cpo <> Specific_orders.U var
+R4000:4007 Coq.Sets.Cpo <> Complete ind
+R4011:4019 Coq.Sets.Cpo <> PO_of_cpo meth
+R4009:4009 Coq.Sets.Cpo <> Specific_orders.U var
+constr 4049:4067 <> Definition_of_chain
+rec 4033:4037 <> Chain
+proj 4074:4084 <> PO_of_chain
+proj 4098:4107 <> Chain_cond
+R4088:4089 Coq.Sets.Partial_Order <> PO rec
+R4091:4091 Coq.Sets.Cpo <> Specific_orders.U var
+R4111:4125 Coq.Sets.Cpo <> Totally_ordered ind
+R4143:4152 Coq.Sets.Partial_Order <> Carrier_of proj
+R4156:4166 Coq.Sets.Cpo <> PO_of_chain meth
+R4129:4139 Coq.Sets.Cpo <> PO_of_chain meth
+R4127:4127 Coq.Sets.Cpo <> Specific_orders.U var
+R4176:4190 Coq.Sets.Cpo Specific_orders <> sec

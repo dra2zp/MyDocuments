@@ -1,0 +1,181 @@
+DIGEST f31574cd7367bf2b8a5d7e948822fe64
+FCoq.Sets.Ensembles
+sec 1681:1689 <> Ensembles
+var 1703:1703 Ensembles U
+def 1727:1734 <> Ensemble
+R1740:1743 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1739:1739 Coq.Sets.Ensembles <> Ensembles.U var
+def 1764:1765 <> In
+R1770:1777 Coq.Sets.Ensembles <> Ensemble def
+R1783:1783 Coq.Sets.Ensembles <> Ensembles.U var
+R1796:1796 Coq.Sets.Ensembles <> A var
+R1798:1798 Coq.Sets.Ensembles <> x var
+def 1815:1822 <> Included
+R1829:1836 Coq.Sets.Ensembles <> Ensemble def
+R1858:1858 Coq.Sets.Ensembles <> Ensembles.U var
+R1867:1870 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1871:1872 Coq.Sets.Ensembles <> In def
+R1876:1876 Coq.Sets.Ensembles <> x var
+R1874:1874 Coq.Sets.Ensembles <> C var
+R1861:1862 Coq.Sets.Ensembles <> In def
+R1866:1866 Coq.Sets.Ensembles <> x var
+R1864:1864 Coq.Sets.Ensembles <> B var
+ind 1892:1900 <> Empty_set
+R1904:1911 Coq.Sets.Ensembles <> Ensemble def
+ind 1930:1937 <> Full_set
+constr 1957:1966 <> Full_intro
+R1941:1948 Coq.Sets.Ensembles <> Ensemble def
+R1979:1979 Coq.Sets.Ensembles <> Ensembles.U var
+R1982:1983 Coq.Sets.Ensembles <> In def
+R1994:1994 Coq.Sets.Ensembles <> x var
+R1985:1992 Coq.Sets.Ensembles <> Full_set ind
+ind 2283:2291 <> Singleton
+constr 2317:2328 <> In_singleton
+R2296:2296 Coq.Sets.Ensembles <> Ensembles.U var
+R2301:2308 Coq.Sets.Ensembles <> Ensemble def
+R2332:2333 Coq.Sets.Ensembles <> In def
+R2336:2344 Coq.Sets.Ensembles <> Singleton ind
+ind 2365:2369 <> Union
+constr 2406:2417 <> Union_introl
+constr 2466:2477 <> Union_intror
+R2376:2383 Coq.Sets.Ensembles <> Ensemble def
+R2388:2395 Coq.Sets.Ensembles <> Ensemble def
+R2430:2430 Coq.Sets.Ensembles <> Ensembles.U var
+R2439:2442 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2443:2444 Coq.Sets.Ensembles <> In def
+R2458:2458 Coq.Sets.Ensembles <> x var
+R2447:2451 Coq.Sets.Ensembles <> Union ind
+R2433:2434 Coq.Sets.Ensembles <> In def
+R2438:2438 Coq.Sets.Ensembles <> x var
+R2490:2490 Coq.Sets.Ensembles <> Ensembles.U var
+R2499:2502 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2503:2504 Coq.Sets.Ensembles <> In def
+R2518:2518 Coq.Sets.Ensembles <> x var
+R2507:2511 Coq.Sets.Ensembles <> Union ind
+R2493:2494 Coq.Sets.Ensembles <> In def
+R2498:2498 Coq.Sets.Ensembles <> x var
+def 2535:2537 <> Add
+R2542:2549 Coq.Sets.Ensembles <> Ensemble def
+R2555:2555 Coq.Sets.Ensembles <> Ensembles.U var
+R2560:2567 Coq.Sets.Ensembles <> Ensemble def
+R2572:2576 Coq.Sets.Ensembles <> Union ind
+R2581:2589 Coq.Sets.Ensembles <> Singleton ind
+R2591:2591 Coq.Sets.Ensembles <> x var
+R2578:2578 Coq.Sets.Ensembles <> B var
+ind 2608:2619 <> Intersection
+constr 2654:2671 <> Intersection_intro
+R2626:2633 Coq.Sets.Ensembles <> Ensemble def
+R2638:2645 Coq.Sets.Ensembles <> Ensemble def
+R2688:2688 Coq.Sets.Ensembles <> Ensembles.U var
+R2697:2700 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2707:2710 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2711:2712 Coq.Sets.Ensembles <> In def
+R2733:2733 Coq.Sets.Ensembles <> x var
+R2715:2726 Coq.Sets.Ensembles <> Intersection ind
+R2701:2702 Coq.Sets.Ensembles <> In def
+R2706:2706 Coq.Sets.Ensembles <> x var
+R2691:2692 Coq.Sets.Ensembles <> In def
+R2696:2696 Coq.Sets.Ensembles <> x var
+ind 2749:2754 <> Couple
+constr 2784:2791 <> Couple_l
+constr 2819:2826 <> Couple_r
+R2761:2761 Coq.Sets.Ensembles <> Ensembles.U var
+R2766:2773 Coq.Sets.Ensembles <> Ensemble def
+R2795:2796 Coq.Sets.Ensembles <> In def
+R2799:2804 Coq.Sets.Ensembles <> Couple ind
+R2830:2831 Coq.Sets.Ensembles <> In def
+R2834:2839 Coq.Sets.Ensembles <> Couple ind
+ind 2862:2867 <> Triple
+constr 2899:2906 <> Triple_l
+constr 2936:2943 <> Triple_m
+constr 2973:2980 <> Triple_r
+R2876:2876 Coq.Sets.Ensembles <> Ensembles.U var
+R2881:2888 Coq.Sets.Ensembles <> Ensemble def
+R2910:2911 Coq.Sets.Ensembles <> In def
+R2914:2919 Coq.Sets.Ensembles <> Triple ind
+R2947:2948 Coq.Sets.Ensembles <> In def
+R2951:2956 Coq.Sets.Ensembles <> Triple ind
+R2984:2985 Coq.Sets.Ensembles <> In def
+R2988:2993 Coq.Sets.Ensembles <> Triple ind
+def 3019:3028 <> Complement
+R3033:3040 Coq.Sets.Ensembles <> Ensemble def
+R3045:3052 Coq.Sets.Ensembles <> Ensemble def
+R3063:3063 Coq.Sets.Ensembles <> Ensembles.U var
+R3068:3069 Coq.Init.Logic <> :type_scope:'~'_x not
+R3070:3071 Coq.Sets.Ensembles <> In def
+R3075:3075 Coq.Sets.Ensembles <> x var
+R3073:3073 Coq.Sets.Ensembles <> A var
+def 3092:3099 <> Setminus
+R3106:3113 Coq.Sets.Ensembles <> Ensemble def
+R3118:3125 Coq.Sets.Ensembles <> Ensemble def
+R3140:3140 Coq.Sets.Ensembles <> Ensembles.U var
+R3151:3154 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3145:3146 Coq.Sets.Ensembles <> In def
+R3150:3150 Coq.Sets.Ensembles <> x var
+R3148:3148 Coq.Sets.Ensembles <> B var
+R3155:3156 Coq.Init.Logic <> :type_scope:'~'_x not
+R3157:3158 Coq.Sets.Ensembles <> In def
+R3162:3162 Coq.Sets.Ensembles <> x var
+R3160:3160 Coq.Sets.Ensembles <> C var
+def 3179:3186 <> Subtract
+R3191:3198 Coq.Sets.Ensembles <> Ensemble def
+R3204:3204 Coq.Sets.Ensembles <> Ensembles.U var
+R3209:3216 Coq.Sets.Ensembles <> Ensemble def
+R3221:3228 Coq.Sets.Ensembles <> Setminus def
+R3233:3241 Coq.Sets.Ensembles <> Singleton ind
+R3243:3243 Coq.Sets.Ensembles <> x var
+R3230:3230 Coq.Sets.Ensembles <> B var
+ind 3260:3267 <> Disjoint
+constr 3298:3311 <> Disjoint_intro
+R3274:3281 Coq.Sets.Ensembles <> Ensemble def
+R3315:3315 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3353:3357 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3358:3365 Coq.Sets.Ensembles <> Disjoint ind
+R3325:3325 Coq.Sets.Ensembles <> Ensembles.U var
+R3328:3329 Coq.Init.Logic <> :type_scope:'~'_x not
+R3330:3331 Coq.Sets.Ensembles <> In def
+R3352:3352 Coq.Sets.Ensembles <> x var
+R3334:3345 Coq.Sets.Ensembles <> Intersection ind
+ind 3385:3393 <> Inhabited
+constr 3422:3436 <> Inhabited_intro
+R3398:3405 Coq.Sets.Ensembles <> Ensemble def
+R3449:3449 Coq.Sets.Ensembles <> Ensembles.U var
+R3458:3461 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3462:3470 Coq.Sets.Ensembles <> Inhabited ind
+R3452:3453 Coq.Sets.Ensembles <> In def
+R3457:3457 Coq.Sets.Ensembles <> x var
+def 3489:3503 <> Strict_Included
+R3510:3517 Coq.Sets.Ensembles <> Ensemble def
+R3542:3545 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3530:3537 Coq.Sets.Ensembles <> Included def
+R3541:3541 Coq.Sets.Ensembles <> C var
+R3539:3539 Coq.Sets.Ensembles <> B var
+R3547:3550 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R3546:3546 Coq.Sets.Ensembles <> B var
+R3551:3551 Coq.Sets.Ensembles <> C var
+def 3568:3575 <> Same_set
+R3582:3589 Coq.Sets.Ensembles <> Ensemble def
+R3614:3617 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3602:3609 Coq.Sets.Ensembles <> Included def
+R3613:3613 Coq.Sets.Ensembles <> C var
+R3611:3611 Coq.Sets.Ensembles <> B var
+R3618:3625 Coq.Sets.Ensembles <> Included def
+R3629:3629 Coq.Sets.Ensembles <> B var
+R3627:3627 Coq.Sets.Ensembles <> C var
+ax 3672:3695 <> Extensionality_Ensembles
+R3710:3717 Coq.Sets.Ensembles <> Ensemble def
+R3732:3735 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3737:3739 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3736:3736 Coq.Sets.Ensembles <> A var
+R3740:3740 Coq.Sets.Ensembles <> B var
+R3720:3727 Coq.Sets.Ensembles <> Same_set def
+R3731:3731 Coq.Sets.Ensembles <> B var
+R3729:3729 Coq.Sets.Ensembles <> A var
+R3748:3756 Coq.Sets.Ensembles Ensembles <> sec
+R3772:3773 Coq.Sets.Ensembles <> In def
+R3775:3782 Coq.Sets.Ensembles <> Included def
+R3784:3791 Coq.Sets.Ensembles <> Same_set def
+R3793:3807 Coq.Sets.Ensembles <> Strict_Included def
+R3809:3811 Coq.Sets.Ensembles <> Add def
+R3813:3820 Coq.Sets.Ensembles <> Setminus def
+R3822:3829 Coq.Sets.Ensembles <> Subtract def

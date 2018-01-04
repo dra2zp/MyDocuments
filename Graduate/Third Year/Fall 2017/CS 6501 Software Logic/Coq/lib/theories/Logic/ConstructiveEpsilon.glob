@@ -1,0 +1,404 @@
+DIGEST 5c618f38a59d3e5bad04a05c08a5e880
+FCoq.Logic.ConstructiveEpsilon
+sec 2184:2229 <> ConstructiveIndefiniteGroundDescription_Direct
+var 2242:2242 ConstructiveIndefiniteGroundDescription_Direct P
+R2249:2252 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2246:2248 Coq.Init.Datatypes <> nat ind
+var 2271:2275 ConstructiveIndefiniteGroundDescription_Direct P_dec
+R2289:2289 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2293:2295 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2302:2302 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2290:2290 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Direct.P var
+R2292:2292 Coq.Logic.ConstructiveEpsilon <> n var
+R2296:2297 Coq.Init.Logic <> :type_scope:'~'_x not
+R2301:2301 Coq.Init.Logic <> :type_scope:'~'_x not
+R2298:2298 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Direct.P var
+R2300:2300 Coq.Logic.ConstructiveEpsilon <> n var
+ind 2502:2515 <> before_witness
+constr 2539:2542 <> stop
+constr 2574:2577 <> next
+R2520:2522 Coq.Init.Datatypes <> nat ind
+R2549:2552 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2553:2566 Coq.Logic.ConstructiveEpsilon <> before_witness ind
+R2546:2546 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Direct.P var
+R2601:2604 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2605:2618 Coq.Logic.ConstructiveEpsilon <> before_witness ind
+R2581:2594 Coq.Logic.ConstructiveEpsilon <> before_witness ind
+R2597:2597 Coq.Init.Datatypes <> S constr
+def 2690:2698 <> O_witness
+R2705:2707 Coq.Init.Datatypes <> nat ind
+R2728:2731 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2732:2745 Coq.Logic.ConstructiveEpsilon <> before_witness ind
+R2712:2725 Coq.Logic.ConstructiveEpsilon <> before_witness ind
+R2727:2727 Coq.Logic.ConstructiveEpsilon <> n var
+R2760:2760 Coq.Logic.ConstructiveEpsilon <> n var
+R2786:2789 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2790:2803 Coq.Logic.ConstructiveEpsilon <> before_witness ind
+R2770:2783 Coq.Logic.ConstructiveEpsilon <> before_witness ind
+R2785:2785 Coq.Logic.ConstructiveEpsilon <> n var
+R2833:2833 Coq.Logic.ConstructiveEpsilon <> b var
+R2841:2841 Coq.Init.Datatypes <> S constr
+R2857:2865 Coq.Logic.ConstructiveEpsilon <> O_witness def
+R2870:2873 Coq.Logic.ConstructiveEpsilon <> next constr
+R2877:2877 Coq.Logic.ConstructiveEpsilon <> b var
+R2875:2875 Coq.Logic.ConstructiveEpsilon <> n var
+R2867:2867 Coq.Logic.ConstructiveEpsilon <> n var
+def 3020:3037 <> inv_before_witness
+R3069:3072 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3079:3082 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3083:3096 Coq.Logic.ConstructiveEpsilon <> before_witness ind
+R3099:3099 Coq.Init.Datatypes <> S constr
+R3101:3101 Coq.Logic.ConstructiveEpsilon <> n var
+R3073:3074 Coq.Init.Logic <> :type_scope:'~'_x not
+R3078:3078 Coq.Init.Logic <> :type_scope:'~'_x not
+R3075:3075 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Direct.P var
+R3077:3077 Coq.Logic.ConstructiveEpsilon <> n var
+R3053:3066 Coq.Logic.ConstructiveEpsilon <> before_witness ind
+R3068:3068 Coq.Logic.ConstructiveEpsilon <> n var
+R3130:3130 Coq.Logic.ConstructiveEpsilon <> b var
+R3144:3147 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3148:3161 Coq.Logic.ConstructiveEpsilon <> before_witness ind
+R3164:3164 Coq.Init.Datatypes <> S constr
+R3166:3166 Coq.Logic.ConstructiveEpsilon <> n var
+R3139:3140 Coq.Init.Logic <> :type_scope:'~'_x not
+R3141:3141 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Direct.P var
+R3143:3143 Coq.Logic.ConstructiveEpsilon <> n var
+R3182:3185 Coq.Logic.ConstructiveEpsilon <> stop constr
+R3214:3218 Coq.Logic.ConstructiveEpsilon <> not_p var
+R3240:3243 Coq.Logic.ConstructiveEpsilon <> next constr
+R3261:3261 Coq.Logic.ConstructiveEpsilon <> b var
+def 3282:3294 <> linear_search
+R3303:3316 Coq.Logic.ConstructiveEpsilon <> before_witness ind
+R3318:3318 Coq.Logic.ConstructiveEpsilon <> m var
+R3323:3323 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3325:3327 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3331:3333 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3337:3337 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3328:3330 Coq.Init.Datatypes <> nat ind
+R3334:3334 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Direct.P var
+R3350:3354 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Direct.P_dec var
+R3356:3356 Coq.Logic.ConstructiveEpsilon <> m var
+R3369:3372 Coq.Init.Specif <> left constr
+R3381:3385 Coq.Init.Specif <> exist constr
+R3402:3402 Coq.Logic.ConstructiveEpsilon <> m var
+R3397:3397 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Direct.P var
+R3399:3399 Coq.Logic.ConstructiveEpsilon <> n var
+R3414:3418 Coq.Init.Specif <> right constr
+R3426:3438 Coq.Logic.ConstructiveEpsilon <> linear_search def
+R3447:3464 Coq.Logic.ConstructiveEpsilon <> inv_before_witness def
+R3468:3468 Coq.Logic.ConstructiveEpsilon <> b var
+R3466:3466 Coq.Logic.ConstructiveEpsilon <> m var
+R3441:3441 Coq.Init.Datatypes <> S constr
+R3443:3443 Coq.Logic.ConstructiveEpsilon <> m var
+def 3493:3538 <> constructive_indefinite_ground_description_nat
+R3544:3544 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3558:3562 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3563:3563 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3565:3565 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3569:3571 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3575:3575 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3566:3568 Coq.Init.Datatypes <> nat ind
+R3572:3572 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Direct.P var
+R3545:3551 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3553:3554 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R3555:3555 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Direct.P var
+R3557:3557 Coq.Logic.ConstructiveEpsilon <> n var
+R3591:3603 Coq.Logic.ConstructiveEpsilon <> linear_search def
+R3622:3622 Coq.Logic.ConstructiveEpsilon <> e var
+R3627:3635 Coq.Logic.ConstructiveEpsilon <> O_witness def
+R3640:3643 Coq.Logic.ConstructiveEpsilon <> stop constr
+R3647:3647 Coq.Logic.ConstructiveEpsilon <> p var
+R3645:3645 Coq.Logic.ConstructiveEpsilon <> n var
+R3637:3637 Coq.Logic.ConstructiveEpsilon <> n var
+R3605:3605 Coq.Init.Datatypes <> O constr
+R3657:3702 Coq.Logic.ConstructiveEpsilon ConstructiveIndefiniteGroundDescription_Direct <> sec
+R3838:3842 Coq.Arith.Arith <> <> lib
+sec 3854:3896 <> ConstructiveIndefiniteGroundDescription_Acc
+var 3909:3909 ConstructiveIndefiniteGroundDescription_Acc P
+R3916:3919 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3913:3915 Coq.Init.Datatypes <> nat ind
+var 3938:3948 ConstructiveIndefiniteGroundDescription_Acc P_decidable
+R3963:3965 Coq.Init.Datatypes <> nat ind
+R3968:3968 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3972:3976 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3982:3982 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3969:3969 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.P var
+R3971:3971 Coq.Logic.ConstructiveEpsilon <> n var
+R3977:3978 Coq.Init.Logic <> :type_scope:'~'_x not
+R3979:3979 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.P var
+R3981:3981 Coq.Logic.ConstructiveEpsilon <> n var
+var 4667:4667 ConstructiveIndefiniteGroundDescription_Acc R
+R4676:4678 Coq.Init.Datatypes <> nat ind
+R4698:4701 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R4692:4694 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4691:4691 Coq.Logic.ConstructiveEpsilon <> x var
+R4695:4695 Coq.Init.Datatypes <> S constr
+R4697:4697 Coq.Logic.ConstructiveEpsilon <> y var
+R4702:4703 Coq.Init.Logic <> :type_scope:'~'_x not
+R4704:4704 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.P var
+R4706:4706 Coq.Logic.ConstructiveEpsilon <> y var
+syndef 4725:4727 <> acc
+R4735:4737 Coq.Init.Wf <> Acc ind
+R4739:4739 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.R var
+prf 4752:4764 <> P_implies_acc
+R4779:4781 Coq.Init.Datatypes <> nat ind
+R4787:4790 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4791:4793 Coq.Logic.ConstructiveEpsilon <> acc syndef
+R4795:4795 Coq.Logic.ConstructiveEpsilon <> x var
+R4784:4784 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.P var
+R4786:4786 Coq.Logic.ConstructiveEpsilon <> x var
+R4859:4859 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.P var
+R4859:4859 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.P var
+prf 4889:4912 <> P_eventually_implies_acc
+R4928:4930 Coq.Init.Datatypes <> nat ind
+R4938:4940 Coq.Init.Datatypes <> nat ind
+R4953:4956 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4957:4959 Coq.Logic.ConstructiveEpsilon <> acc syndef
+R4961:4961 Coq.Logic.ConstructiveEpsilon <> x var
+R4944:4944 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.P var
+R4948:4950 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R4947:4947 Coq.Logic.ConstructiveEpsilon <> n var
+R4951:4951 Coq.Logic.ConstructiveEpsilon <> x var
+R5043:5055 Coq.Logic.ConstructiveEpsilon <> P_implies_acc thm
+R5043:5055 Coq.Logic.ConstructiveEpsilon <> P_implies_acc thm
+R5134:5136 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R5137:5137 Coq.Init.Datatypes <> S constr
+R5148:5148 Coq.Init.Datatypes <> S constr
+R5152:5154 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R5134:5136 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R5137:5137 Coq.Init.Datatypes <> S constr
+R5148:5148 Coq.Init.Datatypes <> S constr
+R5152:5154 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+prf 5197:5223 <> P_eventually_implies_acc_ex
+R5227:5227 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5247:5251 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5252:5254 Coq.Logic.ConstructiveEpsilon <> acc syndef
+R5228:5234 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R5242:5243 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R5239:5241 Coq.Init.Datatypes <> nat ind
+R5244:5244 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.P var
+R5246:5246 Coq.Logic.ConstructiveEpsilon <> n var
+R5303:5326 Coq.Logic.ConstructiveEpsilon <> P_eventually_implies_acc thm
+R5303:5326 Coq.Logic.ConstructiveEpsilon <> P_eventually_implies_acc thm
+R5353:5355 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R5353:5355 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+prf 5528:5551 <> acc_implies_P_eventually
+R5560:5563 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5564:5564 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5566:5568 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5572:5574 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5578:5578 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5569:5571 Coq.Init.Datatypes <> nat ind
+R5575:5575 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.P var
+R5555:5557 Coq.Logic.ConstructiveEpsilon <> acc syndef
+R5636:5636 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.R var
+R5619:5623 Coq.Init.Wf <> Fix_F def
+R5636:5636 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.R var
+R5619:5623 Coq.Init.Wf <> Fix_F def
+R5692:5702 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.P_decidable var
+R5692:5702 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.P_decidable var
+R5764:5764 Coq.Init.Datatypes <> S constr
+R5764:5764 Coq.Init.Datatypes <> S constr
+R5784:5784 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.R var
+R5784:5784 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.R var
+R5799:5799 Coq.Logic.ConstructiveEpsilon <> R vardef
+prf 5886:5935 <> constructive_indefinite_ground_description_nat_Acc
+R5941:5941 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5961:5965 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5966:5966 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5968:5970 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5974:5976 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5980:5980 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5971:5973 Coq.Init.Datatypes <> nat ind
+R5977:5977 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.P var
+R5942:5948 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R5956:5957 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R5953:5955 Coq.Init.Datatypes <> nat ind
+R5958:5958 Coq.Logic.ConstructiveEpsilon <> ConstructiveIndefiniteGroundDescription_Acc.P var
+R5960:5960 Coq.Logic.ConstructiveEpsilon <> n var
+R6006:6029 Coq.Logic.ConstructiveEpsilon <> acc_implies_P_eventually thm
+R6006:6029 Coq.Logic.ConstructiveEpsilon <> acc_implies_P_eventually thm
+R6038:6064 Coq.Logic.ConstructiveEpsilon <> P_eventually_implies_acc_ex thm
+R6038:6064 Coq.Logic.ConstructiveEpsilon <> P_eventually_implies_acc_ex thm
+R6093:6135 Coq.Logic.ConstructiveEpsilon ConstructiveIndefiniteGroundDescription_Acc <> sec
+sec 6223:6251 <> ConstructiveGroundEpsilon_nat
+var 6264:6264 ConstructiveGroundEpsilon_nat P
+R6271:6274 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6268:6270 Coq.Init.Datatypes <> nat ind
+var 6293:6303 ConstructiveGroundEpsilon_nat P_decidable
+R6318:6320 Coq.Init.Datatypes <> nat ind
+R6323:6323 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6327:6331 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6337:6337 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6324:6324 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon_nat.P var
+R6326:6326 Coq.Logic.ConstructiveEpsilon <> x var
+R6332:6333 Coq.Init.Logic <> :type_scope:'~'_x not
+R6334:6334 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon_nat.P var
+R6336:6336 Coq.Logic.ConstructiveEpsilon <> x var
+def 6352:6382 <> constructive_ground_epsilon_nat
+R6389:6395 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R6403:6404 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R6400:6402 Coq.Init.Datatypes <> nat ind
+R6405:6405 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon_nat.P var
+R6407:6407 Coq.Logic.ConstructiveEpsilon <> n var
+R6412:6414 Coq.Init.Datatypes <> nat ind
+R6421:6429 Coq.Init.Specif <> proj1_sig def
+R6432:6477 Coq.Logic.ConstructiveEpsilon <> constructive_indefinite_ground_description_nat def
+R6493:6493 Coq.Logic.ConstructiveEpsilon <> E var
+R6481:6491 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon_nat.P_decidable var
+R6479:6479 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon_nat.P var
+def 6509:6544 <> constructive_ground_epsilon_spec_nat
+R6552:6558 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R6560:6561 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R6562:6562 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon_nat.P var
+R6564:6564 Coq.Logic.ConstructiveEpsilon <> n var
+R6570:6570 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon_nat.P var
+R6573:6603 Coq.Logic.ConstructiveEpsilon <> constructive_ground_epsilon_nat def
+R6605:6605 Coq.Logic.ConstructiveEpsilon <> E var
+R6613:6621 Coq.Init.Specif <> proj2_sig def
+R6624:6669 Coq.Logic.ConstructiveEpsilon <> constructive_indefinite_ground_description_nat def
+R6685:6685 Coq.Logic.ConstructiveEpsilon <> E var
+R6673:6683 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon_nat.P_decidable var
+R6671:6671 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon_nat.P var
+R6694:6722 Coq.Logic.ConstructiveEpsilon ConstructiveGroundEpsilon_nat <> sec
+sec 6810:6834 <> ConstructiveGroundEpsilon
+var 7012:7012 ConstructiveGroundEpsilon A
+var 7031:7031 ConstructiveGroundEpsilon f
+R7036:7039 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7040:7042 Coq.Init.Datatypes <> nat ind
+R7035:7035 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.A var
+var 7054:7054 ConstructiveGroundEpsilon g
+R7061:7064 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7065:7065 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.A var
+R7058:7060 Coq.Init.Datatypes <> nat ind
+var 7080:7088 ConstructiveGroundEpsilon gof_eq_id
+R7103:7103 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.A var
+R7113:7115 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7106:7106 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.g var
+R7109:7109 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.f var
+R7111:7111 Coq.Logic.ConstructiveEpsilon <> x var
+R7116:7116 Coq.Logic.ConstructiveEpsilon <> x var
+var 7129:7129 ConstructiveGroundEpsilon P
+R7134:7137 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7133:7133 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.A var
+var 7156:7166 ConstructiveGroundEpsilon P_decidable
+R7181:7181 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.A var
+R7184:7184 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7188:7192 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7198:7198 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7185:7185 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.P var
+R7187:7187 Coq.Logic.ConstructiveEpsilon <> x var
+R7193:7194 Coq.Init.Logic <> :type_scope:'~'_x not
+R7195:7195 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.P var
+R7197:7197 Coq.Logic.ConstructiveEpsilon <> x var
+def 7213:7214 <> P'
+R7221:7223 Coq.Init.Datatypes <> nat ind
+R7236:7236 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.P var
+R7239:7239 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.g var
+R7241:7241 Coq.Logic.ConstructiveEpsilon <> x var
+prf 7252:7263 <> P'_decidable
+R7278:7280 Coq.Init.Datatypes <> nat ind
+R7283:7283 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7288:7292 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7299:7299 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7284:7285 Coq.Logic.ConstructiveEpsilon <> P' def
+R7287:7287 Coq.Logic.ConstructiveEpsilon <> n var
+R7293:7294 Coq.Init.Logic <> :type_scope:'~'_x not
+R7295:7296 Coq.Logic.ConstructiveEpsilon <> P' def
+R7298:7298 Coq.Logic.ConstructiveEpsilon <> n var
+R7325:7326 Coq.Logic.ConstructiveEpsilon <> P' def
+R7339:7349 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.P_decidable var
+R7352:7352 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.g var
+R7339:7349 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.P_decidable var
+R7352:7352 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.g var
+prf 7381:7422 <> constructive_indefinite_ground_description
+R7426:7426 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7444:7448 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7449:7449 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7451:7453 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7455:7457 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7461:7461 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7454:7454 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.A var
+R7458:7458 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.P var
+R7427:7433 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R7439:7440 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R7438:7438 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.A var
+R7441:7441 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.P var
+R7443:7443 Coq.Logic.ConstructiveEpsilon <> x var
+R7493:7499 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R7507:7508 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R7504:7506 Coq.Init.Datatypes <> nat ind
+R7509:7510 Coq.Logic.ConstructiveEpsilon <> P' def
+R7512:7512 Coq.Logic.ConstructiveEpsilon <> n var
+R7493:7499 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R7507:7508 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R7504:7506 Coq.Init.Datatypes <> nat ind
+R7509:7510 Coq.Logic.ConstructiveEpsilon <> P' def
+R7512:7512 Coq.Logic.ConstructiveEpsilon <> n var
+R7546:7546 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.f var
+R7559:7560 Coq.Logic.ConstructiveEpsilon <> P' def
+R7546:7546 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.f var
+R7571:7579 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.gof_eq_id var
+R7571:7579 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.gof_eq_id var
+R7571:7579 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.gof_eq_id var
+R7601:7646 Coq.Logic.ConstructiveEpsilon <> constructive_indefinite_ground_description_nat def
+R7651:7662 Coq.Logic.ConstructiveEpsilon <> P'_decidable thm
+R7648:7649 Coq.Logic.ConstructiveEpsilon <> P' def
+R7601:7646 Coq.Logic.ConstructiveEpsilon <> constructive_indefinite_ground_description_nat def
+R7651:7662 Coq.Logic.ConstructiveEpsilon <> P'_decidable thm
+R7648:7649 Coq.Logic.ConstructiveEpsilon <> P' def
+R7704:7704 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.g var
+R7717:7718 Coq.Logic.ConstructiveEpsilon <> P' def
+R7704:7704 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.g var
+prf 7755:7794 <> constructive_definite_ground_description
+R7798:7798 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7817:7821 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7822:7822 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7824:7826 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7828:7830 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7834:7834 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7827:7827 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.A var
+R7831:7831 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.P var
+R7799:7806 Coq.Init.Logic <> :type_scope:'exists'_'!'_x_'..'_x_','_x not
+R7812:7813 Coq.Init.Logic <> :type_scope:'exists'_'!'_x_'..'_x_','_x not
+R7811:7811 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.A var
+R7814:7814 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.P var
+R7816:7816 Coq.Logic.ConstructiveEpsilon <> x var
+R7860:7901 Coq.Logic.ConstructiveEpsilon <> constructive_indefinite_ground_description thm
+R7860:7901 Coq.Logic.ConstructiveEpsilon <> constructive_indefinite_ground_description thm
+def 7937:7963 <> constructive_ground_epsilon
+R7970:7976 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R7982:7983 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R7981:7981 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.A var
+R7984:7984 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.P var
+R7986:7986 Coq.Logic.ConstructiveEpsilon <> x var
+R7991:7991 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.A var
+R7998:8006 Coq.Init.Specif <> proj1_sig def
+R8009:8050 Coq.Logic.ConstructiveEpsilon <> constructive_indefinite_ground_description thm
+R8052:8052 Coq.Logic.ConstructiveEpsilon <> E var
+def 8068:8099 <> constructive_ground_epsilon_spec
+R8107:8113 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R8115:8116 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R8117:8117 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.P var
+R8119:8119 Coq.Logic.ConstructiveEpsilon <> x var
+R8125:8125 Coq.Logic.ConstructiveEpsilon <> ConstructiveGroundEpsilon.P var
+R8128:8154 Coq.Logic.ConstructiveEpsilon <> constructive_ground_epsilon def
+R8156:8156 Coq.Logic.ConstructiveEpsilon <> E var
+R8164:8172 Coq.Init.Specif <> proj2_sig def
+R8175:8216 Coq.Logic.ConstructiveEpsilon <> constructive_indefinite_ground_description thm
+R8218:8218 Coq.Logic.ConstructiveEpsilon <> E var
+R8227:8251 Coq.Logic.ConstructiveEpsilon ConstructiveGroundEpsilon <> sec
+syndef 8477:8515 <> constructive_indefinite_description_nat
+R8522:8567 Coq.Logic.ConstructiveEpsilon <> constructive_indefinite_ground_description_nat def
+syndef 8594:8622 <> constructive_epsilon_spec_nat
+R8629:8664 Coq.Logic.ConstructiveEpsilon <> constructive_ground_epsilon_spec_nat def
+syndef 8691:8714 <> constructive_epsilon_nat
+R8721:8751 Coq.Logic.ConstructiveEpsilon <> constructive_ground_epsilon_nat def
+syndef 8778:8812 <> constructive_indefinite_description
+R8819:8860 Coq.Logic.ConstructiveEpsilon <> constructive_indefinite_ground_description thm
+syndef 8887:8919 <> constructive_definite_description
+R8926:8965 Coq.Logic.ConstructiveEpsilon <> constructive_definite_ground_description thm
+syndef 8992:9016 <> constructive_epsilon_spec
+R9023:9054 Coq.Logic.ConstructiveEpsilon <> constructive_ground_epsilon_spec def
+syndef 9081:9100 <> constructive_epsilon
+R9107:9133 Coq.Logic.ConstructiveEpsilon <> constructive_ground_epsilon def

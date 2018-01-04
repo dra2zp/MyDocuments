@@ -1,0 +1,20 @@
+<?php
+// load in another php file
+require_once("temperature_scraper.php");
+
+$scraper = new temperature_scraper($_GET['zip']);
+
+if (!$scraper->successful()) {
+   print "error: " . $scraper->getError();
+}
+else {
+     $temp = $scraper->scrapeTemp();
+
+     if (!$scraper->successful()) {
+     	print "error: " . $scraper->getError();
+     }
+     else {
+     	  print $temp;
+     }
+}
+?>

@@ -1,0 +1,86 @@
+DIGEST 591e5540e44111829b22e7278cee47dd
+FCoq.Sets.Relations_3
+R1688:1698 Coq.Sets.Relations_1 <> <> lib
+R1716:1726 Coq.Sets.Relations_2 <> <> lib
+sec 1738:1748 <> Relations_3
+var 1763:1763 Relations_3 U
+var 1785:1785 Relations_3 R
+R1789:1796 Coq.Sets.Relations_1 <> Relation def
+R1798:1798 Coq.Sets.Relations_3 <> Relations_3.U var
+def 1816:1823 <> coherent
+R1830:1830 Coq.Sets.Relations_3 <> Relations_3.U var
+R1849:1855 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1861:1862 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1876:1879 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1863:1867 Coq.Sets.Relations_2 <> Rstar ind
+R1875:1875 Coq.Sets.Relations_3 <> z var
+R1873:1873 Coq.Sets.Relations_3 <> x var
+R1871:1871 Coq.Sets.Relations_3 <> Relations_3.R var
+R1869:1869 Coq.Sets.Relations_3 <> Relations_3.U var
+R1880:1884 Coq.Sets.Relations_2 <> Rstar ind
+R1892:1892 Coq.Sets.Relations_3 <> z var
+R1890:1890 Coq.Sets.Relations_3 <> y var
+R1888:1888 Coq.Sets.Relations_3 <> Relations_3.R var
+R1886:1886 Coq.Sets.Relations_3 <> Relations_3.U var
+def 1910:1926 <> locally_confluent
+R1931:1931 Coq.Sets.Relations_3 <> Relations_3.U var
+R1960:1960 Coq.Sets.Relations_3 <> Relations_3.U var
+R1968:1971 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1977:1980 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1981:1988 Coq.Sets.Relations_3 <> coherent def
+R1992:1992 Coq.Sets.Relations_3 <> z var
+R1990:1990 Coq.Sets.Relations_3 <> y var
+R1972:1972 Coq.Sets.Relations_3 <> Relations_3.R var
+R1976:1976 Coq.Sets.Relations_3 <> z var
+R1974:1974 Coq.Sets.Relations_3 <> x var
+R1963:1963 Coq.Sets.Relations_3 <> Relations_3.R var
+R1967:1967 Coq.Sets.Relations_3 <> y var
+R1965:1965 Coq.Sets.Relations_3 <> x var
+def 2010:2026 <> Locally_confluent
+R2047:2047 Coq.Sets.Relations_3 <> Relations_3.U var
+R2050:2066 Coq.Sets.Relations_3 <> locally_confluent def
+R2068:2068 Coq.Sets.Relations_3 <> x var
+def 2086:2094 <> confluent
+R2099:2099 Coq.Sets.Relations_3 <> Relations_3.U var
+R2128:2128 Coq.Sets.Relations_3 <> Relations_3.U var
+R2144:2147 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2161:2164 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2165:2172 Coq.Sets.Relations_3 <> coherent def
+R2176:2176 Coq.Sets.Relations_3 <> z var
+R2174:2174 Coq.Sets.Relations_3 <> y var
+R2148:2152 Coq.Sets.Relations_2 <> Rstar ind
+R2160:2160 Coq.Sets.Relations_3 <> z var
+R2158:2158 Coq.Sets.Relations_3 <> x var
+R2156:2156 Coq.Sets.Relations_3 <> Relations_3.R var
+R2154:2154 Coq.Sets.Relations_3 <> Relations_3.U var
+R2131:2135 Coq.Sets.Relations_2 <> Rstar ind
+R2143:2143 Coq.Sets.Relations_3 <> y var
+R2141:2141 Coq.Sets.Relations_3 <> x var
+R2139:2139 Coq.Sets.Relations_3 <> Relations_3.R var
+R2137:2137 Coq.Sets.Relations_3 <> Relations_3.U var
+def 2194:2202 <> Confluent
+R2223:2223 Coq.Sets.Relations_3 <> Relations_3.U var
+R2226:2234 Coq.Sets.Relations_3 <> confluent def
+R2236:2236 Coq.Sets.Relations_3 <> x var
+ind 2253:2262 <> noetherian
+constr 2288:2311 <> definition_of_noetherian
+R2268:2268 Coq.Sets.Relations_3 <> Relations_3.U var
+R2324:2324 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2358:2362 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2363:2372 Coq.Sets.Relations_3 <> noetherian ind
+R2334:2334 Coq.Sets.Relations_3 <> Relations_3.U var
+R2342:2345 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2346:2355 Coq.Sets.Relations_3 <> noetherian ind
+R2357:2357 Coq.Sets.Relations_3 <> y var
+R2337:2337 Coq.Sets.Relations_3 <> Relations_3.R var
+R2341:2341 Coq.Sets.Relations_3 <> y var
+def 2392:2401 <> Noetherian
+R2422:2422 Coq.Sets.Relations_3 <> Relations_3.U var
+R2425:2434 Coq.Sets.Relations_3 <> noetherian ind
+R2436:2436 Coq.Sets.Relations_3 <> x var
+R2444:2454 Coq.Sets.Relations_3 Relations_3 <> sec
+R2469:2476 Coq.Sets.Relations_3 <> coherent def
+R2497:2513 Coq.Sets.Relations_3 <> locally_confluent def
+R2534:2542 Coq.Sets.Relations_3 <> confluent def
+R2563:2571 Coq.Sets.Relations_3 <> Confluent def
+R2637:2646 Coq.Sets.Relations_3 <> Noetherian def

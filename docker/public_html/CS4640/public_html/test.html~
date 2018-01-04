@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- This contains infor for the browser. It is not displayed. -->
+    <style type="text/css">
+      header {
+      background-color: rgb(0,102,255);
+      color: rgb(200,200,200);
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: rgb(0,0,0) 4px 2px 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- This is where content to be displayed goes. -->
+    <header>
+      <img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Ron_Weasley_poster.jpg">
+      <h1>Ron Weasley's Blog</h1>
+      <h2>I'm not just Harry's sidekick</h2>
+      <nav>
+	<ul>
+	  <li><a href="#">Link 1</a></li>
+	  <li><a href="#">Link 2</a></li>
+	</ul>
+      </nav>
+    </header>
+  </body>
+</html>

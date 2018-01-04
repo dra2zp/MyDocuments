@@ -1,0 +1,15 @@
+{
+    "error" : false,
+    "events" : [
+	{
+	    "desc" : "Do the stuff",
+	    "due" : "May 22, 2017 14:30",
+	    "priority" : "normal"
+	},
+	{
+	    "desc" : "Do all the stuff",
+	    "due" : "May 22, 2017 14:45",
+	    "priority" : "high"
+	}
+    ]
+}

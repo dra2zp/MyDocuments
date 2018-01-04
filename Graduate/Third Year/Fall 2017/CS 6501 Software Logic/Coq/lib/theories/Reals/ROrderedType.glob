@@ -1,0 +1,126 @@
+DIGEST 434abdb658f57cccbb4da26166d829ea
+FCoq.Reals.ROrderedType
+R541:545 Coq.Reals.Rbase <> <> lib
+R547:556 Coq.Structures.Equalities <> <> lib
+R558:563 Coq.Structures.Orders <> <> lib
+R565:573 Coq.Structures.OrdersTac <> <> lib
+prf 661:667 <> Req_dec
+R684:684 Coq.Reals.Rdefinitions <> R defax
+R687:687 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R695:699 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R708:708 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R690:692 Coq.Init.Logic <> :type_scope:x_'='_x not
+R688:689 Coq.Reals.ROrderedType <> r1 var
+R693:694 Coq.Reals.ROrderedType <> r2 var
+R702:705 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R700:701 Coq.Reals.ROrderedType <> r1 var
+R706:707 Coq.Reals.ROrderedType <> r2 var
+R740:752 Coq.Reals.Raxioms <> total_order_T prfax
+R761:782 Coq.Reals.RIneq <> Rlt_dichotomy_converse thm
+R740:752 Coq.Reals.Raxioms <> total_order_T prfax
+R761:782 Coq.Reals.RIneq <> Rlt_dichotomy_converse thm
+def 823:826 <> Reqb
+R840:846 Coq.Reals.ROrderedType <> Req_dec thm
+R851:852 Coq.Reals.ROrderedType <> r2 var
+R848:849 Coq.Reals.ROrderedType <> r1 var
+R869:873 Coq.Init.Datatypes <> false constr
+R859:862 Coq.Init.Datatypes <> true constr
+prf 882:888 <> Reqb_eq
+R923:927 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R916:918 Coq.Init.Logic <> :type_scope:x_'='_x not
+R906:909 Coq.Reals.ROrderedType <> Reqb def
+R914:915 Coq.Reals.ROrderedType <> r2 var
+R911:912 Coq.Reals.ROrderedType <> r1 var
+R919:922 Coq.Init.Datatypes <> true constr
+R930:930 Coq.Init.Logic <> :type_scope:x_'='_x not
+R928:929 Coq.Reals.ROrderedType <> r1 var
+R931:932 Coq.Reals.ROrderedType <> r2 var
+R958:961 Coq.Reals.ROrderedType <> Reqb def
+R973:979 Coq.Reals.ROrderedType <> Req_dec thm
+R1084:1094 Coq.Structures.Equalities UsualBoolEq <> mod
+mod 1072:1079 <> R_as_UBE
+def 1109:1109 R_as_UBE t
+R1114:1114 Coq.Reals.Rdefinitions <> R defax
+def 1129:1130 R_as_UBE eq
+R1136:1137 Coq.Init.Logic <> eq ind
+R1139:1139 Coq.Reals.Rdefinitions <> R defax
+def 1154:1156 R_as_UBE eqb
+R1161:1164 Coq.Reals.ROrderedType <> Reqb def
+def 1179:1184 R_as_UBE eqb_eq
+R1189:1195 Coq.Reals.ROrderedType <> Reqb_eq thm
+R1202:1209 Coq.Reals.ROrderedType R_as_UBE <> mod
+R1231:1252 Coq.Structures.Equalities UsualDecidableTypeFull <> mod
+R1257:1265 Coq.Structures.Equalities Make_UDTF <> modtype
+R1267:1274 Coq.Reals.ROrderedType R_as_UBE <> modtype
+mod 1220:1226 <> R_as_DT
+def 1570:1577 <> Rcompare
+R1593:1605 Coq.Reals.Raxioms <> total_order_T prfax
+R1609:1609 Coq.Reals.ROrderedType <> y var
+R1607:1607 Coq.Reals.ROrderedType <> x var
+R1620:1625 Coq.Init.Specif <> inleft constr
+R1628:1631 Coq.Init.Specif <> left constr
+R1639:1640 Coq.Init.Datatypes <> Lt constr
+R1646:1651 Coq.Init.Specif <> inleft constr
+R1654:1658 Coq.Init.Specif <> right constr
+R1666:1667 Coq.Init.Datatypes <> Eq constr
+R1673:1679 Coq.Init.Specif <> inright constr
+R1686:1687 Coq.Init.Datatypes <> Gt constr
+prf 1702:1714 <> Rcompare_spec
+R1730:1740 Coq.Init.Datatypes <> CompareSpec ind
+R1761:1768 Coq.Reals.ROrderedType <> Rcompare def
+R1772:1772 Coq.Reals.ROrderedType <> y var
+R1770:1770 Coq.Reals.ROrderedType <> x var
+R1756:1756 Coq.Reals.Rdefinitions <> :R_scope:x_'<'_x not
+R1755:1755 Coq.Reals.ROrderedType <> y var
+R1757:1757 Coq.Reals.ROrderedType <> x var
+R1750:1750 Coq.Reals.Rdefinitions <> :R_scope:x_'<'_x not
+R1749:1749 Coq.Reals.ROrderedType <> x var
+R1751:1751 Coq.Reals.ROrderedType <> y var
+R1744:1744 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1743:1743 Coq.Reals.ROrderedType <> x var
+R1745:1745 Coq.Reals.ROrderedType <> y var
+R1799:1806 Coq.Reals.ROrderedType <> Rcompare def
+R1819:1831 Coq.Reals.Raxioms <> total_order_T prfax
+R1877:1891 Coq.Structures.Orders OrderedTypeFull <> mod
+mod 1866:1872 <> R_as_OT
+R1903:1909 Coq.Reals.ROrderedType R_as_DT <> modtype
+def 1924:1925 R_as_OT lt
+R1930:1932 Coq.Reals.Rdefinitions <> Rlt defax
+def 1947:1948 R_as_OT le
+R1953:1955 Coq.Reals.Rdefinitions <> Rle def
+def 1970:1976 R_as_OT compare
+R1981:1988 Coq.Reals.ROrderedType <> Rcompare def
+inst 2002:2012 R_as_OT lt_strorder
+R2016:2026 Coq.Classes.RelationClasses <> StrictOrder class
+R2028:2030 Coq.Reals.Rdefinitions <> Rlt defax
+R2056:2065 Coq.Reals.RIneq <> Rlt_irrefl thm
+R2075:2083 Coq.Reals.Raxioms <> Rlt_trans prfax
+R2056:2065 Coq.Reals.RIneq <> Rlt_irrefl thm
+R2075:2083 Coq.Reals.Raxioms <> Rlt_trans prfax
+inst 2104:2112 R_as_OT lt_compat
+R2116:2121 Coq.Classes.Morphisms <> Proper class
+R2151:2153 Coq.Reals.Rdefinitions <> Rlt defax
+R2132:2134 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2124:2131 Coq.Init.Logic <> eq ind
+R2143:2145 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2135:2142 Coq.Init.Logic <> eq ind
+R2146:2148 Coq.Init.Logic <> iff def
+prf 2210:2216 R_as_OT le_lteq
+R2238:2242 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R2233:2236 Coq.Reals.Rdefinitions <> :R_scope:x_'<='_x not
+R2232:2232 Coq.Reals.ROrderedType <> x var
+R2237:2237 Coq.Reals.ROrderedType <> y var
+R2248:2251 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R2244:2246 Coq.Reals.Rdefinitions <> :R_scope:x_'<'_x not
+R2243:2243 Coq.Reals.ROrderedType <> x var
+R2247:2247 Coq.Reals.ROrderedType <> y var
+R2253:2255 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2252:2252 Coq.Reals.ROrderedType <> x var
+R2256:2256 Coq.Reals.ROrderedType <> y var
+R2274:2276 Coq.Reals.Rdefinitions <> Rle def
+def 2310:2321 R_as_OT compare_spec
+R2326:2338 Coq.Reals.ROrderedType <> Rcompare_spec thm
+R2346:2352 Coq.Reals.ROrderedType R_as_OT <> mod
+R2545:2559 Coq.Structures.OrdersTac OTF_to_OrderTac <> modtype
+R2561:2567 Coq.Reals.ROrderedType R_as_OT <> modtype
+mod 2535:2540 <> ROrder

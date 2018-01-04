@@ -1,0 +1,65 @@
+DIGEST f801b65155e9e2e3842c5bdb36a8b74f
+FCoq.Arith.Bool_nat
+R541:551 Coq.Arith.Compare_dec <> <> lib
+R569:577 Coq.Arith.Peano_dec <> <> lib
+R595:601 Coq.Bool.Sumbool <> <> lib
+R659:661 Coq.Init.Datatypes <> nat ind
+def 814:821 <> notzerop
+R828:838 Coq.Bool.Sumbool <> sumbool_not def
+R845:849 Coq.Arith.Compare_dec <> zerop def
+R851:851 Coq.Arith.Bool_nat <> n var
+def 866:874 <> lt_ge_dec
+R890:890 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R896:900 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R907:907 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R892:894 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R891:891 Coq.Arith.Bool_nat <> x var
+R895:895 Coq.Arith.Bool_nat <> y var
+R902:905 Coq.Init.Peano <> :nat_scope:x_'>='_x not
+R901:901 Coq.Arith.Bool_nat <> x var
+R906:906 Coq.Arith.Bool_nat <> y var
+R925:935 Coq.Bool.Sumbool <> sumbool_not def
+R942:950 Coq.Arith.Compare_dec <> le_lt_dec def
+R954:954 Coq.Arith.Bool_nat <> n var
+R952:952 Coq.Arith.Bool_nat <> m var
+def 970:983 <> nat_lt_ge_bool
+R992:1006 Coq.Bool.Sumbool <> bool_of_sumbool def
+R1009:1017 Coq.Arith.Bool_nat <> lt_ge_dec def
+R1021:1021 Coq.Arith.Bool_nat <> y var
+R1019:1019 Coq.Arith.Bool_nat <> x var
+def 1036:1049 <> nat_ge_lt_bool
+R1060:1074 Coq.Bool.Sumbool <> bool_of_sumbool def
+R1077:1087 Coq.Bool.Sumbool <> sumbool_not def
+R1094:1102 Coq.Arith.Bool_nat <> lt_ge_dec def
+R1106:1106 Coq.Arith.Bool_nat <> y var
+R1104:1104 Coq.Arith.Bool_nat <> x var
+def 1123:1136 <> nat_le_gt_bool
+R1145:1159 Coq.Bool.Sumbool <> bool_of_sumbool def
+R1162:1170 Coq.Arith.Compare_dec <> le_gt_dec def
+R1174:1174 Coq.Arith.Bool_nat <> y var
+R1172:1172 Coq.Arith.Bool_nat <> x var
+def 1189:1202 <> nat_gt_le_bool
+R1213:1227 Coq.Bool.Sumbool <> bool_of_sumbool def
+R1230:1240 Coq.Bool.Sumbool <> sumbool_not def
+R1247:1255 Coq.Arith.Compare_dec <> le_gt_dec def
+R1259:1259 Coq.Arith.Bool_nat <> y var
+R1257:1257 Coq.Arith.Bool_nat <> x var
+def 1276:1286 <> nat_eq_bool
+R1295:1309 Coq.Bool.Sumbool <> bool_of_sumbool def
+R1312:1321 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R1325:1325 Coq.Arith.Bool_nat <> y var
+R1323:1323 Coq.Arith.Bool_nat <> x var
+def 1340:1353 <> nat_noteq_bool
+R1364:1378 Coq.Bool.Sumbool <> bool_of_sumbool def
+R1381:1391 Coq.Bool.Sumbool <> sumbool_not def
+R1398:1407 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R1411:1411 Coq.Arith.Bool_nat <> y var
+R1409:1409 Coq.Arith.Bool_nat <> x var
+def 1428:1437 <> zerop_bool
+R1444:1458 Coq.Bool.Sumbool <> bool_of_sumbool def
+R1461:1465 Coq.Arith.Compare_dec <> zerop def
+R1467:1467 Coq.Arith.Bool_nat <> x var
+def 1482:1494 <> notzerop_bool
+R1501:1515 Coq.Bool.Sumbool <> bool_of_sumbool def
+R1518:1525 Coq.Arith.Bool_nat <> notzerop def
+R1527:1527 Coq.Arith.Bool_nat <> x var

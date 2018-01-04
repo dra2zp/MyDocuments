@@ -1,0 +1,187 @@
+// This code will allow us to enter the number of boxes to display horizontally and vertically
+// Given the number of rows and columns, the code will randomly generate colors to display to the viewport
+
+// wait until the DOM is fully-loaded
+
+// same as
+// $(document).ready(handler)
+
+var points_earned_array = [];
+var points_possible_array = [];
+
+function round(value, decimals) {
+    return (Number(Math.round(value + 'e' + decimals) + 'e-' + decimals));
+}
+
+var distribution = [0.00, 0.60, 0.63, 0.67, 0.70, 0.73, 0.77, 0.80, 0.83, 0.87, 0.90, 0.93, 0.97];
+var letters = ["F", "D-", "D", "D+", "C-", "C", "C+", "B-", "B", "B+", "A-", "A", "A+"];
+
+function get_grade(value) {
+    var position = 0;
+    while (position < 14) {
+	if (value >= distribution[position]) {
+	    position++;
+	}
+	else {
+	    return letters[position - 1];
+	    position = 14;
+	}
+    }
+}
+
+$(function() {
+    
+    // this function will be called when the DOM is finally rendered.
+    $("#add").click(function(evt) {
+	// this is what will happen when the "Test Colors" button is clicked
+	evt.preventDefault();
+
+	var parent_node = document.getElementById("final-grade-body");
+	while (parent_node.firstChild) {
+	    parent_node.removeChild(parent_node.firstChild);
+	}
+	
+	// Validation of form input
+	var assignment_name = $("#assignment-name").val();
+	var points_earned = $("#points-earned").val();
+	var points_possible = $("#points-possible").val();
+	if (assignment_name.length == 0 || assignment_name.length > 30) {
+	    alert("Assignment Name must be between 1 and 30 characters");
+	    return;
+	}
+	if (isNaN(parseFloat(points_earned)) || points_earned.length == 0) {
+	    alert("Points Earned must be a number");
+	    return;
+	}
+	if (isNaN(parseFloat(points_possible)) || points_possible.length == 0) {
+	    alert("Points Possible must be a number");
+	    return;
+	}
+	points_earned_array.push(points_earned);
+	points_possible_array.push(points_possible);
+	// both the number of horizontal and vertical boxes are valid
+	// we are ready to generate the color matrix
+	// pixel size of the viewport's width
+
+	if (points_possible == 0) {
+	    var percentage = "**";
+	}
+	else {
+	    var score = points_earned / points_possible;
+	    var decimal = round(score * 100, 2);
+	    var percentage = decimal + "%";
+	}
+	
+	var points_earned_sum = 0;
+	var points_possible_sum = 0;
+	for (var i = 0; i < points_earned_array.length; i++) {
+	    points_earned_sum += parseFloat(points_earned_array[i]);
+	}
+	for (var i = 0; i < points_possible_array.length; i++) {
+	    points_possible_sum += parseFloat(points_possible_array[i]);
+	}
+	if (percentage === "**") {
+	    var grade = "**";
+	}
+	else {
+	    var grade = get_grade(score);
+	}
+	if (points_possible_sum === 0) {
+	    var final_score = "**";
+	}
+	else {
+	    var final_score = points_earned_sum / points_possible_sum;
+	    var final_decimal = round(final_score * 100, 2);
+	    var final_percentage = final_decimal + "%";
+	}
+	if (final_percentage === "**") {
+	    var final_grade = "**";
+	}
+	else {
+	    var final_grade = get_grade(final_score);
+	}
+	if (typeof final_score === undefined) {
+	    final_score = "**";
+	    final_grade = "**";
+	}
+	
+	$("#grades-body").append(
+	    '<tr><td>' + assignment_name + '</td><td class="' + points_earned + '">' + points_earned +
+		'</td><td class="' + points_possible + '">' + points_possible + '</td><td>' + percentage +
+		'</td><td>' + grade +
+		'</td><td><span class="glyphicon glyphicon-remove grade-remove"></span>' + '</td></tr>'
+	);
+
+	$("#final-grade-body").append(
+	    '<tr><td>' + final_percentage + '</td><td>' + final_grade + '</td></tr>'
+	);
+
+	if (final_score >= 0.9) {
+	    $("body").attr('id', 'green');
+	}
+	else if (final_score >= 0.8) {
+	    $("body").attr('id', 'blue');
+	}
+	else if (final_score >= 0.7) {
+	    $("body").attr('id', 'yellow');
+	}
+	else if (final_score >= 0.6) {
+	    $("body").attr('id', 'orange');
+	}
+	else {
+	    $("body").attr('id', 'red');
+	}
+	
+	// reset the form values to the empty string to prepare for the next input
+	$("#assignment-name").val("");
+	$("#points-earned").val("");
+	$("#points-possible").val("");
+    });
+    $("#grades").on("click", "table .grade-remove", function(evt) {
+	evt.preventDefault();
+	$(evt.target).parent().parent().attr('id', 'get_values');
+	$("#get_values > :nth-child(2)").attr('id', 'get_pe');
+	$("#get_values > :nth-child(3)").attr('id', 'get_pp');
+	var rem_pe = $("#get_pe").attr('class');
+	var rem_pp = $("#get_pp").attr('class');
+	points_earned_array.push(-1 * parseFloat(rem_pe));
+	points_possible_array.push(-1 * parseFloat(rem_pp));
+	
+	// evt.target is the span, parent is td, parent is tr
+	$(evt.target).parent().parent().remove();
+	
+	var parent_node = document.getElementById("final-grade-body");
+	while (parent_node.firstChild) {
+	    parent_node.removeChild(parent_node.firstChild);
+	}
+	var points_earned_sum = 0;
+	var points_possible_sum = 0;
+	for (var i = 0; i < points_earned_array.length; i++) {
+	    points_earned_sum += parseFloat(points_earned_array[i]);
+	}
+	for (var i = 0; i < points_possible_array.length; i++) {
+	    points_possible_sum += parseFloat(points_possible_array[i]);
+	}
+	if (points_possible_sum === 0) {
+	    var final_percentage = "**";
+	}
+	else {
+	    var final_score = points_earned_sum / points_possible_sum;
+	    var final_decimal = round(final_score * 100, 2);
+	    var final_percentage = final_decimal + "%";
+	}
+	if (final_percentage === "**") {
+	    var final_grade = "**";
+	}
+	else {
+	    var final_grade = get_grade(final_score);
+	}
+	if (typeof final_percentage === undefined) {
+	    final_percentage = "**";
+	    final_grade = "**";
+	}
+	$("#final-grade-body").append(
+	    '<tr><td>' + final_percentage + '</td><td>' + final_grade + '</td></tr>'
+	);   
+    });
+});

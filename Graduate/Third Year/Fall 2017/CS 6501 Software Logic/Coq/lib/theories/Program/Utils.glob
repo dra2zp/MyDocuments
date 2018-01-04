@@ -1,0 +1,21 @@
+DIGEST 1378faf4aa477f24f618fea22c7cea9b
+FCoq.Program.Utils
+R610:628 Coq.Program.Tactics <> <> lib
+R771:773 Coq.Init.Specif <> sig ind
+R810:818 Coq.Program.Utils <> anonymous var
+not 737:737 <> :type_scope:'{'_'('_x_','_x_')'_':'_x_'|'_x_'}'
+R943:952 Coq.Init.Logic <> False_rect scheme
+not 933:933 <> :program_scope:'!'
+R1120:1128 Coq.Init.Specif <> proj1_sig def
+not 1107:1107 <> :program_scope:'`'_x
+R1272:1272 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1277:1281 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1286:1286 Coq.Init.Logic <> :type_scope:x_'='_x not
+not 1255:1255 <> :program_scope:x_'`='_x
+R1336:1351 Coq.Bool.Sumbool <> <> lib
+syndef 1422:1424 <> dec
+R1429:1443 Coq.Bool.Sumbool <> sumbool_of_bool def
+syndef 1615:1621 <> in_left
+R1628:1631 Coq.Init.Specif <> left constr
+syndef 1650:1657 <> in_right
+R1664:1668 Coq.Init.Specif <> right constr

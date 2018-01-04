@@ -1,0 +1,186 @@
+digraph ID3_Tree {
+"0" [shape=box, style=filled, label="Low
+", weight=1]
+"1" [shape=box, style=filled, label="Close
+", weight=2]
+0 -> 1 [ label = "<=524.94"];
+"2" [shape=box, style=filled, label="High
+", weight=3]
+1 -> 2 [ label = "<=351.27"];
+"3" [shape=box, style=filled, label="2
+(179)
+", weight=4]
+2 -> 3 [ label = "<=254.33"];
+"4" [shape=box, style=filled, label="Open
+", weight=4]
+2 -> 4 [ label = ">254.33"];
+"5" [shape=box, style=filled, label="Date
+", weight=5]
+4 -> 5 [ label = "<=251.02"];
+"6" [shape=box, style=filled, label="2
+(4/1)
+", weight=6]
+5 -> 6 [ label = "<=406.50"];
+"7" [shape=box, style=filled, label="3
+(7/3)
+", weight=6]
+5 -> 7 [ label = ">406.50"];
+"8" [shape=box, style=filled, label="Date
+", weight=5]
+4 -> 8 [ label = ">251.02"];
+"9" [shape=box, style=filled, label="3
+(16/3)
+", weight=6]
+8 -> 9 [ label = "<=332.50"];
+"10" [shape=box, style=filled, label="3
+(142/2)
+", weight=6]
+8 -> 10 [ label = ">332.50"];
+"11" [shape=box, style=filled, label="High
+", weight=3]
+1 -> 11 [ label = ">351.27"];
+"12" [shape=box, style=filled, label="Open
+", weight=4]
+11 -> 12 [ label = "<=453.82"];
+"13" [shape=box, style=filled, label="3
+(1)
+", weight=5]
+12 -> 13 [ label = "<=327.73"];
+"14" [shape=box, style=filled, label="Date
+", weight=5]
+12 -> 14 [ label = ">327.73"];
+"15" [shape=box, style=filled, label="4
+(18/1)
+", weight=6]
+14 -> 15 [ label = "<=252.50"];
+"16" [shape=box, style=filled, label="4
+(177)
+", weight=6]
+14 -> 16 [ label = ">252.50"];
+"17" [shape=box, style=filled, label="Open
+", weight=4]
+11 -> 17 [ label = ">453.82"];
+"18" [shape=box, style=filled, label="4
+(7)
+", weight=5]
+17 -> 18 [ label = "<=440.91"];
+"19" [shape=box, style=filled, label="Date
+", weight=5]
+17 -> 19 [ label = ">440.91"];
+"20" [shape=box, style=filled, label="5
+(103/7)
+", weight=6]
+19 -> 20 [ label = "<=859.00"];
+"21" [shape=box, style=filled, label="5
+(1/1)
+", weight=6]
+19 -> 21 [ label = ">859.00"];
+"22" [shape=box, style=filled, label="Close
+", weight=2]
+0 -> 22 [ label = ">524.94"];
+"23" [shape=box, style=filled, label="High
+", weight=3]
+22 -> 23 [ label = "<=858.67"];
+"24" [shape=box, style=filled, label="Open
+", weight=4]
+23 -> 24 [ label = "<=656.76"];
+"25" [shape=box, style=filled, label="Date
+", weight=5]
+24 -> 25 [ label = "<=536.08"];
+"26" [shape=box, style=filled, label="6
+(1)
+", weight=6]
+25 -> 26 [ label = "<=483.00"];
+"27" [shape=box, style=filled, label="5
+(1)
+", weight=6]
+25 -> 27 [ label = ">483.00"];
+"28" [shape=box, style=filled, label="6
+(186)
+", weight=5]
+24 -> 28 [ label = ">536.08"];
+"29" [shape=box, style=filled, label="Open
+", weight=4]
+23 -> 29 [ label = ">656.76"];
+"30" [shape=box, style=filled, label="Date
+", weight=5]
+29 -> 30 [ label = "<=750.12"];
+"31" [shape=box, style=filled, label="7
+(32/22)
+", weight=6]
+30 -> 31 [ label = "<=867.00"];
+"32" [shape=box, style=filled, label="7
+(59)
+", weight=6]
+30 -> 32 [ label = ">867.00"];
+"33" [shape=box, style=filled, label="Date
+", weight=5]
+29 -> 33 [ label = ">750.12"];
+"34" [shape=box, style=filled, label="8
+(29)
+", weight=6]
+33 -> 34 [ label = "<=30.50"];
+"35" [shape=box, style=filled, label="8
+(28/5)
+", weight=6]
+33 -> 35 [ label = ">30.50"];
+"36" [shape=box, style=filled, label="Date
+", weight=3]
+22 -> 36 [ label = ">858.67"];
+"37" [shape=box, style=filled, label="High
+", weight=4]
+36 -> 37 [ label = "<=1178.50"];
+"38" [shape=box, style=filled, label="Open
+", weight=5]
+37 -> 38 [ label = "<=1175.04"];
+"39" [shape=box, style=filled, label="9
+(27/1)
+", weight=6]
+38 -> 39 [ label = "<=931.12"];
+"40" [shape=box, style=filled, label="10
+(35/16)
+", weight=6]
+38 -> 40 [ label = ">931.12"];
+"41" [shape=box, style=filled, label="Open
+", weight=5]
+37 -> 41 [ label = ">1175.04"];
+"42" [shape=box, style=filled, label="12
+(35/12)
+", weight=6]
+41 -> 42 [ label = "<=1340.26"];
+"43" [shape=box, style=filled, label="17
+(6/11)
+", weight=6]
+41 -> 43 [ label = ">1340.26"];
+"44" [shape=box, style=filled, label="High
+", weight=4]
+36 -> 44 [ label = ">1178.50"];
+"45" [shape=box, style=filled, label="Open
+", weight=5]
+44 -> 45 [ label = "<=3134.55"];
+"46" [shape=box, style=filled, label="24
+(9/26)
+", weight=6]
+45 -> 46 [ label = "<=2499.92"];
+"47" [shape=box, style=filled, label="27
+(12/32)
+", weight=6]
+45 -> 47 [ label = ">2499.92"];
+"48" [shape=box, style=filled, label="Open
+", weight=5]
+44 -> 48 [ label = ">3134.55"];
+"49" [shape=box, style=filled, label="42
+(8/31)
+", weight=6]
+48 -> 49 [ label = "<=4301.95"];
+"50" [shape=box, style=filled, label="43
+(8/29)
+", weight=6]
+48 -> 50 [ label = ">4301.95"];
+{rank=same; 0;};
+{rank=same; 1;22;};
+{rank=same; 2;11;23;36;};
+{rank=same; 3;4;12;17;24;29;37;44;};
+{rank=same; 5;8;13;14;18;19;25;28;30;33;38;41;45;48;};
+{rank=same; 6;7;9;10;15;16;20;21;26;27;31;32;34;35;39;40;42;43;46;47;49;50;};
+}

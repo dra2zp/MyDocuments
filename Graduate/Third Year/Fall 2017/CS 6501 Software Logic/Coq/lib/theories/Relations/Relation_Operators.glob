@@ -1,0 +1,624 @@
+DIGEST 9b2431898c134c2d66dd66ebcd3fb7aa
+FCoq.Relations.Relation_Operators
+R1368:1387 Coq.Relations.Relation_Definitions <> <> lib
+sec 1429:1446 <> Transitive_Closure
+var 1460:1460 Transitive_Closure A
+var 1481:1481 Transitive_Closure R
+R1485:1492 Coq.Relations.Relation_Definitions <> relation def
+R1494:1494 Coq.Relations.Relation_Operators <> Transitive_Closure.A var
+ind 1560:1569 <> clos_trans
+constr 1599:1604 <> t_step
+constr 1644:1650 <> t_trans
+R1575:1575 Coq.Relations.Relation_Operators <> Transitive_Closure.A var
+R1581:1584 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1580:1580 Coq.Relations.Relation_Operators <> Transitive_Closure.A var
+R1609:1609 Coq.Relations.Relation_Operators <> Transitive_Closure.A var
+R1619:1622 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1623:1632 Coq.Relations.Relation_Operators <> clos_trans ind
+R1636:1636 Coq.Relations.Relation_Operators <> y var
+R1614:1614 Coq.Relations.Relation_Operators <> Transitive_Closure.R var
+R1618:1618 Coq.Relations.Relation_Operators <> y var
+R1657:1657 Coq.Relations.Relation_Operators <> Transitive_Closure.A var
+R1676:1679 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1694:1697 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1698:1707 Coq.Relations.Relation_Operators <> clos_trans ind
+R1711:1711 Coq.Relations.Relation_Operators <> z var
+R1680:1689 Coq.Relations.Relation_Operators <> clos_trans ind
+R1693:1693 Coq.Relations.Relation_Operators <> z var
+R1691:1691 Coq.Relations.Relation_Operators <> y var
+R1662:1671 Coq.Relations.Relation_Operators <> clos_trans ind
+R1675:1675 Coq.Relations.Relation_Operators <> y var
+ind 1796:1808 <> clos_trans_1n
+constr 1838:1845 <> t1n_step
+constr 1888:1896 <> t1n_trans
+R1814:1814 Coq.Relations.Relation_Operators <> Transitive_Closure.A var
+R1820:1823 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1819:1819 Coq.Relations.Relation_Operators <> Transitive_Closure.A var
+R1850:1850 Coq.Relations.Relation_Operators <> Transitive_Closure.A var
+R1860:1863 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1864:1876 Coq.Relations.Relation_Operators <> clos_trans_1n ind
+R1880:1880 Coq.Relations.Relation_Operators <> y var
+R1855:1855 Coq.Relations.Relation_Operators <> Transitive_Closure.R var
+R1859:1859 Coq.Relations.Relation_Operators <> y var
+R1903:1903 Coq.Relations.Relation_Operators <> Transitive_Closure.A var
+R1913:1916 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1934:1937 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1938:1950 Coq.Relations.Relation_Operators <> clos_trans_1n ind
+R1954:1954 Coq.Relations.Relation_Operators <> z var
+R1917:1929 Coq.Relations.Relation_Operators <> clos_trans_1n ind
+R1933:1933 Coq.Relations.Relation_Operators <> z var
+R1931:1931 Coq.Relations.Relation_Operators <> y var
+R1908:1908 Coq.Relations.Relation_Operators <> Transitive_Closure.R var
+R1912:1912 Coq.Relations.Relation_Operators <> y var
+ind 2040:2052 <> clos_trans_n1
+constr 2082:2089 <> tn1_step
+constr 2132:2140 <> tn1_trans
+R2058:2058 Coq.Relations.Relation_Operators <> Transitive_Closure.A var
+R2064:2067 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2063:2063 Coq.Relations.Relation_Operators <> Transitive_Closure.A var
+R2094:2094 Coq.Relations.Relation_Operators <> Transitive_Closure.A var
+R2104:2107 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2108:2120 Coq.Relations.Relation_Operators <> clos_trans_n1 ind
+R2124:2124 Coq.Relations.Relation_Operators <> y var
+R2099:2099 Coq.Relations.Relation_Operators <> Transitive_Closure.R var
+R2103:2103 Coq.Relations.Relation_Operators <> y var
+R2147:2147 Coq.Relations.Relation_Operators <> Transitive_Closure.A var
+R2157:2160 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2178:2181 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2182:2194 Coq.Relations.Relation_Operators <> clos_trans_n1 ind
+R2198:2198 Coq.Relations.Relation_Operators <> z var
+R2161:2173 Coq.Relations.Relation_Operators <> clos_trans_n1 ind
+R2177:2177 Coq.Relations.Relation_Operators <> y var
+R2152:2152 Coq.Relations.Relation_Operators <> Transitive_Closure.R var
+R2156:2156 Coq.Relations.Relation_Operators <> z var
+R2154:2154 Coq.Relations.Relation_Operators <> y var
+R2206:2223 Coq.Relations.Relation_Operators Transitive_Closure <> sec
+sec 2264:2280 <> Reflexive_Closure
+var 2294:2294 Reflexive_Closure A
+var 2315:2315 Reflexive_Closure R
+R2319:2326 Coq.Relations.Relation_Definitions <> relation def
+R2328:2328 Coq.Relations.Relation_Operators <> Reflexive_Closure.A var
+ind 2394:2402 <> clos_refl
+constr 2432:2437 <> r_step
+constr 2476:2481 <> r_refl
+R2408:2408 Coq.Relations.Relation_Operators <> Reflexive_Closure.A var
+R2414:2417 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2413:2413 Coq.Relations.Relation_Operators <> Reflexive_Closure.A var
+R2442:2442 Coq.Relations.Relation_Operators <> Reflexive_Closure.A var
+R2452:2455 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2456:2464 Coq.Relations.Relation_Operators <> clos_refl ind
+R2468:2468 Coq.Relations.Relation_Operators <> y var
+R2447:2447 Coq.Relations.Relation_Operators <> Reflexive_Closure.R var
+R2451:2451 Coq.Relations.Relation_Operators <> y var
+R2485:2493 Coq.Relations.Relation_Operators <> clos_refl ind
+R2505:2521 Coq.Relations.Relation_Operators Reflexive_Closure <> sec
+sec 2573:2600 <> Reflexive_Transitive_Closure
+var 2614:2614 Reflexive_Transitive_Closure A
+var 2635:2635 Reflexive_Transitive_Closure R
+R2639:2646 Coq.Relations.Relation_Definitions <> relation def
+R2648:2648 Coq.Relations.Relation_Operators <> Reflexive_Transitive_Closure.A var
+ind 2724:2738 <> clos_refl_trans
+constr 2767:2773 <> rt_step
+constr 2818:2824 <> rt_refl
+constr 2854:2861 <> rt_trans
+R2743:2743 Coq.Relations.Relation_Operators <> Reflexive_Transitive_Closure.A var
+R2749:2752 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2748:2748 Coq.Relations.Relation_Operators <> Reflexive_Transitive_Closure.A var
+R2778:2778 Coq.Relations.Relation_Operators <> Reflexive_Transitive_Closure.A var
+R2788:2791 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2792:2806 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R2810:2810 Coq.Relations.Relation_Operators <> y var
+R2783:2783 Coq.Relations.Relation_Operators <> Reflexive_Transitive_Closure.R var
+R2787:2787 Coq.Relations.Relation_Operators <> y var
+R2828:2842 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R2868:2868 Coq.Relations.Relation_Operators <> Reflexive_Transitive_Closure.A var
+R2902:2905 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2925:2928 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2929:2943 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R2947:2947 Coq.Relations.Relation_Operators <> z var
+R2906:2920 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R2924:2924 Coq.Relations.Relation_Operators <> z var
+R2922:2922 Coq.Relations.Relation_Operators <> y var
+R2883:2897 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R2901:2901 Coq.Relations.Relation_Operators <> y var
+ind 3032:3049 <> clos_refl_trans_1n
+constr 3079:3087 <> rt1n_refl
+constr 3120:3129 <> rt1n_trans
+R3055:3055 Coq.Relations.Relation_Operators <> Reflexive_Transitive_Closure.A var
+R3061:3064 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3060:3060 Coq.Relations.Relation_Operators <> Reflexive_Transitive_Closure.A var
+R3091:3108 Coq.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R3136:3136 Coq.Relations.Relation_Operators <> Reflexive_Transitive_Closure.A var
+R3155:3158 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3181:3184 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3185:3202 Coq.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R3206:3206 Coq.Relations.Relation_Operators <> z var
+R3159:3176 Coq.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R3180:3180 Coq.Relations.Relation_Operators <> z var
+R3178:3178 Coq.Relations.Relation_Operators <> y var
+R3150:3150 Coq.Relations.Relation_Operators <> Reflexive_Transitive_Closure.R var
+R3154:3154 Coq.Relations.Relation_Operators <> y var
+ind 3291:3308 <> clos_refl_trans_n1
+constr 3338:3346 <> rtn1_refl
+constr 3379:3388 <> rtn1_trans
+R3314:3314 Coq.Relations.Relation_Operators <> Reflexive_Transitive_Closure.A var
+R3320:3323 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3319:3319 Coq.Relations.Relation_Operators <> Reflexive_Transitive_Closure.A var
+R3350:3367 Coq.Relations.Relation_Operators <> clos_refl_trans_n1 ind
+R3395:3395 Coq.Relations.Relation_Operators <> Reflexive_Transitive_Closure.A var
+R3413:3416 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3439:3442 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3443:3460 Coq.Relations.Relation_Operators <> clos_refl_trans_n1 ind
+R3464:3464 Coq.Relations.Relation_Operators <> z var
+R3417:3434 Coq.Relations.Relation_Operators <> clos_refl_trans_n1 ind
+R3438:3438 Coq.Relations.Relation_Operators <> y var
+R3408:3408 Coq.Relations.Relation_Operators <> Reflexive_Transitive_Closure.R var
+R3412:3412 Coq.Relations.Relation_Operators <> z var
+R3410:3410 Coq.Relations.Relation_Operators <> y var
+R3472:3499 Coq.Relations.Relation_Operators Reflexive_Transitive_Closure <> sec
+sec 3561:3598 <> Reflexive_Symmetric_Transitive_Closure
+var 3612:3612 Reflexive_Symmetric_Transitive_Closure A
+var 3633:3633 Reflexive_Symmetric_Transitive_Closure R
+R3637:3644 Coq.Relations.Relation_Definitions <> relation def
+R3646:3646 Coq.Relations.Relation_Operators <> Reflexive_Symmetric_Transitive_Closure.A var
+ind 3732:3750 <> clos_refl_sym_trans
+constr 3774:3781 <> rst_step
+constr 3832:3839 <> rst_refl
+constr 3879:3885 <> rst_sym
+constr 3954:3962 <> rst_trans
+R3754:3761 Coq.Relations.Relation_Definitions <> relation def
+R3763:3763 Coq.Relations.Relation_Operators <> Reflexive_Symmetric_Transitive_Closure.A var
+R3788:3788 Coq.Relations.Relation_Operators <> Reflexive_Symmetric_Transitive_Closure.A var
+R3798:3801 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3802:3820 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R3824:3824 Coq.Relations.Relation_Operators <> y var
+R3822:3822 Coq.Relations.Relation_Operators <> x var
+R3793:3793 Coq.Relations.Relation_Operators <> Reflexive_Symmetric_Transitive_Closure.R var
+R3797:3797 Coq.Relations.Relation_Operators <> y var
+R3795:3795 Coq.Relations.Relation_Operators <> x var
+R3844:3844 Coq.Relations.Relation_Operators <> Reflexive_Symmetric_Transitive_Closure.A var
+R3849:3867 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R3871:3871 Coq.Relations.Relation_Operators <> x var
+R3869:3869 Coq.Relations.Relation_Operators <> x var
+R3892:3892 Coq.Relations.Relation_Operators <> Reflexive_Symmetric_Transitive_Closure.A var
+R3920:3923 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3924:3942 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R3946:3946 Coq.Relations.Relation_Operators <> x var
+R3944:3944 Coq.Relations.Relation_Operators <> y var
+R3897:3915 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R3919:3919 Coq.Relations.Relation_Operators <> y var
+R3917:3917 Coq.Relations.Relation_Operators <> x var
+R3971:3971 Coq.Relations.Relation_Operators <> Reflexive_Symmetric_Transitive_Closure.A var
+R4007:4018 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4042:4045 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4046:4064 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R4068:4068 Coq.Relations.Relation_Operators <> z var
+R4066:4066 Coq.Relations.Relation_Operators <> x var
+R4019:4037 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R4041:4041 Coq.Relations.Relation_Operators <> z var
+R4039:4039 Coq.Relations.Relation_Operators <> y var
+R3984:4002 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R4006:4006 Coq.Relations.Relation_Operators <> y var
+R4004:4004 Coq.Relations.Relation_Operators <> x var
+ind 4163:4184 <> clos_refl_sym_trans_1n
+constr 4214:4223 <> rst1n_refl
+constr 4260:4270 <> rst1n_trans
+R4190:4190 Coq.Relations.Relation_Operators <> Reflexive_Symmetric_Transitive_Closure.A var
+R4196:4199 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4195:4195 Coq.Relations.Relation_Operators <> Reflexive_Symmetric_Transitive_Closure.A var
+R4227:4248 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R4277:4277 Coq.Relations.Relation_Operators <> Reflexive_Symmetric_Transitive_Closure.A var
+R4296:4308 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4335:4338 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4339:4360 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R4364:4364 Coq.Relations.Relation_Operators <> z var
+R4309:4330 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R4334:4334 Coq.Relations.Relation_Operators <> z var
+R4332:4332 Coq.Relations.Relation_Operators <> y var
+R4287:4290 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R4282:4282 Coq.Relations.Relation_Operators <> Reflexive_Symmetric_Transitive_Closure.R var
+R4286:4286 Coq.Relations.Relation_Operators <> y var
+R4291:4291 Coq.Relations.Relation_Operators <> Reflexive_Symmetric_Transitive_Closure.R var
+R4293:4293 Coq.Relations.Relation_Operators <> y var
+ind 4460:4481 <> clos_refl_sym_trans_n1
+constr 4511:4520 <> rstn1_refl
+constr 4557:4567 <> rstn1_trans
+R4487:4487 Coq.Relations.Relation_Operators <> Reflexive_Symmetric_Transitive_Closure.A var
+R4493:4496 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4492:4492 Coq.Relations.Relation_Operators <> Reflexive_Symmetric_Transitive_Closure.A var
+R4524:4545 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R4574:4574 Coq.Relations.Relation_Operators <> Reflexive_Symmetric_Transitive_Closure.A var
+R4593:4605 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4632:4635 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4636:4657 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R4661:4661 Coq.Relations.Relation_Operators <> z var
+R4606:4627 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R4631:4631 Coq.Relations.Relation_Operators <> y var
+R4584:4587 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R4579:4579 Coq.Relations.Relation_Operators <> Reflexive_Symmetric_Transitive_Closure.R var
+R4583:4583 Coq.Relations.Relation_Operators <> z var
+R4581:4581 Coq.Relations.Relation_Operators <> y var
+R4588:4588 Coq.Relations.Relation_Operators <> Reflexive_Symmetric_Transitive_Closure.R var
+R4592:4592 Coq.Relations.Relation_Operators <> y var
+R4590:4590 Coq.Relations.Relation_Operators <> z var
+R4669:4706 Coq.Relations.Relation_Operators Reflexive_Symmetric_Transitive_Closure <> sec
+sec 4752:4759 <> Converse
+var 4773:4773 Converse A
+var 4794:4794 Converse R
+R4798:4805 Coq.Relations.Relation_Definitions <> relation def
+R4807:4807 Coq.Relations.Relation_Operators <> Converse.A var
+def 4824:4829 <> transp
+R4836:4836 Coq.Relations.Relation_Operators <> Converse.A var
+R4842:4842 Coq.Relations.Relation_Operators <> Converse.R var
+R4846:4846 Coq.Relations.Relation_Operators <> x var
+R4844:4844 Coq.Relations.Relation_Operators <> y var
+R4853:4860 Coq.Relations.Relation_Operators Converse <> sec
+sec 4902:4906 <> Union
+var 4920:4920 Union A
+var 4942:4943 Union R1
+var 4945:4946 Union R2
+R4950:4957 Coq.Relations.Relation_Definitions <> relation def
+R4959:4959 Coq.Relations.Relation_Operators <> Union.A var
+def 4976:4980 <> union
+R4987:4987 Coq.Relations.Relation_Operators <> Union.A var
+R4999:5002 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R4993:4994 Coq.Relations.Relation_Operators <> Union.R1 var
+R4998:4998 Coq.Relations.Relation_Operators <> y var
+R4996:4996 Coq.Relations.Relation_Operators <> x var
+R5003:5004 Coq.Relations.Relation_Operators <> Union.R2 var
+R5008:5008 Coq.Relations.Relation_Operators <> y var
+R5006:5006 Coq.Relations.Relation_Operators <> x var
+R5015:5019 Coq.Relations.Relation_Operators Union <> sec
+sec 5070:5083 <> Disjoint_Union
+var 5096:5096 Disjoint_Union A
+var 5098:5098 Disjoint_Union B
+var 5117:5119 Disjoint_Union leA
+R5124:5127 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5129:5132 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5128:5128 Coq.Relations.Relation_Operators <> Disjoint_Union.A var
+R5123:5123 Coq.Relations.Relation_Operators <> Disjoint_Union.A var
+var 5148:5150 Disjoint_Union leB
+R5155:5158 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5160:5163 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5159:5159 Coq.Relations.Relation_Operators <> Disjoint_Union.B var
+R5154:5154 Coq.Relations.Relation_Operators <> Disjoint_Union.B var
+ind 5181:5186 <> le_AsB
+constr 5220:5224 <> le_aa
+constr 5278:5282 <> le_ab
+constr 5329:5333 <> le_bb
+R5195:5198 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5204:5207 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5200:5202 Coq.Init.Datatypes <> :type_scope:x_'+'_x not
+R5199:5199 Coq.Relations.Relation_Operators <> Disjoint_Union.A var
+R5203:5203 Coq.Relations.Relation_Operators <> Disjoint_Union.B var
+R5191:5193 Coq.Init.Datatypes <> :type_scope:x_'+'_x not
+R5190:5190 Coq.Relations.Relation_Operators <> Disjoint_Union.A var
+R5194:5194 Coq.Relations.Relation_Operators <> Disjoint_Union.B var
+R5231:5231 Coq.Relations.Relation_Operators <> Disjoint_Union.A var
+R5243:5246 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5247:5252 Coq.Relations.Relation_Operators <> le_AsB ind
+R5265:5267 Coq.Init.Datatypes <> inl constr
+R5271:5271 Coq.Relations.Relation_Operators <> y var
+R5255:5257 Coq.Init.Datatypes <> inl constr
+R5261:5261 Coq.Relations.Relation_Operators <> x var
+R5236:5238 Coq.Relations.Relation_Operators <> Disjoint_Union.leA var
+R5242:5242 Coq.Relations.Relation_Operators <> y var
+R5240:5240 Coq.Relations.Relation_Operators <> x var
+R5287:5287 Coq.Relations.Relation_Operators <> Disjoint_Union.A var
+R5293:5293 Coq.Relations.Relation_Operators <> Disjoint_Union.B var
+R5298:5303 Coq.Relations.Relation_Operators <> le_AsB ind
+R5316:5318 Coq.Init.Datatypes <> inr constr
+R5322:5322 Coq.Relations.Relation_Operators <> y var
+R5306:5308 Coq.Init.Datatypes <> inl constr
+R5312:5312 Coq.Relations.Relation_Operators <> x var
+R5340:5340 Coq.Relations.Relation_Operators <> Disjoint_Union.B var
+R5352:5355 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5356:5361 Coq.Relations.Relation_Operators <> le_AsB ind
+R5374:5376 Coq.Init.Datatypes <> inr constr
+R5380:5380 Coq.Relations.Relation_Operators <> y var
+R5364:5366 Coq.Init.Datatypes <> inr constr
+R5370:5370 Coq.Relations.Relation_Operators <> x var
+R5345:5347 Coq.Relations.Relation_Operators <> Disjoint_Union.leB var
+R5351:5351 Coq.Relations.Relation_Operators <> y var
+R5349:5349 Coq.Relations.Relation_Operators <> x var
+R5389:5402 Coq.Relations.Relation_Operators Disjoint_Union <> sec
+sec 5464:5484 <> Lexicographic_Product
+var 5499:5499 Lexicographic_Product A
+var 5520:5520 Lexicographic_Product B
+R5525:5528 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5524:5524 Coq.Relations.Relation_Operators <> Lexicographic_Product.A var
+var 5546:5548 Lexicographic_Product leA
+R5553:5556 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5558:5561 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5557:5557 Coq.Relations.Relation_Operators <> Lexicographic_Product.A var
+R5552:5552 Coq.Relations.Relation_Operators <> Lexicographic_Product.A var
+var 5579:5581 Lexicographic_Product leB
+R5594:5594 Coq.Relations.Relation_Operators <> Lexicographic_Product.A var
+R5600:5603 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5607:5610 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5604:5604 Coq.Relations.Relation_Operators <> Lexicographic_Product.B var
+R5606:5606 Coq.Relations.Relation_Operators <> x var
+R5597:5597 Coq.Relations.Relation_Operators <> Lexicographic_Product.B var
+R5599:5599 Coq.Relations.Relation_Operators <> x var
+ind 5630:5636 <> lexprod
+constr 5674:5681 <> left_lex
+constr 5792:5800 <> right_lex
+R5646:5649 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5656:5659 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5650:5653 Coq.Init.Specif <> sigT ind
+R5655:5655 Coq.Relations.Relation_Operators <> Lexicographic_Product.B var
+R5640:5643 Coq.Init.Specif <> sigT ind
+R5645:5645 Coq.Relations.Relation_Operators <> Lexicographic_Product.B var
+R5704:5704 Coq.Relations.Relation_Operators <> Lexicographic_Product.A var
+R5710:5710 Coq.Relations.Relation_Operators <> Lexicographic_Product.B var
+R5712:5712 Coq.Relations.Relation_Operators <> x var
+R5719:5719 Coq.Relations.Relation_Operators <> Lexicographic_Product.B var
+R5721:5722 Coq.Relations.Relation_Operators <> x' var
+R5742:5745 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5746:5752 Coq.Relations.Relation_Operators <> lexprod ind
+R5770:5775 Coq.Init.Specif <> existT constr
+R5782:5783 Coq.Relations.Relation_Operators <> y' var
+R5779:5780 Coq.Relations.Relation_Operators <> x' var
+R5777:5777 Coq.Relations.Relation_Operators <> Lexicographic_Product.B var
+R5755:5760 Coq.Init.Specif <> existT constr
+R5766:5766 Coq.Relations.Relation_Operators <> y var
+R5764:5764 Coq.Relations.Relation_Operators <> x var
+R5762:5762 Coq.Relations.Relation_Operators <> Lexicographic_Product.B var
+R5734:5736 Coq.Relations.Relation_Operators <> Lexicographic_Product.leA var
+R5740:5741 Coq.Relations.Relation_Operators <> x' var
+R5738:5738 Coq.Relations.Relation_Operators <> x var
+R5820:5820 Coq.Relations.Relation_Operators <> Lexicographic_Product.A var
+R5829:5829 Coq.Relations.Relation_Operators <> Lexicographic_Product.B var
+R5831:5831 Coq.Relations.Relation_Operators <> x var
+R5853:5856 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5857:5863 Coq.Relations.Relation_Operators <> lexprod ind
+R5881:5886 Coq.Init.Specif <> existT constr
+R5892:5893 Coq.Relations.Relation_Operators <> y' var
+R5890:5890 Coq.Relations.Relation_Operators <> x var
+R5888:5888 Coq.Relations.Relation_Operators <> Lexicographic_Product.B var
+R5866:5871 Coq.Init.Specif <> existT constr
+R5877:5877 Coq.Relations.Relation_Operators <> y var
+R5875:5875 Coq.Relations.Relation_Operators <> x var
+R5873:5873 Coq.Relations.Relation_Operators <> Lexicographic_Product.B var
+R5843:5845 Coq.Relations.Relation_Operators <> Lexicographic_Product.leB var
+R5851:5852 Coq.Relations.Relation_Operators <> y' var
+R5849:5849 Coq.Relations.Relation_Operators <> y var
+R5847:5847 Coq.Relations.Relation_Operators <> x var
+R5902:5922 Coq.Relations.Relation_Operators Lexicographic_Product <> sec
+sec 5966:5982 <> Symmetric_Product
+var 5996:5996 Symmetric_Product A
+var 6017:6017 Symmetric_Product B
+var 6038:6040 Symmetric_Product leA
+R6045:6048 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6050:6053 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6049:6049 Coq.Relations.Relation_Operators <> Symmetric_Product.A var
+R6044:6044 Coq.Relations.Relation_Operators <> Symmetric_Product.A var
+var 6071:6073 Symmetric_Product leB
+R6078:6081 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6083:6086 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6082:6082 Coq.Relations.Relation_Operators <> Symmetric_Product.B var
+R6077:6077 Coq.Relations.Relation_Operators <> Symmetric_Product.B var
+ind 6106:6112 <> symprod
+constr 6148:6155 <> left_sym
+constr 6233:6241 <> right_sym
+R6121:6124 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6130:6133 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6126:6128 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6125:6125 Coq.Relations.Relation_Operators <> Symmetric_Product.A var
+R6129:6129 Coq.Relations.Relation_Operators <> Symmetric_Product.B var
+R6117:6119 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6116:6116 Coq.Relations.Relation_Operators <> Symmetric_Product.A var
+R6120:6120 Coq.Relations.Relation_Operators <> Symmetric_Product.B var
+R6177:6177 Coq.Relations.Relation_Operators <> Symmetric_Product.A var
+R6188:6191 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6201:6201 Coq.Relations.Relation_Operators <> Symmetric_Product.B var
+R6204:6210 Coq.Relations.Relation_Operators <> symprod ind
+R6219:6219 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6222:6223 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6225:6225 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6220:6221 Coq.Relations.Relation_Operators <> x' var
+R6224:6224 Coq.Relations.Relation_Operators <> y var
+R6212:6212 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6214:6215 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6217:6217 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6213:6213 Coq.Relations.Relation_Operators <> x var
+R6216:6216 Coq.Relations.Relation_Operators <> y var
+R6180:6182 Coq.Relations.Relation_Operators <> Symmetric_Product.leA var
+R6186:6187 Coq.Relations.Relation_Operators <> x' var
+R6184:6184 Coq.Relations.Relation_Operators <> x var
+R6263:6263 Coq.Relations.Relation_Operators <> Symmetric_Product.B var
+R6274:6277 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6287:6287 Coq.Relations.Relation_Operators <> Symmetric_Product.A var
+R6290:6296 Coq.Relations.Relation_Operators <> symprod ind
+R6305:6305 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6307:6308 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6311:6311 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6306:6306 Coq.Relations.Relation_Operators <> x var
+R6309:6310 Coq.Relations.Relation_Operators <> y' var
+R6298:6298 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6300:6301 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6303:6303 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6299:6299 Coq.Relations.Relation_Operators <> x var
+R6302:6302 Coq.Relations.Relation_Operators <> y var
+R6266:6268 Coq.Relations.Relation_Operators <> Symmetric_Product.leB var
+R6272:6273 Coq.Relations.Relation_Operators <> y' var
+R6270:6270 Coq.Relations.Relation_Operators <> y var
+R6319:6335 Coq.Relations.Relation_Operators Symmetric_Product <> sec
+sec 6384:6387 <> Swap
+var 6401:6401 Swap A
+var 6422:6422 Swap R
+R6427:6430 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6432:6435 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6431:6431 Coq.Relations.Relation_Operators <> Swap.A var
+R6426:6426 Coq.Relations.Relation_Operators <> Swap.A var
+ind 6455:6462 <> swapprod
+constr 6498:6506 <> sp_noswap
+constr 6576:6582 <> sp_swap
+R6471:6474 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6480:6483 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6476:6478 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6475:6475 Coq.Relations.Relation_Operators <> Swap.A var
+R6479:6479 Coq.Relations.Relation_Operators <> Swap.A var
+R6467:6469 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6466:6466 Coq.Relations.Relation_Operators <> Swap.A var
+R6470:6470 Coq.Relations.Relation_Operators <> Swap.A var
+R6516:6518 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6515:6515 Coq.Relations.Relation_Operators <> Swap.A var
+R6519:6519 Coq.Relations.Relation_Operators <> Swap.A var
+R6548:6551 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6552:6559 Coq.Relations.Relation_Operators <> swapprod ind
+R6568:6568 Coq.Relations.Relation_Operators <> p var
+R6561:6561 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6563:6564 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6566:6566 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6562:6562 Coq.Relations.Relation_Operators <> x var
+R6565:6565 Coq.Relations.Relation_Operators <> y var
+R6524:6530 Coq.Relations.Relation_Operators <> symprod ind
+R6547:6547 Coq.Relations.Relation_Operators <> p var
+R6540:6540 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6542:6543 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6545:6545 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6541:6541 Coq.Relations.Relation_Operators <> x var
+R6544:6544 Coq.Relations.Relation_Operators <> y var
+R6538:6538 Coq.Relations.Relation_Operators <> Swap.R var
+R6536:6536 Coq.Relations.Relation_Operators <> Swap.R var
+R6534:6534 Coq.Relations.Relation_Operators <> Swap.A var
+R6532:6532 Coq.Relations.Relation_Operators <> Swap.A var
+R6592:6594 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6591:6591 Coq.Relations.Relation_Operators <> Swap.A var
+R6595:6595 Coq.Relations.Relation_Operators <> Swap.A var
+R6624:6627 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6628:6635 Coq.Relations.Relation_Operators <> swapprod ind
+R6644:6644 Coq.Relations.Relation_Operators <> p var
+R6637:6637 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6639:6640 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6642:6642 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6638:6638 Coq.Relations.Relation_Operators <> y var
+R6641:6641 Coq.Relations.Relation_Operators <> x var
+R6600:6606 Coq.Relations.Relation_Operators <> symprod ind
+R6623:6623 Coq.Relations.Relation_Operators <> p var
+R6616:6616 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6618:6619 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6621:6621 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6617:6617 Coq.Relations.Relation_Operators <> x var
+R6620:6620 Coq.Relations.Relation_Operators <> y var
+R6614:6614 Coq.Relations.Relation_Operators <> Swap.R var
+R6612:6612 Coq.Relations.Relation_Operators <> Swap.R var
+R6610:6610 Coq.Relations.Relation_Operators <> Swap.A var
+R6608:6608 Coq.Relations.Relation_Operators <> Swap.A var
+R6651:6654 Coq.Relations.Relation_Operators Swap <> sec
+sec 6696:6723 <> Lexicographic_Exponentiation
+var 6738:6738 Lexicographic_Exponentiation A
+var 6758:6760 Lexicographic_Exponentiation leA
+R6765:6768 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6770:6773 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6769:6769 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.A var
+R6764:6764 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.A var
+var 6786:6788 Lexicographic_Exponentiation Nil
+R6793:6795 Coq.Init.Datatypes <> nil constr
+R6801:6801 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.A var
+var 6811:6814 Lexicographic_Exponentiation List
+R6819:6822 Coq.Init.Datatypes <> list ind
+R6824:6824 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.A var
+ind 6840:6842 <> Ltl
+constr 6876:6881 <> Lt_nil
+constr 6923:6927 <> Lt_hd
+constr 6997:7001 <> Lt_tl
+R6850:6853 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6858:6861 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6854:6857 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.List var
+R6846:6849 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.List var
+R6886:6886 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.A var
+R6892:6895 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.List var
+R6900:6902 Coq.Relations.Relation_Operators <> Ltl ind
+R6910:6913 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R6909:6909 Coq.Relations.Relation_Operators <> a var
+R6914:6914 Coq.Relations.Relation_Operators <> x var
+R6904:6906 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.Nil var
+R6934:6934 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.A var
+R6946:6949 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6961:6964 Coq.Init.Datatypes <> list ind
+R6966:6966 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.A var
+R6969:6971 Coq.Relations.Relation_Operators <> Ltl ind
+R6984:6987 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R6983:6983 Coq.Relations.Relation_Operators <> b var
+R6988:6988 Coq.Relations.Relation_Operators <> y var
+R6975:6978 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R6974:6974 Coq.Relations.Relation_Operators <> a var
+R6979:6979 Coq.Relations.Relation_Operators <> x var
+R6939:6941 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.leA var
+R6945:6945 Coq.Relations.Relation_Operators <> b var
+R6943:6943 Coq.Relations.Relation_Operators <> a var
+R7006:7006 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.A var
+R7014:7017 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.List var
+R7029:7032 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7033:7035 Coq.Relations.Relation_Operators <> Ltl ind
+R7048:7051 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R7047:7047 Coq.Relations.Relation_Operators <> a var
+R7052:7052 Coq.Relations.Relation_Operators <> y var
+R7039:7042 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R7038:7038 Coq.Relations.Relation_Operators <> a var
+R7043:7043 Coq.Relations.Relation_Operators <> x var
+R7022:7024 Coq.Relations.Relation_Operators <> Ltl ind
+R7028:7028 Coq.Relations.Relation_Operators <> y var
+R7026:7026 Coq.Relations.Relation_Operators <> x var
+ind 7069:7072 <> Desc
+constr 7098:7102 <> d_nil
+constr 7121:7125 <> d_one
+constr 7157:7162 <> d_conc
+R7080:7083 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7076:7079 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.List var
+R7106:7109 Coq.Relations.Relation_Operators <> Desc ind
+R7111:7113 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.Nil var
+R7130:7130 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.A var
+R7135:7138 Coq.Relations.Relation_Operators <> Desc ind
+R7142:7145 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R7141:7141 Coq.Relations.Relation_Operators <> x var
+R7146:7148 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.Nil var
+R7169:7169 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.A var
+R7175:7178 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.List var
+R7210:7213 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7234:7237 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7238:7241 Coq.Relations.Relation_Operators <> Desc ind
+R7244:7244 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R7258:7262 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R7246:7249 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R7245:7245 Coq.Relations.Relation_Operators <> l var
+R7251:7254 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R7250:7250 Coq.Relations.Relation_Operators <> y var
+R7255:7257 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.Nil var
+R7264:7267 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R7263:7263 Coq.Relations.Relation_Operators <> x var
+R7268:7270 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.Nil var
+R7214:7217 Coq.Relations.Relation_Operators <> Desc ind
+R7221:7224 Coq.Init.Datatypes <> :list_scope:x_'++'_x not
+R7220:7220 Coq.Relations.Relation_Operators <> l var
+R7226:7229 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R7225:7225 Coq.Relations.Relation_Operators <> y var
+R7230:7232 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.Nil var
+R7191:7199 Coq.Relations.Relation_Operators <> clos_refl ind
+R7209:7209 Coq.Relations.Relation_Operators <> y var
+R7207:7207 Coq.Relations.Relation_Operators <> x var
+R7203:7205 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.leA var
+R7201:7201 Coq.Relations.Relation_Operators <> Lexicographic_Exponentiation.A var
+def 7288:7290 <> Pow
+R7301:7303 Coq.Init.Specif <> sig ind
+R7305:7308 Coq.Relations.Relation_Operators <> Desc ind
+def 7325:7331 <> lex_exp
+R7338:7340 Coq.Relations.Relation_Operators <> Pow def
+R7353:7355 Coq.Relations.Relation_Operators <> Ltl ind
+R7372:7380 Coq.Init.Specif <> proj1_sig def
+R7382:7382 Coq.Relations.Relation_Operators <> b var
+R7358:7366 Coq.Init.Specif <> proj1_sig def
+R7368:7368 Coq.Relations.Relation_Operators <> a var
+R7391:7418 Coq.Relations.Relation_Operators Lexicographic_Exponentiation <> sec
+R7434:7439 Coq.Relations.Relation_Operators <> transp def
+R7441:7445 Coq.Relations.Relation_Operators <> union def
+syndef 7592:7601 <> rts1n_refl
+R7606:7615 Coq.Relations.Relation_Operators <> rst1n_refl constr
+syndef 7642:7652 <> rts1n_trans
+R7657:7667 Coq.Relations.Relation_Operators <> rst1n_trans constr
+syndef 7694:7703 <> rtsn1_refl
+R7708:7717 Coq.Relations.Relation_Operators <> rstn1_refl constr
+syndef 7744:7754 <> rtsn1_trans
+R7759:7769 Coq.Relations.Relation_Operators <> rstn1_trans constr

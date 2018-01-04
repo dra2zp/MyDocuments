@@ -1,0 +1,121 @@
+DIGEST 22f3fea603b682dada82f72e08d71b6d
+FCoq.Classes.CEquivalence
+R692:709 Coq.Program.Basics <> <> lib
+R727:745 Coq.Program.Tactics <> <> lib
+R764:779 Coq.Classes.Init <> <> lib
+R797:816 Coq.Relations.Relation_Definitions <> <> lib
+R834:861 Coq.Classes.CRelationClasses <> <> lib
+R879:900 Coq.Classes.CMorphisms <> <> lib
+def 1096:1100 <> equiv
+R1104:1114 Coq.Classes.CRelationClasses <> Equivalence class
+R1123:1131 Coq.Classes.CRelationClasses <> crelation def
+R1133:1133 Coq.Classes.CEquivalence <> A var
+R1138:1138 Coq.Classes.CEquivalence <> R var
+R1280:1284 Coq.Classes.CEquivalence <> equiv def
+not 1264:1264 <> :equiv_scope:x_'==='_x
+R1364:1373 Coq.Classes.CRelationClasses <> complement def
+R1375:1379 Coq.Classes.CEquivalence <> equiv def
+not 1348:1348 <> :equiv_scope:x_'=/='_x
+def 1507:1512 <> pequiv
+R1516:1518 Coq.Classes.CRelationClasses <> PER class
+R1527:1535 Coq.Classes.CRelationClasses <> crelation def
+R1537:1537 Coq.Classes.CEquivalence <> A var
+R1542:1542 Coq.Classes.CEquivalence <> R var
+R1614:1619 Coq.Classes.CEquivalence <> pequiv def
+not 1605:1605 <> :equiv_scope:x_'=~='_x
+inst 1733:1747 <> equiv_reflexive
+R1756:1766 Coq.Classes.CRelationClasses <> Equivalence class
+R1773:1781 Coq.Classes.CRelationClasses <> Reflexive class
+R1783:1787 Coq.Classes.CEquivalence <> equiv def
+inst 1808:1822 <> equiv_symmetric
+R1831:1841 Coq.Classes.CRelationClasses <> Equivalence class
+R1848:1856 Coq.Classes.CRelationClasses <> Symmetric class
+R1858:1862 Coq.Classes.CEquivalence <> equiv def
+inst 1883:1898 <> equiv_transitive
+R1907:1917 Coq.Classes.CRelationClasses <> Equivalence class
+R1924:1933 Coq.Classes.CRelationClasses <> Transitive class
+R1935:1939 Coq.Classes.CEquivalence <> equiv def
+R2180:2184 Coq.Classes.CEquivalence <> :equiv_scope:x_'==='_x not
+R2180:2184 Coq.Classes.CEquivalence <> :equiv_scope:x_'==='_x not
+R2284:2288 Coq.Classes.CEquivalence <> :equiv_scope:x_'==='_x not
+R2284:2288 Coq.Classes.CEquivalence <> :equiv_scope:x_'==='_x not
+R2617:2621 Coq.Classes.CEquivalence <> :equiv_scope:x_'==='_x not
+R2617:2621 Coq.Classes.CEquivalence <> :equiv_scope:x_'==='_x not
+R2657:2661 Coq.Classes.CEquivalence <> :equiv_scope:x_'==='_x not
+R2657:2661 Coq.Classes.CEquivalence <> :equiv_scope:x_'==='_x not
+R2703:2707 Coq.Classes.CEquivalence <> :equiv_scope:x_'=/='_x not
+R2703:2707 Coq.Classes.CEquivalence <> :equiv_scope:x_'=/='_x not
+R2764:2765 Coq.Init.Logic <> :type_scope:'~'_x not
+R2768:2772 Coq.Classes.CEquivalence <> :equiv_scope:x_'==='_x not
+R2764:2765 Coq.Init.Logic <> :type_scope:'~'_x not
+R2768:2772 Coq.Classes.CEquivalence <> :equiv_scope:x_'==='_x not
+R3062:3072 Coq.Classes.CRelationClasses <> Equivalence class
+R3062:3072 Coq.Classes.CRelationClasses <> Equivalence class
+R3150:3160 Coq.Classes.CRelationClasses <> Equivalence class
+R3150:3160 Coq.Classes.CRelationClasses <> Equivalence class
+R3221:3225 Coq.Classes.CEquivalence <> equiv def
+R3120:3124 Coq.Classes.CEquivalence <> equiv def
+sec 3293:3302 <> Respecting
+def 3443:3452 <> respecting
+R3462:3472 Coq.Classes.CRelationClasses <> Equivalence class
+R3481:3489 Coq.Classes.CRelationClasses <> crelation def
+R3528:3538 Coq.Classes.CRelationClasses <> Equivalence class
+R3548:3556 Coq.Classes.CRelationClasses <> crelation def
+R3576:3577 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'&'_x_'}' not
+R3583:3585 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'&'_x_'}' not
+R3592:3594 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'&'_x_'}' not
+R3622:3623 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'&'_x_'}' not
+R3587:3590 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3591:3591 Coq.Classes.CEquivalence <> B var
+R3586:3586 Coq.Classes.CEquivalence <> A var
+R3595:3604 Coq.Classes.CMorphisms <> respectful def
+R3608:3609 Coq.Classes.CEquivalence <> R' var
+R3606:3606 Coq.Classes.CEquivalence <> R var
+inst 3646:3661 <> respecting_equiv
+R3671:3681 Coq.Classes.CRelationClasses <> Equivalence class
+R3694:3704 Coq.Classes.CRelationClasses <> Equivalence class
+R3718:3728 Coq.Classes.CRelationClasses <> Equivalence class
+R3742:3751 Coq.Classes.CEquivalence <> respecting def
+R3757:3759 Coq.Classes.CEquivalence <> eqb var
+R3753:3755 Coq.Classes.CEquivalence <> eqa var
+R3799:3799 Coq.Classes.CEquivalence <> A var
+R3808:3811 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3812:3813 Coq.Classes.CEquivalence <> R' var
+R3829:3834 Coq.Init.Specif <> projT1 def
+R3838:3838 Coq.Classes.CEquivalence <> y var
+R3836:3836 Coq.Classes.CEquivalence <> g var
+R3816:3821 Coq.Init.Specif <> projT1 def
+R3825:3825 Coq.Classes.CEquivalence <> x var
+R3823:3823 Coq.Classes.CEquivalence <> f var
+R3803:3803 Coq.Classes.CEquivalence <> R var
+R3807:3807 Coq.Classes.CEquivalence <> y var
+R3805:3805 Coq.Classes.CEquivalence <> x var
+R3876:3885 Coq.Classes.CEquivalence <> respecting def
+R3876:3885 Coq.Classes.CEquivalence <> respecting def
+R3876:3885 Coq.Classes.CEquivalence <> respecting def
+R4007:4016 Coq.Classes.CEquivalence <> respecting def
+R4089:4098 Coq.Classes.CEquivalence Respecting <> sec
+inst 4195:4213 <> pointwise_reflexive
+R4229:4237 Coq.Classes.CRelationClasses <> Reflexive class
+R4250:4258 Coq.Classes.CRelationClasses <> Reflexive class
+R4261:4278 Coq.Classes.CMorphisms <> pointwise_relation def
+R4282:4284 Coq.Classes.CEquivalence <> eqB var
+R4280:4280 Coq.Classes.CEquivalence <> A var
+inst 4325:4343 <> pointwise_symmetric
+R4358:4366 Coq.Classes.CRelationClasses <> Symmetric class
+R4379:4387 Coq.Classes.CRelationClasses <> Symmetric class
+R4390:4407 Coq.Classes.CMorphisms <> pointwise_relation def
+R4411:4413 Coq.Classes.CEquivalence <> eqB var
+R4409:4409 Coq.Classes.CEquivalence <> A var
+inst 4454:4473 <> pointwise_transitive
+R4490:4499 Coq.Classes.CRelationClasses <> Transitive class
+R4512:4521 Coq.Classes.CRelationClasses <> Transitive class
+R4524:4541 Coq.Classes.CMorphisms <> pointwise_relation def
+R4545:4547 Coq.Classes.CEquivalence <> eqB var
+R4543:4543 Coq.Classes.CEquivalence <> A var
+inst 4588:4608 <> pointwise_equivalence
+R4622:4632 Coq.Classes.CRelationClasses <> Equivalence class
+R4645:4655 Coq.Classes.CRelationClasses <> Equivalence class
+R4658:4675 Coq.Classes.CMorphisms <> pointwise_relation def
+R4679:4681 Coq.Classes.CEquivalence <> eqB var
+R4677:4677 Coq.Classes.CEquivalence <> A var

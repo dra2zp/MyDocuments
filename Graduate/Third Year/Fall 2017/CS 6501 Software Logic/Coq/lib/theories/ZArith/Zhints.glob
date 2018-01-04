@@ -1,0 +1,11 @@
+DIGEST 7ff0594b46350b5254e6735771fa69dd
+FCoq.ZArith.Zhints
+R1258:1263 Coq.ZArith.BinInt <> <> lib
+R1281:1286 Coq.ZArith.Zorder <> <> lib
+R1304:1307 Coq.ZArith.Zmin <> <> lib
+R1325:1328 Coq.ZArith.Zabs <> <> lib
+R1346:1353 Coq.ZArith.Zcompare <> <> lib
+R1371:1374 Coq.ZArith.Znat <> <> lib
+R1392:1400 Coq.ZArith.auxiliary <> <> lib
+R1418:1422 Coq.ZArith.Zmisc <> <> lib
+R1440:1443 Coq.ZArith.Wf_Z <> <> lib

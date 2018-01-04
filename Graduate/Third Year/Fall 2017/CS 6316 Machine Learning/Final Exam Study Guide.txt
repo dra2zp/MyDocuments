@@ -1,0 +1,638 @@
+CS 6316 Final Exam Study Guide
+D.J. Anderson (dra2zp)
+
+- Predictive Learning (Learning from Data)
+	- Psychological Induction
+		- inductive statement based on experience
+		- no scientific explanation
+	- Statistical View
+		- estimate distribution using random variables and regression
+	- Philosophy of Science Approach
+		- find scientific theory as explanation
+	- Explanation: observations of past data
+	- Prediction: unobserved/unknown future data
+	- Demarcation Problem: how to distinguish between science and nonscience
+	- William of Ockham: entities should not be multiplied beyond necessity
+	- Epicurus of Samos: if more than one theory is consistent with the observations,
+		keep all theories
+	- Thomas Bayes: how to update/revise beliefs in light of new evidence
+	- Karl Popper: every true inductive theory prohibits certain events or occurrences,
+		i.e. it should be falsifiable
+	- Three Types of Knowledge
+		- Scientific (first-principles, deterministic) (axioms)
+		- Empirical
+			- a belief we obtain after certain sensory experiences
+		- Metaphysical (beliefs)
+	- Types of Prediction Problems
+		- Classification
+			- assign an object/item to a class
+			- output is a label (integer)
+		- Regression
+			- generalization of a classification task
+			- output is a real-valued number
+		- Clustering
+			- organizing objects into meaningful groups
+			- output is a hierarchical grouping of objects
+		- Description
+			- representing an object in terms of a series of primitives
+			- output is a structural or linguistic description
+	- Feature: any distinctive aspect, quality, or characteristic
+- Probability Review
+	- P (A and B) = P (A) * P (B)
+	- P (A or B) = P (A) + P (B) - P (A and B)
+	- P (A | B) = P (A and B) / P (B)
+	- Bayes Theorem: P (Bj | A) = P (A and Bj) / P (A) =
+		(P (A | Bj) * P (Bj)) / (P (A | Bk) * P (Bk)), (1 <= k <= N)
+- Basic Learning Approaches and Complexity Control
+	- Induction: function estimation from data
+	- Deduction: prediction for new inputs
+	- Types of Input and Output Variables
+		- Numeric
+			- real-valued or integer
+			- order and distance relation for any two feature values
+		- Categorical
+			- take on certain values
+			- no order and no distance relation for any two feature values
+		- Ordinal
+			- similar to categorical but there are no crsip boundaries
+			- order but no distance relation for any two feature values
+	- Supervised Learning
+		- training data is set of n samples (xi, yi) used to estimate a model f(x)
+		- training data includes ground truth output values
+		- Regression
+			- estimation of numeric, real-valued outputs
+			- data in the form (x, y): x is multivariate input (vector), y is
+				univariate output (response)
+			- y is real-valued
+		- Classification
+			- estimation of categorical outputs
+			- data in the form (x, y): x is multivariate input (vector), y is
+				univariate output (response)
+			- y is categorical (class label)
+		- Squared Loss
+			- Regression: L(y, f(x)) = (y - f(x))^2
+			- Classification (0/1 Loss Function): L(y, f(x)) = 0 if y = f(x),
+				1 if y != f(x)
+		- Empirical Risk: measure quality of explanation - average training error
+		- Prediction Risk: measure quality of prediction - average test error
+	- Unsupervised Learning
+		- training data is in form of n multivariate input samples
+			X = {x1, x2, ..., xn} in d-dimensional sample space
+		- output values are not present in the data
+		- data in the form (x, y), where x is multivariate input (vector)
+		- clustering (data reduction) = estimation of mapping x -> c
+		- dimensionality reduction (finding low-dimensional model of the data)
+		- Loss Function
+			- L(y, f(x)) = ||x - f(x)||^2 (|| = notation for distance)
+			- minimize the squared distance between training points and their
+				projections (mappings)
+	- Parametric Modeling
+		- univariate classification: minimize empirical risk (classification error)
+			for training data
+	- Non-Parametric Modeling
+		- estimate the model as local average of the data (local estimation
+			modeling)
+		- Ex. k-nearest neighbors regression
+	- Data Reduction
+		- estimate the model as compact encoding of the data
+		- Ex. piece-wise linear regression
+		- typically used for unsupervised learning tasks
+		- Ex. clustering
+	- K-Fold Cross-Validation
+		- divide training data Z into k randomly selected disjoint subsets
+			{Z1, Z2, ..., Zk} of size n / k
+		- for exah left-out validation set Zi, use remaining data to estimate the
+			model and estimate prediction error on Zi
+		- estimate average prediction risk
+- Philosophical Perspectives
+	- Three Philosophical Schools
+		- Realism
+			- objective physical reality perceived via senses
+			- mental constructs reflect objective reality
+			- physical world -> sensory inputs -> mental models
+		- Idealism
+			- primary role belongs to ideas (mental constructs)
+			- physical reality is a by-product of mind
+			- physical world <- sensory inputs <--> mental models
+		- Instrumentalism
+			- the goal of science is to produce useful theories
+			- physical world <--> sensory inputs <--> mental models
+				^---------------utility---------------^
+- Statistical Learning Theory
+	- Keep-It-Direct Principle
+		- goal of learning is generalization rather than estimation of true function
+	- Analysis of Empirical Risk Minimization (ERM)
+		- Vapnik-Chervonenkis (VC) Theory
+		- consistency is not possible without restricting the set of possible models
+		- complexity index for indicator function is independent of unknown data
+			distribution and measures the capacity of a set of possible models,
+			rather than characteristics of the true model
+		- How many points can a linear boundary classify exactly? (d + 1 points)
+		- VC Dimension: the size of the largest finite subset of X shattered by H
+- Decision Trees
+	- decision nodes: two or more branches
+	- leaf nodes: represents a classification / decision
+	- root node: top-most decision node corresponding to the best predictor
+	- ID3 Algorithm
+		- Entropy: -pi log_2 (pi), 1 <= i <= c
+	- Classification and Regression Trees (CART)
+		- minimize empirical risk (squared error) via partitioning the input space
+			into regions
+- Density Estimation
+	- Parameter Estimation
+		- assume a particular form for the density so noly the parameters need to be
+			estimated
+		- Ex. maximum likelihood, Bayesian estimation
+	- Non-Parametric Density Estimation
+		- assume no knowledge about the density
+		- Ex. kernel density estimation, k nearest neighbor
+	- Classification Appoaches
+		- Discriminative
+			- directly estimate a decision rule/boundary
+			- Ex. decision tree, SVM
+		- Generative
+			- build a generative statistical model
+			- Ex. Bayesian networks
+		- Instance based classifiers
+			- use observation directly (no models)
+			- Ex. k nearest neighbors
+	- K Nearest Neighbors Classifier
+		- use distance metric to compute distance to other training records
+		- identify k nearest neighbors
+		- use class labels of nearest neighbors to determine the class label of
+			unknown record (by taking a majority vote or weighting the votes
+			according to distance with weight factor w = 1 / d^2)
+		- fewer computational costs during training, greater storage requirements
+			and higher computational costs on recall, simple implementation,
+			highly adaptive behavior, easy for parallel implementations
+- Introduction to Bayesian Networks
+	- structured, graphical representations of probabilistic relationships between
+		several random variables
+	- explicit representation of conditional independencies
+	- missing arcs (edges) encode conditional independence
+	- efficient representation of joint PDF P(X)
+	- generative model: allows for arbitrary queries to be answered
+	- nodes represent random variables
+	- directed, acyclic graph
+	- lack of arcs represent conditional independence assumptions
+	- compact representation of joint probability distributions
+	- arc from node A to node B: A causes B
+- Principal Components Analysis (PCA)
+	- dimensionality reduction technique used to transform high-dimensional datasets
+		into a dataset with fewer variables where the set of resulting variables
+		explains the maximum variance within the dataset
+	- extracts low dimensional set of features from a high dimensional data set with a
+		motive to capture as much information as possible
+	- normalize variables (center and scale)
+	- compute covariance matrix of the transformed data
+	- compute the eigenvectors and eigenvalues in decreasing order
+	- choose the number of new dimensions and select the first 'd' eigenvectors
+	- project transformed data points on the first 'd' eigenvectors
+	- does not consider class separability since it does not take into account the class
+		label of the feature vector
+- Linear Discriminant Analysis (LDA)
+	- PCA does not consider class separability and logistic regression (LR) has two-
+		class problems (because it's intended for binary classification problems),
+		it's unstable with well separated classes, it's unstable with few examples
+	- used as dimensionality reduction technique in pre-processing step
+	- similar to PCA
+	- in addition to finding the component axes that maximize the variance of the data,
+		it is also interested in the axes that maximize the separation between
+		multiple classes
+	- the data is Gaussian: each variable is shaped like a bell curve when plotted
+	- each attribute has the same variance: that values of each variable vary around
+		the mean by the same amount on average
+	- seeks to reduce dimensionality while preserving much of the class discriminatory
+		information as possible
+	- select the line that maximizes the separability of the scalars
+	- to find a good projection vector, we need to define a measure of separation
+	- the distance between the projected means as our objective function, but this is
+		not a good measure since it does not account for the standard deviation
+		within classes
+	- Fisher's LDA: maximize the difference between the means, normalized by a measure
+		of the within-class scatter
+	- involves calculating a within-class scatter matrix and between-class scatter
+		matrix
+	- compute the d-dimensional mean vectors for the different classes from the dataset
+	- compute the scatter matrices
+	- compute the eigenvectors and corresponding eigenvalues for the scatter matrices
+	- sort the eigenvectors by decreasing eigenvalues and choose k eigenvectors with
+		the largest eigenvalues to form a d x k dimensional matrix W where every
+		column represents an eigenvector
+	- use this d x k eigenvector matrix to transform the samples onto the new subspace
+	- LDA is a parametric method (it assumes unimodal Gaussian likelihoods)
+		- if the distributions are significantly non-Gaussian, the LDA projections
+			may not preserve complex structure in the data needed for
+			classification
+	- LDA will also fail if discriminatory info is not in the mean but in the variance
+		of the data
+	- PCA vs. LDA
+		- PCA: component axes that maximize the variance
+		- LDA: maximize the component axes for class-separation
+- Ensemble Learning
+	- Collective Decision Making
+		- works when experts are indeed intelligent, expert opinions are different
+			(not correlated), their decisions are combined intelligently
+		- doesn't work when majority are not smart, experts give similar opinions
+			(highly correlated), their decisions are not combined intelligently
+	- Two Combining Strategies
+		- apply different learning methods to the same data
+			- Ex. committee of networks, stacking, Bayesian averaging
+		- apply the same method to different (modified) realizations of training
+			data
+			- Ex. bagging, boosting
+	- training a number of individual learners and combining their predictions
+	- accuracy: combining the output of multiple experts
+	- efficiency: decompose complex problem into multiple subproblems that are easier to
+		understand and solve
+	- used when you can build component classifiers that are more accurate than chance
+		and that are independent from each other
+	- ensembles work because uncorrelated errors of individual classifers can be
+		eliminating through averaging
+	- target function may not be implementable with single classifiers but may be
+		approximated by ensemble averaging
+	- ensemble methods boost tree based models, but tree based models suffer from bias
+		(how much on average are the predicted values different from the actual
+		value) and variance (how different will the predictions of the model be at
+		the same point if different samples are taken from the same population)
+	- trade-off management of bias-variance errors: small tree (low variance and high
+		bias), complex tree (overfitting and high variance)
+	- Bagging (Bootstrap Aggregation)
+		- technique used to reduce the variance of predictions by combining the
+			result of multiple classifiers modeled on different sub-samples of
+			the same data set
+		- training individual classifiers on bootstrap samples of the training set
+		- uses component classifiers of the same type and a simple combiner
+			consisting of a majority vote across the ensemble
+		- create multiple data sets
+			- sampling is done with replacement on the original data and new
+				datasets are formed
+		- build multiple classifiers
+			- the same classifier is modeled on each data set and predictions
+				are made
+		- combine classifiers
+			- the predictions of all the classifiers are combined
+			- combined values are more robust than a single model
+		- hyperparameters are parameters whose values are set prior to the
+			commencement of the learning process
+		- Ex. random forest
+	- Random Forest
+		- versatile method capable of performing both regression and classification
+		- undertakes dimensional reduction methods, handles outlier values, and
+			other essential steps of data exploration
+		- weak models combine to form a powerful model
+		- to classify a new boject, each tree gives a classification
+		- the forest chooses the classification having the most votes over all trees
+			in the forest
+		- in regression, it takes the average of outputs by different trees
+		- sample of N cases is taken at random but with replacement (training set)
+		- m variables are selected at random out of M; best split on these m is used
+			to split the node; the value of m is held constant while we grow the
+			forest
+		- each tree is grown to the largest extent possible and there is no pruning
+		- predict new data by aggregating the predictions of the ntree trees
+		- when you make a new prediction, the new observation gets pushed down each
+			decision tree and assigned a predicted value/label
+		- the predictions are tallied up and the mode vote of all trees is returned
+			as the final prediction
+		- suitable for both classification and regression
+		- can handle large data sets with a large number of attributes (dimensions)
+		- can assist with dimensionality reduction because often implementations
+			help to identify the most significant variables
+		- has an effective method for estimating missing data and maintains accuracy
+			when a large proportion of the data are missing
+		- has methods for balancing errors in data sets where classes are imbalanced
+		- involves sample of the input data with replacement (bootstrap sampling)
+		- out of bag samples: data not used for training and used for testing
+		- no need for cross-validation
+		- does a good job with classification problems, but doesn't perform as well
+			with regression problems
+		- it doesn't predict byeond the range in the training data
+		- may over fit data sets that are particularly noisy
+	- Methods for Constructing Ensembles
+		- subsampling the training examples
+			- multiple hypotheses are generated by training individual
+				classifiers on different datasets obtained by resampling a
+				common training set
+			- Ex. bagging, boosting
+		- manipulating the input features
+			- multiple hypotheses are generated by training individual
+				classifiers on different representations or different
+				subsets of a common feature vector
+		- manipulating the output targets
+		- modifying the learning parameters of the classifier
+			- a number of classifiers are built with different learning
+				parameters, such as number of neighbors in a k nearest
+				neighbor rule, initial weights in an MLP
+	- Parallel
+		- all the individual classifiers are invoked independently, and their
+			results are fused with a combination rule or a meta-classifier
+		- the majority of ensemble approaches in the literature fall under this
+			category
+	- Cascading or Hierarchical
+		- classifiers are invoked in a sequential or tree-structured fashion
+		- inaccurate but fast methods are invoked first and computationally more
+			intensive but accurate methods are left for the latter stages
+	- Static Combiners
+		- combiner decision rule is independent of the feature vector
+		- static approaches can be broadly divided into non-trainable and trainable
+	- Non-trainable
+		- voting is performed independently of the performance of each individual
+			classifier
+		- voting: each classifier produces a single class label
+		- averaging: each classifier produces a confidence estimate
+		- borda counts: each classifier produces a rank
+	- Trainable
+		- combiner undergoes a separate training phase to improve the performance of
+			the ensemble
+		- weighted averaging: the output of each classifier is weighted by a measure
+			of its own performance (prediction accuracy on a separate validation
+			set)
+		- stacked generalization: the output of the ensemble serves as a feature
+			vector (input) to a meta-classifier (second-level expert)
+	- Adaptive Combiners
+		- combiner is a function that depends on the input feature vector
+		- the ensemble implements a function that is local to each region in feature
+			space
+		- divide-and-conquer approach leads to modular ensembles where relatively
+			simple classifiers specialize in different parts of I/O space
+		- in contrast with static-combiner ensembles, the individual experts here
+			do not need to perform well for all inputs, only in their region of
+			expertise
+	- Mixture of Experts (ME)
+		- a gating network is used to partition feature space into different regions
+			with one expert in the ensemble being responsible for generating the
+			correct output within that region
+		- the experts in the ensemble and the gating network are trained
+			simultaneously
+	- Boosting
+		- component classifers are built sequentially, and examples that are
+			mislabeled by previous components are chosen more often than those
+			that are correctly classified
+		- based on the concept of a weak learner, an algorithm that performs
+			slightly better than chance
+		- a weak learner can be converted into a strong learner by changing the
+			distribution of training examples
+		- small benefits achieved by using highly accurate classifiers
+		- AdaBoost (Adaptive Boosting)
+			- helps combine multiple weak classifiers into a single strong
+				classifier
+			- can be applied to any classification algorithm
+			- builds on top of other classifiers as opposed to being a classifer
+				itself
+			- helps you choose the training set for each new classifier that you
+				train based on the results of the previous classifier
+			- determines how much weight should be given to each classifier's
+				proposed answer when combining the results
+			- each weak classifier should be trained on a random subset of the
+				total training set
+			- the subsets can overlap
+			- assigns a weight to each training example, which determines the
+				probability that each example should appear in the training
+				set
+			- examples with higher weights are more likely to be included in the
+				training set
+			- after training a classifier, AdaBoost increases the weight on the
+				misclassified examples so these examples will make up a
+				larger part of the next classifier's training set, and
+				hopefully the next classifier trained will perform better
+				on them
+			- algorithm is iterative
+			- maintains distribution of weights over the training examples
+			- initially weights are equal
+			- at successive iterations, the weight of misclassified examples is
+				increased
+			- this forces the algorithm to concentrate on examples that have not
+				been classified correctly so far
+			- can construct arbitrarily complex decision regions
+			- fast, simple, and effective
+			- has only one parameter to tune, T
+			- flexible: can be combined with any classifier
+			- can fail if weak hypothesis (weak learners) are too complex
+				(overfitting) or are too weak (underfitting)
+			- especially susceptible to noise (data with wrong labels)
+- Clustering (Unsupervised)
+	- Vector Quaantization
+		- partition the input space into disjoint regions
+		- find positions of units (corrdinates of prototypes)
+		- find the nearest center to the data point
+		- update the winning unit coordinates
+		- iterate the above two steps
+		- Clustering
+			- separating a data set into several groups (clusters) according to
+				some measure of similarity
+			- goals
+				- interpretation (of resulting clusters)
+				- exploratory data analysis
+				- preprocessing for supervised learning
+				- often the goal is not formally stated
+			- partitioning a set of n objects (samples) into k disjoint groups
+				based on some similarity measure
+			- similar objects into one cluster, and dissimlar objects into
+				different clusters
+			- distance needs to be defined for different types of input
+		- Self-Organizing Map
+			- introduce relationship (map), forcing the neighbors of the
+				winning unit to move towards the data
+			- unsupervised training in which networks learn to form their own
+				classifications of the training data without extra help
+			- assume class membership is broadly defined by the input patterns
+				sharing common features
+			- the network will be able to identify those features across the
+				range of input patterns
+			- an SOM learns to classify the training data without any external
+				supervision requiring no target vector
+			- output neurons compete amongst themselves to be activated: only
+				one is activated at any given time
+			- activated neuron: winning neuron
+			- competition can be induced/implemented by having lateral
+				inhibition connections (negative feedback paths) between the
+				neurons
+			- the result is that neurons are forced to organize themselves
+			- goal is to reduce dimensionality
+			- neurons become selectively tuned to various input patterns
+				(stimuli) or classes of input patterns during the course
+				of the competitive learning
+			- locations of the neurons so tuned become ordered and a meaningful
+				coordinate system for the input features is created
+			- each node's weights are initialized
+			- a vector is chosen at random from the set of training data and
+				presented to the network
+			- every node in the network (neuron) is examined to calculate which
+				one's weights are most like the input vector
+			- radius of the neighborhood of the best matching unit (BMU)
+				(winning node) is calculated (radius diminishes each time-
+				step)
+			- any nodes (neurons) found within the radius of BMUS are adjusted
+				to make them more like the input vector
+			- repeat for N iterations
+			- Four Major Components of Self Organization
+				- Initialization
+					- all the connection weights are initialized with
+						small random values
+				- Competition
+					- for each input pattern, the neurons compute their
+						respective values of a discriminant function
+						which provides the basis for competition
+					- the particular neuron with the smallest value of
+						the discriminant function is declared the
+						winner
+				- Cooperation
+					- the winning neuron determines the spatial location
+						of a topological neighborhood of excited
+						neurons
+					- provides the basis for cooperation among
+						neighboring neurons
+				- Adaptation
+					- the excited neurons decrease their individual
+						values of the discriminant function in
+						relation to the input pattern through
+						suitable adjustment of the associated
+						connection weights, such that the response
+						of the winning neuron to the subsequent
+						application of a similar input pattern is
+						enhanced
+- Support Vector Machines (SVM)
+	- maximizing the margin is good according to intuition and PAC theory
+	- implies that only support vectors are important, and other training examples are
+		ignorable
+	- empirically, it works extremely well
+	- maximize the margin around the separating hyperplane (large margin classifiers)
+	- the decision function is fully specified by a subset of training samples, the
+		support vectors
+	- most important training points are support vectors since they define the
+		hyperplane
+	- Non-Linear SVMs
+		- the original input space can always be mapped to some higher-dimensional
+			feature space where the training set is separable
+		- SVM locates a separating hyperplane in the feature space and classify
+			points in that space
+	- flexibility in choosing a similarity function
+	- sparseness of solution when dealing with large data sets
+	- only support vectors are used to specify the separating hyperplane
+	- ability to handle large feature spaces
+	- complexity does not depend on the dimensionality of the feature space
+	- overfitting can be controlled by soft margin approach
+	- Separability
+		- if data is mapped into sufficiently high dimension, then samples will in
+			general be linearly separable
+		- N data points are in general separable in a space of N-1 dimensions or
+			more
+	- Why aren't we overfitting the data?
+		- parameters remain the same
+		- while we have a lot of input values, we only care about the support
+			vectors and these are usually a small group of samples
+		- the maximization of the margin acts as a sort of regularization term
+			leading to reduced overfitting
+		- Occam's Razor: fewer support vectors mean a simpler representation of the
+			hyperplane
+	- SVMs are sensitive to noise
+	- a relatively small number of mislabeled examples can dramatically decrease the
+		performance
+- Neural Networks
+	- constructed and implemented to model the human brain
+	- Ex. pattern matching, classification, optimization, approximation, vector
+		quantization, data clustering
+	- Perceptron "Delta" Rule
+		- learning signal is difference between the desired and actual neuron's
+			response (learning is supervised)
+- Metrics and Methods for Performance Evaluation
+	- focus on predictive capability of a model rather than how fast it takes to
+		classify or build models, scalability, etc.
+	- confusion matrix: summary of prediction results on a classification problem
+	- [[true positive, false positive], [false negative, true negative]]
+	- accuracy = (tp + tn) / (tp + tn + fp + fn)
+	- accuracy is the ratio of correct predictions to total predictions made
+	- error rate = (1 - (correct predictions / total predictions)) * 100
+	- cost matrix: cost of miscalssifying class j example as class i
+	- [[C(Yes | Yes), C(No | Yes)], [C(Yes | No), C(No | No)]]
+	- Precision
+		- p = a / (a + c)
+		- the fraction of relevant instances among the retrieved instances
+		- the ability of the classifier not to label as positive a sample that is
+			negative
+	- Recall
+		- r = a / (a + b)
+		- the fraction of relevant instances that have been retrieved over the total
+			amount of relevant instances
+		- the ability of the classifier to find all the positive samples
+	- F - measure(F) = (2 * r * p) / (r + p) = (2 * a) / (2 * a + b + c)
+		- the harmonic mean of precision and sensitivity
+		- a measure of a test's accuracy considering both precision and recall
+		- F1 score = 1 (best case) (perfect precision and recall)
+		- F1 score = 0 (worst case)
+	- Specificity
+		- measures the proportion of negatives that are correctly identified as such
+		- specificity = tn / (tn + fp)
+	- Learning Curve
+		- shows how accuracy changes with varying sample size
+	- Methods of Estimation
+		- Holdout
+			- reserve 2/3 for training and 1/3 for testing
+		- Random subsampling
+			- repeated holdout
+		- Stratified sampling
+			- oversampling vs. undersampling
+		- Bootstrap
+			- sampling with replacement
+		- Cross validation
+			- partition data into k disjoint subsets
+			- k-fold: train on k-1 partitions, test on the remaining one
+			- leave-one-out: k=n
+	- Receiver Operating Characteristic (ROC)
+		- characterize the trade-off between positive hits (tp) and false alarms
+			(fp)
+		- plots tp on the y-axis against fp on the x-axis
+		- (tp, fp)
+			- (0, 0): declare everything to be negative class
+			- (1, 1): declare everything to be positive class
+			- (1, 0): ideal
+		- diagonal line: random guessing
+		- below diagonal: prediction is opposite of the true class
+		- use classifier that produces posterior probability for each rest instance
+			P(+ | A)
+		- sort the instances according to P(+ | A) in decreasing order
+		- apply threshold at each unique value of P(+ | A)
+		- count the number of tp, fp, tn,, fn at each threshold
+		- tp rate: tpr = tp / (tp + fn)
+		- fp rate: fpr = fp / (fp + tn)
+- Deep Learning and Convolutional Neural Networks
+	- convolutional neural networks (CNN) are a type of artificial neural network (ANN)
+		that includes both fully-connected layers and locally-connected layers known
+		as convolutional layers
+	- in large (deep) convolutional networks, it is common to see other types of layers
+		such as pooling layers, activation layers, and batch normalization layers
+	- designed to process data that come in the form of multiple arrays
+	- Four key ideas that take advantage of the properties of natural signals
+		- Local connections
+		- Shared weights
+		- Pooling
+		- Use of many layers
+	- training deep CNNs from scratch is difficult since training can require extensive
+		computational resources and large amounts of training data
+	- a pre-trained CNN can be used to perform a new classification task by either fine-
+		tuning the pre-trained netwrok's weights using a new target dataset or by
+		using the pre-trained network's activations as automatic feature extractors
+	- Pooling Layer
+		- the role of the convolutional layer is to detect local conjunctions of
+			features from the previous layer
+		- the role of the pooling layer is to merge semantically similar features
+			into one
+		- since the relative positions of the features forming a motif can vary
+			somewhat, reliably detecting the motif can be done by coarse-
+			graining the position of each feature
+		- the convolutional and pooling layers in CNNs are directly inspired by the
+			classic notions of simple cells and complex cells in visual
+			neuroscience
+		- Hierarchies
+			- two or three stages of convolution and pooling are stacked
+				followed by more convolutional and fully-connected layers
+			- deep neural networks exploit the property that many natural
+				signals are compositional hierarchies in which higher-level
+				features are obtained by composing lower-level ones
+			- in images, local combinations of edges form motifs, motifs
+				assemble into parts, and parts form objects
+			- neighboring pooling units take input from patches that are
+				shifted by more than one row or column, thereby reducing
+				the dimension of the representation and creating an
+				invariance to small shifts and distortions

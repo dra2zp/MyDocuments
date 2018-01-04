@@ -1,0 +1,405 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<title>Measurement Conversion</title>
+
+<script type="text/javascript">
+
+   function ClearForm ()
+   {  // Set all the form values to blank.
+      var form = document.forms[0];
+      for (i=0; i < form.elements.length; i++)
+      {  // Don't clear the two buttons.
+         if (form.elements[i].name != "submit" && form.elements[i].name != "clear")
+            form.elements[i].value = "";
+      }
+      document.getElementById("demo").innerHTML = "";
+   }
+   
+ </script>
+ 
+</head>
+
+<body>
+
+<!-- convert.php allows users to convert measurement.
+     If data entries are not numeric, an error message "Data entry is not numeric" is displayed
+ -->
+
+<center><h2>On-line Measurement Conversion</h2></center>
+<hr />
+
+<form method="post" action="convert.php">
+
+  <table cellspacing=0 cellpadding=5 border=0 align=center>
+
+  <tr align=right>
+   <td><b>Fahrenheit (F&#186;):</b> <input type="text" name="F" size=6></td>
+   <td><-----></td>
+   <td><b>Celsius (C&#186;):</b> <input type="text" name="C" size=6></td>
+  </tr>
+
+  <tr align=right>
+   <td><b>Inch (in):</b> <input type="text" name="in" size=6></td>
+   <td><-----></td>
+   <td><b>Centimeter (cm):</b> <input type="text" name="cm" size=6></td>
+  </tr>
+
+  <tr align=right>
+   <td><b>Feet (ft):</b> <input type="text" name="ft" size=6></td>
+   <td><-----></td>
+   <td><b>Meter (m):</b> <input type="text" name="m" size=6></td>
+  </tr>
+
+  <tr align=right>
+   <td><b>Mile (ml):</b> <input type="text" name="mi" size=6></td>
+   <td><-----></td>
+   <td><b>Kilometer (km):</b> <input type="text" name="km" size=6></td>
+  </tr>
+
+  <tr align=right>
+   <td><b>Gallon (gal):</b> <input type="text" name="gal" size=6></td>
+   <td><-----></td>
+   <td><b>Liter (L):</b> <input type="text" name="L" size=6></td>
+  </tr>
+
+  <tr align=right>
+   <td><b>Ounce (oz):</b> <input type="text" name="oz" size=6></td>
+   <td><-----></td>
+   <td><b>Gram (g):</b> <input type="text" name="g" size=6></td>
+  </tr>
+
+  <tr align=right>
+   <td><b>Pound (lb):</b> <input type="text" name="lb" size=6></td>
+   <td><-----></td>
+   <td><b>Kilogram (kg):</b> <input type="text" name="kg" size=6></td>
+  </tr>
+
+ </table>
+
+ <TABLE cellspacing=0 cellpadding=0 border=0 align=center WIDTH="50%">
+  <tr align=center>
+   <!-- <td><input type="reset" value="Reset Form"></td> -->
+   <td><input name="submit" type="submit" value="Convert"></td>
+<!--    <td><input name="clear" type="button" value="Clear Form" id="clear" -->
+   <td><input name="clear" type="reset" value="Clear Form" id="clear"
+              onClick="ClearForm()"></td>
+  </tr>
+ </table>
+
+</form>
+<hr />
+
+<p id="demo">
+  <?php 
+  try {
+     echo convert_FtoC();
+     echo convert_CtoF();
+     echo convert_intocm();
+     echo convert_cmtoin();
+     echo convert_fttom();
+     echo convert_mtoft();
+     echo convert_mitokm();
+     echo convert_kmtomi();
+     echo convert_galtoL();
+     echo convert_Ltogal();
+     echo convert_oztog();
+     echo convert_gtooz();
+     echo convert_lbtokg();
+     echo convert_kgtolb();
+  } catch (exception $e) {
+     echo $e->getMessage(), "\n";
+  }
+  
+  
+  ?>
+</p>
+
+<?php
+
+   function convert_FtoC()
+   {
+       if ($_SERVER["REQUEST_METHOD"] == "POST")
+       {
+       	  // if (!empty($_POST["F"])     // PHP treats 0 as empty, thus data entry = 0 won't be converted
+       	  if (strlen($_POST["F"]) > 0)
+          {
+          	 if (!is_numeric($_POST['F']))
+          	 	throw new Exception('Data entry is not numeric');
+          	 
+             $FAsStr = $_POST["F"];
+             $num = (round($FAsStr * 100.0)) / 100.0;
+             $n = (($num - 32.0) * 5.0) / 9.0;
+             $n = (round($n * 100.0)) / 100.0; 
+             return $FAsStr . " F --> " . number_format((float)$n, 2, '.', '') . " C" . "<br />";
+          }
+          else 
+             return "";
+       }
+   }
+   
+   function convert_CtoF()
+   {
+      if ($_SERVER["REQUEST_METHOD"] == "POST")
+      {   		          
+         if (strlen($_POST["C"]) > 0)
+         {
+         	if (!is_numeric($_POST['C']))
+         		throw new Exception('Data entry is not numeric');
+         	
+            $CAsStr = $_POST["C"];
+            $num = (round($CAsStr * 100.0)) / 100.0;
+            $n = (($num * 9.0) / 5.0) + 32.0;
+            $n = (round($n * 100.0)) / 100.0;
+            echo $CAsStr . " C --> " . number_format((float)$n, 2, '.', '') . " F" . "<br />";
+         }
+         else
+            return "";
+      }		 
+   }
+
+   function convert_intocm()
+   {
+      if ($_SERVER["REQUEST_METHOD"] == "POST")
+      {
+         if (strlen($_POST["in"]) > 0)
+         {
+         	if (!is_numeric($_POST['in']))
+         		throw new Exception('Data entry is not numeric');
+         	
+            $inAsStr = $_POST["in"];
+            $num = (round($inAsStr * 100.0)) / 100.0;
+            $num *= 2.54;
+            $n = (round($num * 100.0)) / 100.0;                        
+            echo $inAsStr . " in --> " . number_format((float)$n, 2, '.', '') . " cm" . "<br />";
+         }
+      else
+         return "";
+      }
+   }
+ 
+   function convert_cmtoin()
+   {
+      if ($_SERVER["REQUEST_METHOD"] == "POST")
+      {
+         if (strlen($_POST["cm"]) > 0)
+         {
+         	if (!is_numeric($_POST['cm']))
+         		throw new Exception('Data entry is not numeric');
+         	
+            $cmAsStr = $_POST["cm"];
+            $num = (round($cmAsStr * 100.0)) / 100.0;
+            $num *= 0.3937;
+            $n = (round($num * 100.0)) / 100.0;
+            echo $cmAsStr . " cm --> " . number_format((float)$n, 2, '.', '') . " in" . "<br />";
+         }
+         else
+            return "";
+      }
+   }
+     
+   function convert_fttom()
+   {
+      if ($_SERVER["REQUEST_METHOD"] == "POST")
+      {
+         if (strlen($_POST["ft"]) > 0)
+         {
+         	if (!is_numeric($_POST['ft']))
+         		throw new Exception('Data entry is not numeric');
+         	
+            $ftAsStr = $_POST["ft"];
+            $num = (round($ftAsStr * 100.0)) / 100.0;
+            $num *= 0.3048;
+            $n = (round($num * 100.0)) / 100.0;
+            echo $ftAsStr . " ft --> " . number_format((float)$n, 2, '.', '') . " m" . "<br />";
+         }
+         else
+            return "";
+      }
+   }
+  
+   function convert_mtoft()
+   {
+      if ($_SERVER["REQUEST_METHOD"] == "POST")
+      {
+         if (strlen($_POST["m"]) > 0)
+         {
+         	if (!is_numeric($_POST['m']))
+         		throw new Exception('Data entry is not numeric');
+         	
+            $mAsStr = $_POST["m"];
+            $num = (round($mAsStr * 100.0)) / 100.0;
+            $num /= 0.3048;
+            $n = (round($num * 100.0)) / 100.0;
+            echo $mAsStr . " m --> " . number_format((float)$n, 2, '.', '') . " ft" . "<br />";
+         }
+         else
+            return "";
+      }
+   }
+ 
+   function convert_mitokm()
+   {
+      if ($_SERVER["REQUEST_METHOD"] == "POST")
+      {
+         if (strlen($_POST["mi"]) > 0)
+         {
+         	if (!is_numeric($_POST['mi']))
+         		throw new Exception('Data entry is not numeric');
+         	
+            $miAsStr = $_POST["mi"];
+            $num = (round($miAsStr * 100.0)) / 100.0;
+            $num *= 1.609;
+            $n = (round($num * 100.0)) / 100.0;
+            echo $miAsStr . " mi --> " . number_format((float)$n, 2, '.', '') . " km" . "<br />";
+         }
+         else
+            return "";
+      }   	
+   }
+   
+   
+   function convert_kmtomi()
+   {
+      if ($_SERVER["REQUEST_METHOD"] == "POST")
+      {
+         if (strlen($_POST["km"]) > 0)
+         {
+         	if (!is_numeric($_POST['km']))
+         		throw new Exception('Data entry is not numeric');
+         	
+            $kmAsStr = $_POST["km"];
+            $num = (round($kmAsStr * 100.0)) / 100.0;
+            $num *= 0.6214;
+            $n = (round($num * 100.0)) / 100.0;
+            echo $kmAsStr . " km --> " . number_format((float)$n, 2, '.', '') . " mi" . "<br />";
+         }
+         else
+            return "";
+      }   	
+   }
+   
+   function convert_galtoL()
+   {
+      if ($_SERVER["REQUEST_METHOD"] == "POST")
+      {
+         if (strlen($_POST["gal"]) > 0)
+         {
+         	if (!is_numeric($_POST['gal']))
+         		throw new Exception('Data entry is not numeric');
+         	
+            $galAsStr = $_POST["gal"];
+            $num = (round($galAsStr * 100.0)) / 100.0;
+            $num *= 3.785;
+            $n = (round($num * 100.0)) / 100.0;
+            echo $galAsStr . " gal --> " . number_format((float)$n, 2, '.', '') . " L" . "<br />";
+         }
+         else
+           return "";
+   	  }   	
+   }
+   
+   function convert_Ltogal()
+   {
+      if ($_SERVER["REQUEST_METHOD"] == "POST")
+      {
+         if (strlen($_POST["L"]) > 0)
+         {
+         	if (!is_numeric($_POST['L']))
+         		throw new Exception('Data entry is not numeric');
+         	
+            $LAsStr = $_POST["L"];
+            $num = (round($LAsStr * 100.0)) / 100.0;
+            $num /= 3.785;
+            $n = (round($num * 100.0)) / 100.0;
+            echo $LAsStr . " L --> " . number_format((float)$n, 2, '.', '') . " gal" . "<br />";
+         }
+         else
+            return "";
+      }
+   }
+    
+   function convert_oztog()
+   {
+      if ($_SERVER["REQUEST_METHOD"] == "POST")
+      {
+         if (strlen($_POST["oz"]) > 0)
+         {
+         	if (!is_numeric($_POST['oz']))
+         		throw new Exception('Data entry is not numeric');
+         	
+            $ozAsStr = $_POST["oz"];
+            $num = (round($ozAsStr * 100.0)) / 100.0;
+            $num *= 28.35;
+            $n = (round($num * 100.0)) / 100.0;
+            echo $ozAsStr . " oz --> " . number_format((float)$n, 2, '.', '') . " g" . "<br />";
+         } 
+         else
+            return "";
+      }
+   }
+   
+   function convert_gtooz() 
+   {
+      if ($_SERVER["REQUEST_METHOD"] == "POST")
+      {
+         if (strlen($_POST["g"]) > 0)
+         {
+         	if (!is_numeric($_POST['g']))
+         		throw new Exception('Data entry is not numeric');
+         	
+            $gAsStr = $_POST["g"];
+            $num = (round($gAsStr * 100.0)) / 100.0;
+            $num /= 28.35;
+            $n = (round($num * 100.0)) / 100.0;
+            echo $gAsStr . " g --> " . number_format((float)$n, 2, '.', '') . " oz" . "<br />";
+         }
+         else
+            return "";
+      }   
+   }
+   
+   function convert_lbtokg()
+   {
+      if ($_SERVER["REQUEST_METHOD"] == "POST")
+      {
+         if (strlen($_POST["lb"]) > 0)
+         {
+         	if (!is_numeric($_POST['lb']))
+         		throw new Exception('Data entry is not numeric');
+         	
+            $lbAsStr = $_POST["lb"];
+            $num = (round($lbAsStr * 100.0)) / 100.0;
+            $num *= 0.4536;
+            $n = (round($num * 100.0)) / 100.0;
+            echo $lbAsStr . " lb --> " . number_format((float)$n, 2, '.', '') . " kg" . "<br />";
+         }
+         else
+            return "";
+      }   	
+   }
+   
+   function convert_kgtolb()
+   {
+      if ($_SERVER["REQUEST_METHOD"] == "POST")
+      {
+         if (strlen($_POST["kg"]) > 0)  
+         {
+         	if (!is_numeric($_POST['kg']))
+         		throw new Exception('Data entry is not numeric');
+         	
+            $kgAsStr = $_POST["kg"];
+            $num = (round($kgAsStr * 100.0)) / 100.0;
+            $num *= 2.205;
+            $n = (round($num * 100.0)) / 100.0;
+            echo $kgAsStr . " kg --> " . number_format((float)$n, 2, '.', '') . " lb" . "<br />";
+         }
+         else
+            return "";
+      }   	
+   }
+   
+?>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+(** D.J. Anderson
+    dra2zp
+    09142017.v
+*)
+(** In class: 09/14/2017 *)
+
+Inductive optionnat :=
+  | SomeNat: nat -> optionnat
+  | NoNat: optionnat.
+
+Inductive option {A: Type} :=
+  | Some: A -> option
+  | None: option.
+
+Definition x: option := Some 5.
+
+Check Some.
+
+Arguments Some {A} _.
+Arguments None {A}.
+
+Definition xb: option := Some true.
+Definition yb: @option bool := None.
+
+Definition y: option := Some 5.
+
+Arguments None {A}.
+
+Definition z: option := @None nat.
+
+Definition q: @option nat := Some 5.
+
+Set Implicit Arguments.
+
+(*
+Fixpoint map (A B: Type) (l: list A) (f: A -> B): list B :=
+  match l with
+  | [] => []
+  | h :: t => (f h) :: (map t f)
+end.
+
+Fixpoint filter {A: Type} (l: list A) (p: A -> bool)
+*)
+
+(** Write a function you can pass to fold
+so that youo can do fold with that function
+list of nats, true if every nat in that list
+is even -- due Tuesday *)
+
+Definition magic (f: nat -> nat): (nat -> nat) :=
+  fun n: nat => f(f n).
+
+Compute magic (fun m: nat => m * m) 3.
+

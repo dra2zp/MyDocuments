@@ -1,0 +1,6 @@
+DIGEST 5670ada9612b8abc8f45c4e329a8cb6e
+FCoq.fourier.Fourier
+R614:618 Coq.setoid_ring.Field <> <> lib
+R636:641 Coq.Reals.DiscrR <> <> lib
+R659:670 Coq.fourier.Fourier_util <> <> lib
+R788:798 Coq.Reals.RIneq <> Rge_antisym thm

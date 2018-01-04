@@ -1,0 +1,257 @@
+D.J. Anderson
+dra2zp
+Project
+Final
+references.txt
+
+http://www.jacklmoore.com/notes/rounding-in-javascript/
+How to round decimals in JavaScript
+
+https://www.w3schools.com/js/js_variables.asp
+Variables in JavaScript
+
+https://stackoverflow.com/questions/13953939/how-to-force-addition-instead-of-concatenation-in-javascript
+How to force addition instead of concatenation in JavaScript
+
+https://stackoverflow.com/questions/351409/how-to-append-something-to-an-array
+How to append to an array in JavaScript
+
+https://stackoverflow.com/questions/3010840/loop-through-an-array-in-javascript
+How to loop through an array in JavaScript
+
+https://stackoverflow.com/questions/2020496/how-to-set-a-border-for-an-html-div-tag
+How to set a border for an HTML div tag
+
+https://www.w3schools.com/jsref/prop_text_value.asp
+Input text value property
+
+https://stackoverflow.com/questions/1303646/check-whether-variable-is-number-or-string-in-javascript
+How to check whether a variable is a number or a string in JavaScript
+
+https://www.w3schools.com/jsref/met_element_setattribute.asp
+How to use setAttribute() method in HTML
+
+https://stackoverflow.com/questions/5440792/getting-the-2nd-child-element
+How to access the nth child element
+
+https://css-tricks.com/parent-selectors-in-css/
+How to use target to get parent and child elements
+
+https://stackoverflow.com/questions/2176986/jquery-add-id-instead-of-class
+How to add id instead of class name in jQuery
+
+https://www.w3schools.com/jsref/met_element_getattribute.asp
+How to use getAttribute method in HTML
+
+https://stackoverflow.com/questions/4173391/javascript-get-element-value
+How to get the value of an HTML element in JavaScript
+
+https://www.w3schools.com/jsref/prop_option_value.asp
+How to use the option value property
+
+https://www.w3schools.com/js/js_object_methods.asp
+JavaScript object methods
+
+https://www.w3schools.com/jquery/jquery_dom_get.asp
+How to get content and attributes in jQuery
+
+http://api.jquery.com/attr/
+How to use .attr() in jQuery
+
+https://stackoverflow.com/questions/10057226/how-to-get-html-table-td-cell-value-by-javascript
+How to get table td cell value in JavaScript
+
+https://stackoverflow.com/questions/2400386/get-class-name-using-jquery
+How to get class name using jQuery
+
+https://www.a2hosting.com/kb/developer-corner/mysql/connect-to-mysql-using-php
+How to connect to MySQL using PHP
+
+https://www.w3schools.com/css/
+CSS Tutorial
+
+https://www.w3schools.com/colors/colors_picker.asp
+HTML color picker
+
+https://stackoverflow.com/questions/19625646/javascript-adding-an-id-attribute-to-another-created-element
+How to add an id attribute to another created element in JavaScript
+
+https://www.w3schools.com/howto/howto_css_login_form.asp
+How to create a login form
+
+https://www.tutorialspoint.com/php/php_mysql_login.htm
+MySQL login in PHP
+
+https://www.w3schools.com/howto/howto_css_full_page.asp
+How to set a background image
+
+https://stackoverflow.com/questions/2940384/new-table-for-every-user
+Disadvantages of using a new table for every user
+
+https://bootstrapbay.com/blog/google-web-fonts/
+Popular Google web fonts
+
+http://www.rapidtables.com/web/html/html-codes/html-code-copyright.htm
+HTML copyright symbol
+
+https://stackoverflow.com/questions/2810262/how-to-stick-a-text-to-the-bottom-of-the-page
+How to place text at the bottom of a page
+
+https://www.lynda.com/MySQL-tutorials/Creating-login-system/119003/137056-4.html
+How to create a login system
+
+https://www.lynda.com/MySQL-tutorials/Connecting-MySQL-PHP/119003/137009-4.html
+How to connect to MySQL with PHP
+
+https://www.w3schools.com/sql/sql_alter.asp
+ALTER TABLE statement in SQL
+
+https://www.w3schools.com/sql/sql_delete.asp
+DELETE statement in SQL
+
+https://stackoverflow.com/questions/133925/javascript-post-request-like-a-form-submit
+How to execute a POST request in JavaScript
+
+https://forums.anandtech.com/threads/how-do-i-hide-a-password-with-asterisks-in-a-php-form.219786/
+How to hide passwords in PHP
+
+https://docs.microsoft.com/en-us/sql/relational-databases/tables/delete-tables-database-engine
+How to delete tables in SQL
+
+https://dev.mysql.com/doc/refman/5.7/en/integer-types.html
+Data types in MySQL
+
+http://www.cs.toronto.edu/~nn/csc309/guide/pointbase/docs/html/htmlfiles/dev_datatypesandconversionsFIN.html
+Data types in SQL
+
+https://stackoverflow.com/questions/10138116/altering-column-size-in-sql-server
+How to change column size in SQL
+
+https://www.quora.com/What-is-the-command-to-insert-null-values-in-SQL-fields
+How to insert NULL values in SQL fields
+
+https://www.w3schools.com/sql/sql_update.asp
+UPDATE statement in SQL
+
+https://technet.microsoft.com/en-us/library/ms189245(v=sql.105).aspx
+How to delete rows by using DELETE in SQL
+
+https://stackoverflow.com/questions/18140270/how-to-write-html-code-inside-php
+How to write HTML code inside of the PHP tags "<?php ... ?>"
+
+https://stackoverflow.com/questions/20993461/php-session-stores-variables-but-when-changing-page-they-disappear
+How to store $_SESSION variables across web pages
+
+https://stackoverflow.com/questions/17554990/session-variables-how-much-data-is-too-much
+How much data can $_SESSION variables store
+
+https://stackoverflow.com/questions/5647461/how-do-i-send-a-post-request-with-php
+How to send a POST request in PHP
+
+https://stackoverflow.com/questions/6806028/post-without-redirect-with-php
+How to execute a POST in PHP without causing a redirect
+
+https://stackoverflow.com/questions/2722750/ajax-datatype
+Datatypes in AJAX
+
+https://stackoverflow.com/questions/6334146/how-to-combine-php-and-javascript-together
+How to combine PHP and JavaScript
+
+https://stackoverflow.com/questions/768431/how-to-make-a-redirect-in-php
+How to redirect to a website in PHP
+
+https://stackoverflow.com/questions/4731810/if-else-embedding-inside-html
+How to embed if-else statements in HTML
+
+https://www.w3schools.com/php/php_ajax_php.asp
+AJAX and PHP
+
+https://stackoverflow.com/questions/20869467/jquery-is-undefined
+How to make "$" defined in jQuery
+
+https://stackoverflow.com/questions/8092226/is-undefined-javascript-error
+How to not make "$" undefined in jQuery
+
+http://php.net/manual/en/mysqli.quickstart.prepared-statements.php
+Prepared statements in PHP
+
+https://stackoverflow.com/questions/26710492/mysql-stored-procedure-with-prepared-statement-does-not-work
+How to make stored procedure with prepared statement work in MySQL
+
+http://php.net/manual/en/pdo.query.php
+How to use PDO::query()
+
+http://php.net/manual/en/mysqli.quickstart.prepared-statements.php
+How to use prepared statements
+
+https://stackoverflow.com/questions/31975237/php-pdo-how-to-fetch-multiple-rows-with-only-one-query
+How to fetch multiple rows with only one query using PDOs in PHP
+
+https://www.w3schools.com/sql/sql_alter.asp
+ALTER TABLE statement in SQL
+
+http://php.net/manual/en/function.mysql-select-db.php
+How to use mysql_select_db
+
+https://www.w3schools.com/php/php_date.asp
+How to use date and time in PHP
+
+https://stackoverflow.com/questions/37581210/sqlstatehy093-invalid-parameter-number-number-of-bound-variables-does-not-ma
+How to fix the error of invalid paramter number - number of bound variables does not match number of tokens
+
+https://www.w3schools.com/php/php_mysql_prepared_statements.asp
+How to use prepared statements in PHP
+
+https://www.w3schools.com/php/php_mysql_create.asp
+How to create a MySQL database in PHP
+
+https://stackoverflow.com/questions/4274724/how-to-kill-session-from-javascript
+How to kill a session in JavaScript
+
+https://stackoverflow.com/questions/503093/how-to-redirect-to-another-webpage-in-javascript-jquery
+How to redirect to another webpage in JavaScript
+
+https://www.w3schools.com/tags/att_input_value.asp
+How to use the <input> value attribute in HTML
+
+https://www.w3schools.com/tags/att_input_value.asp
+Input types in HTML forms
+
+https://stackoverflow.com/questions/15519454/how-to-access-session-variables-and-set-them-in-javascript
+How to access and set $_SESSION variables in JavaScript
+
+https://learn.jquery.com/using-jquery-core/document-ready/
+How to check when the document is ready in JavaScript
+
+https://stackoverflow.com/questions/407048/accessing-variables-from-other-functions-without-using-global-variables
+How to use global functions in JavaScript
+
+https://stackoverflow.com/questions/5786851/define-global-variable-in-a-javascript-function
+How to declare global variables in JavaScript
+
+https://www.w3schools.com/js/js_functions.asp
+How to create functions in JavaScript
+
+https://www.w3schools.com/jquery/jquery_ajax_get_post.asp
+How to use AJAX's GET and POST methods in jQuery
+
+https://www.w3schools.com/jsref/met_loc_reload.asp
+How to use location.reload()
+
+https://www.w3schools.com/jquery/event_ready.asp
+How to use the ready() method in jQuery
+
+https://stackoverflow.com/questions/2381572/how-can-i-trigger-a-javascript-event-click
+How to manually trigger a click event in JavaScript
+
+https://stackoverflow.com/questions/5747585/totally-invisible-html-buttons
+How to create an invisible button in HTML
+
+https://stackoverflow.com/questions/39750168/auto-click-a-button-in-javascript
+How to auto-click a button in JavaScript
+
+https://stackoverflow.com/questions/5990725/how-to-delay-execution-in-between-the-following-in-my-javascript
+How to delay the execution of functions in JavaScript
+
+https://stackoverflow.com/questions/3387427/remove-element-by-id
+How to remove element by id in JavaScript

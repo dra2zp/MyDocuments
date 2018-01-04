@@ -1,0 +1,750 @@
+[2017-12-22 15:23:17] Executing bootstrap tasks
+[2017-12-22 15:23:17] OpenJDK Runtime Environment 1.8.0_151-8u151-b12-0ubuntu0.16.04.2-b12
+[2017-12-22 15:23:17] Product org.eclipse.products.epp.package.java.oxygen
+[2017-12-22 15:23:17] Bundle org.eclipse.oomph.setup 1.9.0.v20171202-1121, build=3282, branch=f99b41819cc9f86beec6b54bf453173fc2d4acef
+[2017-12-22 15:23:17] Bundle org.eclipse.oomph.setup.core 1.9.0.v20171202-1121, build=3282, branch=f99b41819cc9f86beec6b54bf453173fc2d4acef
+[2017-12-22 15:23:17] Bundle org.eclipse.oomph.setup.p2 1.9.0.v20171202-1121, build=3282, branch=f99b41819cc9f86beec6b54bf453173fc2d4acef
+[2017-12-22 15:23:17] Performing P2 Director (Eclipse IDE for Java Developers (Oxygen))
+[2017-12-22 15:23:17] Offline = false
+[2017-12-22 15:23:17] Mirrors = true
+[2017-12-22 15:23:17] Resolving 25 requirements from 3 repositories to /home/dra2zp/Documents/MyDocuments/eclipse/eclipse
+[2017-12-22 15:23:17] Requirement epp.package.java [4.7.0,4.8.0)
+[2017-12-22 15:23:17] Requirement org.eclipse.platform.feature.group [4.7.0,4.8.0)
+[2017-12-22 15:23:17] Requirement org.eclipse.rcp.feature.group [4.7.0,4.8.0)
+[2017-12-22 15:23:17] Requirement org.eclipse.buildship.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.eclemma.feature.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.egit.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.egit.mylyn.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.jdt.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.jgit.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.m2e.feature.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.m2e.logback.feature.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.mylyn.bugzilla_feature.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.mylyn.context_feature.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.mylyn.git.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.mylyn.hudson.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.mylyn.ide_feature.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.mylyn.java_feature.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.mylyn.wikitext_feature.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.mylyn_feature.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.recommenders.mylyn.rcp.feature.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.recommenders.news.rcp.feature.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.recommenders.rcp.feature.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.recommenders.snipmatch.rcp.feature.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.wst.xml_ui.feature.feature.group
+[2017-12-22 15:23:17] Requirement org.eclipse.oomph.setup.feature.group
+[2017-12-22 15:23:17] Repository http://download.eclipse.org/technology/epp/packages/oxygen
+[2017-12-22 15:23:17] Repository http://download.eclipse.org/releases/oxygen/201712201001
+[2017-12-22 15:23:17] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2017-12-22 15:23:21] Calculating requirements and dependencies.
+[2017-12-22 15:23:21] Computing prerequisite plan
+[2017-12-22 15:23:28] Fetching artifacts.xml.xz from http://download.eclipse.org/releases/oxygen/201712201001/
+[2017-12-22 15:23:30] Fetching artifacts.xml.xz from http://download.eclipse.org/technology/epp/packages/oxygen/
+[2017-12-22 15:23:32] Fetching compositeArtifacts.jar from http://download.eclipse.org/oomph/updates/milestone/latest/ (442B)
+[2017-12-22 15:23:32] Fetching artifacts.jar from http://download.eclipse.org/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ (8.79kB)
+[2017-12-22 15:23:32] Collecting 5 artifacts from http://download.eclipse.org/technology/epp/packages/oxygen
+[2017-12-22 15:23:32] Downloading org.eclipse.epp.package.java.feature
+[2017-12-22 15:23:32] Downloading org.eclipse.epp.package.java
+[2017-12-22 15:23:32] Downloading epp.package.java.executable.gtk.linux.x86_64
+[2017-12-22 15:23:32] Downloading org.eclipse.epp.package.common.feature
+[2017-12-22 15:23:32] Downloading org.eclipse.epp.package.common
+[2017-12-22 15:23:33] Fetching epp.package.java.executable.gtk.linux.x86_64_4.7.2.20171218-0600 from http://mirror.csclub.uwaterloo.ca/eclipse/technology/epp/packages/oxygen/binary/ (31.56kB)
+[2017-12-22 15:23:33] Fetching org.eclipse.epp.package.common.feature_4.7.2.20171218-0600.jar from http://mirror.math.princeton.edu/pub/eclipse//technology/epp/packages/oxygen/features/ (17.92kB)
+[2017-12-22 15:23:33] Fetching org.eclipse.epp.package.java_4.7.2.20171218-0600.jar.pack.gz from http://mirrors.xmission.com/eclipse/technology/epp/packages/oxygen/plugins/ (50kB)
+[2017-12-22 15:23:33] Fetching org.eclipse.epp.package.common_4.7.2.20171218-0600.jar.pack.gz from http://eclipse.mirror.rafal.ca/technology/epp/packages/oxygen/plugins/ (90.14kB)
+[2017-12-22 15:23:33] Fetching org.eclipse.epp.package.java.feature_4.7.2.20171218-0600.jar from http://ftp.osuosl.org/pub/eclipse/technology/epp/packages/oxygen/features/ (18.42kB)
+[2017-12-22 15:23:34] Mirrored 1 artifacts from http://eclipse.mirror.rafal.ca/technology/epp/packages/oxygen/ at 108kb/s
+[2017-12-22 15:23:34] Mirrored 1 artifacts from http://mirror.csclub.uwaterloo.ca/eclipse/technology/epp/packages/oxygen/ at 82kb/s
+[2017-12-22 15:23:34] Mirrored 1 artifacts from http://mirrors.xmission.com/eclipse/technology/epp/packages/oxygen/ at 70kb/s
+[2017-12-22 15:23:34] Mirrored 1 artifacts from http://mirror.math.princeton.edu/pub/eclipse//technology/epp/packages/oxygen/ at 52kb/s
+[2017-12-22 15:23:34] Mirrored 1 artifacts from http://ftp.osuosl.org/pub/eclipse/technology/epp/packages/oxygen/ at 23kb/s
+[2017-12-22 15:23:34] Collected 5 artifacts for http://download.eclipse.org/technology/epp/packages/oxygen in 1.608s
+[2017-12-22 15:23:34] Collecting 38 artifacts from http://download.eclipse.org/oomph/updates/milestone/latest
+[2017-12-22 15:23:34] Downloading org.eclipse.oomph.extractor.lib
+[2017-12-22 15:23:34] Downloading org.eclipse.oomph.resources.edit
+[2017-12-22 15:23:34] Downloading org.eclipse.oomph.setup.core
+[2017-12-22 15:23:34] Downloading org.eclipse.oomph.setup
+[2017-12-22 15:23:34] Downloading org.eclipse.oomph.workingsets.edit
+[2017-12-22 15:23:34] Downloading org.eclipse.oomph.setup.p2.edit
+[2017-12-22 15:23:34] Downloading org.eclipse.oomph.jreinfo.ui
+[2017-12-22 15:23:34] Downloading org.eclipse.oomph.p2
+[2017-12-22 15:23:34] Downloading org.eclipse.oomph.jreinfo
+[2017-12-22 15:23:34] Downloading org.eclipse.oomph.p2
+[2017-12-22 15:23:34] Fetching org.eclipse.oomph.p2_1.9.0.v20171202-1121.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (33.39kB)
+[2017-12-22 15:23:34] Fetching org.eclipse.oomph.workingsets.edit_1.8.0.v20170318-0419.jar.pack.gz from http://mirror.csclub.uwaterloo.ca/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (16.24kB)
+[2017-12-22 15:23:34] Fetching org.eclipse.oomph.setup.core_1.9.0.v20171212-1451.jar from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/features/ (28.62kB)
+[2017-12-22 15:23:34] Fetching org.eclipse.oomph.jreinfo_1.8.0.v20170318-0624.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (17.45kB)
+[2017-12-22 15:23:34] Fetching org.eclipse.oomph.setup_1.9.0.v20171212-1513.jar from http://mirrors.xmission.com/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/features/ (28.5kB)
+[2017-12-22 15:23:34] Fetching org.eclipse.oomph.resources.edit_1.9.0.v20171202-1059.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (14.16kB)
+[2017-12-22 15:23:34] Fetching org.eclipse.oomph.extractor.lib_1.3.0.v20161116-0647.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (12.98kB)
+[2017-12-22 15:23:34] Fetching org.eclipse.oomph.setup.p2.edit_1.9.0.v20171202-1121.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (13.09kB)
+[2017-12-22 15:23:34] Downloading org.eclipse.oomph.base
+[2017-12-22 15:23:34] Downloading org.eclipse.nebula.widgets.tablecombo
+[2017-12-22 15:23:34] Downloading org.apache.commons.logging
+[2017-12-22 15:23:34] Downloading org.eclipse.oomph.setup.p2
+[2017-12-22 15:23:34] Downloading org.eclipse.oomph.p2.edit
+[2017-12-22 15:23:35] Fetching org.eclipse.oomph.p2_1.9.0.v20171212-1513.jar from http://mirrors.syringanetworks.net/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/features/ (28.44kB)
+[2017-12-22 15:23:35] Fetching org.eclipse.oomph.jreinfo.ui_1.8.0.v20170327-1117.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (27.06kB)
+[2017-12-22 15:23:35] Downloading org.eclipse.oomph.workingsets
+[2017-12-22 15:23:35] Fetching org.eclipse.oomph.p2.edit_1.9.0.v20171202-1121.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (20.29kB)
+[2017-12-22 15:23:35] Fetching org.eclipse.oomph.setup.p2_1.9.0.v20171202-1121.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (20.47kB)
+[2017-12-22 15:23:35] Downloading org.eclipse.oomph.predicates.edit
+[2017-12-22 15:23:35] Fetching org.eclipse.oomph.workingsets_1.8.0.v20170318-0419.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (21.29kB)
+[2017-12-22 15:23:35] Downloading org.eclipse.oomph.base.edit
+[2017-12-22 15:23:35] Downloading org.eclipse.oomph.predicates
+[2017-12-22 15:23:35] Downloading org.eclipse.oomph.setup.doc
+[2017-12-22 15:23:35] Downloading org.eclipse.oomph.setup.ui
+[2017-12-22 15:23:35] Fetching org.eclipse.oomph.predicates.edit_1.8.0.v20170318-0419.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (19.83kB)
+[2017-12-22 15:23:35] Downloading org.eclipse.oomph.setup.editor
+[2017-12-22 15:23:35] Downloading org.apache.httpcomponents.httpcore
+[2017-12-22 15:23:35] Fetching org.eclipse.oomph.base.edit_1.8.0.v20170318-0624.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (23.88kB)
+[2017-12-22 15:23:35] Fetching org.eclipse.oomph.predicates_1.8.0.v20170327-1117.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (25.42kB)
+[2017-12-22 15:23:35] Fetching org.eclipse.oomph.setup.editor_1.9.0.v20171207-0710.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (124.3kB)
+[2017-12-22 15:23:35] Fetching org.eclipse.oomph.setup.doc_1.9.0.v20171202-1121.jar from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (2.49MB)
+[2017-12-22 15:23:35] Fetching org.eclipse.oomph.setup.ui_1.9.0.v20171208-1055.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (210.13kB)
+[2017-12-22 15:23:35] Downloading org.apache.httpcomponents.httpclient
+[2017-12-22 15:23:35] Fetching org.eclipse.oomph.base_1.8.0.v20170318-0624.jar.pack.gz from http://ftp.fau.de/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (33.73kB)
+[2017-12-22 15:23:35] Downloading org.eclipse.oomph.p2.doc
+[2017-12-22 15:23:35] Downloading org.eclipse.oomph.p2.ui
+[2017-12-22 15:23:35] Fetching org.apache.httpcomponents.httpcore_4.4.6.v20170210-0925.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (107.7kB)
+[2017-12-22 15:23:35] Fetching org.apache.httpcomponents.httpclient_4.5.2.v20170210-0925.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (323.38kB)
+[2017-12-22 15:23:35] Fetching org.eclipse.nebula.widgets.tablecombo_1.2.0.201712122235.jar from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (35.43kB)
+[2017-12-22 15:23:35] Fetching org.eclipse.oomph.p2.doc_1.9.0.v20171202-1121.jar from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (313.03kB)
+[2017-12-22 15:23:36] Downloading org.eclipse.oomph.setup.ui.questionnaire
+[2017-12-22 15:23:36] Fetching org.eclipse.oomph.p2.ui_1.9.0.v20171212-1513.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (98.16kB)
+[2017-12-22 15:23:36] Downloading org.apache.commons.codec
+[2017-12-22 15:23:36] Downloading org.eclipse.oomph.setup.core
+[2017-12-22 15:23:36] Fetching org.apache.commons.logging_1.1.1.v201101211721.jar.pack.gz from http://mirror.tspu.ru/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (36.22kB)
+[2017-12-22 15:23:36] Fetching org.eclipse.oomph.setup.doc_1.9.0.v20171202-1121.jar from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/
+[2017-12-22 15:23:36] Fetching org.eclipse.oomph.setup.ui_1.9.0.v20171208-1055.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/
+[2017-12-22 15:23:36] Fetching org.apache.httpcomponents.httpcore_4.4.6.v20170210-0925.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/
+[2017-12-22 15:23:36] Fetching org.apache.httpcomponents.httpclient_4.5.2.v20170210-0925.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/
+[2017-12-22 15:23:36] Downloading org.eclipse.oomph.util
+[2017-12-22 15:23:37] Fetching org.eclipse.oomph.setup.ui.questionnaire_1.9.0.v20171111-1010.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (287.14kB)
+[2017-12-22 15:23:37] Fetching org.eclipse.oomph.p2.doc_1.9.0.v20171202-1121.jar from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/
+[2017-12-22 15:23:37] Fetching org.apache.commons.codec_1.9.0.v20170208-1614.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (104.09kB)
+[2017-12-22 15:23:37] Downloading org.eclipse.oomph.setup.edit
+[2017-12-22 15:23:37] Fetching org.eclipse.oomph.p2.ui_1.9.0.v20171212-1513.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/
+[2017-12-22 15:23:37] Fetching org.eclipse.oomph.setup.core_1.9.0.v20171202-1121.jar.pack.gz from http://mirrors.xmission.com/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (94.06kB)
+[2017-12-22 15:23:37] Downloading org.eclipse.oomph.setup
+[2017-12-22 15:23:37] Downloading org.eclipse.oomph.ui
+[2017-12-22 15:23:37] Fetching org.eclipse.oomph.util_1.8.0.v20171212-1451.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (74.69kB)
+[2017-12-22 15:23:38] Downloading org.eclipse.oomph.resources
+[2017-12-22 15:23:38] Fetching org.eclipse.oomph.setup.core_1.9.0.v20171202-1121.jar.pack.gz from http://mirrors.xmission.com/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/
+[2017-12-22 15:23:38] Fetching org.eclipse.oomph.setup.edit_1.9.0.v20171202-1121.jar.pack.gz from http://mirrors.xmission.com/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (46.89kB)
+[2017-12-22 15:23:38] Fetching org.eclipse.oomph.ui_1.8.0.v20170327-1117.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (113.59kB)
+[2017-12-22 15:23:38] Fetching org.eclipse.oomph.setup_1.9.0.v20171202-1121.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (129.41kB)
+[2017-12-22 15:23:38] Fetching org.eclipse.oomph.setup.ui.questionnaire_1.9.0.v20171111-1010.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/
+[2017-12-22 15:23:38] Fetching org.apache.commons.codec_1.9.0.v20170208-1614.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/
+[2017-12-22 15:23:38] Fetching org.eclipse.oomph.util_1.8.0.v20171212-1451.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/
+[2017-12-22 15:23:38] Downloading org.eclipse.oomph.workingsets.editor
+[2017-12-22 15:23:38] Downloading org.eclipse.oomph.setup.sync
+[2017-12-22 15:23:39] Downloading org.eclipse.oomph.preferences
+[2017-12-22 15:23:39] Fetching org.eclipse.oomph.resources_1.9.0.v20171202-1059.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (41.33kB)
+[2017-12-22 15:23:39] Downloading org.eclipse.oomph.p2.core
+[2017-12-22 15:23:39] Fetching org.eclipse.oomph.setup.edit_1.9.0.v20171202-1121.jar.pack.gz from http://mirrors.xmission.com/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/
+[2017-12-22 15:23:39] Fetching org.eclipse.oomph.setup_1.9.0.v20171202-1121.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/
+[2017-12-22 15:23:39] Fetching org.eclipse.oomph.ui_1.8.0.v20170327-1117.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/
+[2017-12-22 15:23:39] Fetching org.eclipse.oomph.workingsets.editor_1.9.0.v20171202-1121.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (41.77kB)
+[2017-12-22 15:23:39] Fetching org.eclipse.oomph.setup.sync_1.9.0.v20171202-1121.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (45.94kB)
+[2017-12-22 15:23:39] Fetching org.eclipse.oomph.preferences_1.8.0.v20170318-0419.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (34.37kB)
+[2017-12-22 15:23:39] Fetching org.eclipse.oomph.p2.core_1.9.0.v20171212-1513.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/plugins/ (72.72kB)
+[2017-12-22 15:23:42] Mirrored 8 artifacts from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 178kb/s
+[2017-12-22 15:23:42] Mirrored 16 artifacts from http://mirror.math.princeton.edu/pub/eclipse//oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 73kb/s
+[2017-12-22 15:23:42] Mirrored 1 artifacts from http://mirrors.syringanetworks.net/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 45kb/s
+[2017-12-22 15:23:42] Mirrored 1 artifacts from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 42kb/s
+[2017-12-22 15:23:42] Mirrored 1 artifacts from http://mirror.csclub.uwaterloo.ca/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 40kb/s
+[2017-12-22 15:23:42] Mirrored 1 artifacts from http://mirror.cc.vt.edu/pub/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 38kb/s
+[2017-12-22 15:23:42] Mirrored 1 artifacts from http://ftp.osuosl.org/pub/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 33kb/s
+[2017-12-22 15:23:42] Mirrored 2 artifacts from http://mirror.cc.columbia.edu/pub/software/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 33kb/s
+[2017-12-22 15:23:42] Mirrored 3 artifacts from http://mirrors.xmission.com/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 31kb/s
+[2017-12-22 15:23:42] Mirrored 1 artifacts from http://ftp.fau.de/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 31kb/s
+[2017-12-22 15:23:42] Mirrored 1 artifacts from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 27kb/s
+[2017-12-22 15:23:42] Mirrored 1 artifacts from http://ftp.ussg.iu.edu/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 26kb/s
+[2017-12-22 15:23:42] Mirrored 1 artifacts from http://mirror.tspu.ru/eclipse/oomph/drops/milestone/S20171213-005300-1.9.0-M2/ at 17kb/s
+[2017-12-22 15:23:42] Collected 38 artifacts for http://download.eclipse.org/oomph/updates/milestone/latest in 8.362s
+[2017-12-22 15:23:42] Collecting 526 artifacts from http://download.eclipse.org/releases/oxygen/201712201001
+[2017-12-22 15:23:43] Downloading org.eclipse.platform_root
+[2017-12-22 15:23:43] Downloading org.eclipse.wst.common.infopop
+[2017-12-22 15:23:43] Downloading org.eclipse.e4.ui.workbench3
+[2017-12-22 15:23:43] Downloading ch.qos.logback.slf4j
+[2017-12-22 15:23:43] Downloading org.eclipse.wst.sse.ui.infopop
+[2017-12-22 15:23:43] Downloading org.eclipse.equinox.jsp.jasper.registry
+[2017-12-22 15:23:43] Downloading org.eclipse.m2e.lifecyclemapping.defaults
+[2017-12-22 15:23:43] Downloading org.eclipse.wst.validation.infopop
+[2017-12-22 15:23:43] Downloading org.eclipse.m2e.logback.appender
+[2017-12-22 15:23:43] Downloading org.eclipse.ecf.provider.filetransfer.ssl
+[2017-12-22 15:23:43] Fetching org.eclipse.platform_root_4.7.2.v20171130-0510 from http://mirror.math.princeton.edu/pub/eclipse//releases/oxygen/201712201001/binary/ (195B)
+[2017-12-22 15:23:43] Fetching org.eclipse.wst.validation.infopop_1.0.300.v201309101952.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (8.59kB)
+[2017-12-22 15:23:43] Fetching org.eclipse.wst.sse.ui.infopop_1.0.300.v201707252002.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201712201001/plugins/ (9.08kB)
+[2017-12-22 15:23:43] Fetching org.eclipse.m2e.lifecyclemapping.defaults_1.8.2.20171007-0217.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (8.18kB)
+[2017-12-22 15:23:43] Fetching ch.qos.logback.slf4j_1.0.7.v201505121915.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/plugins/ (7.59kB)
+[2017-12-22 15:23:43] Downloading org.eclipse.wst.dtd.ui.infopop
+[2017-12-22 15:23:43] Fetching org.eclipse.equinox.jsp.jasper.registry_1.0.300.v20130327-1442.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (8.05kB)
+[2017-12-22 15:23:43] Downloading org.eclipse.core.filesystem.linux.x86_64
+[2017-12-22 15:23:43] Downloading org.eclipse.ecf.ssl
+[2017-12-22 15:23:43] Downloading org.eclipse.e4.ui.widgets
+[2017-12-22 15:23:43] Downloading org.eclipse.e4.ui.di
+[2017-12-22 15:23:43] Fetching org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20160817-1024.jar.pack.gz from http://mirrors.syringanetworks.net/eclipse/releases/oxygen/201712201001/plugins/ (7.36kB)
+[2017-12-22 15:23:43] Fetching org.eclipse.e4.ui.workbench3_0.14.0.v20160630-0740.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/plugins/ (7.93kB)
+[2017-12-22 15:23:43] Fetching org.eclipse.m2e.logback.appender_1.8.2.20171007-0217.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (8.67kB)
+[2017-12-22 15:23:43] Fetching org.eclipse.wst.common.infopop_1.0.300.v201309101952.jar.pack.gz from http://mirror.csclub.uwaterloo.ca/eclipse/releases/oxygen/201712201001/plugins/ (7.99kB)
+[2017-12-22 15:23:43] Downloading org.eclipse.mylyn.wikitext.markdown.ui
+[2017-12-22 15:23:43] Downloading org.eclipse.mylyn.wikitext.twiki.ui
+[2017-12-22 15:23:43] Fetching org.eclipse.e4.ui.widgets_1.2.0.v20160630-0736.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (9.85kB)
+[2017-12-22 15:23:43] Downloading org.eclipse.mylyn.wikitext.asciidoc.ui
+[2017-12-22 15:23:43] Downloading org.eclipse.e4.ui.swt.gtk
+[2017-12-22 15:23:43] Fetching org.eclipse.e4.ui.di_1.2.100.v20170414-1137.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (9.98kB)
+[2017-12-22 15:23:43] Downloading org.eclipse.mylyn.wikitext.tracwiki.ui
+[2017-12-22 15:23:44] Fetching org.eclipse.mylyn.wikitext.markdown.ui_3.0.19.201711172000.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (9.98kB)
+[2017-12-22 15:23:44] Downloading org.eclipse.buildship.branding
+[2017-12-22 15:23:44] Fetching org.eclipse.mylyn.wikitext.asciidoc.ui_3.0.19.201711172000.jar from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201712201001/plugins/ (10.32kB)
+[2017-12-22 15:23:44] Fetching org.eclipse.e4.ui.swt.gtk_1.0.200.v20170513-0428.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201712201001/plugins/ (7.92kB)
+[2017-12-22 15:23:44] Downloading org.eclipse.buildship.stsmigration
+[2017-12-22 15:23:44] Fetching org.eclipse.wst.dtd.ui.infopop_1.0.400.v201707252002.jar.pack.gz from http://ftp.fau.de/eclipse/releases/oxygen/201712201001/plugins/ (9.12kB)
+[2017-12-22 15:23:44] Fetching org.eclipse.mylyn.wikitext.twiki.ui_3.0.19.201711172000.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (10.25kB)
+[2017-12-22 15:23:44] Fetching org.eclipse.core.filesystem.linux.x86_64_1.2.200.v20140124-1940.jar.pack.gz from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/oxygen/201712201001/plugins/ (9.15kB)
+[2017-12-22 15:23:44] Downloading org.eclipse.mylyn.versions.ui
+[2017-12-22 15:23:44] Downloading org.eclipse.rcp
+[2017-12-22 15:23:44] Downloading org.eclipse.e4.core.di.extensions
+[2017-12-22 15:23:44] Downloading org.eclipse.recommenders.injection
+[2017-12-22 15:23:44] Downloading org.eclipse.mylyn.wikitext.mediawiki.ui
+[2017-12-22 15:23:44] Fetching org.eclipse.buildship.branding_2.1.2.v20170807-1324.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (10.41kB)
+[2017-12-22 15:23:44] Fetching org.eclipse.buildship.stsmigration_2.1.2.v20170807-1324.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (10.69kB)
+[2017-12-22 15:23:44] Fetching org.eclipse.buildship.branding_2.1.2.v20170807-1324.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (10.41kB)
+[2017-12-22 15:23:44] Fetching org.eclipse.buildship.stsmigration_2.1.2.v20170807-1324.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (10.69kB)
+[2017-12-22 15:23:44] Downloading org.eclipse.egit
+[2017-12-22 15:23:44] Fetching org.eclipse.mylyn.versions.ui_1.15.0.v20170411-2003.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (10.75kB)
+[2017-12-22 15:23:44] Fetching org.eclipse.ecf.ssl_1.2.0.v20160817-1024.jar.pack.gz from http://mirror.tspu.ru/eclipse/releases/oxygen/201712201001/plugins/ (9.55kB)
+[2017-12-22 15:23:44] Downloading org.eclipse.mylyn.wikitext.confluence.ui
+[2017-12-22 15:23:44] Downloading org.eclipse.recommenders.news
+[2017-12-22 15:23:44] Fetching org.eclipse.mylyn.wikitext.mediawiki.ui_3.0.19.201711172000.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (11.39kB)
+[2017-12-22 15:23:44] Downloading org.eclipse.e4.core.di.annotations
+[2017-12-22 15:23:44] Downloading org.eclipse.recommenders.mylyn.rcp
+[2017-12-22 15:23:44] Fetching org.eclipse.egit_4.9.2.201712150930-r.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (9.53kB)
+[2017-12-22 15:23:44] Fetching org.eclipse.recommenders.news_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (9.38kB)
+[2017-12-22 15:23:44] Fetching org.eclipse.mylyn.wikitext.confluence.ui_3.0.19.201711172000.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (11.66kB)
+[2017-12-22 15:23:44] Downloading org.eclipse.recommenders.net
+[2017-12-22 15:23:44] Fetching org.eclipse.e4.core.di.annotations_1.6.0.v20170119-2002.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (7.71kB)
+[2017-12-22 15:23:44] Downloading org.eclipse.mylyn.wikitext.textile.ui
+[2017-12-22 15:23:44] Downloading org.eclipse.equinox.security.linux.x86_64
+[2017-12-22 15:23:44] Downloading org.apiguardian
+[2017-12-22 15:23:44] Fetching org.eclipse.recommenders.net_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (8.7kB)
+[2017-12-22 15:23:44] Fetching org.eclipse.recommenders.mylyn.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (12.02kB)
+[2017-12-22 15:23:44] Downloading org.eclipse.jdt.junit4.runtime
+[2017-12-22 15:23:44] Fetching org.eclipse.mylyn.wikitext.textile.ui_3.0.19.201711172000.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (12.23kB)
+[2017-12-22 15:23:44] Fetching org.eclipse.equinox.security.linux.x86_64_1.0.100.v20170504-1307.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (12.31kB)
+[2017-12-22 15:23:44] Fetching org.apiguardian_1.0.0.v20170910-2246.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (12.35kB)
+[2017-12-22 15:23:44] Downloading org.eclipse.recommenders.constructors
+[2017-12-22 15:23:44] Downloading org.eclipse.equinox.jsp.jasper
+[2017-12-22 15:23:44] Fetching org.eclipse.jdt.junit4.runtime_1.1.650.v20170920-1015.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (13.18kB)
+[2017-12-22 15:23:44] Downloading org.eclipse.e4.ui.services
+[2017-12-22 15:23:44] Downloading org.eclipse.mylyn.wikitext.osgi
+[2017-12-22 15:23:44] Downloading org.eclipse.recommenders.overrides.rcp
+[2017-12-22 15:23:44] Fetching org.eclipse.recommenders.constructors_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (8.81kB)
+[2017-12-22 15:23:44] Downloading org.eclipse.equinox.p2.garbagecollector
+[2017-12-22 15:23:44] Fetching org.eclipse.equinox.jsp.jasper_1.0.500.v20150119-1358.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (13.34kB)
+[2017-12-22 15:23:44] Fetching org.eclipse.mylyn.wikitext.osgi_3.0.19.201711172000.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (13.38kB)
+[2017-12-22 15:23:44] Fetching org.eclipse.e4.ui.services_1.3.0.v20170307-2032.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (13.36kB)
+[2017-12-22 15:23:44] Downloading org.eclipse.ecf.provider.filetransfer.httpclient4.ssl
+[2017-12-22 15:23:45] Fetching org.eclipse.equinox.p2.garbagecollector_1.0.300.v20160504-1450.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (13.84kB)
+[2017-12-22 15:23:45] Fetching org.eclipse.recommenders.overrides.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (13.47kB)
+[2017-12-22 15:23:45] Downloading org.eclipse.mylyn.hudson.ui
+[2017-12-22 15:23:45] Downloading org.eclipse.mylyn.commons.notifications.core
+[2017-12-22 15:23:45] Fetching org.eclipse.ecf.provider.filetransfer.httpclient4.ssl_1.1.0.v20160817-1024.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (11.62kB)
+[2017-12-22 15:23:45] Downloading org.eclipse.wst.xml.ui.infopop
+[2017-12-22 15:23:45] Fetching org.eclipse.mylyn.wikitext.tracwiki.ui_3.0.19.201711172000.jar from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201712201001/plugins/ (10.38kB)
+[2017-12-22 15:23:45] Downloading org.opentest4j
+[2017-12-22 15:23:45] Downloading org.eclipse.ui.intro.quicklinks
+[2017-12-22 15:23:45] Fetching org.eclipse.mylyn.commons.notifications.core_1.15.0.v20170411-1844.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (10.16kB)
+[2017-12-22 15:23:45] Fetching org.eclipse.mylyn.hudson.ui_1.15.0.v20170411-2141.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (14.06kB)
+[2017-12-22 15:23:45] Downloading org.eclipse.jgit
+[2017-12-22 15:23:45] Downloading org.eclipse.recommenders.statics.rcp
+[2017-12-22 15:23:45] Fetching org.eclipse.rcp_4.7.2.v20171130-0510.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201712201001/plugins/ (9.4kB)
+[2017-12-22 15:23:45] Fetching org.eclipse.wst.xml.ui.infopop_1.0.400.v201707252002.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (14.15kB)
+[2017-12-22 15:23:45] Fetching org.eclipse.e4.core.di.extensions_0.15.0.v20170228-1728.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201712201001/plugins/ (7.77kB)
+[2017-12-22 15:23:45] Fetching org.opentest4j_1.0.0.v20170910-2246.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (14.23kB)
+[2017-12-22 15:23:45] Fetching org.eclipse.ui.intro.quicklinks_1.0.100.v20170515-0756.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (14.25kB)
+[2017-12-22 15:23:45] Downloading org.eclipse.egit.mylyn.ui
+[2017-12-22 15:23:45] Downloading org.w3c.dom.smil
+[2017-12-22 15:23:45] Fetching org.eclipse.jgit_4.9.2.201712150930-r.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/features/ (14.37kB)
+[2017-12-22 15:23:45] Downloading org.eclipse.jdt.annotation
+[2017-12-22 15:23:45] Fetching org.eclipse.recommenders.statics.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (14.56kB)
+[2017-12-22 15:23:45] Downloading org.slf4j.impl.log4j12
+[2017-12-22 15:23:45] Downloading org.eclipse.m2e.workspace.cli
+[2017-12-22 15:23:45] Downloading org.eclipse.mylyn.java.tasks
+[2017-12-22 15:23:45] Downloading org.eclipse.equinox.simpleconfigurator.manipulator
+[2017-12-22 15:23:45] Downloading org.eclipse.mylyn.bugzilla.ide
+[2017-12-22 15:23:45] Fetching org.eclipse.egit.mylyn.ui_4.9.2.201712150930-r.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (14.67kB)
+[2017-12-22 15:23:45] Fetching org.w3c.dom.smil_1.0.1.v200903091627.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (14.95kB)
+[2017-12-22 15:23:45] Downloading org.eclipse.recommenders.statics
+[2017-12-22 15:23:45] Fetching org.eclipse.mylyn.java.tasks_3.23.0.v20170411-2108.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (15.65kB)
+[2017-12-22 15:23:45] Fetching org.eclipse.equinox.simpleconfigurator.manipulator_2.0.300.v20170515-0721.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/plugins/ (15.87kB)
+[2017-12-22 15:23:45] Downloading org.eclipse.team.genericeditor.diff.extension
+[2017-12-22 15:23:45] Downloading org.eclipse.equinox.p2.discovery
+[2017-12-22 15:23:45] Downloading org.eclipse.e4.core.di.extensions.supplier
+[2017-12-22 15:23:45] Fetching org.eclipse.recommenders.statics_2.5.0.v20171201-1623.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (10.08kB)
+[2017-12-22 15:23:45] Fetching org.eclipse.team.genericeditor.diff.extension_1.0.1.v20170809-1356.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (9.73kB)
+[2017-12-22 15:23:45] Fetching org.eclipse.equinox.p2.discovery_1.0.400.v20160504-1450.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (16.32kB)
+[2017-12-22 15:23:45] Fetching org.eclipse.e4.core.di.extensions.supplier_0.15.0.v20170407-0928.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (16.46kB)
+[2017-12-22 15:23:45] Downloading org.eclipse.equinox.event
+[2017-12-22 15:23:45] Downloading org.eclipse.e4.ui.css.swt.theme
+[2017-12-22 15:23:45] Downloading javax.inject
+[2017-12-22 15:23:45] Downloading org.eclipse.m2e.logback.configuration
+[2017-12-22 15:23:46] Downloading org.eclipse.recommenders.news.impl
+[2017-12-22 15:23:46] Fetching org.eclipse.equinox.event_1.4.0.v20170105-1446.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (16.46kB)
+[2017-12-22 15:23:46] Fetching org.eclipse.e4.ui.css.swt.theme_0.11.0.v20170312-2302.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/plugins/ (16.49kB)
+[2017-12-22 15:23:46] Fetching javax.inject_1.0.0.v20091030.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (16.6kB)
+[2017-12-22 15:23:46] Fetching org.eclipse.m2e.logback.configuration_1.8.2.20171007-0217.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (10.9kB)
+[2017-12-22 15:23:46] Downloading org.slf4j.api
+[2017-12-22 15:23:46] Fetching org.eclipse.recommenders.news.impl_2.5.0.v20171201-1623.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (16.91kB)
+[2017-12-22 15:23:46] Downloading org.eclipse.equinox.ds
+[2017-12-22 15:23:46] Downloading org.eclipse.equinox.p2.console
+[2017-12-22 15:23:46] Fetching org.slf4j.api_1.7.2.v20121108-1250.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (16.96kB)
+[2017-12-22 15:23:46] Downloading org.eclipse.m2e.importer
+[2017-12-22 15:23:46] Downloading org.eclipse.epp.logging.aeri.feature
+[2017-12-22 15:23:46] Fetching org.eclipse.equinox.ds_1.5.0.v20170307-1429.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (17.34kB)
+[2017-12-22 15:23:46] Fetching org.slf4j.impl.log4j12_1.7.2.v20131105-2200.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (9.82kB)
+[2017-12-22 15:23:46] Fetching org.eclipse.m2e.workspace.cli_0.3.1.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (15.56kB)
+[2017-12-22 15:23:46] Fetching org.eclipse.jdt.annotation_1.1.100.v20160418-1457.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (9.51kB)
+[2017-12-22 15:23:46] Fetching org.eclipse.equinox.p2.console_1.0.600.v20170511-1106.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (17.38kB)
+[2017-12-22 15:23:46] Downloading org.eclipse.recommenders.mylyn.rcp.feature
+[2017-12-22 15:23:46] Fetching org.eclipse.m2e.importer_1.8.2.20171007-0217.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (10.44kB)
+[2017-12-22 15:23:46] Downloading org.eclipse.recommenders.snipmatch.rcp.feature
+[2017-12-22 15:23:46] Downloading org.eclipse.egit.mylyn
+[2017-12-22 15:23:46] Downloading org.eclipse.mylyn.wikitext.editors_feature
+[2017-12-22 15:23:46] Downloading org.eclipse.buildship
+[2017-12-22 15:23:46] Fetching org.eclipse.epp.logging.aeri.feature_2.0.6.v20170906-1226.jar from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/features/ (17.47kB)
+[2017-12-22 15:23:46] Downloading org.eclipse.recommenders.news.rcp.feature
+[2017-12-22 15:23:46] Fetching org.eclipse.recommenders.mylyn.rcp.feature_2.5.0.v20171201-1623.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.55kB)
+[2017-12-22 15:23:46] Downloading org.eclipse.equinox.p2.user.ui
+[2017-12-22 15:23:46] Fetching org.eclipse.recommenders.snipmatch.rcp.feature_2.5.0.v20171201-1623.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.56kB)
+[2017-12-22 15:23:46] Fetching org.eclipse.egit.mylyn_4.9.2.201712150930-r.jar from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/features/ (17.6kB)
+[2017-12-22 15:23:46] Fetching org.eclipse.mylyn.wikitext.editors_feature_3.0.19.201711172000.jar from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/features/ (17.61kB)
+[2017-12-22 15:23:46] Fetching org.eclipse.recommenders.news.rcp.feature_2.5.0.v20171201-1623.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.63kB)
+[2017-12-22 15:23:46] Downloading org.eclipse.emf.common
+[2017-12-22 15:23:46] Fetching org.eclipse.recommenders.news.rcp.feature_2.5.0.v20171201-1623.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.63kB)
+[2017-12-22 15:23:46] Fetching org.eclipse.buildship_2.1.2.v20170807-1324.jar from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/features/ (17.61kB)
+[2017-12-22 15:23:46] Downloading org.eclipse.mylyn.commons.identity
+[2017-12-22 15:23:46] Downloading org.eclipse.emf.ecore
+[2017-12-22 15:23:46] Fetching org.eclipse.equinox.p2.user.ui_2.3.2.v20171108-1343.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.65kB)
+[2017-12-22 15:23:46] Downloading org.eclipse.mylyn.monitor
+[2017-12-22 15:23:46] Downloading org.eclipse.m2e.logback.feature
+[2017-12-22 15:23:46] Downloading org.eclipse.mylyn.discovery
+[2017-12-22 15:23:46] Fetching org.eclipse.emf.common_2.13.0.v20170609-0707.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.7kB)
+[2017-12-22 15:23:46] Downloading org.eclipse.mylyn.versions
+[2017-12-22 15:23:46] Fetching org.eclipse.emf.ecore_2.13.0.v20170609-0707.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.73kB)
+[2017-12-22 15:23:46] Fetching org.eclipse.mylyn.monitor_3.23.0.v20170411-1844.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.73kB)
+[2017-12-22 15:23:47] Downloading org.eclipse.equinox.p2.rcp.feature
+[2017-12-22 15:23:47] Downloading org.eclipse.mylyn.commons.repositories.http
+[2017-12-22 15:23:47] Fetching org.eclipse.m2e.logback.feature_1.8.2.20171007-0217.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.74kB)
+[2017-12-22 15:23:47] Downloading org.eclipse.mylyn.git
+[2017-12-22 15:23:47] Fetching org.eclipse.equinox.p2.rcp.feature_1.3.2.v20171108-1343.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.77kB)
+[2017-12-22 15:23:47] Downloading org.eclipse.equinox.p2.discovery.feature
+[2017-12-22 15:23:47] Fetching org.eclipse.mylyn.commons.identity_1.15.0.v20170411-1844.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/features/ (17.72kB)
+[2017-12-22 15:23:47] Fetching org.eclipse.mylyn.commons.repositories.http_1.15.0.v20170411-1844.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.77kB)
+[2017-12-22 15:23:47] Fetching org.eclipse.mylyn.discovery_3.23.0.v20170411-1844.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.74kB)
+[2017-12-22 15:23:47] Downloading org.eclipse.mylyn.tasks.ide
+[2017-12-22 15:23:47] Downloading org.eclipse.mylyn.team_feature
+[2017-12-22 15:23:47] Fetching org.eclipse.mylyn.git_1.15.0.v20170411-2003.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.77kB)
+[2017-12-22 15:23:47] Fetching org.eclipse.mylyn.bugzilla.ide_3.23.0.v20170411-2108.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/plugins/ (14.58kB)
+[2017-12-22 15:23:47] Fetching org.eclipse.mylyn.versions_1.15.0.v20170411-2003.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/features/ (17.76kB)
+[2017-12-22 15:23:47] Downloading org.eclipse.mylyn.commons
+[2017-12-22 15:23:47] Fetching org.eclipse.mylyn.tasks.ide_3.23.1.v20170623-0008.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.77kB)
+[2017-12-22 15:23:47] Fetching org.eclipse.equinox.p2.discovery.feature_1.1.1.v20170906-1259.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/features/ (17.77kB)
+[2017-12-22 15:23:47] Downloading org.eclipse.mylyn.builds
+[2017-12-22 15:23:47] Downloading org.eclipse.mylyn.commons.repositories
+[2017-12-22 15:23:47] Fetching org.eclipse.mylyn.team_feature_3.23.0.v20170411-2108.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/features/ (17.77kB)
+[2017-12-22 15:23:47] Fetching org.eclipse.mylyn.commons_3.23.0.v20170503-0014.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.78kB)
+[2017-12-22 15:23:47] Downloading org.w3c.dom.events
+[2017-12-22 15:23:47] Downloading org.eclipse.mylyn.commons.notifications
+[2017-12-22 15:23:47] Downloading org.eclipse.egit
+[2017-12-22 15:23:47] Fetching org.eclipse.mylyn.builds_1.15.0.v20170411-2141.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.78kB)
+[2017-12-22 15:23:47] Fetching org.eclipse.mylyn.commons.repositories_1.15.0.v20170411-1844.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.78kB)
+[2017-12-22 15:23:47] Downloading org.eclipse.mylyn.context_feature
+[2017-12-22 15:23:47] Fetching org.w3c.dom.events_3.0.0.draft20060413_v201105210656.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (17.78kB)
+[2017-12-22 15:23:48] Downloading org.eclipse.mylyn.wikitext_feature
+[2017-12-22 15:23:48] Fetching org.eclipse.mylyn.commons.notifications_1.15.0.v20170411-1844.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/features/ (17.79kB)
+[2017-12-22 15:23:48] Fetching org.eclipse.egit_4.9.2.201712150930-r.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/features/ (17.8kB)
+[2017-12-22 15:23:48] Downloading org.eclipse.mylyn.ide_feature
+[2017-12-22 15:23:48] Downloading org.eclipse.rcp
+[2017-12-22 15:23:48] Fetching org.eclipse.mylyn.context_feature_3.23.0.v20170414-0629.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.81kB)
+[2017-12-22 15:23:48] Fetching org.eclipse.mylyn.wikitext_feature_3.0.19.201711172000.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.82kB)
+[2017-12-22 15:23:48] Downloading org.eclipse.mylyn.hudson
+[2017-12-22 15:23:48] Downloading org.eclipse.equinox.p2.extras.feature
+[2017-12-22 15:23:48] Downloading org.eclipse.swt
+[2017-12-22 15:23:48] Downloading org.eclipse.mylyn.bugzilla_feature
+[2017-12-22 15:23:48] Fetching org.eclipse.rcp_4.7.2.v20171130-0510.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.83kB)
+[2017-12-22 15:23:48] Fetching org.eclipse.mylyn.ide_feature_3.23.0.v20170411-2108.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.82kB)
+[2017-12-22 15:23:48] Downloading org.eclipse.mylyn.java_feature
+[2017-12-22 15:23:48] Downloading org.eclipse.core.variables
+[2017-12-22 15:23:48] Downloading org.eclipse.recommenders.coordinates
+[2017-12-22 15:23:48] Fetching org.eclipse.mylyn.hudson_1.15.0.v20170411-2141.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/features/ (17.83kB)
+[2017-12-22 15:23:48] Fetching org.eclipse.swt_3.106.2.v20171129-0543.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (17.87kB)
+[2017-12-22 15:23:48] Fetching org.eclipse.equinox.p2.extras.feature_1.3.1.v20170928-1405.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/features/ (17.84kB)
+[2017-12-22 15:23:48] Downloading org.eclipse.equinox.p2.updatechecker
+[2017-12-22 15:23:48] Fetching org.eclipse.mylyn.bugzilla_feature_3.23.1.v20170623-0008.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/features/ (17.87kB)
+[2017-12-22 15:23:48] Fetching org.eclipse.mylyn.java_feature_3.23.0.v20170411-2108.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (17.9kB)
+[2017-12-22 15:23:48] Fetching org.eclipse.core.variables_3.4.0.v20170113-2056.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (18.01kB)
+[2017-12-22 15:23:48] Fetching org.eclipse.recommenders.coordinates_2.5.0.v20171201-1623.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (18.06kB)
+[2017-12-22 15:23:48] Downloading org.eclipse.recommenders.utils.rcp
+[2017-12-22 15:23:48] Downloading org.eclipse.help
+[2017-12-22 15:23:48] Downloading org.eclipse.equinox.p2.core.feature
+[2017-12-22 15:23:48] Fetching org.eclipse.equinox.p2.updatechecker_1.1.400.v20170106-2125.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (10.85kB)
+[2017-12-22 15:23:48] Downloading org.eclipse.mylyn_feature
+[2017-12-22 15:23:48] Downloading org.eclipse.jdt
+[2017-12-22 15:23:48] Downloading org.eclipse.recommenders.rcp.feature
+[2017-12-22 15:23:48] Downloading org.eclipse.equinox.http.registry
+[2017-12-22 15:23:48] Fetching org.eclipse.help_2.2.102.v20171130-0510.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (18.28kB)
+[2017-12-22 15:23:48] Downloading org.eclipse.mylyn.tasks.index.ui
+[2017-12-22 15:23:48] Fetching org.eclipse.recommenders.utils.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (18.1kB)
+[2017-12-22 15:23:48] Downloading org.eclipse.m2e.feature
+[2017-12-22 15:23:48] Fetching org.eclipse.mylyn_feature_3.23.1.v20170623-0008.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (18.37kB)
+[2017-12-22 15:23:48] Fetching org.eclipse.equinox.p2.core.feature_1.4.1.v20170928-1405.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/features/ (18.35kB)
+[2017-12-22 15:23:48] Fetching org.eclipse.jdt_3.13.2.v20171130-0906.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (18.42kB)
+[2017-12-22 15:23:49] Fetching org.eclipse.equinox.http.registry_1.1.400.v20150715-1528.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (18.46kB)
+[2017-12-22 15:23:49] Downloading org.eclipse.ecf.core.ssl.feature
+[2017-12-22 15:23:49] Downloading org.eclipse.epp.mpc
+[2017-12-22 15:23:49] Fetching org.eclipse.recommenders.rcp.feature_2.5.0.v20171201-1623.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/features/ (18.43kB)
+[2017-12-22 15:23:49] Downloading org.eclipse.ecf.core.feature
+[2017-12-22 15:23:49] Fetching org.eclipse.mylyn.tasks.index.ui_3.23.1.v20170623-0008.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (18.62kB)
+[2017-12-22 15:23:49] Fetching org.eclipse.m2e.feature_1.8.2.20171007-0217.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/features/ (18.63kB)
+[2017-12-22 15:23:49] Fetching org.eclipse.ecf.core.ssl.feature_1.1.0.v20170110-1317.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (18.68kB)
+[2017-12-22 15:23:49] Downloading org.eclipse.mylyn.ide.ant
+[2017-12-22 15:23:49] Downloading org.eclipse.userstorage
+[2017-12-22 15:23:49] Downloading org.eclipse.recommenders.jayes.io
+[2017-12-22 15:23:49] Fetching org.eclipse.epp.mpc_1.6.3.v20171122-2010.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (18.69kB)
+[2017-12-22 15:23:49] Downloading org.eclipse.eclemma.feature
+[2017-12-22 15:23:49] Fetching org.eclipse.ecf.core.feature_1.4.0.v20170516-2248.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (18.71kB)
+[2017-12-22 15:23:49] Downloading org.eclipse.platform
+[2017-12-22 15:23:49] Fetching org.eclipse.mylyn.ide.ant_3.23.0.v20170411-2108.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (18.86kB)
+[2017-12-22 15:23:49] Downloading org.eclipse.m2e.maven.runtime.slf4j.simple
+[2017-12-22 15:23:49] Downloading org.hamcrest.core
+[2017-12-22 15:23:49] Downloading org.eclipse.mylyn.commons.notifications.feed
+[2017-12-22 15:23:49] Downloading org.eclipse.e4.rcp
+[2017-12-22 15:23:49] Fetching org.eclipse.eclemma.feature_3.0.1.201711142128.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (19.17kB)
+[2017-12-22 15:23:49] Fetching org.eclipse.recommenders.jayes.io_2.5.0.v20171201-1623.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (19.1kB)
+[2017-12-22 15:23:49] Fetching org.eclipse.userstorage_1.1.0.v20170526-1605.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/features/ (18.96kB)
+[2017-12-22 15:23:49] Fetching org.eclipse.m2e.maven.runtime.slf4j.simple_1.8.2.20171007-0216.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (19.29kB)
+[2017-12-22 15:23:49] Downloading org.eclipse.recommenders.news.api
+[2017-12-22 15:23:49] Downloading org.eclipse.ecf.filetransfer
+[2017-12-22 15:23:49] Fetching org.eclipse.platform_4.7.2.v20171130-0510.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/features/ (19.24kB)
+[2017-12-22 15:23:49] Fetching org.hamcrest.core_1.3.0.v201303031735.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (19.33kB)
+[2017-12-22 15:23:49] Fetching org.eclipse.e4.rcp_1.6.2.v20171129-0543.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (19.56kB)
+[2017-12-22 15:23:49] Downloading org.eclipse.core.externaltools
+[2017-12-22 15:23:49] Fetching org.eclipse.mylyn.commons.notifications.feed_1.15.0.v20170411-1844.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (19.4kB)
+[2017-12-22 15:23:49] Downloading org.junit.platform.runner
+[2017-12-22 15:23:49] Downloading org.eclipse.m2e.profiles.core
+[2017-12-22 15:23:49] Fetching org.eclipse.recommenders.news.api_2.5.0.v20171201-1623.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (10.26kB)
+[2017-12-22 15:23:49] Fetching org.eclipse.ecf.filetransfer_5.0.0.v20160817-1024.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (20.33kB)
+[2017-12-22 15:23:49] Downloading org.eclipse.ui.net
+[2017-12-22 15:23:49] Fetching org.eclipse.core.externaltools_1.1.0.v20170113-2056.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (20.53kB)
+[2017-12-22 15:23:49] Downloading org.eclipse.mylyn.git.ui
+[2017-12-22 15:23:49] Downloading javax.annotation
+[2017-12-22 15:23:49] Downloading org.eclipse.jdt.junit5.runtime
+[2017-12-22 15:23:49] Downloading org.eclipse.equinox.p2.transport.ecf
+[2017-12-22 15:23:49] Downloading org.eclipse.wst.common.core
+[2017-12-22 15:23:50] Fetching org.eclipse.m2e.profiles.core_1.8.2.20171007-0217.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (12.76kB)
+[2017-12-22 15:23:50] Fetching org.junit.platform.runner_1.0.0.v20170910-2246.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (20.7kB)
+[2017-12-22 15:23:50] Downloading org.eclipse.e4.emf.xpath
+[2017-12-22 15:23:50] Fetching javax.annotation_1.2.0.v201602091430.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (21.32kB)
+[2017-12-22 15:23:50] Downloading org.eclipse.mylyn.ide.ui
+[2017-12-22 15:23:50] Fetching org.eclipse.jdt.junit5.runtime_1.0.1.v20171130-0906.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (12.63kB)
+[2017-12-22 15:23:50] Fetching org.eclipse.ui.net_1.3.100.v20170516-0820.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (20.74kB)
+[2017-12-22 15:23:50] Fetching org.eclipse.mylyn.git.ui_1.15.0.v20170411-2003.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (16.08kB)
+[2017-12-22 15:23:50] Fetching org.eclipse.equinox.p2.transport.ecf_1.1.300.v20161004-0244.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (21.49kB)
+[2017-12-22 15:23:50] Downloading org.eclipse.mylyn.git.core
+[2017-12-22 15:23:50] Downloading org.eclipse.recommenders.overrides
+[2017-12-22 15:23:50] Fetching org.eclipse.wst.common.core_1.2.0.v200908251833.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (21.59kB)
+[2017-12-22 15:23:50] Fetching org.eclipse.e4.emf.xpath_0.2.0.v20160630-0728.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (21.68kB)
+[2017-12-22 15:23:50] Fetching org.eclipse.mylyn.ide.ui_3.23.0.v20170411-2108.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (21.87kB)
+[2017-12-22 15:23:50] Fetching org.eclipse.e4.emf.xpath_0.2.0.v20160630-0728.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (21.68kB)
+[2017-12-22 15:23:50] Fetching org.eclipse.mylyn.ide.ui_3.23.0.v20170411-2108.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (21.87kB)
+[2017-12-22 15:23:50] Downloading org.eclipse.ecf.filetransfer.ssl.feature
+[2017-12-22 15:23:50] Downloading org.eclipse.jetty.continuation
+[2017-12-22 15:23:50] Downloading org.eclipse.jdt.junit.runtime
+[2017-12-22 15:23:50] Downloading org.eclipse.e4.core.services
+[2017-12-22 15:23:50] Downloading com.gradleware.tooling.utils
+[2017-12-22 15:23:50] Fetching org.eclipse.mylyn.git.core_1.15.0.v20170411-2003.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (17.14kB)
+[2017-12-22 15:23:50] Fetching org.eclipse.ecf.filetransfer.ssl.feature_1.1.0.v20170110-1317.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (22.71kB)
+[2017-12-22 15:23:50] Downloading org.eclipse.equinox.concurrent
+[2017-12-22 15:23:50] Fetching org.eclipse.recommenders.overrides_2.5.0.v20171201-1623.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (12.29kB)
+[2017-12-22 15:23:50] Downloading org.eclipse.osgi.util
+[2017-12-22 15:23:50] Downloading org.eclipse.e4.core.commands
+[2017-12-22 15:23:50] Fetching org.eclipse.recommenders.injection_2.5.0.v20171201-1623.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201712201001/plugins/ (11.17kB)
+[2017-12-22 15:23:50] Downloading org.eclipse.recommenders.constructors.rcp
+[2017-12-22 15:23:50] Fetching org.eclipse.jetty.continuation_9.4.7.v20170914.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (16.73kB)
+[2017-12-22 15:23:50] Downloading org.eclipse.mylyn.commons.repositories.http.core
+[2017-12-22 15:23:50] Fetching org.eclipse.osgi.util_3.4.0.v20170111-1608.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (24.93kB)
+[2017-12-22 15:23:50] Downloading org.eclipse.jdt.annotation
+[2017-12-22 15:23:50] Fetching org.eclipse.e4.core.services_2.1.0.v20170407-0928.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (24.42kB)
+[2017-12-22 15:23:50] Fetching com.gradleware.tooling.utils_0.19.3.v20170801075239.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (15.6kB)
+[2017-12-22 15:23:50] Downloading org.apache.maven.resolver.transport.file
+[2017-12-22 15:23:50] Fetching org.eclipse.jdt.junit.runtime_3.4.651.v20171130-0906.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (24.29kB)
+[2017-12-22 15:23:50] Fetching org.eclipse.e4.core.commands_0.12.100.v20170513-0428.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (13.47kB)
+[2017-12-22 15:23:50] Fetching org.eclipse.recommenders.constructors.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (13.73kB)
+[2017-12-22 15:23:50] Fetching org.eclipse.equinox.concurrent_1.1.0.v20130327-1442.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (11.04kB)
+[2017-12-22 15:23:50] Downloading org.eclipse.recommenders.chain.rcp
+[2017-12-22 15:23:50] Fetching org.eclipse.mylyn.commons.repositories.http.core_1.15.0.v20170411-1844.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (25.2kB)
+[2017-12-22 15:23:50] Downloading org.eclipse.jgit.archive
+[2017-12-22 15:23:50] Fetching org.apache.maven.resolver.transport.file_1.0.3.v20170405-0725.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (15.14kB)
+[2017-12-22 15:23:50] Downloading org.eclipse.equinox.p2.discovery.compatibility
+[2017-12-22 15:23:50] Downloading org.eclipse.rcp_root
+[2017-12-22 15:23:50] Downloading org.eclipse.recommenders.apidocs
+[2017-12-22 15:23:50] Downloading org.eclipse.ecf.identity
+[2017-12-22 15:23:50] Downloading org.eclipse.equinox.p2.reconciler.dropins
+[2017-12-22 15:23:51] Downloading org.eclipse.ecf.filetransfer.httpclient4.ssl.feature
+[2017-12-22 15:23:51] Fetching org.eclipse.jdt.annotation_2.1.100.v20170511-1408.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (16.69kB)
+[2017-12-22 15:23:51] Fetching org.eclipse.jgit.archive_4.9.2.201712150930-r.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (25.6kB)
+[2017-12-22 15:23:51] Fetching org.eclipse.recommenders.chain.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (25.54kB)
+[2017-12-22 15:23:51] Downloading org.eclipse.ecf.filetransfer.httpclient4.feature
+[2017-12-22 15:23:51] Fetching org.eclipse.equinox.p2.discovery.compatibility_1.0.201.v20170906-1259.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (25.85kB)
+[2017-12-22 15:23:51] Downloading org.eclipse.ecf.filetransfer.feature
+[2017-12-22 15:23:51] Fetching org.eclipse.ecf.filetransfer.httpclient4.ssl.feature_1.1.0.v20170110-1317.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (26.7kB)
+[2017-12-22 15:23:51] Fetching org.eclipse.recommenders.apidocs_2.5.0.v20171201-1623.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (11.7kB)
+[2017-12-22 15:23:51] Fetching org.eclipse.rcp_root_4.7.2.v20171130-0510 from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/binary/ (26.16kB)
+[2017-12-22 15:23:51] Fetching org.eclipse.ecf.identity_3.8.0.v20161203-2153.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (26.49kB)
+[2017-12-22 15:23:51] Fetching org.eclipse.equinox.p2.reconciler.dropins_1.1.400.v20160504-1450.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (26.68kB)
+[2017-12-22 15:23:51] Downloading org.eclipse.mylyn.tasks.index.core
+[2017-12-22 15:23:51] Fetching org.eclipse.equinox.p2.reconciler.dropins_1.1.400.v20160504-1450.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (26.68kB)
+[2017-12-22 15:23:51] Downloading org.eclipse.equinox.http.jetty
+[2017-12-22 15:23:51] Downloading org.eclipse.recommenders.calls
+[2017-12-22 15:23:51] Fetching org.eclipse.ecf.filetransfer.feature_3.13.8.v20170715-2257.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (26.8kB)
+[2017-12-22 15:23:51] Downloading org.eclipse.emf.databinding
+[2017-12-22 15:23:51] Downloading org.eclipse.core.filesystem
+[2017-12-22 15:23:51] Fetching org.eclipse.ecf.filetransfer.httpclient4.feature_3.13.8.v20170715-2257.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/features/ (26.8kB)
+[2017-12-22 15:23:51] Downloading org.eclipse.ui.monitoring
+[2017-12-22 15:23:51] Fetching org.eclipse.mylyn.tasks.index.core_3.23.1.v20170623-0008.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (26.88kB)
+[2017-12-22 15:23:51] Downloading org.eclipse.recommenders.snipmatch
+[2017-12-22 15:23:51] Downloading org.eclipse.ui.themes
+[2017-12-22 15:23:51] Fetching org.eclipse.emf.databinding_1.3.0.v20170609-0928.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (27.46kB)
+[2017-12-22 15:23:51] Fetching org.eclipse.core.filesystem_1.7.0.v20170406-1337.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (27.68kB)
+[2017-12-22 15:23:51] Fetching org.eclipse.equinox.http.jetty_3.4.0.v20170503-2025.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (15.83kB)
+[2017-12-22 15:23:51] Downloading org.junit.platform.suite.api
+[2017-12-22 15:23:51] Fetching org.eclipse.recommenders.calls_2.5.0.v20171201-1623.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (14.08kB)
+[2017-12-22 15:23:51] Downloading org.eclipse.m2e.jdt.ui
+[2017-12-22 15:23:51] Downloading org.eclipse.mylyn.monitor.ui
+[2017-12-22 15:23:51] Downloading org.eclipse.recommenders.jdt
+[2017-12-22 15:23:51] Fetching org.eclipse.ui.monitoring_1.1.100.v20170131-1736.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (27.93kB)
+[2017-12-22 15:23:51] Downloading org.eclipse.equinox.p2.core
+[2017-12-22 15:23:51] Fetching org.eclipse.recommenders.snipmatch_2.5.0.v20171201-1623.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (28.5kB)
+[2017-12-22 15:23:51] Fetching org.eclipse.ui.themes_1.2.1.v20170809-1435.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (29.27kB)
+[2017-12-22 15:23:51] Fetching org.junit.platform.suite.api_1.0.0.v20170910-2246.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (16.45kB)
+[2017-12-22 15:23:51] Downloading org.eclipse.mylyn.versions.core
+[2017-12-22 15:23:51] Downloading org.eclipse.mylyn.wikitext.context.ui
+[2017-12-22 15:23:51] Fetching org.eclipse.mylyn.monitor.ui_3.23.0.v20170411-1844.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (30.14kB)
+[2017-12-22 15:23:51] Downloading org.eclipse.m2e.refactoring
+[2017-12-22 15:23:51] Fetching org.eclipse.recommenders.jdt_2.5.0.v20171201-1623.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (17.69kB)
+[2017-12-22 15:23:51] Fetching org.eclipse.m2e.jdt.ui_1.8.2.20171007-0217.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (15.75kB)
+[2017-12-22 15:23:51] Fetching org.eclipse.equinox.p2.core_2.4.101.v20170906-1259.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (30.32kB)
+[2017-12-22 15:23:51] Downloading org.eclipse.equinox.frameworkadmin.equinox
+[2017-12-22 15:23:51] Downloading org.eclipse.equinox.p2.directorywatcher
+[2017-12-22 15:23:51] Downloading org.eclipse.wst.xml_userdoc.feature
+[2017-12-22 15:23:52] Downloading org.eclipse.ecf.provider.filetransfer.httpclient4
+[2017-12-22 15:23:52] Downloading org.eclipse.wst.common_ui.feature
+[2017-12-22 15:23:52] Fetching org.eclipse.m2e.refactoring_1.8.2.20171007-0217.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (31.78kB)
+[2017-12-22 15:23:52] Downloading org.eclipse.wst.xml_core.feature
+[2017-12-22 15:23:52] Fetching org.eclipse.mylyn.versions.core_1.15.0.v20170411-2003.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (21.74kB)
+[2017-12-22 15:23:52] Downloading org.eclipse.wst.common_core.feature
+[2017-12-22 15:23:52] Fetching org.eclipse.mylyn.wikitext.context.ui_3.0.19.201711172000.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (31.42kB)
+[2017-12-22 15:23:52] Fetching org.eclipse.wst.common_ui.feature_3.9.1.v201707201954.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (32.57kB)
+[2017-12-22 15:23:52] Fetching org.eclipse.ecf.provider.filetransfer.httpclient4_1.1.200.v20170314-0133.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (32.4kB)
+[2017-12-22 15:23:52] Fetching org.eclipse.equinox.frameworkadmin.equinox_1.0.800.v20170524-1345.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (32.14kB)
+[2017-12-22 15:23:52] Fetching org.eclipse.equinox.p2.directorywatcher_1.1.100.v20150423-1455.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (16.3kB)
+[2017-12-22 15:23:52] Fetching org.eclipse.wst.xml_core.feature_3.9.1.v201707042225.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/features/ (32.6kB)
+[2017-12-22 15:23:52] Downloading org.eclipse.wst.xml_ui.feature
+[2017-12-22 15:23:52] Downloading org.eclipse.equinox.p2.touchpoint.natives
+[2017-12-22 15:23:52] Fetching org.eclipse.wst.xml_userdoc.feature_3.9.1.v201707252002.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/features/ (32.26kB)
+[2017-12-22 15:23:52] Downloading org.eclipse.core.expressions
+[2017-12-22 15:23:52] Fetching org.eclipse.wst.common_core.feature_3.9.1.v201707201954.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/features/ (32.61kB)
+[2017-12-22 15:23:52] Downloading org.eclipse.recommenders.subwords.rcp
+[2017-12-22 15:23:52] Fetching org.eclipse.equinox.p2.touchpoint.natives_1.2.200.v20170511-1216.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (33kB)
+[2017-12-22 15:23:52] Downloading org.objectweb.asm.commons
+[2017-12-22 15:23:52] Downloading org.apache.felix.gogo.runtime
+[2017-12-22 15:23:52] Downloading org.eclipse.jdt
+[2017-12-22 15:23:52] Downloading org.eclipse.recommenders.coordinates.rcp
+[2017-12-22 15:23:52] Downloading org.eclipse.jdt.apt.pluggable.core
+[2017-12-22 15:23:52] Fetching org.eclipse.core.expressions_3.6.0.v20170207-1037.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (33.1kB)
+[2017-12-22 15:23:52] Fetching org.eclipse.wst.xml_ui.feature_3.9.1.v201707252002.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/features/ (32.64kB)
+[2017-12-22 15:23:52] Fetching org.eclipse.recommenders.subwords.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (18.44kB)
+[2017-12-22 15:23:52] Downloading org.eclipse.core.runtime
+[2017-12-22 15:23:52] Fetching org.objectweb.asm.commons_5.2.0.v20170126-0011.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (33.48kB)
+[2017-12-22 15:23:52] Downloading org.eclipse.equinox.p2.extensionlocation
+[2017-12-22 15:23:52] Downloading org.eclipse.eclemma.core
+[2017-12-22 15:23:52] Downloading org.eclipse.jsch.ui
+[2017-12-22 15:23:52] Fetching org.eclipse.jdt.apt.pluggable.core_1.2.0.v20170322-1054.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (16.94kB)
+[2017-12-22 15:23:52] Fetching org.eclipse.jdt_3.13.2.v20171130-0510.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (34.13kB)
+[2017-12-22 15:23:52] Downloading org.eclipse.emf.ecore.change
+[2017-12-22 15:23:52] Fetching org.apache.felix.gogo.runtime_0.10.0.v201209301036.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (33.64kB)
+[2017-12-22 15:23:52] Fetching org.eclipse.core.runtime_3.13.0.v20170207-1030.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (35.26kB)
+[2017-12-22 15:23:52] Fetching org.eclipse.recommenders.coordinates.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (35.01kB)
+[2017-12-22 15:23:52] Fetching org.eclipse.eclemma.core_3.0.1.201711142128.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (35.55kB)
+[2017-12-22 15:23:52] Fetching org.eclipse.jsch.ui_1.3.0.v20160323-1650.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (35.81kB)
+[2017-12-22 15:23:53] Downloading org.eclipse.mylyn.debug.ui
+[2017-12-22 15:23:53] Downloading org.eclipse.equinox.frameworkadmin
+[2017-12-22 15:23:53] Fetching org.eclipse.emf.ecore.change_2.11.0.v20170609-0707.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (35.92kB)
+[2017-12-22 15:23:53] Downloading org.eclipse.equinox.p2.director.app
+[2017-12-22 15:23:53] Downloading org.junit.platform.commons
+[2017-12-22 15:23:53] Fetching org.eclipse.equinox.p2.extensionlocation_1.2.300.v20160419-0834.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (17.14kB)
+[2017-12-22 15:23:53] Downloading org.eclipse.mylyn.commons.xmlrpc
+[2017-12-22 15:23:53] Downloading org.w3c.css.sac
+[2017-12-22 15:23:53] Downloading org.eclipse.equinox.p2.jarprocessor
+[2017-12-22 15:23:53] Downloading org.eclipse.mylyn.monitor.core
+[2017-12-22 15:23:53] Downloading org.eclipse.core.net.linux.x86_64
+[2017-12-22 15:23:53] Fetching org.eclipse.equinox.p2.director.app_1.0.500.v20160419-0834.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (36.59kB)
+[2017-12-22 15:23:53] Fetching org.eclipse.equinox.frameworkadmin_2.0.300.v20160504-1450.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (19.03kB)
+[2017-12-22 15:23:53] Downloading org.eclipse.ui.views.properties.tabbed
+[2017-12-22 15:23:53] Fetching org.eclipse.mylyn.debug.ui_3.23.0.v20170411-2108.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (24.01kB)
+[2017-12-22 15:23:53] Fetching org.junit.platform.commons_1.0.0.v20170910-2246.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (36.6kB)
+[2017-12-22 15:23:53] Fetching org.eclipse.mylyn.commons.xmlrpc_3.23.0.v20170411-1844.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (22.93kB)
+[2017-12-22 15:23:53] Fetching org.w3c.css.sac_1.3.1.v200903091627.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (37.68kB)
+[2017-12-22 15:23:53] Fetching org.eclipse.equinox.p2.jarprocessor_1.0.500.v20160504-1450.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (37.96kB)
+[2017-12-22 15:23:53] Fetching org.eclipse.mylyn.monitor.core_3.23.0.v20170411-1844.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (25.56kB)
+[2017-12-22 15:23:53] Downloading org.eclipse.wst.dtdeditor.doc.user
+[2017-12-22 15:23:53] Downloading org.eclipse.recommenders.utils
+[2017-12-22 15:23:53] Downloading org.eclipse.jsch.core
+[2017-12-22 15:23:53] Fetching org.eclipse.core.net.linux.x86_64_1.2.0.v20160323-1650.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (36.9kB)
+[2017-12-22 15:23:53] Downloading com.google.inject.multibindings
+[2017-12-22 15:23:53] Fetching org.eclipse.ui.views.properties.tabbed_3.8.1.v20170713-0803.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (40.42kB)
+[2017-12-22 15:23:53] Downloading org.eclipse.ecf
+[2017-12-22 15:23:53] Downloading org.eclipse.recommenders.types.rcp
+[2017-12-22 15:23:53] Downloading org.apache.commons.pool
+[2017-12-22 15:23:53] Fetching org.eclipse.wst.dtdeditor.doc.user_1.0.700.v201208081537.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (24.59kB)
+[2017-12-22 15:23:53] Downloading org.eclipse.core.filebuffers
+[2017-12-22 15:23:53] Downloading org.eclipse.platform.ide.executable.gtk.linux.x86_64
+[2017-12-22 15:23:53] Fetching org.eclipse.recommenders.utils_2.5.0.v20171201-1623.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (41.02kB)
+[2017-12-22 15:23:53] Fetching org.eclipse.jsch.core_1.3.0.v20160422-1917.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (20.72kB)
+[2017-12-22 15:23:53] Fetching org.eclipse.recommenders.types.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (20.3kB)
+[2017-12-22 15:23:53] Downloading com.gradleware.tooling.model
+[2017-12-22 15:23:53] Fetching com.google.inject.multibindings_3.0.0.v201402270930.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (19.19kB)
+[2017-12-22 15:23:53] Fetching org.eclipse.core.filebuffers_3.6.100.v20170203-1130.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (42.14kB)
+[2017-12-22 15:23:53] Fetching org.apache.commons.pool_1.6.0.v201204271246.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (41.87kB)
+[2017-12-22 15:23:54] Fetching org.eclipse.ecf_3.8.0.v20170104-0657.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (41.54kB)
+[2017-12-22 15:23:54] Downloading org.eclipse.equinox.security
+[2017-12-22 15:23:54] Downloading org.junit.jupiter.migrationsupport
+[2017-12-22 15:23:54] Downloading org.eclipse.wst.common.frameworks
+[2017-12-22 15:23:54] Fetching com.gradleware.tooling.model_0.19.3.v20170801075239.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (42.2kB)
+[2017-12-22 15:23:54] Fetching org.eclipse.platform.ide.executable.gtk.linux.x86_64_4.7.2.M20171130-0510 from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/binary/ (42.15kB)
+[2017-12-22 15:23:54] Downloading org.apache.ws.commons.util
+[2017-12-22 15:23:54] Downloading org.eclipse.core.commands
+[2017-12-22 15:23:54] Downloading org.eclipse.recommenders.news.rcp
+[2017-12-22 15:23:54] Downloading org.eclipse.m2e.profiles.ui
+[2017-12-22 15:23:54] Fetching org.eclipse.equinox.security_1.2.300.v20170505-1235.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (42.3kB)
+[2017-12-22 15:23:54] Fetching org.junit.jupiter.migrationsupport_5.0.0.v20170910-2246.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (20.65kB)
+[2017-12-22 15:23:54] Fetching org.apache.ws.commons.util_1.0.1.v20100518-1140.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (22.24kB)
+[2017-12-22 15:23:54] Fetching org.eclipse.wst.common.frameworks_1.2.201.v201707201954.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (43.2kB)
+[2017-12-22 15:23:54] Downloading org.eclipse.mylyn.tasks.search
+[2017-12-22 15:23:54] Downloading org.eclipse.mylyn.commons.identity.core
+[2017-12-22 15:23:54] Fetching org.eclipse.core.commands_3.9.0.v20170530-1048.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (43.34kB)
+[2017-12-22 15:23:54] Downloading org.eclipse.wst.common.uriresolver
+[2017-12-22 15:23:54] Downloading org.eclipse.update.configurator
+[2017-12-22 15:23:54] Fetching org.eclipse.recommenders.news.rcp_2.5.0.v20171201-1623.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (43.53kB)
+[2017-12-22 15:23:54] Fetching org.eclipse.m2e.profiles.ui_1.8.2.20171007-0217.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (20.92kB)
+[2017-12-22 15:23:54] Downloading org.eclipse.mylyn.resources.ui
+[2017-12-22 15:23:54] Downloading org.eclipse.e4.ui.dialogs
+[2017-12-22 15:23:54] Fetching org.eclipse.mylyn.tasks.search_3.23.1.v20170623-0008.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (44.41kB)
+[2017-12-22 15:23:54] Fetching org.eclipse.wst.common.uriresolver_1.2.300.v201702270556.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (24.69kB)
+[2017-12-22 15:23:54] Fetching org.eclipse.mylyn.commons.identity.core_1.15.0.v20170411-1844.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (26.17kB)
+[2017-12-22 15:23:54] Downloading org.eclipse.userstorage
+[2017-12-22 15:23:54] Downloading org.eclipse.equinox.simpleconfigurator
+[2017-12-22 15:23:54] Fetching org.eclipse.e4.ui.dialogs_1.1.100.v20170104-1425.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (23.85kB)
+[2017-12-22 15:23:54] Downloading org.eclipse.mylyn.wikitext.ant
+[2017-12-22 15:23:54] Downloading org.eclipse.wst.common.environment
+[2017-12-22 15:23:54] Fetching org.eclipse.update.configurator_3.3.400.v20160506-0750.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (44.89kB)
+[2017-12-22 15:23:54] Downloading org.eclipse.mylyn.wikitext.tasks.ui
+[2017-12-22 15:23:54] Fetching org.eclipse.mylyn.resources.ui_3.23.0.v20170411-2108.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (44.94kB)
+[2017-12-22 15:23:54] Fetching org.eclipse.userstorage_1.1.0.v20170328-0205.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (45.22kB)
+[2017-12-22 15:23:55] Fetching org.eclipse.wst.common.environment_1.0.400.v200912181831.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (18.6kB)
+[2017-12-22 15:23:55] Downloading org.eclipse.e4.core.contexts
+[2017-12-22 15:23:55] Downloading org.eclipse.jem.util
+[2017-12-22 15:23:55] Downloading org.eclipse.mylyn.commons.repositories.core
+[2017-12-22 15:23:55] Fetching org.eclipse.equinox.simpleconfigurator_1.2.0.v20170110-1705.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (23.26kB)
+[2017-12-22 15:23:55] Fetching org.eclipse.mylyn.wikitext.ant_3.0.19.20171117145831.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (45.48kB)
+[2017-12-22 15:23:55] Downloading org.eclipse.ui.views
+[2017-12-22 15:23:55] Fetching org.eclipse.mylyn.wikitext.tasks.ui_3.0.19.201711172000.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (46.06kB)
+[2017-12-22 15:23:55] Fetching org.eclipse.e4.core.contexts_1.6.0.v20170322-1144.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (22.58kB)
+[2017-12-22 15:23:55] Downloading org.eclipse.equinox.bidi
+[2017-12-22 15:23:55] Downloading org.eclipse.equinox.console
+[2017-12-22 15:23:55] Fetching org.eclipse.jem.util_2.1.201.v201707201954.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (47.49kB)
+[2017-12-22 15:23:55] Downloading org.eclipse.equinox.p2.ui.sdk.scheduler
+[2017-12-22 15:23:55] Fetching org.eclipse.mylyn.commons.repositories.core_1.15.0.v20170411-1844.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (30.41kB)
+[2017-12-22 15:23:55] Fetching org.eclipse.ui.views_3.9.0.v20170226-1833.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (48.42kB)
+[2017-12-22 15:23:55] Downloading org.eclipse.mylyn.wikitext.html
+[2017-12-22 15:23:55] Downloading org.eclipse.wst.internet.cache
+[2017-12-22 15:23:55] Fetching org.eclipse.equinox.console_1.1.300.v20170512-2111.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (48.88kB)
+[2017-12-22 15:23:55] Downloading org.eclipse.wst.common.modulecore.ui
+[2017-12-22 15:23:55] Fetching org.eclipse.equinox.bidi_1.1.0.v20160728-1031.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (23.15kB)
+[2017-12-22 15:23:55] Downloading org.eclipse.core.databinding.property
+[2017-12-22 15:23:55] Downloading org.objectweb.asm.tree
+[2017-12-22 15:23:55] Downloading org.apache.maven.resolver.spi
+[2017-12-22 15:23:55] Fetching org.eclipse.equinox.p2.ui.sdk.scheduler_1.3.100.v20170418-0708.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (48.89kB)
+[2017-12-22 15:23:55] Fetching org.eclipse.mylyn.wikitext.html_3.0.19.20171117145831.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (49.11kB)
+[2017-12-22 15:23:55] Downloading org.eclipse.e4.ui.bindings
+[2017-12-22 15:23:55] Fetching org.eclipse.wst.internet.cache_1.0.800.v201702270716.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (22.71kB)
+[2017-12-22 15:23:55] Downloading org.eclipse.wst.common.emfworkbench.integration
+[2017-12-22 15:23:55] Fetching org.eclipse.wst.common.modulecore.ui_1.0.301.v201707201954.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (49.64kB)
+[2017-12-22 15:23:55] Downloading org.eclipse.mylyn.wikitext.twiki
+[2017-12-22 15:23:56] Fetching org.eclipse.core.databinding.property_1.6.100.v20170515-1119.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (49.74kB)
+[2017-12-22 15:23:56] Fetching org.apache.maven.resolver.spi_1.0.3.v20170405-0725.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (21.57kB)
+[2017-12-22 15:23:56] Fetching org.objectweb.asm.tree_5.2.0.v20170126-0011.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (49.89kB)
+[2017-12-22 15:23:56] Fetching org.eclipse.e4.ui.bindings_0.12.1.v20170823-1632.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (24.35kB)
+[2017-12-22 15:23:56] Downloading org.eclipse.ui.ide.application
+[2017-12-22 15:23:56] Fetching org.eclipse.wst.common.emfworkbench.integration_1.2.101.v201107081800.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (50.43kB)
+[2017-12-22 15:23:56] Downloading org.eclipse.equinox.p2.artifact.repository
+[2017-12-22 15:23:56] Downloading org.eclipse.equinox.p2.repository
+[2017-12-22 15:23:56] Fetching org.eclipse.mylyn.wikitext.twiki_3.0.19.20171117145831.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (50.5kB)
+[2017-12-22 15:23:56] Downloading com.ibm.icu
+[2017-12-22 15:23:56] Downloading org.eclipse.platform.doc.user
+[2017-12-22 15:23:56] Downloading org.eclipse.jdt.doc.user
+[2017-12-22 15:23:56] Downloading org.eclipse.jdt.core
+[2017-12-22 15:23:56] Fetching org.eclipse.ui.ide.application_1.2.0.v20170512-1452.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (51.89kB)
+[2017-12-22 15:23:56] Fetching org.eclipse.equinox.p2.repository_2.3.301.v20170906-1259.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (52.24kB)
+[2017-12-22 15:23:56] Fetching org.eclipse.equinox.p2.artifact.repository_1.1.650.v20170928-1405.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (52.2kB)
+[2017-12-22 15:23:56] Downloading org.eclipse.m2e.maven.runtime
+[2017-12-22 15:23:56] Fetching org.eclipse.platform.doc.user_4.7.2.v20171013-1251.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (8.78MB)
+[2017-12-22 15:23:56] Fetching com.ibm.icu_58.2.0.v20170418-1837.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (8.71MB)
+[2017-12-22 15:23:56] Downloading org.eclipse.egit.doc
+[2017-12-22 15:23:56] Downloading org.eclipse.jdt.ui
+[2017-12-22 15:23:56] Fetching org.eclipse.jdt.core_3.13.100.v20171123-1049.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (6.41MB)
+[2017-12-22 15:23:56] Fetching org.eclipse.jdt.doc.user_3.13.51.v20171124-0639.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (9.06MB)
+[2017-12-22 15:23:57] Downloading org.apache.lucene.analyzers-smartcn
+[2017-12-22 15:23:57] Downloading org.eclipse.debug.ui
+[2017-12-22 15:23:57] Downloading org.apache.ant
+[2017-12-22 15:23:57] Fetching org.eclipse.jdt.ui_3.13.51.v20171122-0652.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (4.03MB)
+[2017-12-22 15:23:57] Fetching org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (6.24MB)
+[2017-12-22 15:23:57] Fetching org.eclipse.egit.doc_4.9.2.201712150930-r.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/ (4.22MB)
+[2017-12-22 15:23:57] Fetching org.apache.lucene.analyzers-smartcn_6.1.0.v20161115-1612.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (3.42MB)
+[2017-12-22 15:23:57] Fetching org.eclipse.debug.ui_3.12.50.v20170920-1329.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (993.18kB)
+[2017-12-22 15:23:57] Fetching org.apache.ant_1.10.1.v20170504-0840.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/ (2.58MB)
+[2017-12-22 15:23:57] Fetching org.eclipse.jdt.doc.user_3.13.51.v20171124-0639.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/
+[2017-12-22 15:23:57] Fetching org.eclipse.jdt.core_3.13.100.v20171123-1049.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/
+[2017-12-22 15:23:58] Fetching org.eclipse.platform.doc.user_4.7.2.v20171013-1251.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/
+[2017-12-22 15:23:58] Fetching org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216.jar from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/
+[2017-12-22 15:23:58] Fetching com.ibm.icu_58.2.0.v20170418-1837.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/
+[2017-12-22 15:23:58] Fetching org.eclipse.jdt.ui_3.13.51.v20171122-0652.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/
+[2017-12-22 15:23:58] Fetching org.eclipse.egit.doc_4.9.2.201712150930-r.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/plugins/
+[2017-12-22 15:23:58] Fetching org.apache.lucene.analyzers-smartcn_6.1.0.v20161115-1612.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/
+[2017-12-22 15:23:58] Fetching org.eclipse.debug.ui_3.12.50.v20170920-1329.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/
+[2017-12-22 15:23:59] Fetching org.apache.ant_1.10.1.v20170504-0840.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/plugins/
+[2017-12-22 15:24:18] Downloading com.google.guava
+[2017-12-22 15:24:21] Fetching com.google.guava_21.0.0.v20170206-1425.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (676.21kB)
+[2017-12-22 15:24:22] Fetching com.google.guava_21.0.0.v20170206-1425.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/
+[2017-12-22 15:24:24] Downloading org.eclipse.jgit
+[2017-12-22 15:24:27] Fetching org.eclipse.jgit_4.9.2.201712150930-r.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/ (2.51MB)
+[2017-12-22 15:24:28] Fetching org.eclipse.jgit_4.9.2.201712150930-r.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/plugins/
+[2017-12-22 15:24:37] Mirrored 132 artifacts from http://eclipse.mirror.rafal.ca/releases/oxygen/201712201001/ at 37kb/s with 4 failures
+[2017-12-22 15:24:37] Mirrored 10 artifacts from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201712201001/ at 35kb/s with 3 failures
+[2017-12-22 15:24:37] Mirrored 29 artifacts from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201712201001/ at 29kb/s
+[2017-12-22 15:24:37] Mirrored 63 artifacts from http://mirrors.xmission.com/eclipse/releases/oxygen/201712201001/ at 22kb/s with 3 failures
+[2017-12-22 15:24:37] Mirrored 1 artifacts from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/oxygen/201712201001/ at 21kb/s
+[2017-12-22 15:24:37] Mirrored 1 artifacts from http://ftp.fau.de/eclipse/releases/oxygen/201712201001/ at 21kb/s
+[2017-12-22 15:24:37] Mirrored 1 artifacts from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201712201001/ at 21kb/s
+[2017-12-22 15:24:37] Mirrored 1 artifacts from http://mirrors.syringanetworks.net/eclipse/releases/oxygen/201712201001/ at 20kb/s
+[2017-12-22 15:24:37] Mirrored 1 artifacts from http://mirror.csclub.uwaterloo.ca/eclipse/releases/oxygen/201712201001/ at 18kb/s
+[2017-12-22 15:24:37] Mirrored 1 artifacts from http://mirror.tspu.ru/eclipse/releases/oxygen/201712201001/ at 16kb/s
+[2017-12-22 15:24:37] Mirrored 30 artifacts from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201712201001/ at 7kb/s with 2 failures
+[2017-12-22 15:24:37] Mirrored 7 artifacts from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201712201001/ at 6kb/s
+[2017-12-22 15:24:37] Mirrored 1 artifacts from http://mirror.math.princeton.edu/pub/eclipse//releases/oxygen/201712201001/ at 0kb/s
+[2017-12-22 15:24:37] Collected 526 artifacts for http://download.eclipse.org/releases/oxygen/201712201001 in 54.395s
+[2017-12-22 15:24:37] The engine operation was cancelled and the changes are being rolled back.
+[2017-12-22 15:24:37] 

@@ -1,0 +1,50 @@
+DIGEST d0368574aa5ad678608dffa6572899e8
+FCoq.Program.Basics
+R856:857 Coq.Init.Datatypes <> id def
+R856:857 Coq.Init.Datatypes <> id def
+def 908:914 <> compose
+R930:933 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R934:934 Coq.Program.Basics <> C var
+R929:929 Coq.Program.Basics <> B var
+R943:946 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R947:947 Coq.Program.Basics <> B var
+R942:942 Coq.Program.Basics <> A var
+R963:963 Coq.Program.Basics <> A var
+R968:968 Coq.Program.Basics <> g var
+R971:971 Coq.Program.Basics <> f var
+R973:973 Coq.Program.Basics <> x var
+R990:996 Coq.Program.Basics <> compose def
+R1025:1031 Coq.Program.Basics <> compose def
+not 1009:1009 <> :program_scope:x_'∘'_x
+def 1198:1202 <> arrow
+R1221:1224 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1225:1225 Coq.Program.Basics <> B var
+R1220:1220 Coq.Program.Basics <> A var
+def 1269:1272 <> impl
+R1298:1301 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1302:1302 Coq.Program.Basics <> B var
+R1297:1297 Coq.Program.Basics <> A var
+def 1377:1381 <> const
+R1394:1394 Coq.Program.Basics <> A var
+R1408:1408 Coq.Program.Basics <> B var
+R1413:1413 Coq.Program.Basics <> a var
+def 1506:1509 <> flip
+R1525:1528 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1530:1533 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1534:1534 Coq.Program.Basics <> C var
+R1529:1529 Coq.Program.Basics <> B var
+R1524:1524 Coq.Program.Basics <> A var
+R1544:1544 Coq.Program.Basics <> f var
+R1548:1548 Coq.Program.Basics <> x var
+R1546:1546 Coq.Program.Basics <> y var
+def 1600:1604 <> apply
+R1618:1621 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1622:1622 Coq.Program.Basics <> B var
+R1617:1617 Coq.Program.Basics <> A var
+R1630:1630 Coq.Program.Basics <> A var
+R1636:1636 Coq.Program.Basics <> f var
+R1638:1638 Coq.Program.Basics <> x var
+R1717:1726 Coq.Init.Datatypes <> prod_curry def
+R1717:1726 Coq.Init.Datatypes <> prod_curry def
+R1753:1764 Coq.Init.Datatypes <> prod_uncurry def
+R1753:1764 Coq.Init.Datatypes <> prod_uncurry def

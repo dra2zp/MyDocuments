@@ -1,0 +1,4 @@
+DIGEST 2a76b8763c5d9367b00a929d1d5fe676
+FCoq.Sorting.Sorting
+R541:546 Coq.Sorting.Sorted <> <> lib
+R564:572 Coq.Sorting.Mergesort <> <> lib

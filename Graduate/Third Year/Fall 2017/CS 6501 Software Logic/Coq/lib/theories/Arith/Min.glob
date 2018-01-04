@@ -1,0 +1,48 @@
+DIGEST ae9011ccb8001b7cc32df61b57fa5478
+FCoq.Arith.Min
+R602:609 Coq.Arith.PeanoNat <> <> lib
+R664:666 Coq.Init.Datatypes <> nat ind
+syndef 679:681 <> min
+R686:692 Coq.Arith.PeanoNat Nat min def
+def 722:728 <> min_0_l
+R733:743 Coq.Arith.PeanoNat Nat min_0_l thm
+def 757:763 <> min_0_r
+R768:778 Coq.Arith.PeanoNat Nat min_0_r thm
+def 792:805 <> succ_min_distr
+R810:827 Coq.Arith.PeanoNat Nat succ_min_distr thm
+def 841:856 <> plus_min_distr_l
+R861:879 Coq.Arith.PeanoNat Nat add_min_distr_l thm
+def 893:908 <> plus_min_distr_r
+R913:931 Coq.Arith.PeanoNat Nat add_min_distr_r thm
+def 945:959 <> min_case_strong
+R964:982 Coq.Arith.PeanoNat Nat min_case_strong thm
+def 996:1003 <> min_spec
+R1008:1019 Coq.Arith.PeanoNat Nat min_spec thm
+def 1033:1039 <> min_dec
+R1044:1054 Coq.Arith.PeanoNat Nat min_dec thm
+def 1068:1075 <> min_case
+R1080:1091 Coq.Arith.PeanoNat Nat min_case thm
+def 1105:1118 <> min_idempotent
+R1123:1132 Coq.Arith.PeanoNat Nat min_id thm
+def 1146:1154 <> min_assoc
+R1159:1171 Coq.Arith.PeanoNat Nat min_assoc thm
+def 1185:1192 <> min_comm
+R1197:1208 Coq.Arith.PeanoNat Nat min_comm thm
+def 1222:1226 <> min_l
+R1231:1239 Coq.Arith.PeanoNat Nat min_l thm
+def 1253:1257 <> min_r
+R1262:1270 Coq.Arith.PeanoNat Nat min_r thm
+def 1284:1291 <> le_min_l
+R1296:1307 Coq.Arith.PeanoNat Nat le_min_l thm
+def 1321:1328 <> le_min_r
+R1333:1344 Coq.Arith.PeanoNat Nat le_min_r thm
+def 1358:1366 <> min_glb_l
+R1371:1383 Coq.Arith.PeanoNat Nat min_glb_l thm
+def 1397:1405 <> min_glb_r
+R1410:1422 Coq.Arith.PeanoNat Nat min_glb_r thm
+def 1436:1442 <> min_glb
+R1447:1457 Coq.Arith.PeanoNat Nat min_glb thm
+syndef 1507:1515 <> min_case2
+R1520:1527 Coq.Arith.Min <> min_case def
+syndef 1554:1559 <> min_SS
+R1564:1581 Coq.Arith.PeanoNat Nat succ_min_distr thm

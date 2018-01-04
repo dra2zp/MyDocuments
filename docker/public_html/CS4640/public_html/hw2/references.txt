@@ -1,0 +1,45 @@
+D.J. Anderson
+dra2zp
+CS 4640
+Homework 2
+
+https://developer.mozilla.org/en-US/Add-ons/Code_snippets/Timers
+How to use timers in JavaScript
+I used Date.now(), which returns the number of milliseconds since 01/01/1970
+
+https://www.w3schools.com/bootstrap/bootstrap_forms_inputs.asp
+How to use different types of form inputs
+
+https://www.w3schools.com/html/html_form_input_types.asp
+How to use different types of form inputs
+I used the number format, in part, to validate form input
+
+http://stackoverflow.com/questions/10834796/validate-that-a-string-is-a-positive-integer
+How to validate input and make sure it is a positive integer
+
+http://html.com/attributes/td-bgcolor/
+How to change the color of a table cell
+
+http://stackoverflow.com/questions/7347246/blank-spaces-in-html-table
+How to have a blank space in HTML since it ignores whitespace (&nbsp)
+
+https://www.hscripts.com/tutorials/html/table-size.php
+How to change the size of rows and columns in a table
+
+http://stackoverflow.com/questions/1248081/get-the-browser-viewport-dimensions-with-javascript
+How to get the dimensions of the viewport in JavaScript
+
+http://www.htmlgoodies.com/tutorials/html_401/article.php/3479661
+How to add style to span elements
+
+http://stackoverflow.com/questions/2491068/does-height-and-width-not-apply-to-span
+How to set the height and width of span elements (display: inline-block)
+
+http://stackoverflow.com/questions/19023411/html-css-force-divspanspan-on-same-line
+How to set the height and width of div elements (display: inline-block)
+
+http://stackoverflow.com/questions/3955229/remove-all-child-elements-of-a-dom-node-in-javascript
+How to remove all of the child elements of a DOM node in JavaScript
+
+https://stackoverflow.com/questions/5078239/how-to-remove-the-space-between-inline-block-elements
+How to remove the space between inline-block elements (add font-size: 0px to the style)

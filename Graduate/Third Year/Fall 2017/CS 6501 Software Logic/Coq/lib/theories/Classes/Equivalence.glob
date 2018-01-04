@@ -1,0 +1,121 @@
+DIGEST d1711795effb87823bd40ab5ecf90b18
+FCoq.Classes.Equivalence
+R692:709 Coq.Program.Basics <> <> lib
+R727:745 Coq.Program.Tactics <> <> lib
+R764:779 Coq.Classes.Init <> <> lib
+R797:816 Coq.Relations.Relation_Definitions <> <> lib
+R834:860 Coq.Classes.RelationClasses <> <> lib
+R878:898 Coq.Classes.Morphisms <> <> lib
+def 1093:1097 <> equiv
+R1101:1111 Coq.Classes.RelationClasses <> Equivalence class
+R1120:1127 Coq.Relations.Relation_Definitions <> relation def
+R1129:1129 Coq.Classes.Equivalence <> A var
+R1134:1134 Coq.Classes.Equivalence <> R var
+R1276:1280 Coq.Classes.Equivalence <> equiv def
+not 1260:1260 <> :equiv_scope:x_'==='_x
+R1360:1369 Coq.Classes.RelationClasses <> complement def
+R1371:1375 Coq.Classes.Equivalence <> equiv def
+not 1344:1344 <> :equiv_scope:x_'=/='_x
+def 1503:1508 <> pequiv
+R1512:1514 Coq.Classes.RelationClasses <> PER class
+R1523:1530 Coq.Relations.Relation_Definitions <> relation def
+R1532:1532 Coq.Classes.Equivalence <> A var
+R1537:1537 Coq.Classes.Equivalence <> R var
+R1609:1614 Coq.Classes.Equivalence <> pequiv def
+not 1600:1600 <> :equiv_scope:x_'=~='_x
+inst 1728:1742 <> equiv_reflexive
+R1751:1761 Coq.Classes.RelationClasses <> Equivalence class
+R1768:1776 Coq.Classes.RelationClasses <> Reflexive class
+R1778:1782 Coq.Classes.Equivalence <> equiv def
+inst 1807:1821 <> equiv_symmetric
+R1830:1840 Coq.Classes.RelationClasses <> Equivalence class
+R1847:1855 Coq.Classes.RelationClasses <> Symmetric class
+R1857:1861 Coq.Classes.Equivalence <> equiv def
+inst 1886:1901 <> equiv_transitive
+R1910:1920 Coq.Classes.RelationClasses <> Equivalence class
+R1927:1936 Coq.Classes.RelationClasses <> Transitive class
+R1938:1942 Coq.Classes.Equivalence <> equiv def
+R2187:2191 Coq.Classes.Equivalence <> :equiv_scope:x_'==='_x not
+R2187:2191 Coq.Classes.Equivalence <> :equiv_scope:x_'==='_x not
+R2291:2295 Coq.Classes.Equivalence <> :equiv_scope:x_'==='_x not
+R2291:2295 Coq.Classes.Equivalence <> :equiv_scope:x_'==='_x not
+R2624:2628 Coq.Classes.Equivalence <> :equiv_scope:x_'==='_x not
+R2624:2628 Coq.Classes.Equivalence <> :equiv_scope:x_'==='_x not
+R2664:2668 Coq.Classes.Equivalence <> :equiv_scope:x_'==='_x not
+R2664:2668 Coq.Classes.Equivalence <> :equiv_scope:x_'==='_x not
+R2710:2714 Coq.Classes.Equivalence <> :equiv_scope:x_'=/='_x not
+R2710:2714 Coq.Classes.Equivalence <> :equiv_scope:x_'=/='_x not
+R2771:2772 Coq.Init.Logic <> :type_scope:'~'_x not
+R2775:2779 Coq.Classes.Equivalence <> :equiv_scope:x_'==='_x not
+R2771:2772 Coq.Init.Logic <> :type_scope:'~'_x not
+R2775:2779 Coq.Classes.Equivalence <> :equiv_scope:x_'==='_x not
+R3069:3079 Coq.Classes.RelationClasses <> Equivalence class
+R3069:3079 Coq.Classes.RelationClasses <> Equivalence class
+R3157:3167 Coq.Classes.RelationClasses <> Equivalence class
+R3157:3167 Coq.Classes.RelationClasses <> Equivalence class
+R3228:3232 Coq.Classes.Equivalence <> equiv def
+R3127:3131 Coq.Classes.Equivalence <> equiv def
+sec 3300:3309 <> Respecting
+def 3450:3459 <> respecting
+R3469:3479 Coq.Classes.RelationClasses <> Equivalence class
+R3488:3495 Coq.Relations.Relation_Definitions <> relation def
+R3534:3544 Coq.Classes.RelationClasses <> Equivalence class
+R3554:3561 Coq.Relations.Relation_Definitions <> relation def
+R3581:3582 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3588:3590 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3597:3599 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3627:3628 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3592:3595 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3596:3596 Coq.Classes.Equivalence <> B var
+R3591:3591 Coq.Classes.Equivalence <> A var
+R3600:3609 Coq.Classes.Morphisms <> respectful def
+R3613:3614 Coq.Classes.Equivalence <> R' var
+R3611:3611 Coq.Classes.Equivalence <> R var
+inst 3651:3666 <> respecting_equiv
+R3676:3686 Coq.Classes.RelationClasses <> Equivalence class
+R3699:3709 Coq.Classes.RelationClasses <> Equivalence class
+R3723:3733 Coq.Classes.RelationClasses <> Equivalence class
+R3747:3756 Coq.Classes.Equivalence <> respecting def
+R3762:3764 Coq.Classes.Equivalence <> eqb var
+R3758:3760 Coq.Classes.Equivalence <> eqa var
+R3804:3804 Coq.Classes.Equivalence <> A var
+R3813:3816 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3817:3818 Coq.Classes.Equivalence <> R' var
+R3837:3845 Coq.Init.Specif <> proj1_sig def
+R3849:3849 Coq.Classes.Equivalence <> y var
+R3847:3847 Coq.Classes.Equivalence <> g var
+R3821:3829 Coq.Init.Specif <> proj1_sig def
+R3833:3833 Coq.Classes.Equivalence <> x var
+R3831:3831 Coq.Classes.Equivalence <> f var
+R3808:3808 Coq.Classes.Equivalence <> R var
+R3812:3812 Coq.Classes.Equivalence <> y var
+R3810:3810 Coq.Classes.Equivalence <> x var
+R3887:3896 Coq.Classes.Equivalence <> respecting def
+R3887:3896 Coq.Classes.Equivalence <> respecting def
+R3887:3896 Coq.Classes.Equivalence <> respecting def
+R4017:4026 Coq.Classes.Equivalence <> respecting def
+R4099:4108 Coq.Classes.Equivalence Respecting <> sec
+inst 4205:4223 <> pointwise_reflexive
+R4239:4247 Coq.Classes.RelationClasses <> Reflexive class
+R4260:4268 Coq.Classes.RelationClasses <> Reflexive class
+R4271:4288 Coq.Classes.Morphisms <> pointwise_relation def
+R4292:4294 Coq.Classes.Equivalence <> eqB var
+R4290:4290 Coq.Classes.Equivalence <> A var
+inst 4335:4353 <> pointwise_symmetric
+R4368:4376 Coq.Classes.RelationClasses <> Symmetric class
+R4389:4397 Coq.Classes.RelationClasses <> Symmetric class
+R4400:4417 Coq.Classes.Morphisms <> pointwise_relation def
+R4421:4423 Coq.Classes.Equivalence <> eqB var
+R4419:4419 Coq.Classes.Equivalence <> A var
+inst 4464:4483 <> pointwise_transitive
+R4500:4509 Coq.Classes.RelationClasses <> Transitive class
+R4522:4531 Coq.Classes.RelationClasses <> Transitive class
+R4534:4551 Coq.Classes.Morphisms <> pointwise_relation def
+R4555:4557 Coq.Classes.Equivalence <> eqB var
+R4553:4553 Coq.Classes.Equivalence <> A var
+inst 4598:4618 <> pointwise_equivalence
+R4632:4642 Coq.Classes.RelationClasses <> Equivalence class
+R4655:4665 Coq.Classes.RelationClasses <> Equivalence class
+R4668:4685 Coq.Classes.Morphisms <> pointwise_relation def
+R4689:4691 Coq.Classes.Equivalence <> eqB var
+R4687:4687 Coq.Classes.Equivalence <> A var
