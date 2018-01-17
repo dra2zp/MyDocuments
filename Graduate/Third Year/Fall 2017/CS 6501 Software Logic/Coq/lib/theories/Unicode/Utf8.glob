@@ -1,7 +1,0 @@
-DIGEST 3eb41ce0ec951b3980eb2b4ac04f3a11
-FCoq.Unicode.Utf8
-R568:576 Coq.Unicode.Utf8_core <> <> lib
-R620:621 Coq.Init.Peano <> le ind
-not 606:606 <> ::x_'≤'_x
-R684:685 Coq.Init.Peano <> ge def
-not 670:670 <> ::x_'≥'_x

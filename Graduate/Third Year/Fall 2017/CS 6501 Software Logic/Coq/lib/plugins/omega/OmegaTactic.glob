@@ -1,5 +1,0 @@
-DIGEST 255b6b6a8f5abb14628e23a93fde6364
-FCoq.omega.OmegaTactic
-R577:587 Coq.ZArith.ZArith_base <> <> lib
-R598:608 Coq.omega.OmegaLemmas <> <> lib
-R619:626 Coq.omega.PreOmega <> <> lib

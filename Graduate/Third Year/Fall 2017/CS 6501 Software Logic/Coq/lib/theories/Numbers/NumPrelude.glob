@@ -1,5 +1,0 @@
-DIGEST 079c41b47971ac5d889db20f670bb4db
-FCoq.Numbers.NumPrelude
-R691:696 Coq.Setoids.Setoid <> <> lib
-R698:706 Coq.Classes.Morphisms <> <> lib
-R708:721 Coq.Classes.Morphisms_Prop <> <> lib

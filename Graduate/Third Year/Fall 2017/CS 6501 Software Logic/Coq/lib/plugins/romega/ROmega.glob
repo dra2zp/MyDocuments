@@ -1,7 +1,0 @@
-DIGEST 7004e2a70a0736982f2d99c4e003e2b2
-FCoq.romega.ROmega
-R277:289 Coq.romega.ReflOmegaCore <> <> lib
-R307:312 Coq.Setoids.Setoid <> <> lib
-R330:337 Coq.omega.PreOmega <> <> lib
-R355:365 Coq.ZArith.ZArith_base <> <> lib
-R383:393 Coq.omega.OmegaPlugin <> <> lib

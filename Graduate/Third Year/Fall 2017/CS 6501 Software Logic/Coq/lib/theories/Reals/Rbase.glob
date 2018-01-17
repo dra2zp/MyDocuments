@@ -1,6 +1,0 @@
-DIGEST 4e0154d6a98f9b9b453fd0f93b8d97e0
-FCoq.Reals.Rbase
-R541:552 Coq.Reals.Rdefinitions <> <> lib
-R570:576 Coq.Reals.Raxioms <> <> lib
-R594:598 Coq.Reals.RIneq <> <> lib
-R616:621 Coq.Reals.DiscrR <> <> lib

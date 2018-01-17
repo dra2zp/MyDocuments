@@ -1,8 +1,0 @@
-DIGEST a6d8154f9b5abacedabcc1646aa855c6
-FCoq.ZArith.ZArith
-R608:618 Coq.ZArith.ZArith_base <> <> lib
-R663:670 Coq.ZArith.Zpow_def <> <> lib
-R736:747 Coq.ZArith.Zcomplements <> <> lib
-R765:770 Coq.ZArith.Zpower <> <> lib
-R788:791 Coq.ZArith.Zdiv <> <> lib
-R809:818 Coq.ZArith.Zlogarithm <> <> lib

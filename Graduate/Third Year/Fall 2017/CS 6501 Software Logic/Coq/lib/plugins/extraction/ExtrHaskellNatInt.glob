@@ -1,5 +1,0 @@
-DIGEST 81647885240e228aeb0caa5c2788204f
-FCoq.extraction.ExtrHaskellNatInt
-R64:68 Coq.Arith.Arith <> <> lib
-R86:102 Coq.extraction.ExtrHaskellNatNum <> <> lib
-R303:305 Coq.Init.Datatypes <> nat ind

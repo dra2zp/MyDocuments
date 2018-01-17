@@ -1,9 +1,0 @@
-DIGEST 0c6603b623383c67457c11c2c1871f06
-FCoq.Program.Program
-R540:556 Coq.Program.Utils <> <> lib
-R574:587 Coq.Program.Wf <> <> lib
-R605:624 Coq.Program.Equality <> <> lib
-R642:659 Coq.Program.Subset <> <> lib
-R677:694 Coq.Program.Basics <> <> lib
-R712:734 Coq.Program.Combinators <> <> lib
-R752:769 Coq.Program.Syntax <> <> lib

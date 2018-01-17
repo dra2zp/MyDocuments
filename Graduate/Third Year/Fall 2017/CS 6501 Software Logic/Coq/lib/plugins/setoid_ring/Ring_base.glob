@@ -1,6 +1,0 @@
-DIGEST 32fca3bc84b7b4c53dc4d63a10b34e03
-FCoq.setoid_ring.Ring_base
-R693:697 Coq.quote.Quote <> <> lib
-R751:761 Coq.setoid_ring.Ring_theory <> <> lib
-R779:786 Coq.setoid_ring.Ring_tac <> <> lib
-R804:814 Coq.setoid_ring.InitialRing <> <> lib

@@ -1,4 +1,0 @@
-DIGEST a4e90f18cd3c73f89ac11b21dda626c9
-FCoq.Arith.Arith
-R541:550 Coq.Arith.Arith_base <> <> lib
-R568:576 Coq.setoid_ring.ArithRing <> <> lib
